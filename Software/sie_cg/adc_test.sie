@@ -1,0 +1,105 @@
+<!--
+File for SIE Code Generator.
+**WARNING**If you are going to edit this file note that:
+In order to segmentation faults prevention the load process 
+is started loading the libraries, then items and finally arrows.
+Arrows depend of items, and items depend of libraries!!!!
+-->
+<Diagram>
+    <Libraries>
+        <Library Dir="block_editor/timer.die"/>
+        <Library Dir="block_editor/adc_single.die"/>
+        <Library Dir="block_editor/framebuffer_line.die"/>
+        <Library Dir="block_editor/framebuffer_drawline.die"/>
+        <Library Dir="block_editor/framebuffer_put_int.die"/>
+        <Library Dir="block_editor/printf_int.die"/>
+        <Library Dir="block_editor/left_shift.die"/>
+        <Library Dir="block_editor/right_shift.die"/>
+        <Library Dir="block_editor/pwm_single.die"/>
+        <Library Dir="block_editor/constant.die"/>
+        <Library Dir="block_editor/constant_bool.die"/>
+        <Library Dir="block_editor/while.die"/>
+    </Libraries>
+    <Options templateDir="templates/basic" workDir="tmp" executableFile="SIE_APP" configApp="xc3sprog  $FPGA_BINARY" sieWorkDir="/tmp/CG" fpgaFile="templates/basic/basic.bit" templateFile="main.cpp" makeFile="Makefile" mipsToolChainDir="/home/juan64bits/ebd/ECB/openwrt-xburst/staging_dir/toolchain-mipsel_gcc-4.3.3+cs_uClibc-0.9.32/usr/bin" mipsToolChain="mipsel-openwrt-linux" sieIP="192.168.254.101"/>
+    <DiagramItems>
+        <DiagramItem x="2480" y="2650" z="500" type="FB Put Int" ID="9" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="32" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2670" y="2590" z="500" type="FB Draw HLine" ID="3" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="16" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="24" ID="9"/>
+                <diagramValue value="4" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2650" y="2330" z="500" type="FB Print Line" ID="2" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="9"/>
+                <diagramValue value="0" ID="7"/>
+                <diagramValue value="160" ID="5"/>
+                <diagramValue value="1" ID="3"/>
+                <diagramValue value="Wellcome to SIE {Executing Code...}" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2190" y="2340" z="500" type="Constant Bool" ID="1" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2370" y="2320" z="500" type="System While" ID="5" color="#a0a0a4">
+            <diagramValues/>
+        </DiagramItem>
+        <DiagramItem x="2210" y="2600" z="500" type="ADC Single" ID="0" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="0" ID="0"/>
+                <diagramValue value="255" ID="4"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2440" y="2580" z="500" type="Right Shift" ID="8" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2550" z="500" type="Printf Int" ID="7" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="&quot;[%04X]&quot;" ID="0"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2650" y="2400" z="500" type="FB Print Line" ID="10" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="3" ID="9"/>
+                <diagramValue value="16" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [0]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+    </DiagramItems>
+    <Arrows>
+        <Arrow end-ID="1" end-Owner="9" start-x="110" start-y="-10" start-Owner="0" ID="0" start-ID="2" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2349.5" y="2589.5"/>
+                <arrowCorner x="2349.5" y="2649.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="8" start-x="110" start-y="-10" start-Owner="0" ID="1" start-ID="2" end-x="-60" end-y="10" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="7" start-x="110" start-y="-10" start-Owner="0" ID="2" start-ID="2" end-x="-130" end-y="-10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2349" y="2589"/>
+                <arrowCorner x="2349" y="2539"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="3" end-Owner="3" start-x="70" start-y="10" start-Owner="8" ID="3" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="6" end-Owner="5" start-x="100" start-y="0" start-Owner="1" ID="4" start-ID="3" end-x="-50" end-y="20" color="#000000"/>
+    </Arrows>
+    <TextItems>
+        <TextItem x="2130" Family="Times New Roman" y="2240" Bold="1" PointSize="26" Text="Basic Example:" Italic="1" Underline="0" Color="#000000"/>
+        <TextItem x="2150" Family="Chancery Uralic" y="2450" Bold="0" PointSize="24" Text="Hello world!!!" Italic="0" Underline="0" Color="#000000"/>
+    </TextItems>
+</Diagram>

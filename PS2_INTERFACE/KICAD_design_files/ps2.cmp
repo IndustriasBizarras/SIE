@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = mié 22 sep 2010 15:03:47 COT
+
+BeginCmp
+TimeStamp = /4C9A3459;
+Reference = J1;
+ValeurCmp = HEADER_20X2;
+IdModule  = J19;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A34CA;
+Reference = J2;
+ValeurCmp = HEADER_2;
+IdModule  = J18;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A34A5;
+Reference = J3;
+ValeurCmp = HEADER_4;
+IdModule  = J7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A34A9;
+Reference = J4;
+ValeurCmp = HEADER_4;
+IdModule  = J7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A3321;
+Reference = JS1;
+ValeurCmp = MINI-DIN6PTH;
+IdModule  = SparkFun-MINI-DIN6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A33C5;
+Reference = JS2;
+ValeurCmp = MINI-DIN6PTH;
+IdModule  = SparkFun-MINI-DIN6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A308B;
+Reference = R1;
+ValeurCmp = 270;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A32C5;
+Reference = R2;
+ValeurCmp = 270;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A32D1;
+Reference = R3;
+ValeurCmp = 270;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A32D6;
+Reference = R4;
+ValeurCmp = 270;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A3558;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A3588;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A358F;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A359B;
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+EndListe

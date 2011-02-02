@@ -1,0 +1,29 @@
+Examples from http://www.wellho.net/mouth/1844_Calling-functions-in-C-from-your-Lua-script-a-first-HowTo.html
+
+
+The code is very similar, but you'll notice six additions - in the Lua:
+
+a) We have added a parameter to the call to dothis in the Lua
+b) We have added an assignment to collect a return value from the C
+
+summat = cstuff.dothis(value)
+
+c) We have printed out these values
+print ("Values in Lua now",value, summat)
+
+
+and in the C:
+
+d) We have used lua_tonumber to collect a numeric value that was passed from the Lua to the C; you'll note that all such numbers are treated as doubles. The parameter "1" indicates 1 down - i.e. top of - the state stack.
+
+  double trouble = lua_tonumber(L, 1);
+
+e) We have performed a calculation (representative of something being done in the C code) and pushed the result of this back onto the Lua state stack so that it can be picked up once we have returned from the C to the Lua
+
+  lua_pushnumber(L, 16.0 - trouble);
+
+f) We have changed return 0 into return 1 to indicate that one result is being returned.
+
+  return 1; }
+
+

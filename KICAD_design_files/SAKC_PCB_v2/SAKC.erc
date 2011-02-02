@@ -1,0 +1,23 @@
+ERC control (Fri 23 Apr 2010 11:49:57 AM COT)
+
+***** Sheet / (Root) 
+
+***** Sheet /POWER_SUPPLY/
+
+***** Sheet /CPU/
+ERC: Warning Pin BiDi Unconnected (X= 4.300 inches, Y= 2.900 inches
+ERC: Warning Pin BiDi Unconnected (X= 4.300 inches, Y= 2.950 inches
+
+***** Sheet /UART_USB_I2C/
+
+***** Sheet /AD_CONVERTER/
+
+***** Sheet /MEMORY/
+
+***** Sheet /CONNECTORS/
+
+***** Sheet /FPGA/
+
+***** Sheet /LCD/
+
+ >> Errors ERC: 2

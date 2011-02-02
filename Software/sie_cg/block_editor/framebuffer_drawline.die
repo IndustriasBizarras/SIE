@@ -1,0 +1,64 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="FB Draw HLine">
+    <Polygon>
+        <Point x="-80" y="-70"/>
+        <Point x="100" y="-70"/>
+        <Point x="100" y="-50"/>
+        <Point x="-80" y="-50"/>
+        <Point x="-80" y="10"/>
+        <Point x="100" y="10"/>
+        <Point x="100" y="-50"/>
+        <Point x="100" y="10"/>
+        <Point x="-20" y="10"/>
+        <Point x="-20" y="-50"/>
+        <Point x="100" y="-50"/>
+        <Point x="100" y="-30"/>
+        <Point x="-20" y="-30"/>
+        <Point x="60" y="-30"/>
+        <Point x="60" y="-50"/>
+        <Point x="100" y="-50"/>
+        <Point x="100" y="-30"/>
+        <Point x="100" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="60" y="-10"/>
+        <Point x="60" y="-30"/>
+        <Point x="100" y="-30"/>
+        <Point x="100" y="-10"/>
+        <Point x="100" y="10"/>
+        <Point x="100" y="-10"/>
+        <Point x="60" y="-10"/>
+        <Point x="60" y="10"/>
+        <Point x="-20" y="10"/>
+        <Point x="-80" y="10"/>
+        <Point x="-80" y="-10"/>
+        <Point x="-60" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="-60" y="-10"/>
+        <Point x="-60" y="-30"/>
+        <Point x="-20" y="-30"/>
+        <Point x="-80" y="-30"/>
+        <Point x="-60" y="-30"/>
+        <Point x="-60" y="-30"/>
+        <Point x="-60" y="-50"/>
+        <Point x="-80" y="-50"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="0" ID="11" text="Y" posOffset-x="-70"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="0" ID="10" text="X" posOffset-x="-70"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="1" ID="1" text="0" posOffset-x="-40"/>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="1" ID="2" text="0" posOffset-x="-40"/>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="1" ID="7" text="255" posOffset-x="80"/>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="0" ID="4" text="Maximum" posOffset-x="20"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="1" ID="9" text="8" posOffset-x="80"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="0" ID="8" text="Bar width" posOffset-x="20"/>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="1" ID="5" text="3" posOffset-x="80"/>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="0" ID="6" text="Color Idx" posOffset-x="20"/>
+        <TextItem myStyleIO="0" posOffset-y="60" editableItem="0" ID="0" text="Frame Buffer Draw HBar" posOffset-x="10"/>
+        <TextItem myStyleIO="138" posOffset-y="-0" editableItem="0" ID="3" text="IN UShort" posOffset-x="-80"/>
+    </TextItems><![CDATA[]]><![CDATA[]]><![CDATA[	if(!firstLoop)		// do nothing in first loop
+	{
+	   	fillrect(value_1,value_2,value_1+value_7,value_2+value_9,0); //Black Rect
+		rect(value_1,value_2,value_1+value_7,value_2+value_9,value_5); //Extern Rect
+		fillrect(value_1,value_2,value_1+(in_3%(value_7+1)),value_2+value_9,value_5);
+	}
+]]><![CDATA[]]></CustomItem>

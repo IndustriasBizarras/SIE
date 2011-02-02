@@ -1,0 +1,35 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="Divider Int">
+    <Polygon>
+        <Point x="-60" y="-10"/>
+        <Point x="-60" y="10"/>
+        <Point x="20" y="10"/>
+        <Point x="20" y="-10"/>
+        <Point x="60" y="-10"/>
+        <Point x="60" y="10"/>
+        <Point x="20" y="10"/>
+        <Point x="60" y="10"/>
+        <Point x="60" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="-40" y="10"/>
+        <Point x="-20" y="10"/>
+        <Point x="-20" y="10"/>
+        <Point x="-30" y="10"/>
+        <Point x="-40" y="10"/>
+        <Point x="-40" y="10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="-40" y="-10"/>
+        <Point x="-40" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="-20" y="-10"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="131" posOffset-y="-0" editableItem="0" ID="0" text="IN" posOffset-x="-60"/>
+        <TextItem myStyleIO="3" posOffset-y="-0" editableItem="0" ID="1" text="OUT" posOffset-x="60"/>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="1" ID="2" text="1" posOffset-x="0"/>
+    </TextItems><![CDATA[]]><![CDATA[		
+
+]]><![CDATA[
+	out_1 = in_o / value_2;
+]]><![CDATA[]]></CustomItem>

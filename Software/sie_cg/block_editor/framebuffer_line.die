@@ -1,0 +1,60 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="FB Print Line">
+    <Polygon>
+        <Point x="-140" y="-30"/>
+        <Point x="-140" y="30"/>
+        <Point x="160" y="30"/>
+        <Point x="160" y="-10"/>
+        <Point x="160" y="10"/>
+        <Point x="120" y="10"/>
+        <Point x="160" y="10"/>
+        <Point x="160" y="30"/>
+        <Point x="120" y="30"/>
+        <Point x="120" y="10"/>
+        <Point x="60" y="10"/>
+        <Point x="20" y="10"/>
+        <Point x="60" y="10"/>
+        <Point x="60" y="30"/>
+        <Point x="20" y="30"/>
+        <Point x="20" y="10"/>
+        <Point x="0" y="10"/>
+        <Point x="-40" y="10"/>
+        <Point x="0" y="10"/>
+        <Point x="0" y="30"/>
+        <Point x="-40" y="30"/>
+        <Point x="-40" y="10"/>
+        <Point x="-60" y="10"/>
+        <Point x="-60" y="30"/>
+        <Point x="-80" y="30"/>
+        <Point x="-80" y="10"/>
+        <Point x="-60" y="10"/>
+        <Point x="-80" y="10"/>
+        <Point x="-140" y="10"/>
+        <Point x="-140" y="30"/>
+        <Point x="-140" y="-10"/>
+        <Point x="160" y="-10"/>
+        <Point x="160" y="-30"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="1" ID="9" text="1" posOffset-x="140"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="0" ID="8" text="Color idx" posOffset-x="90"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="1" ID="7" text="0" posOffset-x="40"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="0" ID="6" text="Y" posOffset-x="10"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="1" ID="5" text="0" posOffset-x="-20"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="0" ID="4" text="X" posOffset-x="-50"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="1" ID="3" text="1" posOffset-x="-70"/>
+        <TextItem myStyleIO="0" posOffset-y="-20" editableItem="0" ID="2" text="Center" posOffset-x="-110"/>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="1" ID="1" text="&lt;Insert Text to Show MAX 40>" posOffset-x="0"/>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="0" ID="0" text="Frame Buffer Print Line" posOffset-x="0"/>
+    </TextItems><![CDATA[]]><![CDATA[		
+
+]]><![CDATA[	
+	if(value_3)
+	{
+		put_string_center (value_5,value_7,"value_1", value_9);
+	}
+	else
+	{
+		put_string (value_5,value_7,"value_1", value_9%5);
+	}
+]]><![CDATA[]]></CustomItem>

@@ -1,0 +1,108 @@
+{Program	GerbTool for Layout
+	{Version	8.0}
+	{Created	Fri Sep 17 14:14:28 2010}
+}
+{Environment
+	{FilesPath  C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA}
+}
+{Layers
+	{Layer  1
+		{File        PS2-6.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        PS2-6.GND}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  gray50}
+		{DrawColor   gray50}
+		{Type        Plane}
+	}
+	{Layer  3
+		{File        PS2-6.PWR}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16green}
+		{DrawColor   vga16green}
+		{Type        Plane}
+	}
+	{Layer  4
+		{File        PS2-6.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Bottom}
+	}
+	{Layer  5
+		{File        PS2-6.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        PS2-6.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16yellow}
+		{DrawColor   vga16yellow}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        PS2-6.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  White}
+		{DrawColor   White}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        PS2-6.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  9
+		{File        PS2-6.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}

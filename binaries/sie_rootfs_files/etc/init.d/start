@@ -1,0 +1,5 @@
+#!/bin/sh
+/usr/bin/xc3sprog /root/binaries/ADC.bit
+/usr/bin/sgen -f 1000 &
+/root/binaries/ADC -qws -nomouse &
+/root/binaries/enable_rx

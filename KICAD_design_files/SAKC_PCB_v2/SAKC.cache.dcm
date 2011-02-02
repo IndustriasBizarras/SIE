@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0  Sat 02 Oct 2010 12:05:30 PM COT
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_4X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DIODESCH
+D Diode schottky
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP MOS_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

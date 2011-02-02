@@ -1,0 +1,45 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="ADC Eight">
+    <Polygon>
+        <Point x="-80" y="20"/>
+        <Point x="-60" y="-60"/>
+        <Point x="30" y="-60"/>
+        <Point x="30" y="100"/>
+        <Point x="110" y="100"/>
+        <Point x="110" y="-60"/>
+        <Point x="30" y="-60"/>
+        <Point x="110" y="-60"/>
+        <Point x="110" y="100"/>
+        <Point x="-60" y="100"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-70" editableItem="1" ID="10" text="255" posOffset-x="-20"/>
+        <TextItem myStyleIO="0" posOffset-y="-50" editableItem="0" ID="9" text="Clock Divisor" posOffset-x="-20"/>
+        <TextItem myStyleIO="10" posOffset-y="-90" editableItem="0" ID="8" text="CH7 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="-70" editableItem="0" ID="7" text="CH6 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="-50" editableItem="0" ID="6" text="CH5 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="-30" editableItem="0" ID="5" text="CH4 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="-10" editableItem="0" ID="4" text="CH3 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="10" editableItem="0" ID="3" text="CH2 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="30" editableItem="0" ID="2" text="CH1 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="10" posOffset-y="50" editableItem="0" ID="1" text="CH0 UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="0" ID="0" text="ADC 8 Channels" posOffset-x="-20"/>
+    </TextItems><![CDATA[]]><![CDATA[	
+	ADC_SPI_CLKDIV=value_10;
+	ADC_BUFFER_LEN=8;
+	ADC_MUX_CHANNELS=7;
+]]><![CDATA[
+	JZ_REG * ADC_DATA = ADCTakeSamples(ADCBuffer,0);
+	unsigned int sampleData = ADC_DATA[0];
+	out_1 = (sampleData>>16)&0xFFFF;
+	out_2 = sampleData&0xFFFF;
+	sampleData = ADC_DATA[1];
+	out_3 = (sampleData>>16)&0xFFFF;
+	out_4 = sampleData&0xFFFF;
+	sampleData = ADC_DATA[2];
+	out_5 = (sampleData>>16)&0xFFFF;
+	out_6 = sampleData&0xFFFF;
+	sampleData = ADC_DATA[3];
+	out_7 = (sampleData>>16)&0xFFFF;
+	out_8 = sampleData&0xFFFF;
+]]><![CDATA[]]></CustomItem>

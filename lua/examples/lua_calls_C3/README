@@ -1,0 +1,22 @@
+Examples from http://www.wellho.net/mouth/1844_Calling-functions-in-C-from-your-Lua-script-a-first-HowTo.html
+
+If you may with to pass a table from your Lua script into a C function, so that the C function can make use of a value from the table code like this:
+
+    stuff = {hotel = 48, hq = 404, town = 1}
+    ....
+    summat = extratasks.dothis(stuff)
+
+This isn't as easy as just passing a value, since the size of a table can vary, and Lua's dynamic memory allocation doesn't sit well, in a simple interface, with C's static model. The "trick" is to tackle it within the C code by using function calls to get (and if necessary) reset values from the table - with the data required by those function calls being processed via the Lua stack.
+
+    /* Looking up based on the key */
+    /* Add key we're interested in to the stack*/
+    lua_pushstring(L,"hq");
+    /* Have Lua functions look up the keyed value */
+    lua_gettable(L, -2 );
+    /* Extract the result which is on the stack */
+    double workon = lua_tonumber(L,-1);
+    /* Tidy up the stack - get rid of the extra we added*/
+    lua_pop(L,1);
+
+That code retrieves the "hq" value from the table that's been passed in (called stuff in my Lua example above) and stores it into a C variable called workon ... objective achieved!
+

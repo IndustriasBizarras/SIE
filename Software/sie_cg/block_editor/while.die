@@ -1,0 +1,35 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="System While">
+    <Polygon>
+        <Point x="-50" y="-10"/>
+        <Point x="50" y="-10"/>
+        <Point x="50" y="10"/>
+        <Point x="-50" y="10"/>
+        <Point x="0" y="10"/>
+        <Point x="10" y="20"/>
+        <Point x="0" y="30"/>
+        <Point x="20" y="30"/>
+        <Point x="20" y="50"/>
+        <Point x="-10" y="50"/>
+        <Point x="-10" y="40"/>
+        <Point x="0" y="40"/>
+        <Point x="-20" y="20"/>
+        <Point x="-40" y="40"/>
+        <Point x="-30" y="40"/>
+        <Point x="-30" y="70"/>
+        <Point x="40" y="70"/>
+        <Point x="40" y="10"/>
+        <Point x="50" y="10"/>
+        <Point x="50" y="80"/>
+        <Point x="-50" y="80"/>
+        <Point x="-50" y="10"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="0" ID="23" text="System While" posOffset-x="0"/>
+        <TextItem myStyleIO="129" posOffset-y="-20" editableItem="0" ID="6" text="IN" posOffset-x="-50"/>
+    </TextItems><![CDATA[/* DON'T CARE */]]><![CDATA[/* DON'T CARE */]]><![CDATA[
+do
+{	
+/***![SYSTEM WHILE]***/
+firstLoop=0;
+}while(in_6);]]><![CDATA[/* DON'T CARE */]]></CustomItem>

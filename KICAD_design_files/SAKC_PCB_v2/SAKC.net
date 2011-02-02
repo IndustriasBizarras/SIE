@@ -1,0 +1,2699 @@
+# EESchema Netlist Version 1.1 created  Thu 24 Jun 2010 10:14:06 AM COT
+(
+ ( /4B8F6097/4BD1CA91 $noname  D9 CDBU0130L {Lib=DIODE}
+  (    1 N-000162 )
+  (    2 /POWER_SUPPLY/VRTC )
+ )
+ ( /4B8F6097/4BD1CA30 $noname  R34 1K {Lib=R}
+  (    1 /POWER_SUPPLY/VRTC )
+  (    2 N-000162 )
+ )
+ ( /4B8F6097/4BD1CA19 $noname  D8 CDBU0130L {Lib=DIODE}
+  (    1 /LCD/3.3V )
+  (    2 /POWER_SUPPLY/VRTC )
+ )
+ ( /4B8F6097/4BD1C7FC $noname  BT1 BATTERY {Lib=BATTERY}
+  (    1 N-000162 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4BA5068A $noname  R31 1K {Lib=R}
+  (    1 N-000163 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4BA50684 $noname  D7 LED {Lib=LED}
+  (    1 /LCD/3.3V )
+  (    2 N-000163 )
+ )
+ ( /4B8F6097/4BA2EDEC $noname  C57 100n {Lib=C}
+  (    1 /FPGA/1V2 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6C38 $noname  U10 LT1117CST-1.2 {Lib=LT1117CST}
+  (    1 /LCD/GND )
+  (    2 /FPGA/1V2 )
+  (    3 /UART_USB_I2C/BAT_V )
+  (    4 /FPGA/1V2 )
+ )
+ ( /4B8F6097/4B7C701D $noname  J14 HOLE4 {Lib=HOLE}
+ )
+ ( /4B8F6097/4B7C701B $noname  J13 HOLE3 {Lib=HOLE}
+ )
+ ( /4B8F6097/4B7C7019 $noname  J12 HOLE1 {Lib=HOLE}
+ )
+ ( /4B8F6097/4B7C7014 $noname  J11 HOLE1 {Lib=HOLE}
+ )
+ ( /4B8F6097/4B7C6CC3 $noname  C60 100n {Lib=C}
+  (    1 /FPGA/2V5 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6CBC $noname  C42 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6CBA $noname  C41 100n {Lib=C}
+  (    1 /1.8V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6CB7 $noname  C53 100n {Lib=C}
+  (    1 /UART_USB_I2C/BAT_V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6CB4 $noname  C56 10u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /UART_USB_I2C/BAT_V )
+ )
+ ( /4B8F6097/4B7C6CB1 $noname  C54 100n {Lib=C}
+  (    1 /UART_USB_I2C/BAT_V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F6097/4B7C6CA6 $noname  J17 HEADER_2 {Lib=HEADER_2}
+  (    1 /LCD/GND )
+  (    2 /UART_USB_I2C/BAT_V )
+ )
+ ( /4B8F6097/4B7C6C99 $noname  U7 LT1117CST-1.8 {Lib=LT1117CST}
+  (    1 /LCD/GND )
+  (    2 /1.8V )
+  (    3 /UART_USB_I2C/BAT_V )
+  (    4 /1.8V )
+ )
+ ( /4B8F6097/4B7C6C43 $noname  UF2 LP3988IMF-2.5/MIC5205-2.5YM5TR {Lib=LP3988IMF}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+  (    3 /LCD/3.3V )
+  (    4 ? )
+  (    5 /FPGA/2V5 )
+ )
+ ( /4B8F6097/4B7C6C33 $noname  U8 LT1117CST-3.3 {Lib=LT1117CST}
+  (    1 /LCD/GND )
+  (    2 /LCD/3.3V )
+  (    3 /UART_USB_I2C/BAT_V )
+  (    4 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4BA50255 $noname  R26 1K {Lib=R}
+  (    1 N-000177 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4BA50230 $noname  D6 LED {Lib=LED}
+  (    1 /CPU/LCD_D17 )
+  (    2 N-000177 )
+ )
+ ( /4B8F65CC/4B816DFB $noname  J15 HEADER_2 {Lib=HEADER_2}
+  (    1 /CPU/UBOOT )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B800ACD $noname  U1 JZ4725 {Lib=JZ4725}
+  (    1 /LCD/LCD_D0 )
+  (    2 /LCD/LCD_CLK )
+  (    3 /LCD/GND )
+  (    4 /CPU/VDDCORE )
+  (    5 /FPGA/A3 )
+  (    6 /FPGA/A2 )
+  (    7 /FPGA/A1 )
+  (    8 /FPGA/A0 )
+  (    9 /FPGA/A10 )
+  (   10 /MEMORY/DCS0_N )
+  (   11 /MEMORY/RAS_N )
+  (   12 /MEMORY/CAS_N )
+  (   13 /FPGA/RDWR_N )
+  (   14 /FPGA/WE0_N )
+  (   15 /FPGA/WE1_N )
+  (   16 /MEMORY/CK0 )
+  (   17 /MEMORY/CKE )
+  (   18 /FPGA/A12 )
+  (   19 /FPGA/A11 )
+  (   20 /LCD/GND )
+  (   21 /CPU/VDDCORE )
+  (   22 /FPGA/A9 )
+  (   23 /FPGA/A8 )
+  (   24 /CPU/VDDIO )
+  (   25 /LCD/GND )
+  (   26 /FPGA/A7 )
+  (   27 /FPGA/A6 )
+  (   28 /FPGA/A5 )
+  (   29 /FPGA/A4 )
+  (   30 /FPGA/A13 )
+  (   31 /FPGA/A14 )
+  (   32 /MEMORY/D8 )
+  (   33 /MEMORY/D9 )
+  (   34 /MEMORY/D10 )
+  (   35 /MEMORY/D11 )
+  (   36 /MEMORY/D12 )
+  (   37 /MEMORY/D13 )
+  (   38 /MEMORY/D14 )
+  (   39 /MEMORY/D15 )
+  (   40 /FPGA/D0 )
+  (   41 /FPGA/D1 )
+  (   42 /FPGA/D2 )
+  (   43 /FPGA/D3 )
+  (   44 /FPGA/D4 )
+  (   45 /FPGA/D5 )
+  (   46 /FPGA/D6 )
+  (   47 /FPGA/D7 )
+  (   48 /FPGA/TCK_F )
+  (   49 /MEMORY/NF_ALE )
+  (   50 /MEMORY/NF_CLE )
+  (   51 /MEMORY/FWE_N )
+  (   52 /MEMORY/FRE_N )
+  (   53 /MEMORY/FRB_N )
+  (   54 /MEMORY/SD_CD_N )
+  (   55 /CS2_N )
+  (   56 /MEMORY/CS1_N )
+  (   57 /UART_USB_I2C/RXD )
+  (   58 /UART_USB_I2C/TXD )
+  (   59 /FPGA/TDO_F )
+  (   60 /FPGA/TMS_F )
+  (   61 /MEMORY/MSC_D0 )
+  (   62 /MEMORY/MSC_CLK )
+  (   63 /MEMORY/MSC_CMD )
+  (   64 /CPU/EXTAL )
+  (   65 /CPU/XTAL )
+  (   66 /CPU/VDDIO )
+  (   67 /CONNECTORS/ADIN0 )
+  (   68 /CONNECTORS/ADIN1 )
+  (   69 /LCD/GND )
+  (   70 /CPU/VDDADC )
+  (   71 /CPU/VDDPLL )
+  (   72 /LCD/GND )
+  (   73 /CPU/VDDPLL )
+  (   74 /LCD/GND )
+  (   75 /CPU/VDDA )
+  (   76 /CPU/RREF )
+  (   77 /CPU/VDDUSB )
+  (   78 /UART_USB_I2C/DM0 )
+  (   79 /UART_USB_I2C/DP0 )
+  (   80 /LCD/GND )
+  (   81 /CPU/RCLK )
+  (   82 /CPU/RCLK0 )
+  (   83 /POWER_SUPPLY/VRTC )
+  (   84 /CPU/RESET_N )
+  (   85 ? )
+  (   86 ? )
+  (   87 /CPU/VDDHP )
+  (   88 /CONNECTORS/R-HPO )
+  (   89 /LCD/GND )
+  (   90 /CONNECTORS/L-HPO )
+  (   91 /CPU/VDDHP )
+  (   92 /LCD/GND )
+  (   93 /LCD/3.3V )
+  (   94 /CPU/VREF )
+  (   95 /LCD/3.3V )
+  (   96 /LCD/GND )
+  (   97 /CONNECTORS/L-LINEIN )
+  (   98 /CONNECTORS/R-LINEIN )
+  (   99 /CONNECTORS/MICIN )
+  (  100 /CPU/UBOOT )
+  (  101 N-000168 )
+  (  102 ? )
+  (  103 ? )
+  (  104 /CPU/VDDIO )
+  (  105 /LCD/LCD_SCL )
+  (  106 /LCD/GND )
+  (  107 /LCD/LCD_SDA )
+  (  108 /LCD/LCD_VSYNC )
+  (  109 /LCD/LCD_HSYNC )
+  (  110 /LCD/LCD_DE )
+  (  111 /CPU/LCD_D17 )
+  (  112 ? )
+  (  113 /FPGA/IRQ_F )
+  (  114 /FPGA/TDI_F )
+  (  115 ? )
+  (  116 ? )
+  (  117 ? )
+  (  118 ? )
+  (  119 ? )
+  (  120 ? )
+  (  121 /LCD/LCD_D7 )
+  (  122 /LCD/LCD_D6 )
+  (  123 /LCD/LCD_D5 )
+  (  124 /LCD/LCD_D4 )
+  (  125 /LCD/GND )
+  (  126 /LCD/LCD_D3 )
+  (  127 /LCD/LCD_D2 )
+  (  128 /LCD/LCD_D1 )
+ )
+ ( /4B8F65CC/4B76C746 $noname  C21 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDIO )
+ )
+ ( /4B8F65CC/4B76C743 $noname  C20 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDIO )
+ )
+ ( /4B8F65CC/4B76C742 $noname  C19 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDIO )
+ )
+ ( /4B8F65CC/4B76C741 $noname  C18 10u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDIO )
+ )
+ ( /4B8F65CC/4B76C740 $noname  L6 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /LCD/3.3V )
+  (    2 /CPU/VDDIO )
+ )
+ ( /4B8F65CC/4B76C739 $noname  C17 10u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDCORE )
+ )
+ ( /4B8F65CC/4B76C738 $noname  C16 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDCORE )
+ )
+ ( /4B8F65CC/4B76C737 $noname  L5 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CPU/VDDCORE )
+  (    2 /1.8V )
+ )
+ ( /4B8F65CC/4B76C72D $noname  C15 10n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDPLL )
+ )
+ ( /4B8F65CC/4B76C725 $noname  C14 10u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDPLL )
+ )
+ ( /4B8F65CC/4B76C6EA $noname  C13 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDPLL )
+ )
+ ( /4B8F65CC/4B76C6EB $noname  L4 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CPU/VDDPLL )
+  (    2 /1.8V )
+ )
+ ( /4B8F65CC/4B76C6DD $noname  L3 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CPU/VDDHP )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4B76C6DC $noname  C12 10u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDHP )
+ )
+ ( /4B8F65CC/4B76C6D5 $noname  L2 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CPU/VDDUSB )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4B76C6D4 $noname  C11 1u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDUSB )
+ )
+ ( /4B8F65CC/4B76C699 $noname  L1 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CPU/VDDADC )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4B76C584 $noname  C10 1u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDADC )
+ )
+ ( /4B8F65CC/4B76C4B3 $noname  C7 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4B76C4AB $noname  R8 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /CPU/RESET_N )
+ )
+ ( /4B8F65CC/4B76C4A6 $noname  C8 1u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/RESET_N )
+ )
+ ( /4B8F65CC/4B76C49E $noname  R9 470K {Lib=R}
+  (    1 /CPU/RESET_N )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B76C495 $noname  C9 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/RESET_N )
+ )
+ ( /4B8F65CC/4B76C3E8 R_MINI  R2 2.5K {Lib=R}
+  (    1 /CPU/RREF )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B76C3DD $noname  C2 1u {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /CPU/VDDA )
+ )
+ ( /4B8F65CC/4B76C3D6 $noname  C1 1u {Lib=C}
+  (    1 /CPU/VREF )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B76C163 $noname  R7 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 N-000168 )
+ )
+ ( /4B8F65CC/4B76C152 $noname  R6 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /CPU/UBOOT )
+ )
+ ( /4B8F65CC/4B76BB63 $noname  PB1 RESET {Lib=SW_PUSH}
+  (    1 /LCD/GND )
+  (    2 N-000170 )
+ )
+ ( /4B8F65CC/4B743A8B $noname  U12 MIC811 {Lib=MIC811}
+  (    1 /LCD/GND )
+  (    2 /CPU/RESET_N )
+  (    3 N-000170 )
+  (    4 /LCD/3.3V )
+ )
+ ( /4B8F65CC/4B743741 $noname  C4 22p {Lib=C}
+  (    1 /CPU/RCLK )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B743740 $noname  C3 22p {Lib=C}
+  (    1 N-000174 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B74373F $noname  Y1 32.768KHz {Lib=CRYSTAL}
+  (    1 /CPU/RCLK )
+  (    2 N-000174 )
+ )
+ ( /4B8F65CC/4B74373E $noname  R1 1.5K {Lib=R}
+  (    1 N-000174 )
+  (    2 /CPU/RCLK0 )
+ )
+ ( /4B8F65CC/4B74373D $noname  R3 10M {Lib=R}
+  (    1 /CPU/RCLK )
+  (    2 N-000174 )
+ )
+ ( /4B8F65CC/4B74360C $noname  C6 22p {Lib=C}
+  (    1 /CPU/EXTAL )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B743601 $noname  C5 22p {Lib=C}
+  (    1 N-000173 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F65CC/4B7435E9 $noname  Y2 12MHz {Lib=CRYSTAL}
+  (    1 /CPU/EXTAL )
+  (    2 N-000173 )
+ )
+ ( /4B8F65CC/4B7435C9 $noname  R4 33 {Lib=R}
+  (    1 N-000173 )
+  (    2 /CPU/XTAL )
+ )
+ ( /4B8F65CC/4B7435BB $noname  R5 1M {Lib=R}
+  (    1 /CPU/EXTAL )
+  (    2 N-000173 )
+ )
+ ( /4B8F601F/4B7FE370 $noname  J18 HEADER_2 {Lib=HEADER_2}
+  (    1 N-000146 )
+  (    2 /UART_USB_I2C/BAT_V )
+ )
+ ( /4B8F601F/4B7FE38F $noname  C55 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 N-000157 )
+ )
+ ( /4B8F601F/4B7FE317 $noname  L9 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 N-000147 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F601F/4B7FE30E $noname  L7 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 N-000145 )
+  (    2 N-000146 )
+ )
+ ( /4B8F601F/4B7FE2D4 $noname  J8 ZX62D-B-5P8 {Lib=ZX62D-B-5P8}
+  (    1 N-000145 )
+  (    2 /UART_USB_I2C/DM0 )
+  (    3 /UART_USB_I2C/DP0 )
+  (    4 N-000147 )
+  (    5 N-000147 )
+  (    6 N-000157 )
+  (    7 N-000157 )
+  (    8 N-000157 )
+  (    9 N-000157 )
+ )
+ ( /4B8F601F/4B7FE1C9 $noname  R27 4.7K {Lib=R}
+  (    1 /FPGA/TDO_F )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F601F/4B7FE1C0 $noname  R28 4.7K {Lib=R}
+  (    1 /FPGA/TMS_F )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F601F/4B7FE108 $noname  J6 HEADER_4 {Lib=HEADER_4}
+  (    1 /UART_USB_I2C/TX1 )
+  (    2 /UART_USB_I2C/RX1 )
+  (    3 /LCD/GND )
+  (    4 /LCD/3.3V )
+ )
+ ( /4B8F601F/4B7FE0F4 $noname  J7 HEADER_4 {Lib=HEADER_4}
+  (    1 /FPGA/TDO_F )
+  (    2 /FPGA/TMS_F )
+  (    3 /LCD/GND )
+  (    4 /LCD/3.3V )
+ )
+ ( /4B8F601F/4B7FE07F $noname  C36 100n {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /LCD/3.3V )
+ )
+ ( /4B8F601F/4B7FE076 $noname  C37 100n {Lib=C}
+  (    1 N-000149 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F601F/4B7FE06A $noname  C39 100n {Lib=C}
+  (    1 N-000155 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F601F/4B7FDF9E $noname  D1 LED {Lib=LED}
+  (    1 /LCD/3.3V )
+  (    2 N-000154 )
+ )
+ ( /4B8F601F/4B7FDF7F $noname  R29 100K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /UART_USB_I2C/TXD )
+ )
+ ( /4B8F601F/4B7FDF76 $noname  R30 1K {Lib=R}
+  (    1 /UART_USB_I2C/TXD )
+  (    2 N-000154 )
+ )
+ ( /4B8F601F/4B7FDF54 $noname  C40 100n {Lib=C}
+  (    1 N-000153 )
+  (    2 N-000150 )
+ )
+ ( /4B8F601F/4B7FDF48 $noname  C38 100n {Lib=C}
+  (    1 N-000152 )
+  (    2 N-000151 )
+ )
+ ( /4B8F601F/4B7FDF3C $noname  U6 MAX3223ECAPAA {Lib=MAX3223ECAPAA}
+  (    1 /LCD/GND )
+  (    2 N-000151 )
+  (    3 N-000149 )
+  (    4 N-000152 )
+  (    5 N-000150 )
+  (    6 N-000153 )
+  (    7 N-000155 )
+  (    8 /UART_USB_I2C/TX1 )
+  (    9 /UART_USB_I2C/RX1 )
+  (   10 /UART_USB_I2C/RXD )
+  (   11 ? )
+  (   12 /UART_USB_I2C/TXD )
+  (   13 /UART_USB_I2C/TXD )
+  (   14 /LCD/3.3V )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 /LCD/GND )
+  (   19 /LCD/3.3V )
+  (   20 /LCD/3.3V )
+ )
+ ( /4B8F5F86/4B7C62AC $noname  L12 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /CONNECTORS/AN_GND )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5F86/4B7C620D $noname  U11 TLV1548 {Lib=TLV1548}
+  (    1 /CONNECTORS/ANALOG0 )
+  (    2 /CONNECTORS/ANALOG1 )
+  (    3 /CONNECTORS/ANALOG2 )
+  (    4 /CONNECTORS/ANALOG3 )
+  (    5 /CONNECTORS/ANALOG4 )
+  (    6 /CONNECTORS/ANALOG5 )
+  (    7 /CONNECTORS/ANALOG6 )
+  (    8 /CONNECTORS/ANALOG7 )
+  (    9 /FPGA/ADC_CSTART )
+  (   10 /CONNECTORS/AN_GND )
+  (   11 /LCD/3.3V )
+  (   12 /LCD/3.3V )
+  (   13 /CONNECTORS/AN_GND )
+  (   14 /LCD/3.3V )
+  (   15 /FPGA/ADC_CS )
+  (   16 /FPGA/ADC_SDOUT )
+  (   17 /FPGA/ADC_SDIN )
+  (   18 /FPGA/ADC_SCLK )
+  (   19 /FPGA/ADC_EOC )
+  (   20 /LCD/3.3V )
+ )
+ ( /4B8F5CEF/4B8163D9 $noname  U3 P3V56S40ETP-G6 {Lib=P3V56S40ETP-G6}
+  (    1 /LCD/3.3V )
+  (    2 /FPGA/D0 )
+  (    3 /LCD/3.3V )
+  (    4 /FPGA/D1 )
+  (    5 /FPGA/D2 )
+  (    6 /LCD/GND )
+  (    7 /FPGA/D3 )
+  (    8 /FPGA/D4 )
+  (    9 /LCD/3.3V )
+  (   10 /FPGA/D5 )
+  (   11 /FPGA/D6 )
+  (   12 /LCD/GND )
+  (   13 /FPGA/D7 )
+  (   14 /LCD/3.3V )
+  (   15 /FPGA/WE0_N )
+  (   16 /FPGA/RDWR_N )
+  (   17 /MEMORY/CAS_N )
+  (   18 /MEMORY/RAS_N )
+  (   19 /MEMORY/DCS0_N )
+  (   20 /FPGA/A13 )
+  (   21 /FPGA/A14 )
+  (   22 /FPGA/A10 )
+  (   23 /FPGA/A0 )
+  (   24 /FPGA/A1 )
+  (   25 /FPGA/A2 )
+  (   26 /FPGA/A3 )
+  (   27 /LCD/3.3V )
+  (   28 /LCD/GND )
+  (   29 /FPGA/A4 )
+  (   30 /FPGA/A5 )
+  (   31 /FPGA/A6 )
+  (   32 /FPGA/A7 )
+  (   33 /FPGA/A8 )
+  (   34 /FPGA/A9 )
+  (   35 /FPGA/A11 )
+  (   36 /FPGA/A12 )
+  (   37 /MEMORY/CKE )
+  (   38 N-000114 )
+  (   39 /FPGA/WE1_N )
+  (   40 ? )
+  (   41 /LCD/GND )
+  (   42 /MEMORY/D8 )
+  (   43 /LCD/3.3V )
+  (   44 /MEMORY/D9 )
+  (   45 /MEMORY/D10 )
+  (   46 /LCD/GND )
+  (   47 /MEMORY/D11 )
+  (   48 /MEMORY/D12 )
+  (   49 /LCD/3.3V )
+  (   50 /MEMORY/D13 )
+  (   51 /MEMORY/D14 )
+  (   52 /LCD/GND )
+  (   53 /MEMORY/D15 )
+  (   54 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76F778 $noname  R16 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /MEMORY/SD_CD_N )
+ )
+ ( /4B8F5CEF/4B76F6CE $noname  R15 33 {Lib=R}
+  (    1 /MEMORY/MSC_CLK )
+  (    2 N-000116 )
+ )
+ ( /4B8F5CEF/4B76F69F $noname  C32 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76F675 $noname  R13 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /MEMORY/MSC_D0 )
+ )
+ ( /4B8F5CEF/4B76F671 $noname  R22 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 N-000113 )
+ )
+ ( /4B8F5CEF/4B76F670 $noname  R23 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 N-000115 )
+ )
+ ( /4B8F5CEF/4B76F643 $noname  R14 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /MEMORY/MSC_CMD )
+ )
+ ( /4B8F5CEF/4B76F5F6 $noname  R17 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 N-000112 )
+ )
+ ( /4B8F5CEF/4B76F5E2 $noname  J1 MICROSD {Lib=MICROSD}
+  ( CASE /LCD/GND )
+  (   CD /MEMORY/SD_CD_N )
+  (  COM /LCD/GND )
+  (    1 N-000115 )
+  (    2 N-000113 )
+  (    3 /MEMORY/MSC_CMD )
+  (    4 /LCD/3.3V )
+  (    5 N-000116 )
+  (    6 /LCD/GND )
+  (    7 /MEMORY/MSC_D0 )
+  (    8 N-000112 )
+ )
+ ( /4B8F5CEF/4B76F3CE $noname  C31 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76F3C1 $noname  C30 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76F3B5 $noname  C29 10u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76F1E9 $noname  R10 47K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /MEMORY/FRB_N )
+ )
+ ( /4B8F5CEF/4B76F108 $noname  U4 HY27UG088G5M {Lib=HY27UG088G5M}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /MEMORY/FRB_N )
+  (    7 /MEMORY/FRB_N )
+  (    8 /MEMORY/FRE_N )
+  (    9 /MEMORY/CS1_N )
+  (   10 ? )
+  (   11 ? )
+  (   12 /LCD/3.3V )
+  (   13 /LCD/GND )
+  (   14 ? )
+  (   15 ? )
+  (   16 /MEMORY/NF_CLE )
+  (   17 /MEMORY/NF_ALE )
+  (   18 /MEMORY/FWE_N )
+  (   19 /LCD/3.3V )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 /FPGA/D0 )
+  (   30 /FPGA/D1 )
+  (   31 /FPGA/D2 )
+  (   32 /FPGA/D3 )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 /LCD/GND )
+  (   37 /LCD/3.3V )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+  (   41 /FPGA/D4 )
+  (   42 /FPGA/D5 )
+  (   43 /FPGA/D6 )
+  (   44 /FPGA/D7 )
+  (   45 ? )
+  (   46 ? )
+  (   47 ? )
+  (   48 ? )
+ )
+ ( /4B8F5CEF/4B76E647 $noname  R12 33 {Lib=R}
+  (    1 /MEMORY/CK0 )
+  (    2 N-000114 )
+ )
+ ( /4B8F5CEF/4B76E5E9 $noname  C23 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E5E6 $noname  C22 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E5E3 $noname  C24 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E5E0 $noname  C28 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E5DE $noname  C25 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E5DA $noname  C26 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5CEF/4B76E56D $noname  C27 0.1u {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F5BC1/4B7C65FB $noname  J16 HEADER_4X2 {Lib=HEADER_4X2}
+  (    1 /CONNECTORS/ADIN0 )
+  (    2 /CONNECTORS/ADIN1 )
+  (    3 /CONNECTORS/R-HPO )
+  (    4 /CONNECTORS/L-HPO )
+  (    5 /CONNECTORS/L-LINEIN )
+  (    6 /CONNECTORS/R-LINEIN )
+  (    7 /LCD/GND )
+  (    8 /CONNECTORS/MICIN )
+ )
+ ( /4B8F5BC1/4B7C65CF $noname  J19 HEADER_20X2 {Lib=HEADER_20X2}
+  (    1 /LCD/GND )
+  (    2 /FPGA/IRQ_F )
+  (    3 /FPGA/DIG12 )
+  (    4 /FPGA/DIG11 )
+  (    5 /FPGA/DIG10 )
+  (    6 /FPGA/DIG9 )
+  (    7 /FPGA/DIG8 )
+  (    8 /FPGA/DIG7 )
+  (    9 /FPGA/DIG6 )
+  (   10 /FPGA/DIG5 )
+  (   11 /FPGA/DIG4 )
+  (   12 /FPGA/DIG3 )
+  (   13 /FPGA/DIG2 )
+  (   14 /FPGA/DIG1 )
+  (   15 /FPGA/DIG0 )
+  (   16 /FPGA/DIG14 )
+  (   17 /FPGA/DIG15 )
+  (   18 /FPGA/DIG16 )
+  (   19 /FPGA/DIG17 )
+  (   20 /FPGA/DIG18 )
+  (   21 /FPGA/DIG19 )
+  (   22 /FPGA/DIG20 )
+  (   23 /FPGA/DIG21 )
+  (   24 /FPGA/DIG22 )
+  (   25 /FPGA/DIG23 )
+  (   26 /LCD/GND )
+  (   27 /LCD/3.3V )
+  (   28 /LCD/3.3V )
+  (   29 /LCD/3.3V )
+  (   30 /LCD/3.3V )
+  (   31 /CONNECTORS/ANALOG6 )
+  (   32 /CONNECTORS/ANALOG7 )
+  (   33 /CONNECTORS/ANALOG4 )
+  (   34 /CONNECTORS/ANALOG5 )
+  (   35 /CONNECTORS/ANALOG2 )
+  (   36 /CONNECTORS/ANALOG3 )
+  (   37 /CONNECTORS/ANALOG0 )
+  (   38 /CONNECTORS/ANALOG1 )
+  (   39 /CONNECTORS/AN_GND )
+  (   40 /CONNECTORS/AN_GND )
+ )
+ ( /4B8F57B1/4BA5057B $noname  PB3 I2 {Lib=SW_PUSH}
+  (    1 /LCD/GND )
+  (    2 /FPGA/DIGIN1 )
+ )
+ ( /4B8F57B1/4BA5055E $noname  PB2 I1 {Lib=SW_PUSH}
+  (    1 /LCD/GND )
+  (    2 /FPGA/DIGIN2 )
+ )
+ ( /4B8F57B1/4BA504CA $noname  R33 4.7K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /FPGA/DIGIN1 )
+ )
+ ( /4B8F57B1/4BA504C2 $noname  R32 4.7K {Lib=R}
+  (    1 /LCD/3.3V )
+  (    2 /FPGA/DIGIN2 )
+ )
+ ( /4B8F57B1/4B76E30B $noname  Y3 X_MHZ_OSC {Lib=X_MHZ_OSC}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+  (    3 /FPGA/OSC_XM )
+  (    4 /LCD/3.3V )
+ )
+ ( /4B8F57B1/4B76E1FA $noname  C35 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E040 $noname  C46 100n {Lib=C}
+  (    1 /FPGA/2V5 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E03F $noname  C45 100n {Lib=C}
+  (    1 /FPGA/2V5 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E03E $noname  C48 100n {Lib=C}
+  (    1 /FPGA/2V5 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E03D $noname  C47 100n {Lib=C}
+  (    1 /FPGA/2V5 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E039 $noname  C34 100n {Lib=C}
+  (    1 /FPGA/1V2 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E038 $noname  C33 100n {Lib=C}
+  (    1 /FPGA/1V2 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E037 $noname  C44 100n {Lib=C}
+  (    1 /FPGA/1V2 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76E036 $noname  C43 100n {Lib=C}
+  (    1 /FPGA/1V2 )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76DFB1 $noname  C50 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76DFB0 $noname  C49 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76DFA8 $noname  C52 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76DFA4 $noname  C51 100n {Lib=C}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/GND )
+ )
+ ( /4B8F57B1/4B76D642 $noname  R21 68 {Lib=R}
+  (    1 /FPGA/TMS_F )
+  (    2 N-000105 )
+ )
+ ( /4B8F57B1/4B76D641 $noname  R20 68 {Lib=R}
+  (    1 /FPGA/TDO_F )
+  (    2 N-000099 )
+ )
+ ( /4B8F57B1/4B76D63C $noname  R19 68 {Lib=R}
+  (    1 /FPGA/TCK_F )
+  (    2 N-000104 )
+ )
+ ( /4B8F57B1/4B76D5E5 $noname  R18 68 {Lib=R}
+  (    1 /FPGA/TDI_F )
+  (    2 N-000100 )
+ )
+ ( /4B8F57B1/4B76D3C1 $noname  R25 1K {Lib=R}
+  (    1 /LCD/GND )
+  (    2 N-000101 )
+ )
+ ( /4B8F57B1/4B76D3B0 $noname  D5 LED {Lib=LED}
+  (    1 N-000103 )
+  (    2 N-000101 )
+ )
+ ( /4B8F57B1/4B76CE40 $noname  U9 XC3SXXXE-VQ100 {Lib=XC3SXXXE-VQ100}
+  (    1 ? )
+  (    2 /FPGA/A4 )
+  (    3 /FPGA/A5 )
+  (    4 /FPGA/D7 )
+  (    5 /FPGA/D6 )
+  (    6 /FPGA/1V2 )
+  (    7 /LCD/GND )
+  (    8 /LCD/3.3V )
+  (    9 /FPGA/D5 )
+  (   10 /FPGA/D4 )
+  (   11 /FPGA/D3 )
+  (   12 /FPGA/D2 )
+  (   13 /FPGA/DIGIN1 )
+  (   14 /LCD/GND )
+  (   15 /FPGA/D1 )
+  (   16 /FPGA/D0 )
+  (   17 /FPGA/ADC_EOC )
+  (   18 /FPGA/ADC_SCLK )
+  (   19 /LCD/GND )
+  (   20 /LCD/3.3V )
+  (   21 /FPGA/2V5 )
+  (   22 /FPGA/ADC_SDIN )
+  (   23 /FPGA/ADC_SDOUT )
+  (   24 /FPGA/ADC_CS )
+  (   25 ? )
+  (   26 /FPGA/ADC_CSTART )
+  (   27 ? )
+  (   28 /FPGA/1V2 )
+  (   29 /LCD/GND )
+  (   30 /FPGA/DIGIN2 )
+  (   31 /LCD/3.3V )
+  (   32 /FPGA/DIG23 )
+  (   33 /FPGA/DIG22 )
+  (   34 /FPGA/DIG21 )
+  (   35 /FPGA/DIG20 )
+  (   36 /FPGA/DIG19 )
+  (   37 /LCD/GND )
+  (   38 /FPGA/OSC_XM )
+  (   39 /LCD/3.3V )
+  (   40 /FPGA/DIG18 )
+  (   41 /FPGA/DIG17 )
+  (   42 /LCD/GND )
+  (   43 /LCD/3.3V )
+  (   44 N-000103 )
+  (   45 /LCD/3.3V )
+  (   46 /FPGA/2V5 )
+  (   47 /FPGA/DIG16 )
+  (   48 /FPGA/DIG15 )
+  (   49 /FPGA/DIG14 )
+  (   50 /LCD/GND )
+  (   51 ? )
+  (   52 /LCD/GND )
+  (   53 /FPGA/DIG0 )
+  (   54 /FPGA/DIG1 )
+  (   55 /LCD/3.3V )
+  (   56 /FPGA/1V2 )
+  (   57 /FPGA/DIG2 )
+  (   58 /FPGA/DIG3 )
+  (   59 /LCD/GND )
+  (   60 /FPGA/DIG4 )
+  (   61 /FPGA/DIG5 )
+  (   62 /FPGA/DIG6 )
+  (   63 /FPGA/DIG7 )
+  (   64 /LCD/GND )
+  (   65 /FPGA/DIG8 )
+  (   66 /FPGA/DIG9 )
+  (   67 /FPGA/DIG10 )
+  (   68 /FPGA/DIG11 )
+  (   69 /CS2_N )
+  (   70 /FPGA/DIG12 )
+  (   71 /FPGA/IRQ_F )
+  (   72 /LCD/GND )
+  (   73 /LCD/3.3V )
+  (   74 /FPGA/2V5 )
+  (   75 N-000105 )
+  (   76 N-000099 )
+  (   77 N-000104 )
+  (   78 /FPGA/A3 )
+  (   79 /FPGA/A2 )
+  (   80 /FPGA/1V2 )
+  (   81 /LCD/GND )
+  (   82 /LCD/3.3V )
+  (   83 /FPGA/A1 )
+  (   84 /FPGA/A0 )
+  (   85 /FPGA/A10 )
+  (   86 /FPGA/RDWR_N )
+  (   87 /LCD/GND )
+  (   88 /FPGA/WE0_N )
+  (   89 /FPGA/WE1_N )
+  (   90 /FPGA/A12 )
+  (   91 /FPGA/A11 )
+  (   92 /FPGA/A9 )
+  (   93 /LCD/GND )
+  (   94 /FPGA/A8 )
+  (   95 /FPGA/A7 )
+  (   96 /FPGA/2V5 )
+  (   97 /LCD/3.3V )
+  (   98 /FPGA/A6 )
+  (   99 /LCD/3.3V )
+  (  100 N-000100 )
+ )
+ ( /4B782FB9/4C17FBAC $noname  R35 1M {Lib=R}
+  (    1 /LCD/DRV )
+  (    2 /LCD/AGND )
+ )
+ ( /4B782FB9/4C17FB8F $noname  R36 30 {Lib=R}
+  (    1 /LCD/AGND )
+  (    2 /LCD/FB )
+ )
+ ( /4B782FB9/4C17FB4E $noname  C74 10uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VLED )
+ )
+ ( /4B782FB9/4C17FB48 $noname  C75 100nF {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VLED )
+ )
+ ( /4B782FB9/4C17FA74 $noname  Q1 TM2302N {Lib=MOSFET_N}
+  (    D N-000067 )
+  (    G /LCD/DRV )
+  (    S /LCD/AGND )
+ )
+ ( /4B782FB9/4C17FA2A $noname  L13 PI0302-4R7M {Lib=INDUCTOR}
+  (    1 /LCD/LCD_VDD )
+  (    2 N-000067 )
+ )
+ ( /4B782FB9/4C17F9E0 $noname  D10 SMD24APT {Lib=DIODESCH}
+  (    1 N-000067 )
+  (    2 /LCD/VLED )
+ )
+ ( /4B782FB9/4C17F9A4 $noname  C59 100nF {Lib=C}
+  (    1 /LCD/GND )
+  (    2 /LCD/LCD_VDD )
+ )
+ ( /4B782FB9/4C17F726 $noname  L14 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /LCD/GND )
+  (    2 /LCD/AGND )
+ )
+ ( /4B782FB9/4C17F6A4 $noname  C72 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VGL )
+ )
+ ( /4B782FB9/4C17F6A3 $noname  C71 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VGH )
+ )
+ ( /4B782FB9/4C17F6A2 $noname  C70 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VCAC )
+ )
+ ( /4B782FB9/4C17F6A1 $noname  C69 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VINT3 )
+ )
+ ( /4B782FB9/4C17F685 $noname  C68 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VINT2 )
+ )
+ ( /4B782FB9/4C17F684 $noname  C67 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/VINT1 )
+ )
+ ( /4B782FB9/4C17F678 $noname  C66 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/DVDD )
+ )
+ ( /4B782FB9/4C17F66D $noname  C65 4.7uF/16V {Lib=C}
+  (    1 /LCD/AGND )
+  (    2 /LCD/LCD_VDD )
+ )
+ ( /4B782FB9/4C17F656 $noname  C73 4.7uF/16V {Lib=C}
+  (    1 /LCD/VCOM )
+  (    2 /LCD/FRP )
+ )
+ ( /4B782FB9/4C17F62D $noname  C64 2.2uF/16V {Lib=C}
+  (    1 /LCD/V4M )
+  (    2 /LCD/V4P )
+ )
+ ( /4B782FB9/4C17F62C $noname  C63 2.2uF/16V {Lib=C}
+  (    1 /LCD/V3M )
+  (    2 /LCD/V3P )
+ )
+ ( /4B782FB9/4C17F61F $noname  C62 2.2uF/16V {Lib=C}
+  (    1 /LCD/V2M )
+  (    2 /LCD/V2P )
+ )
+ ( /4B782FB9/4C17F36B $noname  J20 HEADER_40 {Lib=HEADER_40}
+  (   C2 /LCD/GND )
+  (   C1 /LCD/GND )
+  (    1 /LCD/VCOM )
+  (    2 /LCD/LCD_DE )
+  (    3 /LCD/LCD_SDA )
+  (    4 /LCD/LCD_SCL )
+  (    5 /LCD/LCD_HSYNC )
+  (    6 /LCD/LCD_VSYNC )
+  (    7 N-000080 )
+  (    8 N-000079 )
+  (    9 N-000081 )
+  (   10 N-000078 )
+  (   11 N-000082 )
+  (   12 N-000077 )
+  (   13 N-000083 )
+  (   14 N-000076 )
+  (   15 N-000084 )
+  (   16 /LCD/GND )
+  (   17 /LCD/LCD_VDD )
+  (   18 /LCD/LCD_VDD )
+  (   19 /LCD/DVDD )
+  (   20 /LCD/V1P )
+  (   21 /LCD/V1M )
+  (   22 /LCD/V2P )
+  (   23 /LCD/V2M )
+  (   24 /LCD/VINT1 )
+  (   25 /LCD/V3P )
+  (   26 /LCD/V3M )
+  (   27 /LCD/VINT2 )
+  (   28 /LCD/VINT3 )
+  (   29 /LCD/V4P )
+  (   30 /LCD/V4M )
+  (   31 /LCD/VGH )
+  (   32 /LCD/VGL )
+  (   33 /LCD/AGND )
+  (   34 /LCD/FRP )
+  (   35 /LCD/VCOM )
+  (   36 /LCD/VCAC )
+  (   37 /LCD/DRV )
+  (   38 /LCD/VLED )
+  (   39 /LCD/FB )
+  (   40 /LCD/VCOM )
+ )
+ ( /4B782FB9/4B782344 $noname  L11 PZ1608D221 {Lib=INDUCTOR}
+  (    1 /LCD/LCD_CLK )
+  (    2 N-000080 )
+ )
+ ( /4B782FB9/4B7822E4 $noname  L10 HZ0805C202R-00 {Lib=INDUCTOR}
+  (    1 /LCD/3.3V )
+  (    2 /LCD/LCD_VDD )
+ )
+ ( /4B782FB9/4B78225F $noname  C61 2.2uF/16V {Lib=C}
+  (    1 /LCD/V1M )
+  (    2 /LCD/V1P )
+ )
+ ( /4B782FB9/4B7820D3 $noname  RN1 33/5% {Lib=R_PACK4}
+  (    1 /LCD/LCD_D4 )
+  (    2 /LCD/LCD_D5 )
+  (    3 /LCD/LCD_D6 )
+  (    4 /LCD/LCD_D7 )
+  (    5 N-000079 )
+  (    6 N-000081 )
+  (    7 N-000078 )
+  (    8 N-000082 )
+ )
+ ( /4B782FB9/4B7820E7 $noname  RN2 33/5% {Lib=R_PACK4}
+  (    1 /LCD/LCD_D0 )
+  (    2 /LCD/LCD_D1 )
+  (    3 /LCD/LCD_D2 )
+  (    4 /LCD/LCD_D3 )
+  (    5 N-000077 )
+  (    6 N-000083 )
+  (    7 N-000076 )
+  (    8 N-000084 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D9
+ D?
+ S*
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component C56
+ SM*
+ C?
+ C1-1
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component U1
+ U1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C55
+ SM*
+ C?
+ C1-1
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component C51
+ SM*
+ C?
+ C1-1
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C74
+ SM*
+ C?
+ C1-1
+$endlist
+$component C75
+ SM*
+ C?
+ C1-1
+$endlist
+$component D10
+ D?
+ S*
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C72
+ SM*
+ C?
+ C1-1
+$endlist
+$component C71
+ SM*
+ C?
+ C1-1
+$endlist
+$component C70
+ SM*
+ C?
+ C1-1
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component C73
+ SM*
+ C?
+ C1-1
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "/1.8V" "1.8V"
+ C41 1
+ U7 4
+ U7 2
+ L5 2
+ L4 2
+Net 3 "/FPGA/IRQ_F" "IRQ_F"
+ U9 71
+ J19 2
+ U1 113
+Net 4 "/FPGA/ADC_EOC" "ADC_EOC"
+ U9 17
+ U11 19
+Net 5 "/FPGA/ADC_SDIN" "ADC_SDIN"
+ U9 22
+ U11 17
+Net 6 "/FPGA/ADC_CS" "ADC_CS"
+ U9 24
+ U11 15
+Net 7 "/CONNECTORS/L-LINEIN" "L-LINEIN"
+ J16 5
+ U1 97
+Net 8 "/CONNECTORS/ADIN0" "ADIN0"
+ J16 1
+ U1 67
+Net 9 "/CONNECTORS/L-HPO" "L-HPO"
+ J16 4
+ U1 90
+Net 10 "/CONNECTORS/MICIN" "MICIN"
+ J16 8
+ U1 99
+Net 11 "/LCD/LCD_SCL" "LCD_SCL"
+ J20 4
+ U1 105
+Net 12 "/LCD/LCD_HSYNC" "LCD_HSYNC"
+ J20 5
+ U1 109
+Net 13 "/LCD/LCD_CLK" "LCD_CLK"
+ L11 1
+ U1 2
+Net 14 "/UART_USB_I2C/RXD" "RXD"
+ U6 10
+ U1 57
+Net 15 "/FPGA/TMS_F" "TMS_F"
+ R21 1
+ R28 1
+ J7 2
+ U1 60
+Net 16 "/UART_USB_I2C/DP0" "DP0"
+ J8 3
+ U1 79
+Net 17 "/MEMORY/MSC_CLK" "MSC_CLK"
+ R15 1
+ U1 62
+Net 18 "/MEMORY/SD_CD_N" "SD_CD_N"
+ R16 2
+ J1 CD
+ U1 54
+Net 19 "/MEMORY/DCS0_N" "DCS0_N"
+ U3 19
+ U1 10
+Net 20 "/MEMORY/CAS_N" "CAS_N"
+ U3 17
+ U1 12
+Net 21 "/MEMORY/FRE_N" "FRE_N"
+ U4 8
+ U1 52
+Net 22 "/MEMORY/NF_ALE" "NF_ALE"
+ U4 17
+ U1 49
+Net 23 "/MEMORY/CKE" "CKE"
+ U3 37
+ U1 17
+Net 24 "/MEMORY/FWE_N" "FWE_N"
+ U4 18
+ U1 51
+Net 25 "/MEMORY/NF_CLE" "NF_CLE"
+ U4 16
+ U1 50
+Net 26 "/MEMORY/CS1_N" "CS1_N"
+ U4 9
+ U1 56
+Net 27 "/MEMORY/FRB_N" "FRB_N"
+ R10 2
+ U4 7
+ U4 6
+ U1 53
+Net 28 "/MEMORY/RAS_N" "RAS_N"
+ U3 18
+ U1 11
+Net 29 "/MEMORY/CK0" "CK0"
+ R12 1
+ U1 16
+Net 30 "/MEMORY/MSC_CMD" "MSC_CMD"
+ R14 2
+ J1 3
+ U1 63
+Net 31 "/MEMORY/MSC_D0" "MSC_D0"
+ R13 2
+ J1 7
+ U1 61
+Net 32 "/UART_USB_I2C/DM0" "DM0"
+ J8 2
+ U1 78
+Net 33 "/FPGA/TDO_F" "TDO_F"
+ R20 1
+ R27 1
+ J7 1
+ U1 59
+Net 34 "/UART_USB_I2C/TXD" "TXD"
+ R29 2
+ R30 1
+ U6 12
+ U6 13
+ U1 58
+Net 35 "/FPGA/TCK_F" "TCK_F"
+ R19 1
+ U1 48
+Net 36 "/LCD/LCD_VSYNC" "LCD_VSYNC"
+ J20 6
+ U1 108
+Net 37 "/LCD/LCD_DE" "LCD_DE"
+ J20 2
+ U1 110
+Net 38 "/LCD/LCD_SDA" "LCD_SDA"
+ J20 3
+ U1 107
+Net 39 "/CONNECTORS/R-LINEIN" "R-LINEIN"
+ J16 6
+ U1 98
+Net 40 "/CONNECTORS/ADIN1" "ADIN1"
+ J16 2
+ U1 68
+Net 41 "/CONNECTORS/R-HPO" "R-HPO"
+ J16 3
+ U1 88
+Net 42 "/FPGA/ADC_CSTART" "ADC_CSTART"
+ U9 26
+ U11 9
+Net 43 "/FPGA/ADC_SDOUT" "ADC_SDOUT"
+ U9 23
+ U11 16
+Net 44 "/FPGA/ADC_SCLK" "ADC_SCLK"
+ U9 18
+ U11 18
+Net 45 "/CS2_N" "CS2_N"
+ U9 69
+ U1 55
+Net 46 "/UART_USB_I2C/BAT_V" "BAT_V"
+ J18 2
+ U10 3
+ C53 1
+ C56 2
+ C54 1
+ J17 2
+ U7 3
+ U8 3
+Net 47 "/FPGA/2V5" "2V5"
+ C46 1
+ C45 1
+ C48 1
+ C47 1
+ U9 21
+ U9 46
+ U9 74
+ U9 96
+ C60 1
+ UF2 5
+Net 48 "/FPGA/1V2" "1V2"
+ C34 1
+ C33 1
+ C44 1
+ C43 1
+ U9 80
+ U9 56
+ U9 28
+ U9 6
+ C57 1
+ U10 4
+ U10 2
+Net 49 "/LCD/3.3V" "3.3V"
+ L10 1
+ R33 1
+ R32 1
+ Y3 4
+ Y3 1
+ C35 1
+ C50 1
+ C49 1
+ C52 1
+ C51 1
+ U9 99
+ U9 43
+ U9 39
+ U9 8
+ U9 20
+ U9 31
+ U9 45
+ U9 55
+ U9 73
+ U9 82
+ U9 97
+ J19 29
+ J19 27
+ J19 30
+ J19 28
+ U3 43
+ U3 49
+ U3 9
+ U3 3
+ U3 1
+ U3 27
+ U3 14
+ R16 1
+ C32 1
+ R13 1
+ R22 1
+ R23 1
+ R14 1
+ R17 1
+ J1 4
+ C31 1
+ C30 1
+ C29 1
+ R10 1
+ U4 37
+ U4 19
+ U4 12
+ C23 1
+ C22 1
+ C24 1
+ C28 1
+ C25 1
+ C26 1
+ C27 1
+ U11 20
+ U11 14
+ U11 11
+ U11 12
+ R27 2
+ R28 2
+ J6 4
+ J7 4
+ C36 2
+ D1 1
+ R29 1
+ U6 19
+ U6 20
+ U6 14
+ D8 1
+ D7 1
+ C42 1
+ UF2 3
+ UF2 1
+ U8 4
+ U8 2
+ U1 95
+ U1 93
+ L6 1
+ L3 2
+ L2 2
+ L1 2
+ C7 2
+ R8 1
+ R7 1
+ R6 1
+ U12 4
+Net 50 "/LCD/GND" "GND"
+ C59 1
+ L14 1
+ J20 16
+ J20 C2
+ J20 C1
+ PB3 1
+ PB2 1
+ Y3 2
+ C35 2
+ C46 2
+ C45 2
+ C48 2
+ C47 2
+ C34 2
+ C33 2
+ C44 2
+ C43 2
+ C50 2
+ C49 2
+ C52 2
+ C51 2
+ R25 1
+ U9 42
+ U9 50
+ U9 7
+ U9 14
+ U9 19
+ U9 29
+ U9 37
+ U9 52
+ U9 59
+ U9 64
+ U9 72
+ U9 81
+ U9 87
+ U9 93
+ J16 7
+ J19 1
+ J19 26
+ U3 46
+ U3 52
+ U3 12
+ U3 6
+ U3 54
+ U3 41
+ U3 28
+ C32 2
+ J1 CASE
+ J1 CASE
+ J1 CASE
+ J1 6
+ J1 COM
+ C31 2
+ C30 2
+ C29 2
+ U4 36
+ U4 13
+ C23 2
+ C22 2
+ C24 2
+ C28 2
+ C25 2
+ C26 2
+ C27 2
+ L12 2
+ C55 1
+ L9 2
+ J6 3
+ J7 3
+ C36 1
+ C37 2
+ C39 2
+ U6 18
+ U6 1
+ BT1 2
+ R31 2
+ C57 2
+ U10 1
+ C60 2
+ C42 2
+ C41 2
+ C53 2
+ C56 1
+ C54 2
+ J17 1
+ U7 1
+ UF2 2
+ U8 1
+ R26 2
+ J15 2
+ U1 96
+ U1 92
+ U1 89
+ U1 80
+ U1 74
+ U1 72
+ U1 69
+ U1 125
+ U1 106
+ U1 3
+ U1 20
+ U1 25
+ C21 1
+ C20 1
+ C19 1
+ C18 1
+ C17 1
+ C16 1
+ C15 1
+ C14 1
+ C13 1
+ C12 1
+ C11 1
+ C10 1
+ C7 1
+ C8 1
+ R9 2
+ C9 1
+ R2 2
+ C2 1
+ C1 2
+ PB1 1
+ U12 1
+ C4 2
+ C3 2
+ C6 2
+ C5 2
+Net 51 "/POWER_SUPPLY/VRTC" "VRTC"
+ D9 2
+ R34 1
+ D8 2
+ U1 83
+Net 52 "/FPGA/WE1_N" "WE1_N"
+ U9 89
+ U3 39
+ U1 15
+Net 53 "/CPU/VDDIO" "VDDIO"
+ U1 66
+ U1 104
+ U1 24
+ C21 2
+ C20 2
+ C19 2
+ C18 2
+ L6 2
+Net 54 "/CPU/VDDPLL" "VDDPLL"
+ U1 73
+ U1 71
+ C15 2
+ C14 2
+ C13 2
+ L4 1
+Net 55 "/CPU/VDDHP" "VDDHP"
+ U1 91
+ U1 87
+ L3 1
+ C12 2
+Net 56 "/CPU/VDDUSB" "VDDUSB"
+ U1 77
+ L2 1
+ C11 2
+Net 57 "/CPU/VDDADC" "VDDADC"
+ U1 70
+ L1 1
+ C10 2
+Net 58 "/CPU/VDDCORE" "VDDCORE"
+ U1 4
+ U1 21
+ C17 2
+ C16 2
+ L5 1
+Net 59 "/FPGA/WE0_N" "WE0_N"
+ U9 88
+ U3 15
+ U1 14
+Net 62 "/FPGA/RDWR_N" "RDWR_N"
+ U9 86
+ U3 16
+ U1 13
+Net 63 "/CONNECTORS/AN_GND" "AN_GND"
+ J19 39
+ J19 40
+ L12 1
+ U11 13
+ U11 10
+Net 64 "/FPGA/OSC_XM" "OSC_XM"
+ Y3 3
+ U9 38
+Net 65 "/LCD/FB" "FB"
+ R36 2
+ J20 39
+Net 66 "/LCD/VLED" "VLED"
+ C74 2
+ C75 2
+ D10 2
+ J20 38
+Net 67 "" ""
+ Q1 D
+ L13 2
+ D10 1
+Net 68 "/LCD/V1P" "V1P"
+ J20 20
+ C61 2
+Net 69 "/LCD/V3P" "V3P"
+ C63 2
+ J20 25
+Net 70 "/LCD/FRP" "FRP"
+ C73 2
+ J20 34
+Net 71 "/LCD/V4M" "V4M"
+ C64 1
+ J20 30
+Net 72 "/LCD/V2M" "V2M"
+ C62 1
+ J20 23
+Net 73 "/LCD/DVDD" "DVDD"
+ C66 2
+ J20 19
+Net 74 "/LCD/VINT3" "VINT3"
+ C69 2
+ J20 28
+Net 75 "/LCD/VGH" "VGH"
+ C71 2
+ J20 31
+Net 76 "" ""
+ J20 14
+ RN2 7
+Net 77 "" ""
+ J20 12
+ RN2 5
+Net 78 "" ""
+ J20 10
+ RN1 7
+Net 79 "" ""
+ J20 8
+ RN1 5
+Net 80 "" ""
+ J20 7
+ L11 2
+Net 81 "" ""
+ J20 9
+ RN1 6
+Net 82 "" ""
+ J20 11
+ RN1 8
+Net 83 "" ""
+ J20 13
+ RN2 6
+Net 84 "" ""
+ J20 15
+ RN2 8
+Net 85 "/LCD/VGL" "VGL"
+ C72 2
+ J20 32
+Net 86 "/LCD/VCAC" "VCAC"
+ C70 2
+ J20 36
+Net 87 "/LCD/LCD_VDD" "LCD_VDD"
+ L13 1
+ C59 2
+ C65 2
+ J20 18
+ J20 17
+ L10 2
+Net 88 "/LCD/VINT1" "VINT1"
+ C67 2
+ J20 24
+Net 89 "/LCD/V1M" "V1M"
+ J20 21
+ C61 1
+Net 90 "/LCD/V3M" "V3M"
+ C63 1
+ J20 26
+Net 91 "/LCD/VCOM" "VCOM"
+ C73 1
+ J20 40
+ J20 35
+ J20 1
+Net 92 "/LCD/V4P" "V4P"
+ C64 2
+ J20 29
+Net 93 "/LCD/V2P" "V2P"
+ C62 2
+ J20 22
+Net 94 "/LCD/VINT2" "VINT2"
+ C68 2
+ J20 27
+Net 95 "/LCD/DRV" "DRV"
+ R35 1
+ Q1 G
+ J20 37
+Net 96 "/LCD/AGND" "AGND"
+ R35 2
+ R36 1
+ C74 1
+ C75 1
+ Q1 S
+ L14 2
+ C72 1
+ C71 1
+ C70 1
+ C69 1
+ C68 1
+ C67 1
+ C66 1
+ C65 1
+ J20 33
+Net 97 "/FPGA/DIGIN2" "DIGIN2"
+ PB2 2
+ R32 2
+ U9 30
+Net 98 "/FPGA/DIGIN1" "DIGIN1"
+ PB3 2
+ R33 2
+ U9 13
+Net 99 "" ""
+ R20 2
+ U9 76
+Net 100 "" ""
+ R18 2
+ U9 100
+Net 101 "" ""
+ R25 2
+ D5 2
+Net 103 "" ""
+ D5 1
+ U9 44
+Net 104 "" ""
+ R19 2
+ U9 77
+Net 105 "" ""
+ R21 2
+ U9 75
+Net 112 "" ""
+ R17 2
+ J1 8
+Net 113 "" ""
+ R22 2
+ J1 2
+Net 114 "" ""
+ U3 38
+ R12 2
+Net 115 "" ""
+ R23 2
+ J1 1
+Net 116 "" ""
+ R15 2
+ J1 5
+Net 145 "" ""
+ L7 1
+ J8 1
+Net 146 "" ""
+ J18 1
+ L7 2
+Net 147 "" ""
+ L9 1
+ J8 5
+ J8 4
+Net 148 "/UART_USB_I2C/TX1" "TX1"
+ J6 1
+ U6 8
+Net 149 "" ""
+ C37 1
+ U6 3
+Net 150 "" ""
+ C40 2
+ U6 5
+Net 151 "" ""
+ C38 2
+ U6 2
+Net 152 "" ""
+ C38 1
+ U6 4
+Net 153 "" ""
+ C40 1
+ U6 6
+Net 154 "" ""
+ D1 2
+ R30 2
+Net 155 "" ""
+ C39 1
+ U6 7
+Net 156 "/UART_USB_I2C/RX1" "RX1"
+ J6 2
+ U6 9
+Net 157 "" ""
+ C55 2
+ J8 9
+ J8 8
+ J8 7
+ J8 6
+Net 162 "" ""
+ D9 1
+ R34 2
+ BT1 1
+Net 163 "" ""
+ R31 1
+ D7 2
+Net 165 "/CPU/UBOOT" "UBOOT"
+ J15 1
+ U1 100
+ R6 2
+Net 166 "/CPU/RREF" "RREF"
+ U1 76
+ R2 1
+Net 167 "/CPU/VREF" "VREF"
+ U1 94
+ C1 1
+Net 168 "" ""
+ U1 101
+ R7 2
+Net 169 "/CPU/RCLK" "RCLK"
+ U1 81
+ C4 1
+ Y1 1
+ R3 1
+Net 170 "" ""
+ PB1 2
+ U12 3
+Net 173 "" ""
+ C5 1
+ Y2 2
+ R4 1
+ R5 2
+Net 174 "" ""
+ C3 1
+ Y1 2
+ R1 1
+ R3 2
+Net 175 "/CPU/RCLK0" "RCLK0"
+ U1 82
+ R1 2
+Net 176 "/CPU/VDDA" "VDDA"
+ U1 75
+ C2 2
+Net 177 "" ""
+ R26 1
+ D6 2
+Net 178 "/CPU/RESET_N" "RESET_N"
+ U1 84
+ R8 2
+ C8 2
+ R9 1
+ C9 2
+ U12 2
+Net 179 "/CPU/EXTAL" "EXTAL"
+ U1 64
+ C6 1
+ Y2 1
+ R5 1
+Net 180 "/CPU/XTAL" "XTAL"
+ U1 65
+ R4 2
+Net 181 "/LCD/LCD_D0" "LCD_D0"
+ RN2 1
+ U1 1
+Net 182 "/LCD/LCD_D1" "LCD_D1"
+ RN2 2
+ U1 128
+Net 183 "/LCD/LCD_D2" "LCD_D2"
+ RN2 3
+ U1 127
+Net 184 "/LCD/LCD_D3" "LCD_D3"
+ RN2 4
+ U1 126
+Net 185 "/LCD/LCD_D4" "LCD_D4"
+ RN1 1
+ U1 124
+Net 186 "/LCD/LCD_D5" "LCD_D5"
+ RN1 2
+ U1 123
+Net 187 "/LCD/LCD_D6" "LCD_D6"
+ RN1 3
+ U1 122
+Net 188 "/LCD/LCD_D7" "LCD_D7"
+ RN1 4
+ U1 121
+Net 195 "/FPGA/TDI_F" "TDI_F"
+ R18 1
+ U1 114
+Net 197 "/CPU/LCD_D17" "LCD_D17"
+ D6 1
+ U1 111
+Net 198 "/FPGA/A0" "A0"
+ U9 84
+ U3 23
+ U1 8
+Net 199 "/FPGA/A1" "A1"
+ U9 83
+ U3 24
+ U1 7
+Net 200 "/FPGA/A2" "A2"
+ U9 79
+ U3 25
+ U1 6
+Net 201 "/FPGA/A3" "A3"
+ U9 78
+ U3 26
+ U1 5
+Net 202 "/FPGA/A4" "A4"
+ U9 2
+ U3 29
+ U1 29
+Net 203 "/FPGA/A5" "A5"
+ U9 3
+ U3 30
+ U1 28
+Net 204 "/FPGA/A6" "A6"
+ U9 98
+ U3 31
+ U1 27
+Net 205 "/FPGA/A7" "A7"
+ U9 95
+ U3 32
+ U1 26
+Net 206 "/FPGA/A8" "A8"
+ U9 94
+ U3 33
+ U1 23
+Net 207 "/FPGA/A9" "A9"
+ U9 92
+ U3 34
+ U1 22
+Net 208 "/FPGA/A10" "A10"
+ U9 85
+ U3 22
+ U1 9
+Net 209 "/FPGA/A11" "A11"
+ U9 91
+ U3 35
+ U1 19
+Net 210 "/FPGA/A12" "A12"
+ U9 90
+ U3 36
+ U1 18
+Net 211 "/FPGA/A13" "A13"
+ U3 20
+ U1 30
+Net 212 "/FPGA/A14" "A14"
+ U3 21
+ U1 31
+Net 213 "/FPGA/D0" "D0"
+ U9 16
+ U3 2
+ U4 29
+ U1 40
+Net 214 "/FPGA/D1" "D1"
+ U9 15
+ U3 4
+ U4 30
+ U1 41
+Net 215 "/FPGA/D2" "D2"
+ U9 12
+ U3 5
+ U4 31
+ U1 42
+Net 216 "/FPGA/D3" "D3"
+ U9 11
+ U3 7
+ U4 32
+ U1 43
+Net 217 "/FPGA/D4" "D4"
+ U9 10
+ U3 8
+ U4 41
+ U1 44
+Net 218 "/FPGA/D5" "D5"
+ U9 9
+ U3 10
+ U4 42
+ U1 45
+Net 219 "/FPGA/D6" "D6"
+ U9 5
+ U3 11
+ U4 43
+ U1 46
+Net 220 "/FPGA/D7" "D7"
+ U9 4
+ U3 13
+ U4 44
+ U1 47
+Net 221 "/MEMORY/D8" "D8"
+ U3 42
+ U1 32
+Net 222 "/MEMORY/D9" "D9"
+ U3 44
+ U1 33
+Net 223 "/MEMORY/D10" "D10"
+ U3 45
+ U1 34
+Net 224 "/MEMORY/D11" "D11"
+ U3 47
+ U1 35
+Net 225 "/MEMORY/D12" "D12"
+ U3 48
+ U1 36
+Net 226 "/MEMORY/D13" "D13"
+ U3 50
+ U1 37
+Net 227 "/MEMORY/D14" "D14"
+ U3 51
+ U1 38
+Net 228 "/MEMORY/D15" "D15"
+ U3 53
+ U1 39
+Net 229 "/CONNECTORS/ANALOG0" "ANALOG0"
+ J19 37
+ U11 1
+Net 230 "/CONNECTORS/ANALOG1" "ANALOG1"
+ J19 38
+ U11 2
+Net 231 "/CONNECTORS/ANALOG2" "ANALOG2"
+ J19 35
+ U11 3
+Net 232 "/CONNECTORS/ANALOG3" "ANALOG3"
+ J19 36
+ U11 4
+Net 233 "/CONNECTORS/ANALOG4" "ANALOG4"
+ J19 33
+ U11 5
+Net 234 "/CONNECTORS/ANALOG5" "ANALOG5"
+ J19 34
+ U11 6
+Net 235 "/CONNECTORS/ANALOG6" "ANALOG6"
+ J19 31
+ U11 7
+Net 236 "/CONNECTORS/ANALOG7" "ANALOG7"
+ J19 32
+ U11 8
+Net 237 "/FPGA/DIG0" "DIG0"
+ U9 53
+ J19 15
+Net 238 "/FPGA/DIG1" "DIG1"
+ U9 54
+ J19 14
+Net 239 "/FPGA/DIG2" "DIG2"
+ U9 57
+ J19 13
+Net 240 "/FPGA/DIG3" "DIG3"
+ U9 58
+ J19 12
+Net 241 "/FPGA/DIG4" "DIG4"
+ U9 60
+ J19 11
+Net 242 "/FPGA/DIG5" "DIG5"
+ U9 61
+ J19 10
+Net 243 "/FPGA/DIG6" "DIG6"
+ U9 62
+ J19 9
+Net 244 "/FPGA/DIG7" "DIG7"
+ U9 63
+ J19 8
+Net 245 "/FPGA/DIG8" "DIG8"
+ U9 65
+ J19 7
+Net 246 "/FPGA/DIG9" "DIG9"
+ U9 66
+ J19 6
+Net 247 "/FPGA/DIG10" "DIG10"
+ U9 67
+ J19 5
+Net 248 "/FPGA/DIG11" "DIG11"
+ U9 68
+ J19 4
+Net 249 "/FPGA/DIG12" "DIG12"
+ U9 70
+ J19 3
+Net 250 "/FPGA/DIG14" "DIG14"
+ U9 49
+ J19 16
+Net 251 "/FPGA/DIG15" "DIG15"
+ U9 48
+ J19 17
+Net 252 "/FPGA/DIG16" "DIG16"
+ U9 47
+ J19 18
+Net 253 "/FPGA/DIG17" "DIG17"
+ U9 41
+ J19 19
+Net 254 "/FPGA/DIG18" "DIG18"
+ U9 40
+ J19 20
+Net 255 "/FPGA/DIG19" "DIG19"
+ U9 36
+ J19 21
+Net 256 "/FPGA/DIG20" "DIG20"
+ U9 35
+ J19 22
+Net 257 "/FPGA/DIG21" "DIG21"
+ U9 34
+ J19 23
+Net 258 "/FPGA/DIG22" "DIG22"
+ U9 33
+ J19 24
+Net 259 "/FPGA/DIG23" "DIG23"
+ U9 32
+ J19 25
+}
+#End

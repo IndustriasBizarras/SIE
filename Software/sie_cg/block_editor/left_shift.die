@@ -1,0 +1,40 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="Left Shift">
+    <Polygon>
+        <Point x="-50" y="0"/>
+        <Point x="-50" y="20"/>
+        <Point x="-20" y="20"/>
+        <Point x="-30" y="10"/>
+        <Point x="-20" y="0"/>
+        <Point x="-20" y="0"/>
+        <Point x="-30" y="10"/>
+        <Point x="-20" y="20"/>
+        <Point x="-20" y="20"/>
+        <Point x="-10" y="20"/>
+        <Point x="-20" y="10"/>
+        <Point x="-10" y="0"/>
+        <Point x="0" y="0"/>
+        <Point x="-10" y="10"/>
+        <Point x="0" y="20"/>
+        <Point x="-10" y="20"/>
+        <Point x="10" y="20"/>
+        <Point x="50" y="20"/>
+        <Point x="0" y="20"/>
+        <Point x="-10" y="10"/>
+        <Point x="0" y="0"/>
+        <Point x="40" y="0"/>
+        <Point x="40" y="20"/>
+        <Point x="80" y="20"/>
+        <Point x="40" y="20"/>
+        <Point x="40" y="0"/>
+        <Point x="80" y="0"/>
+        <Point x="80" y="20"/>
+        <Point x="80" y="0"/>
+        <Point x="40" y="0"/>
+        <Point x="-20" y="0"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="131" posOffset-y="-10" editableItem="0" ID="0" text="IN" posOffset-x="-50"/>
+        <TextItem myStyleIO="3" posOffset-y="-10" editableItem="0" ID="1" text="OUT" posOffset-x="80"/>
+        <TextItem myStyleIO="0" posOffset-y="-10" editableItem="1" ID="11" text="1" posOffset-x="20"/>
+    </TextItems><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]></CustomItem>

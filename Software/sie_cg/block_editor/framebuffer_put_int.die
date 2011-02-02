@@ -1,0 +1,53 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="FB Put Int">
+    <Polygon>
+        <Point x="-100" y="-40"/>
+        <Point x="100" y="-40"/>
+        <Point x="100" y="-20"/>
+        <Point x="-100" y="-20"/>
+        <Point x="-100" y="-40"/>
+        <Point x="-100" y="20"/>
+        <Point x="60" y="20"/>
+        <Point x="60" y="0"/>
+        <Point x="100" y="0"/>
+        <Point x="100" y="20"/>
+        <Point x="60" y="20"/>
+        <Point x="100" y="20"/>
+        <Point x="100" y="0"/>
+        <Point x="100" y="0"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="-20"/>
+        <Point x="100" y="0"/>
+        <Point x="60" y="0"/>
+        <Point x="60" y="-20"/>
+        <Point x="40" y="-20"/>
+        <Point x="40" y="0"/>
+        <Point x="60" y="0"/>
+        <Point x="0" y="0"/>
+        <Point x="0" y="-20"/>
+        <Point x="-20" y="-20"/>
+        <Point x="-20" y="0"/>
+        <Point x="0" y="0"/>
+        <Point x="-20" y="0"/>
+        <Point x="-20" y="20"/>
+        <Point x="-100" y="20"/>
+        <Point x="-100" y="20"/>
+        <Point x="-100" y="-20"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-10" editableItem="1" ID="7" text="0" posOffset-x="80"/>
+        <TextItem myStyleIO="0" posOffset-y="-10" editableItem="0" ID="6" text="Color idx" posOffset-x="20"/>
+        <TextItem myStyleIO="0" posOffset-y="30" editableItem="0" ID="0" text="Frame Buffer Print Integer" posOffset-x="0"/>
+        <TextItem myStyleIO="131" posOffset-y="-0" editableItem="0" ID="1" text="IN Integer" posOffset-x="-100"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="0" ID="2" text="X" posOffset-x="-10"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="1" ID="3" text="0" posOffset-x="20"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="0" ID="4" text="Y" posOffset-x="50"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="1" ID="5" text="0" posOffset-x="80"/>
+    </TextItems><![CDATA[]]><![CDATA[]]><![CDATA[	
+	put_int(value_3,value_5,in_1,value_7);
+]]><![CDATA[]]></CustomItem>

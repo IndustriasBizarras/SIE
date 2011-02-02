@@ -1,0 +1,690 @@
+Release 10.1.03 - xst K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> 
+PMSPEC -- Overriding Xilinx file </opt/cad/Xilinx/10.1/ISE/spartan3/data/spartan3.acd> with local file </opt/cad/Xilinx/10.1/ISE/spartan3/data/spartan3.acd>
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "project.src"
+Input Format                       : mixed
+
+---- Target Parameters
+Target Device                      : xc3s500e-VQ100-4
+Output File Name                   : "project.ngc"
+Output Format                      : NGC
+
+---- Source Options
+Top Module Name                    : uart_peripheral
+
+---- General Options
+Optimization Goal                  : Area
+Optimization Effort                : 1
+RTL Output                         : yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../uart_peripheral.v" in library work
+Compiling verilog file "../uart.v" in library work
+Module <uart_peripheral> compiled
+Module <UART> compiled
+Module <pc_buffrx_pc> compiled
+Module <pc_bufftx> compiled
+Module <pc_ctrl_rx> compiled
+Module <pc_ctrl_tx_pc> compiled
+Module <pc_dato_rdy> compiled
+Module <pc_div27> compiled
+Module <pc_div16> compiled
+Module <pc_div_ms> compiled
+Module <pc_ier> compiled
+Module <pc_if_arm_pc> compiled
+Module <pc_ifrxd> compiled
+Module <pc_isr> compiled
+Module <pc_lcr> compiled
+Module <pc_muestreo> compiled
+Module <pc_pulso> compiled
+No errors in compilation
+Analysis of file <"project.src"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <uart_peripheral> in library <work> with parameters.
+	B = "00000000000000000000000000000111"
+
+Analyzing hierarchy for module <UART> in library <work>.
+
+Analyzing hierarchy for module <pc_if_arm_pc> in library <work>.
+
+Analyzing hierarchy for module <pc_div27> in library <work>.
+
+Analyzing hierarchy for module <pc_div_ms> in library <work>.
+
+Analyzing hierarchy for module <pc_pulso> in library <work>.
+
+Analyzing hierarchy for module <pc_div16> in library <work>.
+
+Analyzing hierarchy for module <pc_ifrxd> in library <work>.
+
+Analyzing hierarchy for module <pc_muestreo> in library <work>.
+
+Analyzing hierarchy for module <pc_buffrx_pc> in library <work>.
+
+Analyzing hierarchy for module <pc_ctrl_rx> in library <work>.
+
+Analyzing hierarchy for module <pc_dato_rdy> in library <work>.
+
+Analyzing hierarchy for module <pc_bufftx> in library <work>.
+
+Analyzing hierarchy for module <pc_ctrl_tx_pc> in library <work>.
+
+Analyzing hierarchy for module <pc_ier> in library <work>.
+
+Analyzing hierarchy for module <pc_lcr> in library <work>.
+
+Analyzing hierarchy for module <pc_isr> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <uart_peripheral>.
+	B = 32'sb00000000000000000000000000000111
+WARNING:Xst:852 - "../uart_peripheral.v" line 63: Unconnected input port 'CD' of instance 'UART' is tied to GND.
+WARNING:Xst:852 - "../uart_peripheral.v" line 63: Unconnected input port 'RI' of instance 'UART' is tied to GND.
+WARNING:Xst:852 - "../uart_peripheral.v" line 63: Unconnected input port 'DSR' of instance 'UART' is tied to GND.
+WARNING:Xst:852 - "../uart_peripheral.v" line 63: Unconnected input port 'CTS' of instance 'UART' is tied to GND.
+Module <uart_peripheral> is correct for synthesis.
+ 
+Analyzing module <UART> in library <work>.
+Module <UART> is correct for synthesis.
+ 
+Analyzing module <pc_if_arm_pc> in library <work>.
+Module <pc_if_arm_pc> is correct for synthesis.
+ 
+Analyzing module <pc_div27> in library <work>.
+Module <pc_div27> is correct for synthesis.
+ 
+Analyzing module <pc_div_ms> in library <work>.
+Module <pc_div_ms> is correct for synthesis.
+ 
+Analyzing module <pc_pulso> in library <work>.
+Module <pc_pulso> is correct for synthesis.
+ 
+Analyzing module <pc_div16> in library <work>.
+Module <pc_div16> is correct for synthesis.
+ 
+Analyzing module <pc_ifrxd> in library <work>.
+Module <pc_ifrxd> is correct for synthesis.
+ 
+Analyzing module <pc_muestreo> in library <work>.
+Module <pc_muestreo> is correct for synthesis.
+ 
+Analyzing module <pc_buffrx_pc> in library <work>.
+Module <pc_buffrx_pc> is correct for synthesis.
+ 
+Analyzing module <pc_ctrl_rx> in library <work>.
+Module <pc_ctrl_rx> is correct for synthesis.
+ 
+Analyzing module <pc_dato_rdy> in library <work>.
+Module <pc_dato_rdy> is correct for synthesis.
+ 
+Analyzing module <pc_bufftx> in library <work>.
+Module <pc_bufftx> is correct for synthesis.
+ 
+Analyzing module <pc_ctrl_tx_pc> in library <work>.
+Module <pc_ctrl_tx_pc> is correct for synthesis.
+ 
+Analyzing module <pc_ier> in library <work>.
+Module <pc_ier> is correct for synthesis.
+ 
+Analyzing module <pc_lcr> in library <work>.
+Module <pc_lcr> is correct for synthesis.
+ 
+Analyzing module <pc_isr> in library <work>.
+Module <pc_isr> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <buftx<10>> in unit <pc_bufftx> has a constant value of 1 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <pc_if_arm_pc>.
+    Related source file is "../uart.v".
+WARNING:Xst:647 - Input <CLK> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <data_in> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <dato_tx> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <pc_if_arm_pc> synthesized.
+
+
+Synthesizing Unit <pc_div27>.
+    Related source file is "../uart.v".
+    Found 6-bit up counter for signal <div27>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <pc_div27> synthesized.
+
+
+Synthesizing Unit <pc_div_ms>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <clk_out>.
+    Found 16-bit register for signal <div>.
+    Found 16-bit adder for signal <div$addsub0000> created at line 581.
+    Found 16-bit comparator equal for signal <div$cmp_eq0000> created at line 574.
+    Found 16-bit register for signal <k_div>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <pc_div_ms> synthesized.
+
+
+Synthesizing Unit <pc_pulso>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <dff>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <pc_pulso> synthesized.
+
+
+Synthesizing Unit <pc_div16>.
+    Related source file is "../uart.v".
+    Found 4-bit up counter for signal <div16>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <pc_div16> synthesized.
+
+
+Synthesizing Unit <pc_ifrxd>.
+    Related source file is "../uart.v".
+    Found 3-bit register for signal <ifrxd>.
+    Found 1-bit xor2 for signal <ifrxd_2$xor0000> created at line 967.
+    Found 1-bit xor2 for signal <ifrxd_2$xor0001> created at line 967.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <pc_ifrxd> synthesized.
+
+
+Synthesizing Unit <pc_muestreo>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <sample>.
+    Found 4-bit up counter for signal <cont_m>.
+    Found 1-bit register for signal <flag_rx>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <pc_muestreo> synthesized.
+
+
+Synthesizing Unit <pc_buffrx_pc>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <err_paridad>.
+    Found 8-bit register for signal <datorx>.
+    Found 1-bit register for signal <err_frame>.
+    Found 10-bit register for signal <bufrx>.
+    Found 1-bit xor9 for signal <iparity>.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <pc_buffrx_pc> synthesized.
+
+
+Synthesizing Unit <pc_ctrl_rx>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <rx_lleno>.
+    Found 4-bit up counter for signal <cont_rx>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <pc_ctrl_rx> synthesized.
+
+
+Synthesizing Unit <pc_dato_rdy>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <dato_rdy>.
+    Found 1-bit register for signal <err_overrun>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <pc_dato_rdy> synthesized.
+
+
+Synthesizing Unit <pc_bufftx>.
+    Related source file is "../uart.v".
+    Found 10-bit register for signal <buftx<9:0>>.
+    Found 8-bit register for signal <dato_tx>.
+    Found 1-bit xor8 for signal <iparity>.
+    Summary:
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <pc_bufftx> synthesized.
+
+
+Synthesizing Unit <pc_ctrl_tx_pc>.
+    Related source file is "../uart.v".
+    Found 1-bit register for signal <tx_empty>.
+    Found 4-bit up counter for signal <cont_tx>.
+    Found 1-bit register for signal <tx_on>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <pc_ctrl_tx_pc> synthesized.
+
+
+Synthesizing Unit <pc_ier>.
+    Related source file is "../uart.v".
+WARNING:Xst:647 - Input <data_in<7:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4-bit register for signal <IER>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <pc_ier> synthesized.
+
+
+Synthesizing Unit <pc_lcr>.
+    Related source file is "../uart.v".
+    Found 8-bit register for signal <LCR>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <pc_lcr> synthesized.
+
+
+Synthesizing Unit <pc_isr>.
+    Related source file is "../uart.v".
+WARNING:Xst:647 - Input <IER<2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <err_overrunm> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit register for signal <ISR>.
+    Found 1-bit register for signal <aux1>.
+    Found 1-bit register for signal <carga_ISRd>.
+    Found 1-bit register for signal <mask_dato_rdy>.
+    Found 1-bit register for signal <mask_err_overrun>.
+    Found 1-bit register for signal <mask_error>.
+    Found 1-bit register for signal <mask_modem_int>.
+    Found 1-bit register for signal <mask_tx_empty>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+Unit <pc_isr> synthesized.
+
+
+Synthesizing Unit <UART>.
+    Related source file is "../uart.v".
+WARNING:Xst:647 - Input <CD> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <RTS> is never assigned. Tied to value 0.
+WARNING:Xst:647 - Input <CTS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <DSR> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <DTR> is never assigned. Tied to value 0.
+WARNING:Xst:647 - Input <RI> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <modem_int> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <modem> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:1780 - Signal <error> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dato_tx> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <carga_div> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <carga_MSR> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <carga_MCR> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <WordLength> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Stop> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Break> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <UART> synthesized.
+
+
+Synthesizing Unit <uart_peripheral>.
+    Related source file is "../uart_peripheral.v".
+WARNING:Xst:647 - Input <RxD2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <TxD2> is never assigned.
+WARNING:Xst:646 - Signal <out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <buffer_addr<12:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <RD> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <ISRC_LP> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit tristate buffer for signal <sram_data>.
+    Found 13-bit register for signal <buffer_addr>.
+    Found 8-bit register for signal <buffer_data>.
+    Found 24-bit up counter for signal <counter>.
+    Found 1-bit register for signal <sncs>.
+    Found 1-bit register for signal <snwe>.
+    Found 1-bit register for signal <w_st>.
+    Found 8-bit register for signal <wdBus>.
+    Found 1-bit register for signal <we>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   8 Tristate(s).
+Unit <uart_peripheral> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Counters                                             : 6
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 4
+ 6-bit up counter                                      : 1
+# Registers                                            : 71
+ 1-bit register                                        : 62
+ 13-bit register                                       : 1
+ 16-bit register                                       : 1
+ 4-bit register                                        : 2
+ 8-bit register                                        : 5
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 2
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment /opt/cad/Xilinx/10.1/ISE:/opt/cad/Xilinx/10.1/ISE/.
+WARNING:Xst:1710 - FF/Latch <ISR_3> (without init value) has a constant value of 0 in block <pc_isr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <buffer_addr_3> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_4> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_5> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_6> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_7> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_8> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_9> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_10> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_11> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <buffer_addr_12> of sequential type is unconnected in block <uart_peripheral>.
+WARNING:Xst:2677 - Node <IER_3> of sequential type is unconnected in block <ier1>.
+WARNING:Xst:2677 - Node <mask_modem_int> of sequential type is unconnected in block <isr1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Counters                                             : 6
+ 24-bit up counter                                     : 1
+ 4-bit up counter                                      : 4
+ 6-bit up counter                                      : 1
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+# Comparators                                          : 1
+ 16-bit comparator equal                               : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 2
+ 1-bit xor8                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <mask_modem_int> of sequential type is unconnected in block <pc_isr>.
+
+Optimizing unit <uart_peripheral> ...
+
+Optimizing unit <pc_div_ms> ...
+
+Optimizing unit <pc_buffrx_pc> ...
+
+Optimizing unit <pc_bufftx> ...
+
+Optimizing unit <pc_isr> ...
+WARNING:Xst:2677 - Node <UART/ier1/IER_3> of sequential type is unconnected in block <uart_peripheral>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+FlipFlop counter_23 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 173
+ Flip-Flops                                            : 173
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : project.ngr
+Top Level Output File Name         : project.ngc
+Output Format                      : NGC
+Optimization Goal                  : Area
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 278
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 38
+#      LUT2                        : 10
+#      LUT3                        : 48
+#      LUT4                        : 78
+#      MUXCY                       : 46
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 173
+#      FD                          : 3
+#      FD_1                        : 13
+#      FDC                         : 10
+#      FDCE                        : 80
+#      FDE                         : 1
+#      FDP                         : 1
+#      FDPE                        : 14
+#      FDR                         : 36
+#      FDRE                        : 12
+#      FDSE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 8
+#      IOBUF                       : 8
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500evq100-4 
+
+ Number of Slices:                      114  out of   4656     2%  
+ Number of Slice Flip Flops:            158  out of   9312     1%  
+ Number of 4 input LUTs:                183  out of   9312     1%  
+ Number of IOs:                          22
+ Number of bonded IOBs:                  20  out of     66    30%  
+    IOB Flip Flops:                      15
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 173   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------+-------+
+Control Signal                     | Buffer(FF name)           | Load  |
+-----------------------------------+---------------------------+-------+
+reset_inv(reset_inv1_INV_0:O)      | NONE(UART/bufftx1/buftx_9)| 105   |
+-----------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 13.338ns (Maximum Frequency: 74.974MHz)
+   Minimum input arrival time before clock: 4.803ns
+   Maximum output required time after clock: 9.916ns
+   Maximum combinational path delay: 6.573ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 13.338ns (frequency: 74.974MHz)
+  Total number of paths / destination ports: 2891 / 269
+-------------------------------------------------------------------------
+Delay:               6.669ns (Levels of Logic = 3)
+  Source:            buffer_addr_1 (FF)
+  Destination:       UART/div_ms1/div_15 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk rising
+
+  Data Path: buffer_addr_1 to UART/div_ms1/div_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q            13   0.591   0.987  buffer_addr_1 (buffer_addr_1)
+     LUT4:I3->O            3   0.704   0.566  UART/if_arm1/data_out_cmp_eq00001 (UART/if_arm1/data_out_cmp_eq0000)
+     LUT3:I2->O            9   0.704   0.824  UART/if_arm1/carga_div_low1 (UART/carga_div_low)
+     LUT4:I3->O           16   0.704   1.034  UART/div_ms1/div_not00021 (UART/div_ms1/div_not0002)
+     FDCE:CE                   0.555          UART/div_ms1/div_0
+    ----------------------------------------
+    Total                      6.669ns (3.258ns logic, 3.411ns route)
+                                       (48.9% logic, 51.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 69 / 69
+-------------------------------------------------------------------------
+Offset:              4.803ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       w_st (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to w_st
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.218   0.669  reset_IBUF (reset_IBUF)
+     INV:I->O            155   0.704   1.301  reset_inv1_INV_0 (reset_inv)
+     FDR:R                     0.911          w_st
+    ----------------------------------------
+    Total                      4.803ns (2.833ns logic, 1.970ns route)
+                                       (59.0% logic, 41.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 169 / 11
+-------------------------------------------------------------------------
+Offset:              9.916ns (Levels of Logic = 5)
+  Source:            buffer_addr_0 (FF)
+  Destination:       sram_data<2> (PAD)
+  Source Clock:      clk falling
+
+  Data Path: buffer_addr_0 to sram_data<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             5   0.591   0.808  buffer_addr_0 (buffer_addr_0)
+     LUT2:I0->O            2   0.704   0.482  UART/if_arm1/data_out_or000111 (N6)
+     LUT4:I2->O            8   0.704   0.932  UART/if_arm1/data_out<0>11 (N01)
+     LUT4:I0->O            1   0.704   0.595  UART/if_arm1/data_out<2>4 (UART/if_arm1/data_out<2>4)
+     LUT4:I0->O            1   0.704   0.420  UART/if_arm1/data_out<2>14 (rdBus<2>)
+     IOBUF:I->IO               3.272          sram_data_2_IOBUF (sram_data<2>)
+    ----------------------------------------
+    Total                      9.916ns (6.679ns logic, 3.237ns route)
+                                       (67.4% logic, 32.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Delay:               6.573ns (Levels of Logic = 3)
+  Source:            ncs (PAD)
+  Destination:       sram_data<7> (PAD)
+
+  Data Path: ncs to sram_data<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  ncs_IBUF (ncs_IBUF)
+     LUT2:I0->O            8   0.704   0.757  T1 (T)
+     IOBUF:T->IO               3.272          sram_data_7_IOBUF (sram_data<7>)
+    ----------------------------------------
+    Total                      6.573ns (5.194ns logic, 1.379ns route)
+                                       (79.0% logic, 21.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 24.17 secs
+ 
+--> 
+
+
+Total memory usage is 143224 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   49 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

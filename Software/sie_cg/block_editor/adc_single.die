@@ -1,0 +1,31 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="ADC Single">
+    <Polygon>
+        <Point x="-80" y="-10"/>
+        <Point x="-60" y="-40"/>
+        <Point x="110" y="-40"/>
+        <Point x="110" y="20"/>
+        <Point x="60" y="20"/>
+        <Point x="60" y="-40"/>
+        <Point x="60" y="20"/>
+        <Point x="110" y="20"/>
+        <Point x="110" y="-40"/>
+        <Point x="60" y="-40"/>
+        <Point x="60" y="20"/>
+        <Point x="-60" y="20"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-10" editableItem="0" ID="3" text="Clock Div." posOffset-x="-30"/>
+        <TextItem myStyleIO="0" posOffset-y="30" editableItem="0" ID="1" text="ADC Single Channel" posOffset-x="0"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="1" ID="0" text="0" posOffset-x="30"/>
+        <TextItem myStyleIO="10" posOffset-y="10" editableItem="0" ID="2" text="UShort" posOffset-x="110"/>
+        <TextItem myStyleIO="0" posOffset-y="10" editableItem="0" ID="5" text="Channel:" posOffset-x="-30"/>
+        <TextItem myStyleIO="0" posOffset-y="-10" editableItem="1" ID="4" text="255" posOffset-x="30"/>
+    </TextItems><![CDATA[]]><![CDATA[
+	ADC_SPI_CLKDIV=value_4;
+	ADC_BUFFER_LEN=2;
+	ADC_MUX_CHANNELS=0;
+]]><![CDATA[
+	JZ_REG * ADC_DATA = ADCTakeSamples(ADCBuffer,value_0);
+	out_2 = ADC_DATA[0]&0x03FF;
+]]><![CDATA[]]></CustomItem>

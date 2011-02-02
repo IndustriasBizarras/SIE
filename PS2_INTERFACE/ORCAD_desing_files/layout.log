@@ -1,0 +1,2247 @@
+Wed Sep 08 20:22:56 UserDiv from Layout.INI for AutoECO: 60
+Wed Sep 08 20:22:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:22:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:22:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:23:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:44 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:23:45 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:23:45 Saved as file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:29:56 UserDiv from Layout.INI for AutoECO: 60
+Wed Sep 08 20:29:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:29:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:29:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:29:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:29:56 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:29:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:30:09 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Sep 08 20:30:09 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Sep 08 20:30:19 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:30:22 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:30:22 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:30:22 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:30:22 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:30:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:30:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:30:46 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\data\template.imp
+Wed Sep 08 20:30:57 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:30:57 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:30:57 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:30:57 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:30:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:31:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:31:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:31:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:31:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:31:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:31:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:22 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:31:32 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:31:32 Saved as file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:44:20 UserDiv from Layout.INI for AutoECO: 60
+Wed Sep 08 20:44:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:44:20 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:44:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:44:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:44:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:44:20 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:44:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:44:28 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:28 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:44:29 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:44:29 Saved as file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:56:24 UserDiv from Layout.INI for AutoECO: 60
+Wed Sep 08 20:56:24 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\METRIC.TCH
+Wed Sep 08 20:56:24 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:56:24 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EMPTY.LLB
+Wed Sep 08 20:56:24 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\EX_GUI.LLB
+Wed Sep 08 20:56:24 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\METRIC.LLB
+Wed Sep 08 20:56:24 Loaded file C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\LIBRARY\PADSTACK.LLB
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BGA.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\CLCC.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON050T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DCON085T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050F.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIMM050T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100B.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIP100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DSUBT_HD.LLB
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ECON100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\FBUS.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ISA.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\JUMPER.LLB
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LAYOUT.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\LCON100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PC104.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCI.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PCON156T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PGA.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\PLCC.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUAD.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\QUADB.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RELAY.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\RF.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SBUS.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050F.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM050T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100F.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIMM100T.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SIP.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SM.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOG.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\SOJ.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\STIFF.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TELE.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_AXIAL.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CAP_P.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_CYLND.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DIODE.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_DISC.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TM_RAD.llb
+Wed Sep 08 20:56:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TO.llb
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\TRAINING.LLB
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\VRES.llb
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\WCON100T.llb
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\XT.llb
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\ZIGZAG.llb
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\BCON156T.llb
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Plus\library\DIN.llb
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:25 Footprint coords will be rounded to nearest base unit.
+Wed Sep 08 20:56:29 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Wed Sep 08 21:12:29 Saved as file BACKUP1.MAX
+Wed Sep 08 21:22:29 Saved as file BACKUP1.MAX
+Wed Sep 08 21:23:25 Saved as file ~undo.max
+Wed Sep 08 21:24:04 Saved as file ~undo.max
+Wed Sep 08 21:24:10 Saved as file ~undo.max
+Wed Sep 08 21:24:15 Saved as file ~undo.max
+Wed Sep 08 21:24:36 Saved as file ~undo.max
+Wed Sep 08 21:24:41 Saved as file ~undo.max
+Wed Sep 08 21:24:54 Saved as file ~undo.max
+Wed Sep 08 21:32:29 Saved as file BACKUP1.MAX
+Wed Sep 08 21:42:29 Saved as file BACKUP1.MAX
+Wed Sep 08 21:52:29 Saved as file BACKUP1.MAX
+Wed Sep 08 21:58:01 Saved as file ~undo2.max
+Wed Sep 08 21:58:01 Loaded file ~undo.max
+Wed Sep 08 22:02:29 Saved as file BACKUP1.MAX
+Wed Sep 08 22:13:30 Saved as file BACKUP1.MAX
+Thu Sep 09 16:43:31 UserDiv from Layout.INI for AutoECO: 60
+Thu Sep 09 16:43:31 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-2.TCH
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Thu Sep 09 16:43:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Thu Sep 09 16:43:32 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-2.TCH
+Thu Sep 09 16:43:32 Saved as file Z:\ORCAD_DESIGN_FILES\SAKC-2.TCH
+Thu Sep 09 17:35:10 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 17:49:27 Saved as file BACKUP1.MAX
+Thu Sep 09 17:59:27 Saved as file BACKUP1.MAX
+Thu Sep 09 18:05:30 Saved as file ~undo.max
+Thu Sep 09 18:05:31 Saved as file ~undo.max
+Thu Sep 09 18:08:26 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:08:27 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:09:27 Saved as file BACKUP1.MAX
+Thu Sep 09 18:10:24 Saved as file ~undo.max
+Thu Sep 09 18:10:32 Saved as file ~undo.max
+Thu Sep 09 18:10:36 Saved as file ~undo.max
+Thu Sep 09 18:10:44 Saved as file ~undo.max
+Thu Sep 09 18:13:29 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:23:38 Saved as file BACKUP1.MAX
+Thu Sep 09 18:27:09 Saved as file ~undo.max
+Thu Sep 09 18:28:01 Saved as file ~undo.max
+Thu Sep 09 18:28:08 Saved as file ~undo.max
+Thu Sep 09 18:28:16 Saved as file ~undo.max
+Thu Sep 09 18:28:34 Saved as file ~undo.max
+Thu Sep 09 18:28:45 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:28:47 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:29:08 Saved as file ~undo.max
+Thu Sep 09 18:29:12 Saved as file ~undo.max
+Thu Sep 09 18:29:15 Saved as file ~undo.max
+Thu Sep 09 18:29:18 Saved as file ~undo.max
+Thu Sep 09 18:29:21 Saved as file ~undo.max
+Thu Sep 09 18:29:27 Saved as file ~undo.max
+Thu Sep 09 18:29:30 Saved as file ~undo.max
+Thu Sep 09 18:29:33 Saved as file ~undo.max
+Thu Sep 09 18:29:52 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:30:01 Saved as file ~undo.max
+Thu Sep 09 18:30:03 Saved as file ~undo.max
+Thu Sep 09 18:33:47 Saved as file ~undo.max
+Thu Sep 09 18:33:49 Saved as file ~undo.max
+Thu Sep 09 18:33:54 Saved as file ~undo.max
+Thu Sep 09 18:35:38 Saved as file BACKUP1.MAX
+Thu Sep 09 18:38:19 Saved as file ~undo.max
+Thu Sep 09 18:38:26 Saved as file ~undo2.max
+Thu Sep 09 18:38:26 Loaded file ~undo.max
+Thu Sep 09 18:38:32 Saved as file ~undo2.max
+Thu Sep 09 18:38:32 Loaded file ~undo.max
+Thu Sep 09 18:38:34 Saved as file ~undo2.max
+Thu Sep 09 18:38:34 Loaded file ~undo.max
+Thu Sep 09 18:38:35 Saved as file ~undo2.max
+Thu Sep 09 18:38:35 Loaded file ~undo.max
+Thu Sep 09 18:38:35 Saved as file ~undo2.max
+Thu Sep 09 18:38:35 Loaded file ~undo.max
+Thu Sep 09 18:38:36 Saved as file ~undo2.max
+Thu Sep 09 18:38:36 Loaded file ~undo.max
+Thu Sep 09 18:38:37 Saved as file ~undo2.max
+Thu Sep 09 18:38:37 Loaded file ~undo.max
+Thu Sep 09 18:38:37 Saved as file ~undo2.max
+Thu Sep 09 18:38:37 Loaded file ~undo.max
+Thu Sep 09 18:38:38 Saved as file ~undo2.max
+Thu Sep 09 18:38:38 Loaded file ~undo.max
+Thu Sep 09 18:38:38 Saved as file ~undo2.max
+Thu Sep 09 18:38:38 Loaded file ~undo.max
+Thu Sep 09 18:38:39 Saved as file ~undo2.max
+Thu Sep 09 18:38:39 Loaded file ~undo.max
+Thu Sep 09 18:38:40 Saved as file ~undo2.max
+Thu Sep 09 18:38:40 Loaded file ~undo.max
+Thu Sep 09 18:38:40 Saved as file ~undo2.max
+Thu Sep 09 18:38:40 Loaded file ~undo.max
+Thu Sep 09 18:38:41 Saved as file ~undo2.max
+Thu Sep 09 18:38:41 Loaded file ~undo.max
+Thu Sep 09 18:38:42 Saved as file ~undo2.max
+Thu Sep 09 18:38:42 Loaded file ~undo.max
+Thu Sep 09 18:38:43 Saved as file ~undo2.max
+Thu Sep 09 18:38:43 Loaded file ~undo.max
+Thu Sep 09 18:38:43 Saved as file ~undo2.max
+Thu Sep 09 18:38:43 Loaded file ~undo.max
+Thu Sep 09 18:38:48 Saved as file ~undo2.max
+Thu Sep 09 18:38:48 Loaded file ~undo.max
+Thu Sep 09 18:38:48 Saved as file ~undo2.max
+Thu Sep 09 18:38:48 Loaded file ~undo.max
+Thu Sep 09 18:38:49 Saved as file ~undo2.max
+Thu Sep 09 18:38:49 Loaded file ~undo.max
+Thu Sep 09 18:39:09 Saved as file ~undo2.max
+Thu Sep 09 18:39:09 Loaded file ~undo.max
+Thu Sep 09 18:39:18 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:39:39 Saved as file ~undo.max
+Thu Sep 09 18:39:50 Saved as file ~undo.max
+Thu Sep 09 18:40:07 Saved as file ~undo.max
+Thu Sep 09 18:40:14 Saved as file ~undo.max
+Thu Sep 09 18:40:35 Saved as file ~undo.max
+Thu Sep 09 18:41:39 Saved as file ~undo.max
+Thu Sep 09 18:41:45 Saved as file ~undo.max
+Thu Sep 09 18:41:51 Saved as file ~undo.max
+Thu Sep 09 18:41:58 Saved as file ~undo.max
+Thu Sep 09 18:42:05 Saved as file ~undo.max
+Thu Sep 09 18:42:11 Saved as file ~undo.max
+Thu Sep 09 18:42:21 Saved as file ~undo.max
+Thu Sep 09 18:46:08 Saved as file BACKUP1.MAX
+Thu Sep 09 18:49:39 Saved as file ~undo.max
+Thu Sep 09 18:51:48 Saved as file ~undo.max
+Thu Sep 09 18:52:03 Saved as file ~undo.max
+Thu Sep 09 18:52:18 Saved as file ~undo.max
+Thu Sep 09 18:52:44 Saved as file ~undo.max
+Thu Sep 09 18:53:01 Saved as file ~undo.max
+Thu Sep 09 18:53:12 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 18:53:36 Saved as file ~undo.max
+Thu Sep 09 18:53:56 Saved as file ~undo.max
+Thu Sep 09 18:54:08 Saved as file ~undo.max
+Thu Sep 09 18:54:16 Saved as file ~undo.max
+Thu Sep 09 18:55:07 Saved as file ~undo.max
+Thu Sep 09 18:56:09 Saved as file BACKUP1.MAX
+Thu Sep 09 19:00:09 Saved as file ~undo.max
+Thu Sep 09 19:00:12 Saved as file ~undo.max
+Thu Sep 09 19:00:15 Saved as file ~undo.max
+Thu Sep 09 19:00:30 Saved as file ~undo.max
+Thu Sep 09 19:00:45 Saved as file ~undo.max
+Thu Sep 09 19:00:46 Saved as file ~undo.max
+Thu Sep 09 19:01:04 Saved as file ~undo.max
+Thu Sep 09 19:02:44 Saved as file ~undo.max
+Thu Sep 09 19:02:53 Saved as file ~undo.max
+Thu Sep 09 19:02:58 Saved as file ~undo.max
+Thu Sep 09 19:03:06 Saved as file ~undo.max
+Thu Sep 09 19:03:27 Saved as file ~undo.max
+Thu Sep 09 19:03:34 Saved as file ~undo.max
+Thu Sep 09 19:03:36 Saved as file ~undo.max
+Thu Sep 09 19:03:50 Saved as file ~undo.max
+Thu Sep 09 19:04:12 Saved as file ~undo.max
+Thu Sep 09 19:04:35 Saved as file ~undo.max
+Thu Sep 09 19:04:51 Saved as file ~undo.max
+Thu Sep 09 19:05:13 Saved as file ~undo.max
+Thu Sep 09 19:05:39 Saved as file ~undo.max
+Thu Sep 09 19:06:09 Saved as file BACKUP1.MAX
+Thu Sep 09 19:06:31 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:08:08 Saved as file ~undo.max
+Thu Sep 09 19:08:21 Saved as file ~undo.max
+Thu Sep 09 19:08:53 Saved as file ~undo.max
+Thu Sep 09 19:09:05 Saved as file ~undo.max
+Thu Sep 09 19:09:35 Saved as file ~undo.max
+Thu Sep 09 19:09:50 Saved as file ~undo.max
+Thu Sep 09 19:09:57 Saved as file ~undo.max
+Thu Sep 09 19:10:17 Saved as file ~undo.max
+Thu Sep 09 19:10:27 Saved as file ~undo.max
+Thu Sep 09 19:10:37 Saved as file ~undo.max
+Thu Sep 09 19:10:45 Saved as file ~undo.max
+Thu Sep 09 19:11:02 Saved as file ~undo.max
+Thu Sep 09 19:11:57 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:12:07 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:16:09 Saved as file BACKUP1.MAX
+Thu Sep 09 19:17:50 Saved as file ~undo.max
+Thu Sep 09 19:18:13 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:18:15 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:18:15 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:18:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 19:18:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 19:19:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Thu Sep 09 19:19:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Thu Sep 09 19:20:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Thu Sep 09 19:27:17 Saved as file ~undo.max
+Thu Sep 09 19:27:18 Saved as file ~undo.max
+Thu Sep 09 19:27:55 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:28:21 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:21 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 19:28:25 Saved as file ~undo.max
+Thu Sep 09 19:28:59 Saved as file ~undo.max
+Thu Sep 09 19:29:08 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:29:09 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:33:46 Saved as file ~undo.max
+Thu Sep 09 19:34:16 Saved as file ~undo.max
+Thu Sep 09 19:34:50 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 19:39:49 Saved as file BACKUP1.MAX
+Thu Sep 09 19:49:49 Saved as file BACKUP1.MAX
+Thu Sep 09 20:00:19 Saved as file BACKUP1.MAX
+Thu Sep 09 20:03:16 Saved as file ~undo.max
+Thu Sep 09 20:03:29 Saved as file ~undo.max
+Thu Sep 09 20:04:57 Saved as file ~undo.max
+Thu Sep 09 20:05:03 Saved as file ~undo.max
+Thu Sep 09 20:05:06 Saved as file ~undo.max
+Thu Sep 09 20:05:09 Saved as file ~undo.max
+Thu Sep 09 20:05:12 Saved as file ~undo.max
+Thu Sep 09 20:05:40 Saved as file ~undo.max
+Thu Sep 09 20:05:42 Saved as file ~undo.max
+Thu Sep 09 20:05:48 Saved as file ~undo.max
+Thu Sep 09 20:08:46 Saved as file ~undo.max
+Thu Sep 09 20:10:19 Saved as file BACKUP1.MAX
+Thu Sep 09 20:14:57 Saved as file ~undo.max
+Thu Sep 09 20:14:58 Saved as file ~undo.max
+Thu Sep 09 20:15:00 Saved as file ~undo.max
+Thu Sep 09 20:15:01 Saved as file ~undo.max
+Thu Sep 09 20:15:01 Saved as file ~undo.max
+Thu Sep 09 20:15:10 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 20:15:23 Saved as file ~undo.max
+Thu Sep 09 20:17:09 Saved as file ~undo.max
+Thu Sep 09 20:17:55 Saved as file BACKUP1.MAX
+Thu Sep 09 20:17:55 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 20:17:58 UserDiv from Layout.INI for AutoECO: 60
+Thu Sep 09 20:17:58 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-1.MAX
+Thu Sep 09 20:17:58 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Thu Sep 09 20:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Thu Sep 09 20:18:00 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 20:18:01 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 20:25:17 Saved as file ~undo.max
+Thu Sep 09 20:25:31 Saved as file ~undo.max
+Thu Sep 09 20:26:09 Saved as file ~undo.max
+Thu Sep 09 20:27:34 Saved as file ~undo2.max
+Thu Sep 09 20:27:34 Loaded file ~undo.max
+Thu Sep 09 20:27:35 Saved as file ~undo2.max
+Thu Sep 09 20:27:35 Loaded file ~undo.max
+Thu Sep 09 20:27:36 Saved as file ~undo2.max
+Thu Sep 09 20:27:36 Loaded file ~undo.max
+Thu Sep 09 20:27:37 Saved as file ~undo2.max
+Thu Sep 09 20:27:37 Loaded file ~undo.max
+Thu Sep 09 20:27:37 Saved as file ~undo2.max
+Thu Sep 09 20:27:37 Loaded file ~undo.max
+Thu Sep 09 20:27:46 Saved as file BACKUP1.MAX
+Thu Sep 09 20:27:49 Saved as file ~undo.max
+Thu Sep 09 20:28:34 Saved as file ~undo.max
+Thu Sep 09 20:30:07 Saved as file ~undo.max
+Thu Sep 09 20:30:56 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 20:34:12 Saved as file ~undo.max
+Thu Sep 09 20:34:43 Saved as file ~undo.max
+Thu Sep 09 20:34:44 Saved as file ~undo.max
+Thu Sep 09 20:36:28 Saved as file ~undo.max
+Thu Sep 09 20:37:27 Saved as file ~undo.max
+Thu Sep 09 20:37:28 Saved as file ~undo.max
+Thu Sep 09 20:37:46 Saved as file BACKUP1.MAX
+Thu Sep 09 20:44:36 Saved as file ~undo.max
+Thu Sep 09 20:46:08 Saved as file ~undo.max
+Thu Sep 09 20:46:32 Saved as file ~undo.max
+Thu Sep 09 20:47:46 Saved as file BACKUP1.MAX
+Thu Sep 09 20:51:29 Saved as file ~undo.max
+Thu Sep 09 20:55:28 Saved as file ~undo.max
+Thu Sep 09 20:55:40 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 20:57:46 Saved as file BACKUP1.MAX
+Thu Sep 09 20:58:10 Saved as file BACKUP1.MAX
+Thu Sep 09 20:58:10 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 20:58:13 UserDiv from Layout.INI for AutoECO: 60
+Thu Sep 09 20:58:13 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 20:58:13 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Thu Sep 09 20:58:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Thu Sep 09 20:58:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Thu Sep 09 20:58:14 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 20:58:14 Saved as file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 20:58:14 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 20:58:16 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-5.MAX
+Thu Sep 09 21:09:02 Saved as file BACKUP1.MAX
+Thu Sep 09 21:19:43 Saved as file ~undo.max
+Thu Sep 09 21:20:02 Saved as file BACKUP1.MAX
+Thu Sep 09 21:24:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 21:24:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 21:24:56 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:24:57 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:28:23 Saved as file ~undo.max
+Thu Sep 09 21:28:24 Saved as file ~undo.max
+Thu Sep 09 21:28:25 Saved as file ~undo.max
+Thu Sep 09 21:28:26 Saved as file ~undo.max
+Thu Sep 09 21:30:32 Saved as file BACKUP1.MAX
+Thu Sep 09 21:37:25 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:37:25 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-6.MAX
+Thu Sep 09 21:43:23 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:43:34 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:50:21 Saved as file ~undo.max
+Thu Sep 09 21:50:50 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 21:51:17 Saved as file BACKUP1.MAX
+Thu Sep 09 21:54:14 Saved as file ~undo.max
+Thu Sep 09 22:01:17 Saved as file BACKUP1.MAX
+Thu Sep 09 22:11:17 Saved as file BACKUP1.MAX
+Thu Sep 09 22:12:18 Saved as file ~undo.max
+Thu Sep 09 22:21:17 Saved as file BACKUP1.MAX
+Thu Sep 09 22:30:08 Saved as file ~undo.max
+Thu Sep 09 22:32:17 Saved as file BACKUP1.MAX
+Thu Sep 09 22:41:10 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 22:41:12 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 22:42:17 Saved as file BACKUP1.MAX
+Thu Sep 09 22:55:30 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-7.MAX
+Thu Sep 09 23:09:38 Saved as file BACKUP1.MAX
+Thu Sep 09 23:13:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:13:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:13:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Thu Sep 09 23:13:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:05 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:11 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:14 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:23 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:33 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Thu Sep 09 23:14:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:14:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:15:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:15:03 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:16 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:17 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:18 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:26 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:27 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:31 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:33 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:36 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:37 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:38 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:39 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:39 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:40 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:41 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:43 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:16:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:01 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:02 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:06 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:09 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:10 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:12 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:13 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:15 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:19 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:20 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:21 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:22 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:24 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:25 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:40 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:42 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:43 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:43 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:44 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:45 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:46 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:47 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:48 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:49 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:50 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:52 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:53 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:54 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:55 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:56 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:57 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:58 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:17:59 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\data\template.imp
+Thu Sep 09 23:19:01 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Thu Sep 09 23:19:01 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 23:19:01 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 23:19:01 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 23:19:01 Footprint coords will be rounded to nearest base unit.
+Thu Sep 09 23:19:03 Saved as file ~undo.max
+Thu Sep 09 23:20:38 Saved as file BACKUP1.MAX
+Thu Sep 09 23:21:31 Saved as file ~undo.max
+Thu Sep 09 23:21:56 Saved as file ~undo.max
+Thu Sep 09 23:22:56 Saved as file ~undo.max
+Thu Sep 09 23:23:01 Saved as file ~undo.max
+Thu Sep 09 23:23:11 Saved as file ~undo.max
+Thu Sep 09 23:23:23 Saved as file ~undo.max
+Thu Sep 09 23:23:31 Saved as file ~undo.max
+Thu Sep 09 23:23:37 Saved as file ~undo.max
+Thu Sep 09 23:23:58 Saved as file ~undo.max
+Thu Sep 09 23:24:03 Saved as file ~undo.max
+Thu Sep 09 23:24:16 Saved as file ~undo.max
+Thu Sep 09 23:24:24 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:24:25 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:24:26 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:25:56 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:25:57 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:31:08 Saved as file BACKUP1.MAX
+Thu Sep 09 23:35:08 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Thu Sep 09 23:36:09 Saved as file ~undo.max
+Thu Sep 09 23:39:24 Saved as file ~undo.max
+Thu Sep 09 23:39:25 Saved as file ~undo.max
+Thu Sep 09 23:39:26 Saved as file ~undo.max
+Thu Sep 09 23:40:10 Saved as file ~undo.max
+Thu Sep 09 23:40:48 Saved as file ~undo.max
+Thu Sep 09 23:43:09 Saved as file BACKUP1.MAX
+Thu Sep 09 23:45:16 Saved as file ~undo.max
+Thu Sep 09 23:45:17 Saved as file ~undo.max
+Thu Sep 09 23:45:18 Saved as file ~undo.max
+Thu Sep 09 23:45:18 Saved as file ~undo.max
+Thu Sep 09 23:45:19 Saved as file ~undo.max
+Thu Sep 09 23:45:58 Saved as file ~undo.max
+Thu Sep 09 23:48:41 Saved as file ~undo.max
+Thu Sep 09 23:48:42 Saved as file ~undo.max
+Thu Sep 09 23:48:54 Saved as file ~undo.max
+Thu Sep 09 23:48:55 Saved as file ~undo.max
+Thu Sep 09 23:49:53 Saved as file ~undo.max
+Thu Sep 09 23:54:39 Saved as file BACKUP1.MAX
+Thu Sep 09 23:58:52 Saved as file ~undo.max
+Thu Sep 09 23:59:54 Saved as file ~undo.max
+Thu Sep 09 23:59:55 Saved as file ~undo.max
+Thu Sep 09 23:59:56 Saved as file ~undo.max
+Fri Sep 10 00:00:39 Saved as file ~undo.max
+Fri Sep 10 00:00:40 Saved as file ~undo.max
+Fri Sep 10 00:00:41 Saved as file ~undo.max
+Fri Sep 10 00:05:44 Saved as file ~undo.max
+Fri Sep 10 00:05:45 Saved as file ~undo.max
+Fri Sep 10 00:13:29 Saved as file ~undo.max
+Fri Sep 10 00:21:08 Saved as file ~undo.max
+Fri Sep 10 00:21:10 Saved as file ~undo.max
+Fri Sep 10 00:23:36 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Fri Sep 10 00:23:37 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Fri Sep 10 00:23:38 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Fri Sep 10 00:26:47 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Fri Sep 10 00:26:48 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Fri Sep 10 09:45:16 Saved as file BACKUP1.MAX
+Sat Sep 11 20:42:55 Saved as file ~undo.max
+Sat Sep 11 20:43:04 Saved as file ~undo.max
+Sat Sep 11 20:43:55 Saved as file ~undo.max
+Sat Sep 11 20:43:55 Saved as file ~undo.max
+Sat Sep 11 20:43:56 Saved as file ~undo.max
+Sat Sep 11 20:44:16 Saved as file ~undo.max
+Sat Sep 11 20:44:19 Saved as file ~undo.max
+Sat Sep 11 20:44:56 Saved as file ~undo.max
+Sat Sep 11 20:45:07 Saved as file ~undo.max
+Sat Sep 11 20:45:34 Saved as file ~undo.max
+Sat Sep 11 20:46:07 Saved as file ~undo.max
+Sat Sep 11 20:46:11 Saved as file ~undo.max
+Sat Sep 11 20:46:13 Saved as file ~undo.max
+Sat Sep 11 20:46:21 Saved as file ~undo.max
+Sat Sep 11 20:46:26 Saved as file ~undo.max
+Sat Sep 11 20:46:31 Saved as file ~undo.max
+Sat Sep 11 20:46:33 Saved as file ~undo.max
+Sat Sep 11 20:46:35 Saved as file ~undo.max
+Sat Sep 11 20:46:37 Saved as file ~undo.max
+Sat Sep 11 20:46:38 Saved as file ~undo.max
+Sat Sep 11 20:46:41 Saved as file ~undo.max
+Sat Sep 11 20:46:45 Saved as file ~undo.max
+Sat Sep 11 20:46:51 Saved as file ~undo.max
+Sat Sep 11 20:46:57 Saved as file ~undo.max
+Sat Sep 11 20:47:01 Saved as file ~undo.max
+Sat Sep 11 20:47:06 Saved as file ~undo.max
+Sat Sep 11 20:47:08 Saved as file ~undo.max
+Sat Sep 11 20:47:09 Saved as file ~undo.max
+Sat Sep 11 20:47:12 Saved as file ~undo.max
+Sat Sep 11 20:47:14 Saved as file ~undo.max
+Sat Sep 11 20:47:20 Saved as file ~undo.max
+Sat Sep 11 20:47:30 Saved as file ~undo.max
+Sat Sep 11 20:47:35 Saved as file ~undo.max
+Sat Sep 11 20:47:40 Saved as file ~undo.max
+Sat Sep 11 20:47:44 Saved as file ~undo.max
+Sat Sep 11 20:50:46 Saved as file ~undo.max
+Sat Sep 11 20:51:52 Saved as file ~undo.max
+Sat Sep 11 20:52:05 Saved as file ~undo.max
+Sat Sep 11 20:52:55 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Sat Sep 11 20:52:56 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Sat Sep 11 20:53:29 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 20:57:07 Saved as file ~undo.max
+Sat Sep 11 20:57:08 Saved as file ~undo.max
+Sat Sep 11 20:57:09 Saved as file ~undo.max
+Sat Sep 11 21:04:46 Saved as file BACKUP1.MAX
+Sat Sep 11 21:05:16 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:16 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:05:18 Saved as file ~undo.max
+Sat Sep 11 21:05:27 Saved as file ~undo.max
+Sat Sep 11 21:05:31 Saved as file ~undo.max
+Sat Sep 11 21:05:34 Saved as file ~undo.max
+Sat Sep 11 21:05:38 Saved as file ~undo.max
+Sat Sep 11 21:05:40 Saved as file ~undo.max
+Sat Sep 11 21:06:24 Saved as file ~undo.max
+Sat Sep 11 21:06:37 Saved as file ~undo.max
+Sat Sep 11 21:06:41 Saved as file ~undo.max
+Sat Sep 11 21:06:42 Saved as file ~undo.max
+Sat Sep 11 21:06:44 Saved as file ~undo.max
+Sat Sep 11 21:06:45 Saved as file ~undo.max
+Sat Sep 11 21:06:49 Saved as file ~undo.max
+Sat Sep 11 21:08:47 Saved as file ~undo.max
+Sat Sep 11 21:10:06 Saved as file ~undo.max
+Sat Sep 11 21:15:16 Saved as file BACKUP1.MAX
+Sat Sep 11 21:18:10 Saved as file ~undo.max
+Sat Sep 11 21:18:59 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Sat Sep 11 21:20:27 Saved as file BACKUP1.MAX
+Sat Sep 11 21:20:27 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Sat Sep 11 21:20:29 UserDiv from Layout.INI for AutoECO: 60
+Sat Sep 11 21:20:29 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-2.MAX
+Sat Sep 11 21:20:29 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:20:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Sat Sep 11 21:20:29 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Sat Sep 11 21:20:30 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Sat Sep 11 21:20:32 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:20:32 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:23:42 Saved as file ~undo.max
+Sat Sep 11 21:23:43 Saved as file ~undo.max
+Sat Sep 11 21:23:57 Saved as file BACKUP1.MAX
+Sat Sep 11 21:23:57 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:24:00 UserDiv from Layout.INI for AutoECO: 60
+Sat Sep 11 21:24:00 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 21:24:00 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Sat Sep 11 21:24:00 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Sat Sep 11 21:24:01 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 21:24:01 Saved as file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 21:24:01 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 21:24:23 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:24:23 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-8.MAX
+Sat Sep 11 21:25:49 Saved as file BACKUP1.MAX
+Sat Sep 11 21:25:49 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:25:51 UserDiv from Layout.INI for AutoECO: 60
+Sat Sep 11 21:25:51 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-3.MAX
+Sat Sep 11 21:25:51 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Sat Sep 11 21:25:51 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Sat Sep 11 21:25:55 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:25:55 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:26:41 Saved as file ~undo.max
+Sat Sep 11 21:26:45 Saved as file ~undo.max
+Sat Sep 11 21:26:56 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:30:41 Saved as file ~undo.max
+Sat Sep 11 21:30:45 Saved as file ~undo.max
+Sat Sep 11 21:31:03 Saved as file ~undo.max
+Sat Sep 11 21:31:04 Saved as file ~undo.max
+Sat Sep 11 21:31:06 Saved as file ~undo.max
+Sat Sep 11 21:31:08 Saved as file ~undo.max
+Sat Sep 11 21:31:32 Saved as file ~undo.max
+Sat Sep 11 21:31:36 Saved as file ~undo.max
+Sat Sep 11 21:31:43 Saved as file ~undo.max
+Sat Sep 11 21:31:45 Saved as file ~undo.max
+Sat Sep 11 21:31:47 Saved as file ~undo.max
+Sat Sep 11 21:31:49 Saved as file ~undo.max
+Sat Sep 11 21:31:52 Saved as file ~undo.max
+Sat Sep 11 21:31:59 Saved as file ~undo.max
+Sat Sep 11 21:33:19 Saved as file ~undo.max
+Sat Sep 11 21:33:23 Saved as file ~undo.max
+Sat Sep 11 21:33:25 Saved as file ~undo.max
+Sat Sep 11 21:33:34 Saved as file ~undo.max
+Sat Sep 11 21:34:17 Saved as file ~undo.max
+Sat Sep 11 21:34:19 Saved as file ~undo.max
+Sat Sep 11 21:34:21 Saved as file ~undo.max
+Sat Sep 11 21:34:27 Saved as file ~undo.max
+Sat Sep 11 21:34:28 Saved as file ~undo.max
+Sat Sep 11 21:34:30 Saved as file ~undo.max
+Sat Sep 11 21:34:36 Saved as file ~undo.max
+Sat Sep 11 21:34:40 Saved as file ~undo.max
+Sat Sep 11 21:34:54 Saved as file ~undo.max
+Sat Sep 11 21:35:00 Saved as file ~undo.max
+Sat Sep 11 21:35:06 Saved as file ~undo.max
+Sat Sep 11 21:35:16 Saved as file ~undo.max
+Sat Sep 11 21:35:22 Saved as file ~undo.max
+Sat Sep 11 21:35:30 Saved as file ~undo.max
+Sat Sep 11 21:35:46 Saved as file BACKUP1.MAX
+Sat Sep 11 21:36:12 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:36:46 Saved as file ~undo.max
+Sat Sep 11 21:36:57 Saved as file ~undo.max
+Sat Sep 11 21:36:58 Saved as file ~undo.max
+Sat Sep 11 21:37:01 Saved as file ~undo.max
+Sat Sep 11 21:37:05 Saved as file ~undo.max
+Sat Sep 11 21:37:07 Saved as file ~undo.max
+Sat Sep 11 21:37:11 Saved as file ~undo.max
+Sat Sep 11 21:37:13 Saved as file ~undo.max
+Sat Sep 11 21:38:19 Saved as file ~undo.max
+Sat Sep 11 21:39:48 Saved as file ~undo.max
+Sat Sep 11 21:39:57 Saved as file ~undo.max
+Sat Sep 11 21:40:00 Saved as file ~undo.max
+Sat Sep 11 21:41:50 Saved as file ~undo.max
+Sat Sep 11 21:41:55 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:41:55 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:41:55 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:41:55 Footprint coords will be rounded to nearest base unit.
+Sat Sep 11 21:41:57 Saved as file ~undo.max
+Sat Sep 11 21:43:33 Saved as file BACKUP1.MAX
+Sat Sep 11 21:43:33 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:43:34 UserDiv from Layout.INI for AutoECO: 60
+Sat Sep 11 21:43:34 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-4.MAX
+Sat Sep 11 21:43:34 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 21:43:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Sat Sep 11 21:43:34 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Sat Sep 11 21:43:35 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Sat Sep 11 21:43:37 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:43:37 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:43:43 Saved as file ~undo.max
+Sat Sep 11 21:44:49 Saved as file ~undo.max
+Sat Sep 11 21:44:57 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:44:58 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:47:16 Saved as file BACKUP1.MAX
+Sat Sep 11 21:47:57 Saved as file ~undo.max
+Sat Sep 11 21:50:38 Saved as file ~undo.max
+Sat Sep 11 21:50:46 Saved as file ~undo.max
+Sat Sep 11 21:50:55 Saved as file ~undo.max
+Sat Sep 11 21:51:07 Saved as file ~undo.max
+Sat Sep 11 21:51:17 Saved as file ~undo.max
+Sat Sep 11 21:51:24 Saved as file ~undo.max
+Sat Sep 11 21:51:35 Saved as file ~undo.max
+Sat Sep 11 21:51:50 Saved as file ~undo.max
+Sat Sep 11 21:52:02 Saved as file ~undo.max
+Sat Sep 11 21:52:09 Saved as file ~undo.max
+Sat Sep 11 21:52:20 Saved as file ~undo.max
+Sat Sep 11 21:52:28 Saved as file ~undo.max
+Sat Sep 11 21:52:38 Saved as file ~undo.max
+Sat Sep 11 21:52:46 Saved as file ~undo.max
+Sat Sep 11 21:54:05 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:54:05 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:55:52 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:56:48 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 21:58:48 Saved as file ~undo.max
+Sat Sep 11 21:59:03 Saved as file ~undo.max
+Sat Sep 11 21:59:18 Saved as file ~undo.max
+Sat Sep 11 21:59:21 Saved as file ~undo.max
+Sat Sep 11 21:59:28 Saved as file ~undo.max
+Sat Sep 11 21:59:40 Saved as file ~undo.max
+Sat Sep 11 22:00:20 Saved as file ~undo.max
+Sat Sep 11 22:00:37 Saved as file ~undo.max
+Sat Sep 11 22:00:42 Saved as file ~undo.max
+Sat Sep 11 22:00:55 Saved as file ~undo.max
+Sat Sep 11 22:01:01 Saved as file ~undo.max
+Sat Sep 11 22:01:10 Saved as file ~undo.max
+Sat Sep 11 22:01:16 Saved as file ~undo.max
+Sat Sep 11 22:01:42 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:01:43 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:03:50 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:03:51 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:05:33 Saved as file ~undo.max
+Sat Sep 11 22:05:38 Saved as file ~undo.max
+Sat Sep 11 22:05:44 Saved as file ~undo.max
+Sat Sep 11 22:05:52 Saved as file ~undo.max
+Sat Sep 11 22:06:02 Saved as file ~undo.max
+Sat Sep 11 22:06:04 Saved as file ~undo.max
+Sat Sep 11 22:06:16 Saved as file ~undo.max
+Sat Sep 11 22:07:06 Saved as file ~undo.max
+Sat Sep 11 22:07:09 Saved as file ~undo.max
+Sat Sep 11 22:07:20 Saved as file ~undo.max
+Sat Sep 11 22:07:22 Saved as file ~undo.max
+Sat Sep 11 22:07:32 Saved as file ~undo.max
+Sat Sep 11 22:07:38 Saved as file ~undo.max
+Sat Sep 11 22:07:50 Saved as file ~undo.max
+Sat Sep 11 22:07:51 Saved as file ~undo.max
+Sat Sep 11 22:09:11 Saved as file BACKUP1.MAX
+Sat Sep 11 22:12:02 Saved as file BACKUP1.MAX
+Sat Sep 11 22:12:02 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:12:04 UserDiv from Layout.INI for AutoECO: 60
+Sat Sep 11 22:12:04 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-5.MAX
+Sat Sep 11 22:12:04 Loaded file Z:\ORCAD_DESIGN_FILES\SAKC-1.LLB
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BCON156T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\BGA.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\CLCC.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON050T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DCON085T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050F.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIMM050T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIN.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100B.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DIP100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\DSUBT_HD.LLB
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ECON100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\FBUS.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ISA.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\JUMPER.LLB
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LAYOUT.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\LCON100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PC104.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCI.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PCON156T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PGA.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\PLCC.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUAD.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\QUADB.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RELAY.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\RF.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SBUS.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050F.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM050T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100F.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIMM100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SIP.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SM.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOG.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\SOJ.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\STIFF.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TELE.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_AXIAL.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CAP_P.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_CYLND.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DIODE.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_DISC.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TM_RAD.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TO.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\TRAINING.LLB
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\VRES.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\WCON100T.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\XT.llb
+Sat Sep 11 22:12:04 Loaded file C:\OrCAD\OrCAD_10.5\tools\Layout_Eng_Ed\library\ZIGZAG.llb
+Sat Sep 11 22:12:07 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:12:07 Loaded file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:12:14 Saved as file ~undo.max
+Sat Sep 11 22:12:32 Saved as file ~undo.max
+Sat Sep 11 22:13:00 Saved as file ~undo.max
+Sat Sep 11 22:13:06 Saved as file ~undo.max
+Sat Sep 11 22:13:15 Saved as file ~undo.max
+Sat Sep 11 22:13:17 Saved as file ~undo.max
+Sat Sep 11 22:13:22 Saved as file ~undo.max
+Sat Sep 11 22:13:27 Saved as file ~undo.max
+Sat Sep 11 22:13:38 Saved as file ~undo.max
+Sat Sep 11 22:13:44 Saved as file ~undo.max
+Sat Sep 11 22:14:54 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:15:48 Saved as file ~undo.max
+Sat Sep 11 22:15:54 Saved as file ~undo.max
+Sat Sep 11 22:16:06 Saved as file ~undo.max
+Sat Sep 11 22:16:12 Saved as file ~undo.max
+Sat Sep 11 22:16:21 Saved as file ~undo.max
+Sat Sep 11 22:17:10 Saved as file ~undo.max
+Sat Sep 11 22:17:26 Saved as file ~undo.max
+Sat Sep 11 22:17:33 Saved as file ~undo.max
+Sat Sep 11 22:17:37 Saved as file ~undo.max
+Sat Sep 11 22:17:40 Saved as file ~undo.max
+Sat Sep 11 22:17:50 Saved as file ~undo.max
+Sat Sep 11 22:17:52 Saved as file ~undo.max
+Sat Sep 11 22:18:16 Saved as file ~undo.max
+Sat Sep 11 22:18:48 Saved as file ~undo.max
+Sat Sep 11 22:18:53 Saved as file ~undo.max
+Sat Sep 11 22:19:03 Saved as file ~undo.max
+Sat Sep 11 22:19:06 Saved as file ~undo.max
+Sat Sep 11 22:19:20 Saved as file ~undo.max
+Sat Sep 11 22:19:41 Saved as file BACKUP1.MAX
+Sat Sep 11 22:19:45 Saved as file ~undo.max
+Sat Sep 11 22:19:46 Saved as file ~undo.max
+Sat Sep 11 22:20:01 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:22:13 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:22:16 Saved as file ~undo.max
+Sat Sep 11 22:28:22 Saved as file ~undo.max
+Sat Sep 11 22:29:41 Saved as file BACKUP1.MAX
+Sat Sep 11 22:30:17 Saved as file ~undo.max
+Sat Sep 11 22:31:41 Saved as file ~undo.max
+Sat Sep 11 22:31:48 Saved as file ~undo.max
+Sat Sep 11 22:31:52 Saved as file ~undo.max
+Sat Sep 11 22:31:58 Saved as file ~undo.max
+Sat Sep 11 22:32:03 Saved as file ~undo.max
+Sat Sep 11 22:32:07 Saved as file ~undo.max
+Sat Sep 11 22:33:46 Saved as file ~undo.max
+Sat Sep 11 22:33:48 Saved as file ~undo.max
+Sat Sep 11 22:33:54 Saved as file ~undo.max
+Sat Sep 11 22:34:27 Saved as file ~undo.max
+Sat Sep 11 22:34:48 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:34:49 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:37:24 Saved as file ~undo.max
+Sat Sep 11 22:38:01 Saved as file ~undo.max
+Sat Sep 11 22:38:10 Saved as file ~undo.max
+Sat Sep 11 22:38:12 Saved as file ~undo.max
+Sat Sep 11 22:38:21 Saved as file ~undo.max
+Sat Sep 11 22:38:52 Saved as file ~undo.max
+Sat Sep 11 22:39:02 Saved as file ~undo.max
+Sat Sep 11 22:39:04 Saved as file ~undo.max
+Sat Sep 11 22:39:13 Saved as file ~undo.max
+Sat Sep 11 22:39:23 Saved as file ~undo.max
+Sat Sep 11 22:39:24 Saved as file ~undo.max
+Sat Sep 11 22:39:42 Saved as file BACKUP1.MAX
+Sat Sep 11 22:40:04 Saved as file ~undo.max
+Sat Sep 11 22:40:26 Saved as file ~undo.max
+Sat Sep 11 22:40:27 Saved as file ~undo.max
+Sat Sep 11 22:40:46 Saved as file ~undo.max
+Sat Sep 11 22:40:50 Saved as file ~undo.max
+Sat Sep 11 22:40:57 Saved as file ~undo.max
+Sat Sep 11 22:41:03 Saved as file ~undo.max
+Sat Sep 11 22:42:21 Saved as file ~undo.max
+Sat Sep 11 22:43:02 Saved as file ~undo.max
+Sat Sep 11 22:43:11 Saved as file ~undo.max
+Sat Sep 11 22:44:18 Saved as file ~undo.max
+Sat Sep 11 22:44:27 Saved as file ~undo.max
+Sat Sep 11 22:44:29 Saved as file ~undo.max
+Sat Sep 11 22:45:15 Saved as file ~undo.max
+Sat Sep 11 22:46:00 Saved as file ~undo.max
+Sat Sep 11 22:46:58 Saved as file ~undo.max
+Sat Sep 11 22:47:30 Saved as file ~undo.max
+Sat Sep 11 22:47:43 Saved as file ~undo.max
+Sat Sep 11 22:48:44 Saved as file ~undo.max
+Sat Sep 11 22:49:02 Saved as file ~undo.max
+Sat Sep 11 22:49:05 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:49:05 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:49:42 Saved as file BACKUP1.MAX
+Sat Sep 11 22:50:03 Saved as file ~undo.max
+Sat Sep 11 22:51:19 Saved as file ~undo.max
+Sat Sep 11 22:51:36 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:52:44 Saved as file ~undo.max
+Sat Sep 11 22:52:50 Saved as file ~undo.max
+Sat Sep 11 22:55:27 Saved as file ~undo.max
+Sat Sep 11 22:55:46 Saved as file ~undo.max
+Sat Sep 11 22:55:57 Saved as file ~undo.max
+Sat Sep 11 22:56:01 Saved as file ~undo.max
+Sat Sep 11 22:56:04 Saved as file ~undo.max
+Sat Sep 11 22:56:06 Saved as file ~undo.max
+Sat Sep 11 22:56:41 Saved as file ~undo.max
+Sat Sep 11 22:56:45 Saved as file ~undo.max
+Sat Sep 11 22:56:52 Saved as file ~undo.max
+Sat Sep 11 22:56:58 Saved as file ~undo.max
+Sat Sep 11 22:57:29 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:57:31 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 22:59:42 Saved as file BACKUP1.MAX
+Sat Sep 11 23:00:15 Saved as file ~undo.max
+Sat Sep 11 23:01:29 Saved as file ~undo.max
+Sat Sep 11 23:03:22 Saved as file ~undo.max
+Sat Sep 11 23:03:23 Saved as file ~undo.max
+Sat Sep 11 23:03:37 Saved as file ~undo.max
+Sat Sep 11 23:04:34 Saved as file ~undo.max
+Sat Sep 11 23:05:18 Saved as file ~undo.max
+Sat Sep 11 23:06:01 Saved as file ~undo.max
+Sat Sep 11 23:06:14 Saved as file ~undo.max
+Sat Sep 11 23:06:56 Saved as file ~undo.max
+Sat Sep 11 23:07:08 Saved as file ~undo.max
+Sat Sep 11 23:07:29 Saved as file ~undo.max
+Sat Sep 11 23:07:40 Saved as file ~undo.max
+Sat Sep 11 23:07:58 Saved as file ~undo.max
+Sat Sep 11 23:08:04 Saved as file ~undo.max
+Sat Sep 11 23:08:09 Saved as file ~undo.max
+Sat Sep 11 23:08:27 Saved as file ~undo.max
+Sat Sep 11 23:08:30 Saved as file ~undo.max
+Sat Sep 11 23:08:45 Saved as file ~undo.max
+Sat Sep 11 23:09:01 Saved as file ~undo.max
+Sat Sep 11 23:09:42 Saved as file ~undo.max
+Sat Sep 11 23:09:42 Saved as file BACKUP1.MAX
+Sat Sep 11 23:12:37 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:12:37 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:14:39 Saved as file ~undo.max
+Sat Sep 11 23:14:39 Saved as file ~undo.max
+Sat Sep 11 23:14:52 Saved as file ~undo.max
+Sat Sep 11 23:15:07 Saved as file ~undo.max
+Sat Sep 11 23:15:49 Saved as file ~undo.max
+Sat Sep 11 23:16:09 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:16:10 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:19:42 Saved as file BACKUP1.MAX
+Sat Sep 11 23:20:27 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:20:28 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:21:30 Saved as file ~undo.max
+Sat Sep 11 23:22:03 Saved as file ~undo.max
+Sat Sep 11 23:23:13 Saved as file ~undo.max
+Sat Sep 11 23:24:35 Saved as file ~undo.max
+Sat Sep 11 23:24:45 Saved as file ~undo.max
+Sat Sep 11 23:24:51 Saved as file ~undo.max
+Sat Sep 11 23:25:03 Saved as file ~undo.max
+Sat Sep 11 23:25:16 Saved as file ~undo.max
+Sat Sep 11 23:25:29 Saved as file ~undo.max
+Sat Sep 11 23:25:40 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:28:05 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:28:07 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:28:09 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:28:09 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Sat Sep 11 23:28:21 Saved as file ~undo.max
+Sat Sep 11 23:30:12 Saved as file BACKUP1.MAX
+Sat Sep 11 23:33:41 Saved as file ~undo.max
+Sat Sep 11 23:38:05 Saved as file ~undo.max
+Sat Sep 11 23:38:06 Saved as file ~undo.max
+Thu Sep 16 15:51:05 Saved as file BACKUP1.MAX
+Thu Sep 16 15:52:06 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 13:57:11 Saved as file ~undo.max
+Fri Sep 17 13:59:04 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 13:59:06 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 13:59:07 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:10:27 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:10:28 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:10:32 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:11:46 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:13:11 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:13:12 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:15:24 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-7.MAX
+Tue Sep 21 21:03:05 Saved as file BACKUP1.MAX
+Tue Sep 21 21:13:35 Saved as file BACKUP1.MAX
+Tue Sep 21 21:25:05 Saved as file BACKUP1.MAX
+Tue Sep 21 21:36:35 Saved as file BACKUP1.MAX
+Tue Sep 21 21:47:35 Saved as file BACKUP1.MAX
+Tue Sep 21 21:57:35 Saved as file BACKUP1.MAX
+Tue Sep 21 22:07:35 Saved as file BACKUP1.MAX
+Tue Sep 21 22:08:45 Saved as file C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-7.MAX
+Tue Sep 21 22:43:25 Saved as file BACKUP1.MAX
+Tue Sep 21 23:11:57 Loaded file C:\Documents and Settings\BlueDeep\Mis documentos\Orcad\Conector_PS2\Nueva carpeta\PS2-7.MAX
+Tue Sep 21 23:16:03 Loaded file C:\Documents and Settings\BlueDeep\Mis documentos\Orcad\Conector_PS2\Nueva carpeta\PS2-7.MAX
+Tue Sep 21 23:21:16 Saved as file BACKUP1.MAX
+Wed Sep 22 17:41:41 Saved as file BACKUP1.MAX
+Wed Sep 22 17:51:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:01:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:11:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:21:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:31:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:41:41 Saved as file BACKUP1.MAX
+Wed Sep 22 18:51:41 Saved as file BACKUP1.MAX
+Wed Sep 22 19:01:41 Saved as file BACKUP1.MAX
+Wed Sep 22 19:11:42 Saved as file BACKUP1.MAX
+Wed Sep 22 19:21:42 Saved as file BACKUP1.MAX
+Wed Sep 22 19:31:42 Saved as file BACKUP1.MAX
+Wed Sep 22 19:41:42 Saved as file BACKUP1.MAX
+Wed Sep 22 19:51:42 Saved as file BACKUP1.MAX
+Wed Sep 22 20:01:42 Saved as file BACKUP1.MAX
+Wed Sep 22 20:11:42 Saved as file BACKUP1.MAX
+Wed Sep 22 20:21:42 Saved as file BACKUP1.MAX
+Wed Sep 22 20:31:42 Saved as file BACKUP1.MAX
+Wed Sep 22 20:41:42 Saved as file BACKUP1.MAX

@@ -1,0 +1,434 @@
+# EESchema Netlist Version 1.1 created  Tue 11 May 2010 10:50:03 AM COT
+(
+ ( /4BE87DFC $noname  J6 HEADER {Lib=HEADER}
+  (    1 /aCH3 )
+ )
+ ( /4BE87DCC $noname  J5 HEADER_2 {Lib=HEADER_2}
+  (    1 /PHASE_A )
+  (    2 /NEUTRO )
+ )
+ ( /4BE87D44 $noname  R19 100 {Lib=R}
+  (    1 /aCH2 )
+  (    2 /GND )
+ )
+ ( /4BE87D36 $noname  U5 TZXXX {Lib=TZXXX}
+  (    1 ? )
+  (    2 ? )
+  (    3 /aCH2 )
+  (    4 /GND )
+ )
+ ( /4BE77117 $noname  J4 HEADER_3 {Lib=HEADER_3}
+  (    1 /VCC/2 )
+  (    2 /OPAMP_REF )
+  (    3 /1.6V )
+ )
+ ( /4BE5C4DB $noname  R11 5K {Lib=R}
+  (    1 /OPAMP_REF )
+  (    2 N-000004 )
+ )
+ ( /4BE5C4DA $noname  R12 10K {Lib=R}
+  (    1 /ANALOG2 )
+  (    2 N-000050 )
+ )
+ ( /4BE5C4D9 $noname  R10 10K {Lib=R}
+  (    1 N-000049 )
+  (    2 N-000050 )
+ )
+ ( /4BE5C4D8 $noname  C1 0.1uF {Lib=C}
+  (    1 /aCH2 )
+  (    2 N-000049 )
+ )
+ ( /4BE5C4AB $noname  R16 5K {Lib=R}
+  (    1 /OPAMP_REF )
+  (    2 N-000009 )
+ )
+ ( /4BE5C4AA $noname  R14 10K {Lib=R}
+  (    1 /ANALOG0 )
+  (    2 N-000006 )
+ )
+ ( /4BE5C4A9 $noname  R18 10K {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000006 )
+ )
+ ( /4BE5C4A8 $noname  C6 0.1uF {Lib=C}
+  (    1 /aCH1 )
+  (    2 N-000005 )
+ )
+ ( /4BE5C424 $noname  R15 5K {Lib=R}
+  (    1 /OPAMP_REF )
+  (    2 N-000044 )
+ )
+ ( /4BE599AE $noname  R2 1K {Lib=R}
+  (    1 /aCH1 )
+  (    2 /NEUTRO )
+ )
+ ( /4BE599AD $noname  R1 150K {Lib=R}
+  (    1 /PHASE_A )
+  (    2 /aCH1 )
+ )
+ ( /4BE59773 $noname  C4 0.1uF {Lib=C}
+  (    1 /1.6V )
+  (    2 /GND )
+ )
+ ( /4BE59768 $noname  C2 0.1uF {Lib=C}
+  (    1 /3.3V )
+  (    2 /GND )
+ )
+ ( /4BE5966A $noname  U2 TPS721XX {Lib=TPS721XX}
+  (    1 /3.3V )
+  (    2 /GND )
+  (    3 /3.3V )
+  (    4 ? )
+  (    5 /1.6V )
+ )
+ ( /4BE1F683 $noname  U4 AD8605/6/8 {Lib=AD8605/6/8}
+  (    1 /ANALOG2 )
+  (    2 N-000050 )
+  (    3 N-000004 )
+  (    4 /GND )
+  (    5 N-000009 )
+  (    6 N-000006 )
+  (    7 /ANALOG0 )
+  (    8 /3.3V )
+ )
+ ( /4BE1F60D $noname  R13 10K {Lib=R}
+  (    1 /ANALOG1 )
+  (    2 N-000012 )
+ )
+ ( /4BE1F5C9 $noname  R17 10K {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000012 )
+ )
+ ( /4BE1F583 $noname  C5 0.1uF {Lib=C}
+  (    1 /aCH3 )
+  (    2 N-000010 )
+ )
+ ( /4BE1F4CE $noname  C3 0.1uF {Lib=C}
+  (    1 N-000013 )
+  (    2 /GND )
+ )
+ ( /4BE1F3FE $noname  R9 100K {Lib=R}
+  (    1 N-000013 )
+  (    2 /GND )
+ )
+ ( /4BE1F3FA $noname  R8 100K {Lib=R}
+  (    1 /3.3V )
+  (    2 N-000013 )
+ )
+ ( /4BE1F3E4 $noname  U3 AD8605/6/8 {Lib=AD8605/6/8}
+  (    1 /VCC/2 )
+  (    2 /VCC/2 )
+  (    3 N-000013 )
+  (    4 /GND )
+  (    5 N-000044 )
+  (    6 N-000012 )
+  (    7 /ANALOG1 )
+  (    8 /3.3V )
+ )
+ ( /4BD8A6BE $noname  J3 HEADER {Lib=HEADER}
+  (    1 /ANTENNA )
+ )
+ ( /4BD8A667 $noname  R7 10K {Lib=R}
+  (    1 /3.3V )
+  (    2 N-000039 )
+ )
+ ( /4BD8A4FE $noname  J2 HEADER_20X2 {Lib=HEADER_20X2}
+  (    1 /GND )
+  (    2 ? )
+  (    3 /DIG12 )
+  (    4 ? )
+  (    5 /DIG10 )
+  (    6 ? )
+  (    7 /DIG8 )
+  (    8 ? )
+  (    9 /DIG6 )
+  (   10 ? )
+  (   11 /DIG4 )
+  (   12 ? )
+  (   13 /DIG2 )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 /GND )
+  (   27 /3.3V )
+  (   28 /3.3V )
+  (   29 /3.3V )
+  (   30 /3.3V )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 /ANALOG2 )
+  (   36 /OPAMP_REF )
+  (   37 /ANALOG0 )
+  (   38 /ANALOG1 )
+  (   39 ? )
+  (   40 ? )
+ )
+ ( /4BD8A26D $noname  U1 RFM12B {Lib=RFM12B}
+  (    1 /DIG12 )
+  (    2 /DIG10 )
+  (    3 /3.3V )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 /GND )
+  (    8 /ANTENNA )
+  (    9 N-000039 )
+  (   10 /GND )
+  (   11 /DIG8 )
+  (   12 /DIG6 )
+  (   13 /DIG4 )
+  (   14 /DIG2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R19
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/aCH3" "aCH3"
+ J6 1
+ C5 1
+Net 2 "/PHASE_A" "PHASE_A"
+ J5 1
+ R1 1
+Net 3 "/GND" "GND"
+ R19 2
+ U5 4
+ C4 2
+ C2 2
+ U2 2
+ U4 4
+ C3 2
+ R9 2
+ U3 4
+ J2 1
+ J2 26
+ U1 10
+ U1 7
+Net 4 "" ""
+ R11 2
+ U4 3
+Net 5 "" ""
+ R18 1
+ C6 2
+Net 6 "" ""
+ R14 2
+ R18 2
+ U4 6
+Net 7 "/ANALOG0" "ANALOG0"
+ R14 1
+ U4 7
+ J2 37
+Net 8 "/aCH1" "aCH1"
+ C6 1
+ R2 1
+ R1 2
+Net 9 "" ""
+ R16 2
+ U4 5
+Net 10 "" ""
+ R17 1
+ C5 2
+Net 11 "/1.6V" "1.6V"
+ J4 3
+ C4 1
+ U2 5
+Net 12 "" ""
+ R13 2
+ R17 2
+ U3 6
+Net 13 "" ""
+ C3 1
+ R9 1
+ R8 2
+ U3 3
+Net 14 "/DIG12" "DIG12"
+ J2 3
+ U1 1
+Net 15 "/DIG6" "DIG6"
+ J2 9
+ U1 12
+Net 16 "/DIG2" "DIG2"
+ J2 13
+ U1 14
+Net 39 "" ""
+ R7 2
+ U1 9
+Net 40 "/ANTENNA" "ANTENNA"
+ J3 1
+ U1 8
+Net 41 "/DIG4" "DIG4"
+ J2 11
+ U1 13
+Net 42 "/DIG8" "DIG8"
+ J2 7
+ U1 11
+Net 43 "/DIG10" "DIG10"
+ J2 5
+ U1 2
+Net 44 "" ""
+ R15 2
+ U3 5
+Net 45 "/ANALOG1" "ANALOG1"
+ R13 1
+ U3 7
+ J2 38
+Net 46 "/VCC/2" "VCC/2"
+ J4 1
+ U3 2
+ U3 1
+Net 47 "/3.3V" "3.3V"
+ C2 1
+ U2 3
+ U2 1
+ U4 8
+ R8 1
+ U3 8
+ R7 1
+ J2 29
+ J2 27
+ J2 30
+ J2 28
+ U1 3
+Net 48 "/OPAMP_REF" "OPAMP_REF"
+ J4 2
+ R11 1
+ R16 1
+ R15 1
+ J2 36
+Net 49 "" ""
+ R10 1
+ C1 2
+Net 50 "" ""
+ R12 2
+ R10 2
+ U4 2
+Net 51 "/ANALOG2" "ANALOG2"
+ R12 1
+ U4 1
+ J2 35
+Net 52 "/aCH2" "aCH2"
+ R19 1
+ U5 3
+ C1 1
+Net 53 "/NEUTRO" "NEUTRO"
+ J5 2
+ R2 2
+}
+#End

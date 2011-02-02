@@ -1,0 +1,37 @@
+EESchema (20090216-final)  >> Creation date: mié 22 sep 2010 14:39:34 COT
+
+#Componentes ( orden = Referencia )
+| J1         HEADER_20X2 
+| J2         HEADER_2    
+| J3         HEADER_4    
+| J4         HEADER_4    
+| JS1        MINI-DIN6PTH
+| JS2        MINI-DIN6PTH
+| R1         270         
+| R2         270         
+| R3         270         
+| R4         270         
+| R5         10K         
+| R6         10K         
+| R7         10K         
+| R8         10K         
+#Fin Componentes
+
+#Componentes ( orden = Valor )
+| 10K          R5        
+| 10K          R6        
+| 10K          R7        
+| 10K          R8        
+| 270          R1        
+| 270          R2        
+| 270          R3        
+| 270          R4        
+| HEADER_2     J2        
+| HEADER_20X2  J1        
+| HEADER_4     J3        
+| HEADER_4     J4        
+| MINI-DIN6PTH JS1       
+| MINI-DIN6PTH JS2       
+#Fin Componentes
+
+#Fin de Lista

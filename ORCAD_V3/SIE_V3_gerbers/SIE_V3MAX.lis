@@ -1,0 +1,393 @@
+Post Processor Report
+OrCAD FILE: C:\CAINPCB\SAKC_V3\SIE_V3MAX.MAX
+Mon Jan 31 06:06:45 2011
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.TOP
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.TOP:
+---------------------------------------------------------
+D10:  0.0380 x 0.0320 RECTANGLE -----      62 Flashes
+D11:  0.0320 x 0.0380 RECTANGLE -----      50 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      12 Flashes
+D13:  0.0350 x 0.0300 RECTANGLE -----      28 Flashes
+D14:  0.0300 x 0.0350 RECTANGLE -----      24 Flashes
+D15:  0.0600 ROUND  --       0 Draws,      70 Flashes
+D16:  0.0472 x 0.0551 RECTANGLE -----       1 Flashes
+D17:  0.0551 x 0.0945 RECTANGLE -----       2 Flashes
+D18:  0.0709 x 0.0630 RECTANGLE -----       1 Flashes
+D19:  0.0276 x 0.0630 RECTANGLE -----       9 Flashes
+D20:  0.0550 ROUND  --       0 Draws,       6 Flashes
+D21:  0.0550 SQUARE --       0 Draws,       2 Flashes
+D22:  0.0866 x 0.0905 RECTANGLE -----       4 Flashes
+D23:  0.0216 x 0.0630 RECTANGLE -----       5 Flashes
+D24:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D25:  0.0620 ROUND  --       0 Draws,       2 Flashes
+D26:  0.0620 SQUARE --       0 Draws,       2 Flashes
+D27:  0.1496 ROUND  --       0 Draws,       3 Flashes
+D28:  0.0500 SQUARE --       0 Draws,      16 Flashes
+D29:  0.0775 ROUND  --       0 Draws,       6 Flashes
+D30:  0.0669 ROUND  --       0 Draws,       6 Flashes
+D31:  0.0650 x 0.0079 RECTANGLE -----      64 Flashes
+D32:  0.0079 x 0.0650 RECTANGLE -----      64 Flashes
+D33:  0.0197 x 0.0551 RECTANGLE -----      54 Flashes
+D34:  0.0100 x 0.0600 RECTANGLE -----      98 Flashes
+D35:  0.0700 x 0.0160 RECTANGLE -----      20 Flashes
+D36:  0.1420 x 0.0880 RECTANGLE -----       3 Flashes
+D37:  0.0480 x 0.0880 RECTANGLE -----       9 Flashes
+D38:  0.0600 x 0.0100 RECTANGLE -----      50 Flashes
+D39:  0.0472 x 0.0567 RECTANGLE -----       1 Flashes
+D40:  0.0394 x 0.0567 RECTANGLE -----       3 Flashes
+D41:  0.0272 x 0.0390 RECTANGLE -----       5 Flashes
+D42:  0.0276 x 0.0590 RECTANGLE -----       4 Flashes
+D43:  0.0787 x 0.0984 RECTANGLE -----       2 Flashes
+D44:  0.0551 x 0.0472 RECTANGLE -----       4 Flashes
+D45:  0.0236 ROUND  --       0 Draws,     297 Flashes
+D46:  0.0079 ROUND  --   14283 Draws,       2 Flashes
+D47:  0.0138 ROUND  --     402 Draws,       0 Flashes
+D48:  0.0059 ROUND  --    1827 Draws,       0 Flashes
+D49:  0.0080 ROUND  --     418 Draws,       0 Flashes
+D50:  0.0315 ROUND  --     181 Draws,       0 Flashes
+D51:  0.0394 ROUND  --      41 Draws,       0 Flashes
+D52:  0.0197 ROUND  --      26 Draws,       0 Flashes
+D53:  0.0276 ROUND  --       7 Draws,       0 Flashes
+D54:  0.0236 ROUND  --      23 Draws,       0 Flashes
+D55:  0.0236 ROUND  --       0 Draws,       4 Flashes
+D56:  0.0118 ROUND  --      36 Draws,       0 Flashes
+D57:  0.0094 ROUND  --       2 Draws,       0 Flashes
+D58:  0.0216 ROUND  --      28 Draws,       0 Flashes
+D59:  0.0098 ROUND  --       2 Draws,       0 Flashes
+D60:  0.0157 ROUND  --      30 Draws,       0 Flashes
+---------------------------------------------------------
+ 51 D-Codes      -----   17306 Draws,     999 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.BOT
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.BOT:
+---------------------------------------------------------
+D46:  0.0079 ROUND  --     406 Draws,       0 Flashes
+D47:  0.0138 ROUND  --     496 Draws,       0 Flashes
+D49:  0.0080 ROUND  --     102 Draws,       0 Flashes
+D50:  0.0315 ROUND  --       5 Draws,       0 Flashes
+D51:  0.0394 ROUND  --      11 Draws,       0 Flashes
+D54:  0.0236 ROUND  --      28 Draws,       0 Flashes
+D55:  0.0236 ROUND  --       0 Draws,       4 Flashes
+D56:  0.0118 ROUND  --      20 Draws,       0 Flashes
+D61:  0.0600 ROUND  --       0 Draws,      70 Flashes
+D62:  0.0550 ROUND  --       0 Draws,       6 Flashes
+D63:  0.0550 SQUARE --       0 Draws,       2 Flashes
+D64:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D65:  0.0620 ROUND  --       0 Draws,       2 Flashes
+D66:  0.0620 SQUARE --       0 Draws,       2 Flashes
+D67:  0.1496 ROUND  --       0 Draws,       3 Flashes
+D68:  0.0775 ROUND  --       0 Draws,       6 Flashes
+D69:  0.0669 ROUND  --       0 Draws,       6 Flashes
+D70:  0.0236 ROUND  --       0 Draws,     297 Flashes
+D71:  0.0039 ROUND  --   23850 Draws,       0 Flashes
+---------------------------------------------------------
+ 19 D-Codes      -----   24918 Draws,     402 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.SMT
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.SMT:
+---------------------------------------------------------
+D62:  0.0550 ROUND  --       0 Draws,       6 Flashes
+D63:  0.0550 SQUARE --       0 Draws,       2 Flashes
+D65:  0.0620 ROUND  --       0 Draws,       2 Flashes
+D66:  0.0620 SQUARE --       0 Draws,       2 Flashes
+D72:  0.0453 x 0.0378 RECTANGLE -----      38 Flashes
+D73:  0.0378 x 0.0453 RECTANGLE -----      42 Flashes
+D74:  0.0650 SQUARE --       0 Draws,      12 Flashes
+D75:  0.0400 x 0.0350 RECTANGLE -----      28 Flashes
+D76:  0.0350 x 0.0400 RECTANGLE -----      24 Flashes
+D77:  0.0650 ROUND  --       0 Draws,      70 Flashes
+D78:  0.0591 x 0.0669 RECTANGLE -----       1 Flashes
+D79:  0.0669 x 0.1063 RECTANGLE -----       2 Flashes
+D80:  0.0827 x 0.0748 RECTANGLE -----       1 Flashes
+D81:  0.0433 x 0.0709 RECTANGLE -----       9 Flashes
+D82:  0.0945 x 0.0984 RECTANGLE -----       4 Flashes
+D83:  0.0315 x 0.0787 RECTANGLE -----       5 Flashes
+D84:  0.3150 ROUND  --       0 Draws,       4 Flashes
+D85:  0.1390 ROUND  --       0 Draws,       3 Flashes
+D86:  0.0571 SQUARE --       0 Draws,      16 Flashes
+D87:  0.0827 ROUND  --       0 Draws,       6 Flashes
+D88:  0.0768 ROUND  --       0 Draws,       6 Flashes
+D89:  0.0433 x 0.0358 RECTANGLE -----      24 Flashes
+D90:  0.0358 x 0.0433 RECTANGLE -----       8 Flashes
+D91:  0.0709 x 0.0118 RECTANGLE -----      64 Flashes
+D92:  0.0118 x 0.0709 RECTANGLE -----      64 Flashes
+D93:  0.0236 x 0.0590 RECTANGLE -----      54 Flashes
+D94:  0.0140 x 0.0650 RECTANGLE -----      48 Flashes
+D95:  0.0750 x 0.0210 RECTANGLE -----      20 Flashes
+D96:  0.1470 x 0.0930 RECTANGLE -----       3 Flashes
+D97:  0.0530 x 0.0930 RECTANGLE -----       9 Flashes
+D98:  0.0650 x 0.0150 RECTANGLE -----      50 Flashes
+D99:  0.0150 x 0.0650 RECTANGLE -----      50 Flashes
+D100: 0.0630 x 0.0787 RECTANGLE -----       1 Flashes
+D101: 0.0567 x 0.0787 RECTANGLE -----       3 Flashes
+D102: 0.0394 x 0.0512 RECTANGLE -----       5 Flashes
+D103: 0.0394 x 0.0709 RECTANGLE -----       4 Flashes
+D104: 0.0905 x 0.1102 RECTANGLE -----       2 Flashes
+D105: 0.0669 x 0.0590 RECTANGLE -----       4 Flashes
+---------------------------------------------------------
+ 38 D-Codes      -----       0 Draws,     696 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.SMB
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.SMB:
+---------------------------------------------------------
+D62:  0.0550 ROUND  --       0 Draws,       6 Flashes
+D63:  0.0550 SQUARE --       0 Draws,       2 Flashes
+D65:  0.0620 ROUND  --       0 Draws,       2 Flashes
+D66:  0.0620 SQUARE --       0 Draws,       2 Flashes
+D77:  0.0650 ROUND  --       0 Draws,      70 Flashes
+D84:  0.3150 ROUND  --       0 Draws,       4 Flashes
+D85:  0.1390 ROUND  --       0 Draws,       3 Flashes
+D87:  0.0827 ROUND  --       0 Draws,       6 Flashes
+D88:  0.0768 ROUND  --       0 Draws,       6 Flashes
+---------------------------------------------------------
+  9 D-Codes      -----       0 Draws,     101 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.SPT
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.SPT:
+---------------------------------------------------------
+D106: 0.0380 x 0.0320 RECTANGLE -----      50 Flashes
+D107: 0.0320 x 0.0380 RECTANGLE -----      46 Flashes
+D108: 0.0600 SQUARE --       0 Draws,      12 Flashes
+D109: 0.0350 x 0.0300 RECTANGLE -----      28 Flashes
+D110: 0.0300 x 0.0350 RECTANGLE -----      24 Flashes
+D111: 0.0472 x 0.0551 RECTANGLE -----       1 Flashes
+D112: 0.0551 x 0.0945 RECTANGLE -----       2 Flashes
+D113: 0.0709 x 0.0630 RECTANGLE -----       1 Flashes
+D114: 0.0276 x 0.0630 RECTANGLE -----       9 Flashes
+D115: 0.0866 x 0.0905 RECTANGLE -----       4 Flashes
+D116: 0.0216 x 0.0630 RECTANGLE -----       5 Flashes
+D117: 0.0500 SQUARE --       0 Draws,      16 Flashes
+D118: 0.0382 x 0.0319 RECTANGLE -----      12 Flashes
+D119: 0.0319 x 0.0382 RECTANGLE -----       4 Flashes
+D120: 0.0650 x 0.0079 RECTANGLE -----      64 Flashes
+D121: 0.0079 x 0.0650 RECTANGLE -----      64 Flashes
+D122: 0.0197 x 0.0551 RECTANGLE -----      54 Flashes
+D123: 0.0100 x 0.0600 RECTANGLE -----      98 Flashes
+D124: 0.0700 x 0.0160 RECTANGLE -----      20 Flashes
+D125: 0.1420 x 0.0880 RECTANGLE -----       3 Flashes
+D126: 0.0480 x 0.0880 RECTANGLE -----       9 Flashes
+D127: 0.0600 x 0.0100 RECTANGLE -----      50 Flashes
+D128: 0.0472 x 0.0567 RECTANGLE -----       1 Flashes
+D129: 0.0394 x 0.0567 RECTANGLE -----       3 Flashes
+D130: 0.0272 x 0.0390 RECTANGLE -----       5 Flashes
+D131: 0.0276 x 0.0590 RECTANGLE -----       4 Flashes
+D132: 0.0787 x 0.0984 RECTANGLE -----       2 Flashes
+D133: 0.0551 x 0.0472 RECTANGLE -----       4 Flashes
+---------------------------------------------------------
+ 28 D-Codes      -----       0 Draws,     595 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.SST
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.SST:
+---------------------------------------------------------
+D46:  0.0079 ROUND  --      56 Draws,       0 Flashes
+D48:  0.0059 ROUND  --      45 Draws,       0 Flashes
+D49:  0.0080 ROUND  --      75 Draws,       0 Flashes
+D51:  0.0394 ROUND  --       4 Draws,       0 Flashes
+D52:  0.0197 ROUND  --       4 Draws,       0 Flashes
+D60:  0.0157 ROUND  --       1 Draws,       0 Flashes
+D71:  0.0039 ROUND  --     118 Draws,       0 Flashes
+D134: 0.0394 ROUND  --       0 Draws,       2 Flashes
+D135: 0.0433 ROUND  --       0 Draws,       2 Flashes
+D136: 0.0060 ROUND  --     522 Draws,       0 Flashes
+D137: 0.0100 ROUND  --     446 Draws,       1 Flashes
+D138: 0.0030 ROUND  --       8 Draws,       0 Flashes
+D139: 0.0010 ROUND  --       5 Draws,       0 Flashes
+D140: 0.0047 ROUND  --    2188 Draws,       0 Flashes
+---------------------------------------------------------
+ 14 D-Codes      -----    3472 Draws,       5 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.SSB
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.SSB:
+---------------------------------------------------------
+No data on this layer
+---------------------------------------------------------
+  0 D-Codes      -----       0 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.DRD
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.DRD:
+---------------------------------------------------------
+D46:  0.0079 ROUND  --       5 Draws,       0 Flashes
+D137: 0.0100 ROUND  --    2067 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----    2072 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\CAINPCB\SAKC_V3\SIE_V3MAX.FAB
+
+Aperture totals for C:\CAINPCB\SAKC_V3\SIE_V3MAX.FAB:
+---------------------------------------------------------
+D46:  0.0079 ROUND  --       5 Draws,       0 Flashes
+D141: 0.0118 ROUND  --       0 Draws,     297 Flashes
+D142: 0.0118 ROUND  --       0 Draws,       4 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----       5 Draws,     301 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0380 x 0.0320 RECTANGLE -----      62 Flashes
+D11:  0.0320 x 0.0380 RECTANGLE -----      50 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      12 Flashes
+D13:  0.0350 x 0.0300 RECTANGLE -----      28 Flashes
+D14:  0.0300 x 0.0350 RECTANGLE -----      24 Flashes
+D15:  0.0600 ROUND  --       0 Draws,      70 Flashes
+D16:  0.0472 x 0.0551 RECTANGLE -----       1 Flashes
+D17:  0.0551 x 0.0945 RECTANGLE -----       2 Flashes
+D18:  0.0709 x 0.0630 RECTANGLE -----       1 Flashes
+D19:  0.0276 x 0.0630 RECTANGLE -----       9 Flashes
+D20:  0.0550 ROUND  --       0 Draws,       6 Flashes
+D21:  0.0550 SQUARE --       0 Draws,       2 Flashes
+D22:  0.0866 x 0.0905 RECTANGLE -----       4 Flashes
+D23:  0.0216 x 0.0630 RECTANGLE -----       5 Flashes
+D24:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D25:  0.0620 ROUND  --       0 Draws,       2 Flashes
+D26:  0.0620 SQUARE --       0 Draws,       2 Flashes
+D27:  0.1496 ROUND  --       0 Draws,       3 Flashes
+D28:  0.0500 SQUARE --       0 Draws,      16 Flashes
+D29:  0.0775 ROUND  --       0 Draws,       6 Flashes
+D30:  0.0669 ROUND  --       0 Draws,       6 Flashes
+D31:  0.0650 x 0.0079 RECTANGLE -----      64 Flashes
+D32:  0.0079 x 0.0650 RECTANGLE -----      64 Flashes
+D33:  0.0197 x 0.0551 RECTANGLE -----      54 Flashes
+D34:  0.0100 x 0.0600 RECTANGLE -----      98 Flashes
+D35:  0.0700 x 0.0160 RECTANGLE -----      20 Flashes
+D36:  0.1420 x 0.0880 RECTANGLE -----       3 Flashes
+D37:  0.0480 x 0.0880 RECTANGLE -----       9 Flashes
+D38:  0.0600 x 0.0100 RECTANGLE -----      50 Flashes
+D39:  0.0472 x 0.0567 RECTANGLE -----       1 Flashes
+D40:  0.0394 x 0.0567 RECTANGLE -----       3 Flashes
+D41:  0.0272 x 0.0390 RECTANGLE -----       5 Flashes
+D42:  0.0276 x 0.0590 RECTANGLE -----       4 Flashes
+D43:  0.0787 x 0.0984 RECTANGLE -----       2 Flashes
+D44:  0.0551 x 0.0472 RECTANGLE -----       4 Flashes
+D45:  0.0236 ROUND  --       0 Draws,     297 Flashes
+D46:  0.0079 ROUND  --   14755 Draws,       2 Flashes
+D47:  0.0138 ROUND  --     898 Draws,       0 Flashes
+D48:  0.0059 ROUND  --    1872 Draws,       0 Flashes
+D49:  0.0080 ROUND  --     595 Draws,       0 Flashes
+D50:  0.0315 ROUND  --     186 Draws,       0 Flashes
+D51:  0.0394 ROUND  --      56 Draws,       0 Flashes
+D52:  0.0197 ROUND  --      30 Draws,       0 Flashes
+D53:  0.0276 ROUND  --       7 Draws,       0 Flashes
+D54:  0.0236 ROUND  --      51 Draws,       0 Flashes
+D55:  0.0236 ROUND  --       0 Draws,       8 Flashes
+D56:  0.0118 ROUND  --      56 Draws,       0 Flashes
+D57:  0.0094 ROUND  --       2 Draws,       0 Flashes
+D58:  0.0216 ROUND  --      28 Draws,       0 Flashes
+D59:  0.0098 ROUND  --       2 Draws,       0 Flashes
+D60:  0.0157 ROUND  --      31 Draws,       0 Flashes
+D61:  0.0600 ROUND  --       0 Draws,      70 Flashes
+D62:  0.0550 ROUND  --       0 Draws,      18 Flashes
+D63:  0.0550 SQUARE --       0 Draws,       6 Flashes
+D64:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D65:  0.0620 ROUND  --       0 Draws,       6 Flashes
+D66:  0.0620 SQUARE --       0 Draws,       6 Flashes
+D67:  0.1496 ROUND  --       0 Draws,       3 Flashes
+D68:  0.0775 ROUND  --       0 Draws,       6 Flashes
+D69:  0.0669 ROUND  --       0 Draws,       6 Flashes
+D70:  0.0236 ROUND  --       0 Draws,     297 Flashes
+D71:  0.0039 ROUND  --   23968 Draws,       0 Flashes
+D72:  0.0453 x 0.0378 RECTANGLE -----      38 Flashes
+D73:  0.0378 x 0.0453 RECTANGLE -----      42 Flashes
+D74:  0.0650 SQUARE --       0 Draws,      12 Flashes
+D75:  0.0400 x 0.0350 RECTANGLE -----      28 Flashes
+D76:  0.0350 x 0.0400 RECTANGLE -----      24 Flashes
+D77:  0.0650 ROUND  --       0 Draws,     140 Flashes
+D78:  0.0591 x 0.0669 RECTANGLE -----       1 Flashes
+D79:  0.0669 x 0.1063 RECTANGLE -----       2 Flashes
+D80:  0.0827 x 0.0748 RECTANGLE -----       1 Flashes
+D81:  0.0433 x 0.0709 RECTANGLE -----       9 Flashes
+D82:  0.0945 x 0.0984 RECTANGLE -----       4 Flashes
+D83:  0.0315 x 0.0787 RECTANGLE -----       5 Flashes
+D84:  0.3150 ROUND  --       0 Draws,       8 Flashes
+D85:  0.1390 ROUND  --       0 Draws,       6 Flashes
+D86:  0.0571 SQUARE --       0 Draws,      16 Flashes
+D87:  0.0827 ROUND  --       0 Draws,      12 Flashes
+D88:  0.0768 ROUND  --       0 Draws,      12 Flashes
+D89:  0.0433 x 0.0358 RECTANGLE -----      24 Flashes
+D90:  0.0358 x 0.0433 RECTANGLE -----       8 Flashes
+D91:  0.0709 x 0.0118 RECTANGLE -----      64 Flashes
+D92:  0.0118 x 0.0709 RECTANGLE -----      64 Flashes
+D93:  0.0236 x 0.0590 RECTANGLE -----      54 Flashes
+D94:  0.0140 x 0.0650 RECTANGLE -----      48 Flashes
+D95:  0.0750 x 0.0210 RECTANGLE -----      20 Flashes
+D96:  0.1470 x 0.0930 RECTANGLE -----       3 Flashes
+D97:  0.0530 x 0.0930 RECTANGLE -----       9 Flashes
+D98:  0.0650 x 0.0150 RECTANGLE -----      50 Flashes
+D99:  0.0150 x 0.0650 RECTANGLE -----      50 Flashes
+D100: 0.0630 x 0.0787 RECTANGLE -----       1 Flashes
+D101: 0.0567 x 0.0787 RECTANGLE -----       3 Flashes
+D102: 0.0394 x 0.0512 RECTANGLE -----       5 Flashes
+D103: 0.0394 x 0.0709 RECTANGLE -----       4 Flashes
+D104: 0.0905 x 0.1102 RECTANGLE -----       2 Flashes
+D105: 0.0669 x 0.0590 RECTANGLE -----       4 Flashes
+D106: 0.0380 x 0.0320 RECTANGLE -----      50 Flashes
+D107: 0.0320 x 0.0380 RECTANGLE -----      46 Flashes
+D108: 0.0600 SQUARE --       0 Draws,      12 Flashes
+D109: 0.0350 x 0.0300 RECTANGLE -----      28 Flashes
+D110: 0.0300 x 0.0350 RECTANGLE -----      24 Flashes
+D111: 0.0472 x 0.0551 RECTANGLE -----       1 Flashes
+D112: 0.0551 x 0.0945 RECTANGLE -----       2 Flashes
+D113: 0.0709 x 0.0630 RECTANGLE -----       1 Flashes
+D114: 0.0276 x 0.0630 RECTANGLE -----       9 Flashes
+D115: 0.0866 x 0.0905 RECTANGLE -----       4 Flashes
+D116: 0.0216 x 0.0630 RECTANGLE -----       5 Flashes
+D117: 0.0500 SQUARE --       0 Draws,      16 Flashes
+D118: 0.0382 x 0.0319 RECTANGLE -----      12 Flashes
+D119: 0.0319 x 0.0382 RECTANGLE -----       4 Flashes
+D120: 0.0650 x 0.0079 RECTANGLE -----      64 Flashes
+D121: 0.0079 x 0.0650 RECTANGLE -----      64 Flashes
+D122: 0.0197 x 0.0551 RECTANGLE -----      54 Flashes
+D123: 0.0100 x 0.0600 RECTANGLE -----      98 Flashes
+D124: 0.0700 x 0.0160 RECTANGLE -----      20 Flashes
+D125: 0.1420 x 0.0880 RECTANGLE -----       3 Flashes
+D126: 0.0480 x 0.0880 RECTANGLE -----       9 Flashes
+D127: 0.0600 x 0.0100 RECTANGLE -----      50 Flashes
+D128: 0.0472 x 0.0567 RECTANGLE -----       1 Flashes
+D129: 0.0394 x 0.0567 RECTANGLE -----       3 Flashes
+D130: 0.0272 x 0.0390 RECTANGLE -----       5 Flashes
+D131: 0.0276 x 0.0590 RECTANGLE -----       4 Flashes
+D132: 0.0787 x 0.0984 RECTANGLE -----       2 Flashes
+D133: 0.0551 x 0.0472 RECTANGLE -----       4 Flashes
+D134: 0.0394 ROUND  --       0 Draws,       2 Flashes
+D135: 0.0433 ROUND  --       0 Draws,       2 Flashes
+D136: 0.0060 ROUND  --     522 Draws,       0 Flashes
+D137: 0.0100 ROUND  --    2513 Draws,       1 Flashes
+D138: 0.0030 ROUND  --       8 Draws,       0 Flashes
+D139: 0.0010 ROUND  --       5 Draws,       0 Flashes
+D140: 0.0047 ROUND  --    2188 Draws,       0 Flashes
+D141: 0.0118 ROUND  --       0 Draws,     297 Flashes
+D142: 0.0118 ROUND  --       0 Draws,       4 Flashes
+---------------------------------------------------------
+133 D-Codes      -----   47773 Draws,    3099 Flashes
+
+
+No warnings or errors.

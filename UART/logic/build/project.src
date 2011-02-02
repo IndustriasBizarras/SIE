@@ -1,0 +1,2 @@
+verilog work ../uart_peripheral.v
+verilog work ../uart.v

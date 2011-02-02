@@ -1,0 +1,17 @@
+MO UART NULL ../uart.v vlg48/_u_a_r_t.bin 1289504228
+MO pc_bufftx NULL ../uart.v vlg1D/pc__bufftx.bin 1289504228
+MO pc_ctrl_tx_pc NULL ../uart.v vlg78/pc__ctrl__tx__pc.bin 1289504228
+MO pc_ifrxd NULL ../uart.v vlg5B/pc__ifrxd.bin 1289504228
+MO pc_ier NULL ../uart.v vlg72/pc__ier.bin 1289504228
+MO pc_muestreo NULL ../uart.v vlg1E/pc__muestreo.bin 1289504228
+MO pc_dato_rdy NULL ../uart.v vlg70/pc__dato__rdy.bin 1289504228
+MO pc_ctrl_rx NULL ../uart.v vlg6C/pc__ctrl__rx.bin 1289504228
+MO pc_div16 NULL ../uart.v vlg70/pc__div16.bin 1289504228
+MO pc_div27 NULL ../uart.v vlg76/pc__div27.bin 1289504228
+MO uart_peripheral NULL ../uart_peripheral.v vlg1B/uart__peripheral.bin 1289504228
+MO pc_lcr NULL ../uart.v vlg33/pc__lcr.bin 1289504228
+MO pc_isr NULL ../uart.v vlg38/pc__isr.bin 1289504228
+MO pc_buffrx_pc NULL ../uart.v vlg21/pc__buffrx__pc.bin 1289504228
+MO pc_div_ms NULL ../uart.v vlg34/pc__div__ms.bin 1289504228
+MO pc_if_arm_pc NULL ../uart.v vlg7E/pc__if__arm__pc.bin 1289504228
+MO pc_pulso NULL ../uart.v vlg21/pc__pulso.bin 1289504228

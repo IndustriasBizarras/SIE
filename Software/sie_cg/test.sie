@@ -1,0 +1,80 @@
+<!--
+File for SIE Code Generator.
+**WARNING**If you are going to edit this file note that:
+In order to segmentation faults prevention the load process 
+is started loading the libraries, then items and finally arrows.
+Arrows depend of items, and items depend of libraries!!!!
+-->
+<Diagram>
+    <Libraries>
+        <Library Dir="block_editor/timer.die"/>
+        <Library Dir="block_editor/adc_single.die"/>
+        <Library Dir="block_editor/left_shift.die"/>
+        <Library Dir="block_editor/right_shift.die"/>
+        <Library Dir="block_editor/pwm_single.die"/>
+        <Library Dir="block_editor/constant.die"/>
+        <Library Dir="block_editor/constant_bool.die"/>
+        <Library Dir="block_editor/while.die"/>
+        <Library Dir="block_editor/test_block1.die"/>
+        <Library Dir="block_editor/test_block2.die"/>
+        <Library Dir="block_editor/test_block3.die"/>
+        <Library Dir="block_editor/test_block4.die"/>
+    </Libraries>
+    <Options templateDir="templates/basic" workDir="tmp" executableFile="SIE_APP" configApp="xc3sprog  $FPGA_BINARY" sieWorkDir="/tmp/CG" fpgaFile="templates/basic/basic.bit" templateFile="main.cpp" makeFile="Makefile" mipsToolChainDir="" mipsToolChain="/home/juan64bits/ebd/ECB/openwrt-xburst/staging_dir/toolchain-mipsel_gcc-4.3.3+cs_uClibc-0.9.32/usr/bin/mipsel-openwrt-linux" sieIP="192.168.254.101"/>
+    <DiagramItems>
+        <DiagramItem x="2480" y="2480" z="500" type="Right Shift" ID="2" color="#808080">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2240" y="2460" z="500" type="ADC Single" ID="0" color="#008080">
+            <diagramValues>
+                <diagramValue value="0" ID="0"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2610" y="2280" z="500" type="System While" ID="5" color="#ffff00">
+            <diagramValues/>
+        </DiagramItem>
+        <DiagramItem x="2690" y="2480" z="500" type="PWM Single" ID="4" color="#808080">
+            <diagramValues>
+                <diagramValue value="0" ID="16"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2440" y="2600" z="500" type="Left Shift" ID="3" color="#808080">
+            <diagramValues>
+                <diagramValue value="1" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2490" y="2270" z="500" type="Constant Bool" ID="1" color="#008080">
+            <diagramValues>
+                <diagramValue value="1" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2610" y="2600" z="500" type="Right Shift" ID="6" color="#808080">
+            <diagramValues>
+                <diagramValue value="1" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+    </DiagramItems>
+    <Arrows>
+        <Arrow end-ID="4" end-Owner="4" start-x="60" start-y="0" start-Owner="2" ID="0" start-ID="1" end-x="-90" end-y="0" color="#000000"/>
+        <Arrow end-ID="0" end-Owner="2" start-x="110" start-y="20" start-Owner="0" ID="1" start-ID="7" end-x="-70" end-y="0" color="#000000"/>
+        <Arrow end-ID="6" end-Owner="5" start-x="30" start-y="20" start-Owner="1" ID="2" start-ID="2" end-x="-50" end-y="10" color="#000000"/>
+        <Arrow end-ID="0" end-Owner="3" start-x="60" start-y="0" start-Owner="6" ID="3" start-ID="1" end-x="-70" end-y="0" color="#ff0000">
+            <arrowCorners>
+                <arrowCorner x="2700" y="2600"/>
+                <arrowCorner x="2700" y="2560"/>
+                <arrowCorner x="2350" y="2560"/>
+                <arrowCorner x="2349.5" y="2599.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="6" start-x="60" start-y="0" start-Owner="3" ID="4" start-ID="1" end-x="-70" end-y="0" color="#ff0000">
+            <arrowCorners>
+                <arrowCorner x="2519.5" y="2599.5"/>
+            </arrowCorners>
+        </Arrow>
+    </Arrows>
+    <TextItems>
+        <TextItem x="2140" Family="Times New Roman" y="2250" Bold="1" PointSize="26" Text="Basic Example:" Italic="1" Underline="0" Color="#ff0000"/>
+    </TextItems>
+</Diagram>

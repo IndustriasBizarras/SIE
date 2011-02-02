@@ -1,0 +1,29 @@
+Examples from http://www.wellho.net/mouth/1844_Calling-functions-in-C-from-your-Lua-script-a-first-HowTo.html
+
+The first two lines of the Lua code tell Lua to REPLACE the library path with .so files in the current directory. This is great for testing but you'll want to also consider library directories in a real live program.
+
+package.cpath = "./?.so"
+require "fromlua"
+
+The C function who's name is the same as the required module, preceeded by luaopen_ is run as the module is requireed, 
+
+int luaopen_fromlua ( lua_State *L) {
+....
+}
+
+and it defines a Map which tells the interface the names of various Lua function calls, and the equivalent function name that that map to in C.
+
+
+  static const luaL_reg Map [] = {
+    {"dothis", myCfunc},
+    {NULL,NULL} } ;
+
+In this case, the lua function dothis maps to the C function myCfunc.
+
+
+The map is then registered with Lua, into a table named as the second parameter to the luaL_register call.
+  luaL_register(L, "cstuff", Map);
+
+
+
+We've now defined where the library is to be found, loaded it, and told Lua about it. All that remains is for us to call the function from the Lua. All functions called in this way return a static int ( the number of values returned) and take as a parameter a Lua stack pointer - although in this first example we return nothing (0) and do nothing with the Lua stack passed in - we just print "lua SIE's Test" to show we're here. And indeed the code runs like this:

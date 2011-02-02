@@ -1,0 +1,31 @@
+cable jz47xx
+detect
+instruction EXTEST
+pri
+shift ir
+set signal P44 out 1
+shift dr
+usleep 1000000
+Get signal P44
+set signal P44 out 0 
+shift dr
+usleep 100000
+Get signal P44
+set signal P44 out 1
+shift dr
+usleep 100000
+Get signal P44
+set signal P44 out 0
+shift dr
+usleep 100000
+Get signal P44
+set signal P44 out 1
+shift dr
+usleep 100000
+Get signal P44
+set signal P44 out 0
+shift dr
+usleep 100000
+Get signal P44
+instruction  BYPASS
+shift ir

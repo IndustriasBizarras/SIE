@@ -1,0 +1,571 @@
+(PCB
+'C:\Documents and Settings\BlueDeep\Mis documentos\Orcad\Conector_PS2\Nueva carpeta\PS2-7.MAX'
+(parser
+  (space_in_quoted_tokens on)
+  (string_quote ')
+  (host_cad 'OrCAD Layout')
+  (host_version 9.1)
+  )
+(resolution mm 100000)
+(structure
+  (boundary(rect pcb  -161.98850 2.15900  -61.84900 92.64650)
+    )
+  (boundary(path signal  0.20000  -152.14600 83.56600  -61.97600 83.56600
+       -61.97600 2.54000  -152.14600 2.54000  -152.14600 83.56600)
+    )
+  (via VIA1
+    )
+  (control
+    (off_grid OFF)
+    (force_to_terminal_point ON)
+    )
+  (grid via   0.00000)
+  (grid wire   1.50000)
+  (grid place   0.20000)
+  (rule(clearance  0.25400))
+  (rule(width  0.25400))
+  (layer TOP(type signal)(direction horizontal)
+    )
+  (layer GND(type power)
+    )
+  (layer POWER(type power)
+    )
+  (layer BOTTOM(type signal)(direction vertical)
+    )
+  )
+(placement
+  (component MOLEX_87333_20X2
+    (place J1  -67.80000 58.40000 front  270.00 (PN HEADER_20X2)(property(value
+          'HEADER 20X2')))
+    )
+  (component POLCON.100/VH/TM1SQS/W.300/2_3
+    (place J2  -92.40000 80.60000 front  270.00 (PN HEADER_2)(property(value
+          'HEADER 2')))
+    )
+  (component SIP/TM/L.400/4
+    (place J3  -95.40000 77.40000 front  180.00 (PN HEADER_4)(property(value
+          'HEADER 4')))
+    )
+  (component SIP/TM/L.400/4
+    (place J4  -95.50000 80.40000 front  180.00 (PN HEADER_4)(property(value
+          'HEADER 4')))
+    )
+  (component DINC/MIN_TM/6
+    (place JS1  -132.00000 2.80000 front  180.00 (PN 'M-DIN_6-R'))
+    )
+  (component DINC/MIN_TM/6
+    (place JS2  -111.60000 2.80000 front  180.00 (PN 'M-DIN_6-R'))
+    )
+  (component SM_R_0603
+    (place R1  -129.80000 56.40000 front  180.00 (PN R)(property(value 270)))
+    )
+  (component SM_R_0603
+    (place R2  -127.80000 54.40000 front  180.00 (PN R)(property(value 270)))
+    )
+  (component SM_R_0603
+    (place R3  -111.60000 52.40000 front  180.00 (PN R)(property(value 270)))
+    )
+  (component SM_R_0603
+    (place R4  -109.40000 50.40000 front  180.00 (PN R)(property(value 270)))
+    )
+  (component SM_R_0603
+    (place R5  -138.40000 22.40000 front  90.00 (PN R)(property(value 10k)))
+    )
+  (component SM_R_0603
+    (place R6  -121.80000 13.80000 front  0.00 (PN R)(property(value 10k)))
+    )
+  (component SM_R_0603
+    (place R7  -120.00000 20.60000 front  180.00 (PN R)(property(value 10k)))
+    )
+  (component SM_R_0603
+    (place R8  -107.00000 22.40000 front  90.00 (PN R)(property(value 10k)))
+    )
+  (component SIP/TM/L.100/1
+    (place 15  -147.00000 78.60000 front  0.00 )
+    )
+  (component SIP/TM/L.100/1
+    (place 16  -66.40000 78.60000 front  0.00 )
+    )
+  (component SIP/TM/L.100/1
+    (place 17  -66.60000 7.40000 front  0.00 )
+    )
+  (component SIP/TM/L.100/1
+    (place 18  -147.40000 7.20000 front  0.00 )
+    )
+  )
+(library
+  (image VIA1
+    (pin VIA1 FV  0.00000 0.00000)
+    )
+  (image VIA2
+    )
+  (image VIA3
+    )
+  (image VIA4
+    )
+  (image VIA5
+    )
+  (image VIA6
+    )
+  (image VIA7
+    )
+  (image VIA8
+    )
+  (image VIA9
+    )
+  (image VIA10
+    )
+  (image VIA11
+    )
+  (image VIA12
+    )
+  (image VIA13
+    )
+  (image VIA14
+    )
+  (image VIA15
+    )
+  (image VIA16
+    )
+  (image BLKCON.156/VH/TM1SQS/W.156/2
+    (outline(path TOP  0.02539  -2.28091 -2.08279  6.24331 -2.08279
+         6.24331 2.08279  -2.28091 2.08279  -2.28091 -2.08279)
+      )
+    (pin BCON156T.llb_pad1 1  0.00000 0.00000)
+    (pin BCON156T.llb_pad2 2  3.96239 0.00000)
+    )
+  (image DINC/MIN_TM/6
+    (outline(path TOP  13.00479  -8.50899 -13.20799  8.38200 -13.20799
+         8.38200 0.25400  -8.50899 0.25400  -8.50899 -13.20799)
+      )
+    (pin TM_035H_055P_SQ 1  -1.29539 -8.50899)
+    (pin TM_035H_055P_RND 2  1.29539 -8.50899)
+    (pin TM_035H_055P_RND 3  -3.35279 -8.50899)
+    (pin TM_035H_055P_RND 4  3.35279 -8.50899)
+    (pin TM_035H_055P_RND 5  -3.35279 -10.99819)
+    (pin TM_035H_055P_RND 6  3.35279 -10.99819)
+    (pin TM_091H_112P_RND M1  -6.75639 -5.51179)
+    (pin TM_091H_112P_RND M2  0.00000 -4.69899)
+    (pin TM_091H_112P_RND M3  6.75639 -5.51179)
+    )
+  (image SM_R_0603
+    (outline(path TOP  0.55879  -1.52399 -0.76199  -1.52399 0.76200
+         1.52400 0.76200  1.52400 -0.76199  -1.52399 -0.76199)
+      )
+    (pin RT30X35SM(rotate  90.00) 1  -0.82549 0.00000)
+    (pin RT30X35SM(rotate  90.00) 2  0.82549 0.00000)
+    )
+  (image MOLEX_87333_20X2
+    (pin RD55D34 1  0.00000 0.00000)
+    (pin RD55D34 2  0.00000 2.00659)
+    (pin RD55D34 3  2.00659 0.00000)
+    (pin RD55D34 4  2.00659 2.00659)
+    (pin RD55D34 5  3.98779 0.00000)
+    (pin RD55D34 6  3.98779 2.00659)
+    (pin RD55D34 7  5.99439 0.00000)
+    (pin RD55D34 8  5.99439 2.00659)
+    (pin RD55D34 9  8.00100 0.00000)
+    (pin RD55D34 10  8.00100 2.00659)
+    (pin RD55D34 11  10.00759 0.00000)
+    (pin RD55D34 12  10.00759 2.00659)
+    (pin RD55D34 13  11.98879 0.00000)
+    (pin RD55D34 14  11.98879 2.00659)
+    (pin RD55D34 15  13.99539 0.00000)
+    (pin RD55D34 16  13.99539 2.00659)
+    (pin RD55D34 17  16.00200 0.00000)
+    (pin RD55D34 18  16.00200 2.00659)
+    (pin RD55D34 19  18.00859 0.00000)
+    (pin RD55D34 20  18.00859 2.00659)
+    (pin RD55D34 21  19.98979 0.00000)
+    (pin RD55D34 22  19.98979 2.00659)
+    (pin RD55D34 23  21.99639 0.00000)
+    (pin RD55D34 24  21.99639 2.00659)
+    (pin RD55D34 25  24.00300 0.00000)
+    (pin RD55D34 26  24.00300 2.00659)
+    (pin RD55D34 27  26.00959 0.00000)
+    (pin RD55D34 28  26.00959 2.00659)
+    (pin RD55D34 29  27.99079 0.00000)
+    (pin RD55D34 30  27.99079 2.00659)
+    (pin RD55D34 31  29.99739 0.00000)
+    (pin RD55D34 32  29.99739 2.00659)
+    (pin RD55D34 33  32.00400 0.00000)
+    (pin RD55D34 34  32.00400 2.00659)
+    (pin RD55D34 35  34.01059 0.00000)
+    (pin RD55D34 36  34.01059 2.00659)
+    (pin RD55D34 37  35.99179 0.00000)
+    (pin RD55D34 38  35.99179 2.00659)
+    (pin RD55D34 39  37.99839 0.00000)
+    (pin RD55D34 40  37.99839 2.00659)
+    )
+  (image POLCON.100/VH/TM1SQS/W.300/2
+    (outline(path TOP  0.02539  -1.84657 -4.07161  4.22909 -4.07161
+         4.22909 3.91159  -1.84657 3.91159  -1.84657 -4.07161)
+      )
+    (pin PCON100T.llb_pad1 1  0.00000 0.00000)
+    (pin PCON100T.llb_pad2 2  2.54000 0.00000)
+    )
+  (image SIP/TM/L.100/1
+    (pin SIP.llb_pad2_1 1  -0.00507 0.00000)
+    )
+  (image SIP/TM/L.400/4
+    (outline(path TOP  0.02539  -1.62559 -1.49859  8.86459 -1.49859
+         8.86459 1.37159  -1.62559 1.37159  -1.62559 -1.49859)
+      )
+    (pin SIP.llb_pad1 1  0.00000 0.00000)
+    (pin SIP.llb_pad2 2  2.54000 0.00000)
+    (pin SIP.llb_pad2 3  5.08000 0.00000)
+    (pin SIP.llb_pad2 4  7.62000 0.00000)
+    )
+  (image POLCON.100/VH/TM1SQS/W.300/2_3
+    (pin PCON100T.llb_pad1 1  0.00000 0.00000)
+    (pin PCON100T.llb_pad2 2  2.54000 0.00000)
+    )
+  (padstack VIA1
+    (shape(circle TOP  0.76200))
+    (shape(circle BOTTOM  0.76200))
+    (shape(circle GND  1.52400))
+    (shape(circle POWER  1.52400))
+    )
+  (padstack T1
+    (shape(circle TOP  1.52400))
+    (shape(circle BOTTOM  1.52400))
+    (shape(circle GND  2.03200))
+    (shape(circle POWER  2.03200))
+    )
+  (padstack T2
+    (shape(rect TOP  -0.76200 -0.76200  0.76200 0.76200))
+    (shape(rect BOTTOM  -0.76200 -0.76200  0.76200 0.76200))
+    (shape(circle GND  2.03200))
+    (shape(circle POWER  2.03200))
+    )
+  (padstack T7
+    (shape(circle TOP  0.76200))
+    (shape(circle BOTTOM  0.76200))
+    (shape(circle GND  1.52400))
+    (shape(circle POWER  1.52400))
+    )
+  (padstack BCON156T.llb_pad1
+    (shape(rect TOP  -1.27000 -1.27000  1.27000 1.27000))
+    (shape(rect BOTTOM  -1.27000 -1.27000  1.27000 1.27000))
+    (shape(rect GND  -1.52400 -1.52400  1.52400 1.52400))
+    (shape(rect POWER  -1.52400 -1.52400  1.52400 1.52400))
+    )
+  (padstack BCON156T.llb_pad2
+    (shape(circle TOP  2.54000))
+    (shape(circle BOTTOM  2.54000))
+    (shape(circle GND  3.04800))
+    (shape(circle POWER  3.04800))
+    )
+  (padstack TM_035H_055P_SQ
+    (shape(rect TOP  -0.69849 -0.69849  0.69849 0.69849))
+    (shape(rect BOTTOM  -0.69849 -0.69849  0.69849 0.69849))
+    (shape(rect GND  -0.95249 -0.95249  0.95249 0.95249))
+    (shape(rect POWER  -0.95249 -0.95249  0.95249 0.95249))
+    )
+  (padstack TM_035H_055P_RND
+    (shape(circle TOP  1.39698))
+    (shape(circle BOTTOM  1.39698))
+    (shape(circle GND  1.90498))
+    (shape(circle POWER  1.90498))
+    )
+  (padstack TM_091H_112P_RND
+    (shape(circle TOP  2.84478))
+    (shape(circle BOTTOM  2.84478))
+    (shape(circle GND  3.35278))
+    (shape(circle POWER  3.35278))
+    )
+  (padstack RT30X35SM
+    (shape(rect TOP  -0.38100 -0.44449  0.38100 0.44449))
+    )
+  (padstack RD55D34
+    (shape(circle TOP  1.34958))
+    (shape(circle BOTTOM  1.34958))
+    (shape(circle GND  1.62558))
+    (shape(circle POWER  1.62558))
+    )
+  (padstack PCON100T.llb_pad1
+    (shape(rect TOP  -0.78739 -0.78739  0.78739 0.78739))
+    (shape(rect BOTTOM  -0.78739 -0.78739  0.78739 0.78739))
+    (shape(rect GND  -1.04139 -1.04139  1.04139 1.04139))
+    (shape(rect POWER  -1.04139 -1.04139  1.04139 1.04139))
+    )
+  (padstack PCON100T.llb_pad2
+    (shape(circle TOP  1.57478))
+    (shape(circle BOTTOM  1.57478))
+    (shape(circle GND  2.08278))
+    (shape(circle POWER  2.08278))
+    )
+  (padstack SIP.llb_pad2_1
+    (shape(circle TOP  8.00014))
+    (shape(circle BOTTOM  8.00014))
+    (shape(circle GND  2.99972))
+    (shape(circle POWER  2.99972))
+    )
+  (padstack SIP.llb_pad1
+    (shape(rect TOP  -0.69849 -0.69849  0.69849 0.69849))
+    (shape(rect BOTTOM  -0.69849 -0.69849  0.69849 0.69849))
+    (shape(rect GND  -0.95249 -0.95249  0.95249 0.95249))
+    (shape(rect POWER  -0.95249 -0.95249  0.95249 0.95249))
+    )
+  (padstack SIP.llb_pad2
+    (shape(circle TOP  1.39698))
+    (shape(circle BOTTOM  1.39698))
+    (shape(circle GND  1.90498))
+    (shape(circle POWER  1.90498))
+    )
+  )
+(part_library
+  (logical_part HEADER_2
+    (pin 1 0 none 1 1 0)
+    (pin 2 0 none 1 2 0)
+    )
+  (logical_part 'M-DIN_6-R'
+    (pin 1 0 none 1 1 0)
+    (pin 2 0 none 1 2 0)
+    (pin 3 0 none 1 3 0)
+    (pin 4 0 none 1 4 0)
+    (pin 5 0 none 1 5 0)
+    (pin 6 0 none 1 6 0)
+    (pin M1 0 none 0 7 0)
+    (pin M2 0 none 0 8 0)
+    (pin M3 0 none 0 9 0)
+    )
+  (logical_part R
+    (pin 1 0 none 1 1 0)
+    (pin 2 0 none 1 2 0)
+    )
+  (logical_part HEADER_20X2
+    (pin 1 0 none 1 1 0)
+    (pin 2 0 none 1 2 0)
+    (pin 3 0 none 1 3 0)
+    (pin 4 0 none 1 4 0)
+    (pin 5 0 none 1 5 0)
+    (pin 6 0 none 1 6 0)
+    (pin 7 0 none 1 7 0)
+    (pin 8 0 none 1 8 0)
+    (pin 9 0 none 1 9 0)
+    (pin 10 0 none 1 10 0)
+    (pin 11 0 none 1 11 0)
+    (pin 12 0 none 1 12 0)
+    (pin 13 0 none 1 13 0)
+    (pin 14 0 none 1 14 0)
+    (pin 15 0 none 1 15 0)
+    (pin 16 0 none 1 16 0)
+    (pin 17 0 none 1 17 0)
+    (pin 18 0 none 1 18 0)
+    (pin 19 0 none 1 19 0)
+    (pin 20 0 none 1 20 0)
+    (pin 21 0 none 1 21 0)
+    (pin 22 0 none 1 22 0)
+    (pin 23 0 none 1 23 0)
+    (pin 24 0 none 1 24 0)
+    (pin 25 0 none 1 25 0)
+    (pin 26 0 none 1 26 0)
+    (pin 27 0 none 1 27 0)
+    (pin 28 0 none 1 28 0)
+    (pin 29 0 none 1 29 0)
+    (pin 30 0 none 1 30 0)
+    (pin 31 0 none 1 31 0)
+    (pin 32 0 none 1 32 0)
+    (pin 33 0 none 1 33 0)
+    (pin 34 0 none 1 34 0)
+    (pin 35 0 none 1 35 0)
+    (pin 36 0 none 1 36 0)
+    (pin 37 0 none 1 37 0)
+    (pin 38 0 none 1 38 0)
+    (pin 39 0 none 1 39 0)
+    (pin 40 0 none 1 40 0)
+    )
+  (logical_part HEADER_4
+    (pin 1 0 none 1 1 0)
+    (pin 2 0 none 1 2 0)
+    (pin 3 0 none 1 3 0)
+    (pin 4 0 none 1 4 0)
+    )
+  (logical_part_mapping HEADER_20X2(comp J1))
+  (logical_part_mapping HEADER_2(comp J2))
+  (logical_part_mapping HEADER_4(comp J3))
+  (logical_part_mapping HEADER_4(comp J4))
+  (logical_part_mapping 'M-DIN_6-R'(comp JS1))
+  (logical_part_mapping 'M-DIN_6-R'(comp JS2))
+  (logical_part_mapping R(comp R1))
+  (logical_part_mapping R(comp R2))
+  (logical_part_mapping R(comp R3))
+  (logical_part_mapping R(comp R4))
+  (logical_part_mapping R(comp R5))
+  (logical_part_mapping R(comp R6))
+  (logical_part_mapping R(comp R7))
+  (logical_part_mapping R(comp R8))
+  )
+(network
+  (net 0
+    (pins JS1-3 JS2-3 J1-1)
+    (rule(width  1.00000))
+    )
+  (net 5V
+    (pins JS2-4 R6-2 R7-2 R5-2 JS1-4 R8-2 J2-2)
+    (rule(width  1.00000))
+    )
+  (net N00391
+    (pins R7-1 JS2-1 R3-2)
+    )
+  (net N00400
+    (pins JS1-1 R5-1 R1-2)
+    )
+  (net N00414
+    (pins JS1-5 R2-2 R6-1)
+    )
+  (net N00433
+    (pins R4-2 JS2-5 R8-1)
+    )
+  (net PS2_CLK1
+    (pins R2-1 J1-5)
+    )
+  (net PS2_CLK2
+    (pins J1-9 R4-1)
+    )
+  (net PS2_DATA1
+    (pins R1-1 J1-3)
+    )
+  (net PS2_DATA2
+    (pins J1-7 R3-1)
+    )
+  )
+(wiring
+  (wire(path BOTTOM  1.00000  -128.64721 11.30899  -128.64721 7.14721
+       -126.00000 4.50000  -111.00000 4.50000  -108.24721 7.25279
+       -108.24721 11.30899)
+    (net 0)
+    (type normal)
+    )
+  (wire(path BOTTOM  1.00000  -67.80000 58.40000  -75.10000 58.40000
+       -100.50000 33.00000  -100.50000 19.05620  -108.24721 11.30899)
+    (net 0)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -114.95279 11.30899  -117.44380 13.80000
+       -120.97451 13.80000)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -120.97451 13.80000  -120.97451 20.45098
+       -120.82549 20.60000)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -138.40000 23.22549  -142.50000 27.32549
+       -142.50000 18.45620  -135.35279 11.30899)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -135.35279 11.30899  -135.35279 6.35279
+       -133.50000 4.50000  -124.50000 4.50000  -120.97451 8.02549
+       -120.97451 13.80000)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -107.00000 23.22549  -102.72549 23.22549
+       -96.00000 16.50000  -96.00000 12.00000  -103.50000 4.50000
+       -124.50000 4.50000  -120.97451 8.02549  -120.97451 13.80000)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  1.00000  -92.40000 78.06000  -92.40000 74.10000
+       -94.50000 72.00000  -121.50000 72.00000  -142.50000 51.00000
+       -142.50000 27.32549  -138.40000 23.22549)
+    (net 5V)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -119.17451 20.60000  -119.17451 20.17889
+       -110.30461 11.30899)
+    (net N00391)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -110.30461 11.30899  -112.42549 13.42987
+       -112.42549 52.40000)
+    (net N00391)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -130.70461 11.30899  -138.40000 19.00438
+       -138.40000 21.57451)
+    (net N00400)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -130.70461 11.30899  -130.70461 56.32088
+       -130.62549 56.40000)
+    (net N00400)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -128.64721 13.79819  -128.64721 54.37828
+       -128.62549 54.40000)
+    (net N00414)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -128.64721 13.79819  -128.64540 13.80000
+       -122.62549 13.80000)
+    (net N00414)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -110.22549 50.40000  -110.24721 50.37828
+       -110.24721 15.79819  -108.24721 13.79819)
+    (net N00433)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -108.24721 13.79819  -107.00000 15.04540
+       -107.00000 21.57451)
+    (net N00433)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -110.22549 50.40000  -110.10000 50.40000)
+    (net N00433)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -126.97451 54.40000  -67.81221 54.40000
+       -67.80000 54.41221)
+    (net PS2_CLK1)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -67.80000 50.39900  -67.80100 50.40000
+       -108.57451 50.40000)
+    (net PS2_CLK2)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -128.97451 56.40000  -98.97451 56.40000
+       -98.96792 56.39341  -67.80000 56.39341)
+    (net PS2_DATA1)
+    (type normal)
+    )
+  (wire(path TOP  0.25400  -67.80000 52.40561  -88.56890 52.40561
+       -88.57451 52.40000  -110.77451 52.40000)
+    (net PS2_DATA2)
+    (type normal)
+    )
+  )
+(colors
+  (color 0 color0 0 0 0)
+  (color 1 color1 255 255 0)
+  (color 2 color2 0 255 255)
+  (color 3 color3 255 0 0)
+  (color 4 color4 127 127 127)
+  (color 5 color5 0 127 0)
+  (color 6 color6 0 255 0)
+  (color 7 color7 0 0 255)
+  (color 8 color8 255 0 255)
+  (color 9 color9 127 0 0)
+  (color 10 color10 0 0 127)
+  (color 11 color11 127 0 127)
+  (color 12 color12 127 127 0)
+  (color 13 color13 0 127 127)
+  (color 14 color14 255 255 255)
+  (color 15 color15 0 255 0)
+  (color 16 color16 0 127 0)
+  (color 17 color17 0 127 127)
+  (color 18 black 0 0 0)
+  (set_color background color0)
+  (set_color highlight color14)
+  (set_color signal 1 color2)
+  (set_color power 2 color4)
+  (set_color power 3 color5)
+  (set_color signal 15 color3)
+  )
+)

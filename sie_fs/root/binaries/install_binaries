@@ -1,0 +1,9 @@
+mkdir -p /usr/share/xc3sprog
+cp xc3sprog /usr/bin
+cp devlist.txt /usr/share/xc3sprog/
+mv /etc/init.d/start /root/
+cp sgen /usr/bin
+cp sweepgen /usr/bin
+cp inittab /etc/
+cp jtag /usr/bin
+cp bsdl2jtag /usr/bin

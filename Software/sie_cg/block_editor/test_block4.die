@@ -1,0 +1,38 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="All IOs">
+    <Polygon>
+        <Point x="-160" y="-40"/>
+        <Point x="-160" y="270"/>
+        <Point x="-80" y="270"/>
+        <Point x="-80" y="120"/>
+        <Point x="-20" y="270"/>
+        <Point x="50" y="270"/>
+        <Point x="50" y="-40"/>
+        <Point x="-30" y="-40"/>
+        <Point x="-80" y="120"/>
+        <Point x="-80" y="-40"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="129" posOffset-y="-20" editableItem="0" ID="0" text="IN Bool" posOffset-x="-160"/>
+        <TextItem myStyleIO="130" posOffset-y="-40" editableItem="0" ID="1" text="IN Char" posOffset-x="-160"/>
+        <TextItem myStyleIO="131" posOffset-y="-60" editableItem="0" ID="2" text="IN Integer" posOffset-x="-160"/>
+        <TextItem myStyleIO="132" posOffset-y="-80" editableItem="0" ID="3" text="IN Double" posOffset-x="-160"/>
+        <TextItem myStyleIO="133" posOffset-y="-100" editableItem="0" ID="4" text="IN Float" posOffset-x="-160"/>
+        <TextItem myStyleIO="134" posOffset-y="-120" editableItem="0" ID="5" text="IN Short" posOffset-x="-160"/>
+        <TextItem myStyleIO="135" posOffset-y="-140" editableItem="0" ID="6" text="IN Long" posOffset-x="-160"/>
+        <TextItem myStyleIO="136" posOffset-y="-160" editableItem="0" ID="7" text="IN UChar" posOffset-x="-160"/>
+        <TextItem myStyleIO="137" posOffset-y="-180" editableItem="0" ID="8" text="IN UInt" posOffset-x="-160"/>
+        <TextItem myStyleIO="138" posOffset-y="-200" editableItem="0" ID="9" text="IN UShort" posOffset-x="-160"/>
+        <TextItem myStyleIO="139" posOffset-y="-220" editableItem="0" ID="10" text="IN ULong" posOffset-x="-160"/>
+        <TextItem myStyleIO="1" posOffset-y="-20" editableItem="0" ID="11" text="OUT Bool" posOffset-x="50"/>
+        <TextItem myStyleIO="2" posOffset-y="-40" editableItem="0" ID="12" text="OUT Char" posOffset-x="50"/>
+        <TextItem myStyleIO="3" posOffset-y="-60" editableItem="0" ID="13" text="OUT Integer" posOffset-x="50"/>
+        <TextItem myStyleIO="4" posOffset-y="-80" editableItem="0" ID="14" text="OUT Double" posOffset-x="50"/>
+        <TextItem myStyleIO="5" posOffset-y="-100" editableItem="0" ID="15" text="OUT Float" posOffset-x="50"/>
+        <TextItem myStyleIO="6" posOffset-y="-120" editableItem="0" ID="16" text="OUT Short" posOffset-x="50"/>
+        <TextItem myStyleIO="7" posOffset-y="-140" editableItem="0" ID="17" text="OUT Long" posOffset-x="50"/>
+        <TextItem myStyleIO="8" posOffset-y="-160" editableItem="0" ID="18" text="OUT UChar" posOffset-x="50"/>
+        <TextItem myStyleIO="9" posOffset-y="-180" editableItem="0" ID="19" text="OUT UInt" posOffset-x="50"/>
+        <TextItem myStyleIO="10" posOffset-y="-200" editableItem="0" ID="20" text="OUT UShort" posOffset-x="50"/>
+        <TextItem myStyleIO="11" posOffset-y="-220" editableItem="0" ID="21" text="OUT ULong" posOffset-x="50"/>
+    </TextItems><![CDATA[]]><![CDATA[]]><![CDATA[]]><![CDATA[]]></CustomItem>

@@ -1,0 +1,32 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="PWM Single">
+    <Polygon>
+        <Point x="-90" y="-50"/>
+        <Point x="50" y="-50"/>
+        <Point x="50" y="-30"/>
+        <Point x="-90" y="-30"/>
+        <Point x="-90" y="20"/>
+        <Point x="-40" y="20"/>
+        <Point x="50" y="20"/>
+        <Point x="50" y="10"/>
+        <Point x="-40" y="10"/>
+        <Point x="-40" y="-10"/>
+        <Point x="-20" y="-10"/>
+        <Point x="0" y="-10"/>
+        <Point x="0" y="10"/>
+        <Point x="10" y="10"/>
+        <Point x="10" y="-10"/>
+        <Point x="50" y="-10"/>
+        <Point x="50" y="10"/>
+        <Point x="50" y="-30"/>
+        <Point x="50" y="20"/>
+        <Point x="-90" y="20"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="136" posOffset-y="-0" editableItem="0" ID="4" text="UChar" posOffset-x="-90"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="0" ID="18" text="PWM" posOffset-x="-50"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="0" ID="11" text="Out:" posOffset-x="-20"/>
+        <TextItem myStyleIO="0" posOffset-y="40" editableItem="1" ID="16" text="0" posOffset-x="0"/>
+        <TextItem myStyleIO="0" posOffset-y="20" editableItem="0" ID="15" text="|-Duty-|" posOffset-x="-20"/>
+    </TextItems>
+</CustomItem>

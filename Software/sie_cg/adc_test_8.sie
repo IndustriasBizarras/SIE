@@ -1,0 +1,432 @@
+<!--
+File for SIE Code Generator.
+**WARNING**If you are going to edit this file note that:
+In order to segmentation faults prevention the load process 
+is started loading the libraries, then items and finally arrows.
+Arrows depend of items, and items depend of libraries!!!!
+-->
+<Diagram>
+    <Libraries>
+        <Library Dir="block_editor/timer.die"/>
+        <Library Dir="block_editor/adc_single.die"/>
+        <Library Dir="block_editor/adc_eight.die"/>
+        <Library Dir="block_editor/framebuffer_line.die"/>
+        <Library Dir="block_editor/framebuffer_drawline.die"/>
+        <Library Dir="block_editor/framebuffer_put_int.die"/>
+        <Library Dir="block_editor/printf_int.die"/>
+        <Library Dir="block_editor/left_shift.die"/>
+        <Library Dir="block_editor/right_shift.die"/>
+        <Library Dir="block_editor/pwm_single.die"/>
+        <Library Dir="block_editor/constant.die"/>
+        <Library Dir="block_editor/constant_bool.die"/>
+        <Library Dir="block_editor/while.die"/>
+    </Libraries>
+    <Options templateDir="templates/basic" workDir="tmp" executableFile="SIE_APP" configApp="xc3sprog  $FPGA_BINARY" sieWorkDir="/tmp/CG" fpgaFile="templates/basic/basic.bit" templateFile="main.cpp" makeFile="Makefile" mipsToolChainDir="/home/juan64bits/ebd/ECB/openwrt-xburst/staging_dir/toolchain-mipsel_gcc-4.3.3+cs_uClibc-0.9.32/usr/bin" mipsToolChain="mipsel-openwrt-linux" sieIP="192.168.254.101"/>
+    <DiagramItems>
+        <DiagramItem x="2960" y="2380" z="500" type="FB Print Line" ID="38" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="9"/>
+                <diagramValue value="210" ID="7"/>
+                <diagramValue value="160" ID="5"/>
+                <diagramValue value="1" ID="3"/>
+                <diagramValue value="By Juan64Bits" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2310" z="500" type="FB Print Line" ID="37" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="9"/>
+                <diagramValue value="200" ID="7"/>
+                <diagramValue value="160" ID="5"/>
+                <diagramValue value="1" ID="3"/>
+                <diagramValue value="Segundo Semestre de 2010" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2610" y="2380" z="500" type="FB Print Line" ID="36" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="9"/>
+                <diagramValue value="190" ID="7"/>
+                <diagramValue value="160" ID="5"/>
+                <diagramValue value="1" ID="3"/>
+                <diagramValue value="Universidad Nacional de Colombia" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="3110" z="500" type="FB Print Line" ID="35" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="156" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [7]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2480" z="500" type="FB Print Line" ID="10" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="16" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [0]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2500" z="500" type="Right Shift" ID="8" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2370" y="2320" z="500" type="System While" ID="5" color="#a0a0a4">
+            <diagramValues/>
+        </DiagramItem>
+        <DiagramItem x="2190" y="2340" z="500" type="Constant Bool" ID="1" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2610" y="2310" z="500" type="FB Print Line" ID="2" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="1" ID="9"/>
+                <diagramValue value="0" ID="7"/>
+                <diagramValue value="160" ID="5"/>
+                <diagramValue value="1" ID="3"/>
+                <diagramValue value="Wellcome to SIE {Executing Code...}" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2510" z="500" type="FB Draw HLine" ID="3" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="16" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2480" z="500" type="FB Put Int" ID="9" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="24" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2130" y="2760" z="500" type="ADC Eight" ID="7" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="255" ID="10"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2600" z="500" type="FB Draw HLine" ID="0" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="36" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2690" z="500" type="FB Draw HLine" ID="4" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="56" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2780" z="500" type="FB Draw HLine" ID="6" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="76" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2870" z="500" type="FB Draw HLine" ID="11" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="96" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="2960" z="500" type="FB Draw HLine" ID="12" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="116" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="3050" z="500" type="FB Draw HLine" ID="13" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="136" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2710" y="3140" z="500" type="FB Draw HLine" ID="14" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="64" ID="1"/>
+                <diagramValue value="156" ID="2"/>
+                <diagramValue value="255" ID="7"/>
+                <diagramValue value="16" ID="9"/>
+                <diagramValue value="3" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2570" z="500" type="FB Put Int" ID="15" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="44" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2660" z="500" type="FB Put Int" ID="16" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="64" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2750" z="500" type="FB Put Int" ID="17" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="84" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2840" z="500" type="FB Put Int" ID="18" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="104" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="2930" z="500" type="FB Put Int" ID="19" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="124" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="3020" z="500" type="FB Put Int" ID="20" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="144" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2520" y="3110" z="500" type="FB Put Int" ID="21" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="7"/>
+                <diagramValue value="16" ID="3"/>
+                <diagramValue value="164" ID="5"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2590" z="500" type="Right Shift" ID="22" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2680" z="500" type="Right Shift" ID="23" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2770" z="500" type="Right Shift" ID="24" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2860" z="500" type="Right Shift" ID="25" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="2950" z="500" type="Right Shift" ID="26" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="3040" z="500" type="Right Shift" ID="27" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2510" y="3130" z="500" type="Right Shift" ID="28" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="2" ID="11"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2570" z="500" type="FB Print Line" ID="29" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="36" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [1]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2660" z="500" type="FB Print Line" ID="30" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="56" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [2]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2750" z="500" type="FB Print Line" ID="31" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="76" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [3]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2840" z="500" type="FB Print Line" ID="32" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="96" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [4]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="2930" z="500" type="FB Print Line" ID="33" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="116" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [5]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+        <DiagramItem x="2960" y="3020" z="500" type="FB Print Line" ID="34" color="#a0a0a4">
+            <diagramValues>
+                <diagramValue value="4" ID="9"/>
+                <diagramValue value="136" ID="7"/>
+                <diagramValue value="0" ID="5"/>
+                <diagramValue value="0" ID="3"/>
+                <diagramValue value="CHA [6]" ID="1"/>
+            </diagramValues>
+        </DiagramItem>
+    </DiagramItems>
+    <Arrows>
+        <Arrow end-ID="0" end-Owner="28" start-x="110" start-y="90" start-Owner="7" ID="0" start-ID="8" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2270" y="2850"/>
+                <arrowCorner x="2270" y="3140"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="21" start-x="110" start-y="90" start-Owner="7" ID="1" start-ID="8" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2269.5" y="2849.5"/>
+                <arrowCorner x="2269.5" y="3109.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="27" start-x="110" start-y="70" start-Owner="7" ID="2" start-ID="7" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2300" y="2830"/>
+                <arrowCorner x="2300" y="3050"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="20" start-x="110" start-y="70" start-Owner="7" ID="3" start-ID="7" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2299.5" y="2829.5"/>
+                <arrowCorner x="2299.5" y="3019.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="26" start-x="110" start-y="50" start-Owner="7" ID="4" start-ID="6" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2329.5" y="2809.5"/>
+                <arrowCorner x="2329.5" y="2959.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="19" start-x="110" start-y="50" start-Owner="7" ID="5" start-ID="6" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2330" y="2810"/>
+                <arrowCorner x="2330" y="2930"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="6" end-Owner="5" start-x="100" start-y="0" start-Owner="1" ID="6" start-ID="3" end-x="-50" end-y="20" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="3" start-x="70" start-y="10" start-Owner="8" ID="7" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="1" end-Owner="9" start-x="110" start-y="-50" start-Owner="7" ID="8" start-ID="1" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2300" y="2710"/>
+                <arrowCorner x="2299.5" y="2479.5"/>
+                <arrowCorner x="2360" y="2480"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="8" start-x="110" start-y="-50" start-Owner="7" ID="9" start-ID="1" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2299.5" y="2709.5"/>
+                <arrowCorner x="2299.5" y="2709.5"/>
+                <arrowCorner x="2299.5" y="2509.5"/>
+                <arrowCorner x="2380" y="2510"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="3" end-Owner="0" start-x="70" start-y="10" start-Owner="22" ID="10" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="4" start-x="70" start-y="10" start-Owner="23" ID="11" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="6" start-x="70" start-y="10" start-Owner="24" ID="12" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="11" start-x="70" start-y="10" start-Owner="25" ID="13" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="12" start-x="70" start-y="10" start-Owner="26" ID="14" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="13" start-x="70" start-y="10" start-Owner="27" ID="15" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="3" end-Owner="14" start-x="70" start-y="10" start-Owner="28" ID="16" start-ID="1" end-x="-80" end-y="0" color="#000000"/>
+        <Arrow end-ID="1" end-Owner="15" start-x="110" start-y="-30" start-Owner="7" ID="17" start-ID="2" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2329.5" y="2729.5"/>
+                <arrowCorner x="2329.5" y="2569.5"/>
+                <arrowCorner x="2380" y="2570"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="22" start-x="110" start-y="-30" start-Owner="7" ID="18" start-ID="2" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2329.5" y="2729.5"/>
+                <arrowCorner x="2329.5" y="2599.5"/>
+                <arrowCorner x="2399.5" y="2599.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="16" start-x="110" start-y="-10" start-Owner="7" ID="19" start-ID="3" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2360" y="2750"/>
+                <arrowCorner x="2360" y="2660"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="23" start-x="110" start-y="-10" start-Owner="7" ID="20" start-ID="3" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2359.5" y="2749.5"/>
+                <arrowCorner x="2359.5" y="2689.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="17" start-x="110" start-y="10" start-Owner="7" ID="21" start-ID="4" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2379.5" y="2769.5"/>
+                <arrowCorner x="2379.5" y="2749.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="24" start-x="110" start-y="10" start-Owner="7" ID="22" start-ID="4" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2379.5" y="2769.5"/>
+                <arrowCorner x="2379.5" y="2779.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="1" end-Owner="18" start-x="110" start-y="30" start-Owner="7" ID="23" start-ID="5" end-x="-100" end-y="0" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2359.5" y="2789.5"/>
+                <arrowCorner x="2359.5" y="2839.5"/>
+            </arrowCorners>
+        </Arrow>
+        <Arrow end-ID="0" end-Owner="25" start-x="110" start-y="30" start-Owner="7" ID="24" start-ID="5" end-x="-60" end-y="10" color="#000000">
+            <arrowCorners>
+                <arrowCorner x="2359.5" y="2789.5"/>
+                <arrowCorner x="2359.5" y="2869.5"/>
+            </arrowCorners>
+        </Arrow>
+    </Arrows>
+    <TextItems>
+        <TextItem x="2070" Family="Lucida Grande" y="2260" Bold="0" PointSize="12" Text="ADC Test... Using eight channels..." Italic="0" Underline="0" Color="#000000"/>
+        <TextItem x="2090" Family="Times New Roman" y="2210" Bold="1" PointSize="26" Text="Basic Example:" Italic="1" Underline="0" Color="#000000"/>
+    </TextItems>
+</Diagram>

@@ -1,0 +1,203 @@
+Post Processor Report
+OrCAD FILE: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.MAX
+Fri Sep 17 14:14:27 2010
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.TOP
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.TOP:
+---------------------------------------------------------
+D10:  0.0531 ROUND  --       0 Draws,      40 Flashes
+D11:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D12:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D13:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D14:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D15:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D16:  0.0350 x 0.0300 RECTANGLE -----      12 Flashes
+D17:  0.0300 x 0.0350 RECTANGLE -----       4 Flashes
+D18:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D19:  0.0004 ROUND  --  123100 Draws,       0 Flashes
+D20:  0.0100 ROUND  --      28 Draws,       0 Flashes
+D21:  0.0394 ROUND  --      25 Draws,       0 Flashes
+---------------------------------------------------------
+ 12 D-Codes      -----  123153 Draws,      88 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.BOT
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.BOT:
+---------------------------------------------------------
+D19:  0.0004 ROUND  --   65997 Draws,       0 Flashes
+D21:  0.0394 ROUND  --       9 Draws,       0 Flashes
+D22:  0.0531 ROUND  --       0 Draws,      40 Flashes
+D23:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D24:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D25:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D26:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D27:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D28:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+---------------------------------------------------------
+  9 D-Codes      -----   66006 Draws,      72 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.GND
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.GND:
+---------------------------------------------------------
+D29:  0.0640 ROUND  --       0 Draws,      40 Flashes
+D30:  0.0820 ROUND  --       0 Draws,       1 Flashes
+D31:  0.0820 SQUARE --       0 Draws,       1 Flashes
+D32:  0.0750 ROUND  --       0 Draws,      16 Flashes
+D33:  0.0750 SQUARE --       0 Draws,       4 Flashes
+D34:  0.1320 ROUND  --       0 Draws,       6 Flashes
+D35:  0.1181 ROUND  --       0 Draws,       4 Flashes
+D36:  0.0079 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  8 D-Codes      -----       4 Draws,      72 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.PWR
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.PWR:
+---------------------------------------------------------
+D29:  0.0640 ROUND  --       0 Draws,      40 Flashes
+D30:  0.0820 ROUND  --       0 Draws,       1 Flashes
+D31:  0.0820 SQUARE --       0 Draws,       1 Flashes
+D32:  0.0750 ROUND  --       0 Draws,      16 Flashes
+D33:  0.0750 SQUARE --       0 Draws,       4 Flashes
+D34:  0.1320 ROUND  --       0 Draws,       6 Flashes
+D35:  0.1181 ROUND  --       0 Draws,       4 Flashes
+D36:  0.0079 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  8 D-Codes      -----       4 Draws,      72 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SMT
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SMT:
+---------------------------------------------------------
+D23:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D24:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D25:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D26:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D27:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D37:  0.0600 ROUND  --       0 Draws,      40 Flashes
+D38:  0.0400 x 0.0350 RECTANGLE -----      12 Flashes
+D39:  0.0350 x 0.0400 RECTANGLE -----       4 Flashes
+D40:  0.3150 ROUND  --       0 Draws,       4 Flashes
+---------------------------------------------------------
+  9 D-Codes      -----       0 Draws,      88 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SMB
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SMB:
+---------------------------------------------------------
+D23:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D24:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D25:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D26:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D27:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D37:  0.0600 ROUND  --       0 Draws,      40 Flashes
+D40:  0.3150 ROUND  --       0 Draws,       4 Flashes
+---------------------------------------------------------
+  7 D-Codes      -----       0 Draws,      72 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SST
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.SST:
+---------------------------------------------------------
+D20:  0.0100 ROUND  --     429 Draws,       0 Flashes
+D36:  0.0079 ROUND  --      29 Draws,       0 Flashes
+D41:  0.0080 ROUND  --      53 Draws,       0 Flashes
+D42:  0.0060 ROUND  --     281 Draws,       0 Flashes
+D43:  0.0000 ROUND  --      12 Draws,       0 Flashes
+---------------------------------------------------------
+  5 D-Codes      -----     804 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.AST
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.AST:
+---------------------------------------------------------
+D23:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D24:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D25:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D26:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D27:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D36:  0.0079 ROUND  --       4 Draws,       0 Flashes
+D41:  0.0080 ROUND  --     116 Draws,       0 Flashes
+D42:  0.0060 ROUND  --     372 Draws,       0 Flashes
+D44:  0.1181 ROUND  --       0 Draws,       4 Flashes
+D45:  0.0040 ROUND  --      60 Draws,       0 Flashes
+D46:  0.0050 ROUND  --     265 Draws,       0 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----     817 Draws,      32 Flashes
+
+*********************************************************
+
+Output file: C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.DRD
+
+Aperture totals for C:\DOCUMENTS AND SETTINGS\BLUEDEEP\MIS DOCUMENTOS\ORCAD\CONECTOR_PS2\NUEVA CARPETA\PS2-6.DRD:
+---------------------------------------------------------
+D20:  0.0100 ROUND  --     621 Draws,       0 Flashes
+D36:  0.0079 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----     625 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0531 ROUND  --       0 Draws,      40 Flashes
+D11:  0.0620 ROUND  --       0 Draws,       1 Flashes
+D12:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D13:  0.0550 ROUND  --       0 Draws,      16 Flashes
+D14:  0.0550 SQUARE --       0 Draws,       4 Flashes
+D15:  0.1120 ROUND  --       0 Draws,       6 Flashes
+D16:  0.0350 x 0.0300 RECTANGLE -----      12 Flashes
+D17:  0.0300 x 0.0350 RECTANGLE -----       4 Flashes
+D18:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D19:  0.0004 ROUND  --  189097 Draws,       0 Flashes
+D20:  0.0100 ROUND  --    1078 Draws,       0 Flashes
+D21:  0.0394 ROUND  --      34 Draws,       0 Flashes
+D22:  0.0531 ROUND  --       0 Draws,      40 Flashes
+D23:  0.0620 ROUND  --       0 Draws,       4 Flashes
+D24:  0.0620 SQUARE --       0 Draws,       4 Flashes
+D25:  0.0550 ROUND  --       0 Draws,      64 Flashes
+D26:  0.0550 SQUARE --       0 Draws,      16 Flashes
+D27:  0.1120 ROUND  --       0 Draws,      24 Flashes
+D28:  0.3150 OD, 0.2910 ID ANNULAR --       4 Flashes
+D29:  0.0640 ROUND  --       0 Draws,      80 Flashes
+D30:  0.0820 ROUND  --       0 Draws,       2 Flashes
+D31:  0.0820 SQUARE --       0 Draws,       2 Flashes
+D32:  0.0750 ROUND  --       0 Draws,      32 Flashes
+D33:  0.0750 SQUARE --       0 Draws,       8 Flashes
+D34:  0.1320 ROUND  --       0 Draws,      12 Flashes
+D35:  0.1181 ROUND  --       0 Draws,       8 Flashes
+D36:  0.0079 ROUND  --      45 Draws,       0 Flashes
+D37:  0.0600 ROUND  --       0 Draws,      80 Flashes
+D38:  0.0400 x 0.0350 RECTANGLE -----      12 Flashes
+D39:  0.0350 x 0.0400 RECTANGLE -----       4 Flashes
+D40:  0.3150 ROUND  --       0 Draws,       8 Flashes
+D41:  0.0080 ROUND  --     169 Draws,       0 Flashes
+D42:  0.0060 ROUND  --     653 Draws,       0 Flashes
+D43:  0.0000 ROUND  --      12 Draws,       0 Flashes
+D44:  0.1181 ROUND  --       0 Draws,       4 Flashes
+D45:  0.0040 ROUND  --      60 Draws,       0 Flashes
+D46:  0.0050 ROUND  --     265 Draws,       0 Flashes
+---------------------------------------------------------
+ 37 D-Codes      -----  191413 Draws,     496 Flashes
+
+
+No warnings or errors.

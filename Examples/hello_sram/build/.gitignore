@@ -1,0 +1,16 @@
+.svn
+CVS
+*.o
+*.orig
+*.rej
+*.bak
+*.d
+*.bin
+*.dump
+jz_xloader
+
+
+
+
+
+

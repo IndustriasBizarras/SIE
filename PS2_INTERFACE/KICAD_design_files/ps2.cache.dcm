@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  mié 22 sep 2010 13:56:54 COT
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library

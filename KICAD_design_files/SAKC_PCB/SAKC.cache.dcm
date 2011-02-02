@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0  Fri 23 Apr 2010 12:32:33 PM COT
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
+#End Doc Library

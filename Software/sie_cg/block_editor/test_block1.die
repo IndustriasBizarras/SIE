@@ -1,0 +1,18 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="Test Block 1">
+    <Polygon>
+        <Point x="-120" y="0"/>
+        <Point x="-70" y="-50"/>
+        <Point x="90" y="-50"/>
+        <Point x="140" y="0"/>
+        <Point x="90" y="50"/>
+        <Point x="-70" y="50"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-30" editableItem="0" ID="0" text="Value" posOffset-x="-40"/>
+        <TextItem myStyleIO="0" posOffset-y="-30" editableItem="1" ID="1" text="0.001" posOffset-x="40"/>
+        <TextItem myStyleIO="2" posOffset-y="-0" editableItem="0" ID="3" text="OUT Char " posOffset-x="140"/>
+        <TextItem myStyleIO="130" posOffset-y="-0" editableItem="0" ID="4" text=" IN Bool" posOffset-x="-120"/>
+        <TextItem myStyleIO="0" posOffset-y="30" editableItem="0" ID="2" text="Test Block 1" posOffset-x="0"/>
+    </TextItems>
+</CustomItem>

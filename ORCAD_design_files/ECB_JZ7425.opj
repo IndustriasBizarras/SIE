@@ -1,0 +1,180 @@
+(ExpressProject "ECB_JZ7425"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\xburst.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ecb_jz7425.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "C:\CAINPCB\ECB_JZ7425\ECB_JZ7425.SWP")
+    (Backannotation_TAB "1")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "ECB_JZ7425.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (Board_sim_option "VHDL_flow")
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (TRUE)
+    (FALSE)
+    (TRUE)
+    (TRUE)
+    (FALSE)
+    (TRUE)
+    (TRUE)
+    ( "TRUE"))
+  (Folder "Outputs"
+    (File ".\ecb_jz7425.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 40"
+      (FullPartName "HEADER 40.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BZX84C12/SOT
+      (FullPartName "BZX84C12/SOT.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MTD4P05
+      (FullPartName "MTD4P05.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 20X2"
+      (FullPartName "HEADER 20X2.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (mic811
+      (FullPartName "mic811.Normal")
+      (LibraryName "C:\CAINPCB\ECB_JZ7425\XBURST.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TLV1548
+      (FullPartName "TLV1548.Normal")
+      (LibraryName "C:\CAINPCB\ECB_JZ7425\XBURST.OLB")
+      (DeviceIndex "0"))
+    (PCA9701PW
+      (FullPartName "PCA9701PW.Normal")
+      (LibraryName "C:\CAINPCB\ECB_JZ7425\XBURST.OLB")
+      (DeviceIndex "0"))
+    (RESAR_IS_4/SM
+      (FullPartName "RESAR_IS_4/SM.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 4X2"
+      (FullPartName "HEADER 4X2.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_15.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (XC6204B302MRN
+      (FullPartName "XC6204B302MRN.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\CAIN\ESCRITORIO\SEED_BOARD\XBURST.OLB")
+      (DeviceIndex "0"))
+    (KB3361
+      (FullPartName "KB3361.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\CAIN\ESCRITORIO\SEED_BOARD\XBURST.OLB")
+      (DeviceIndex "0"))
+    (XC6206P302M
+      (FullPartName "XC6206P302M.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\CAIN\ESCRITORIO\SEED_BOARD\XBURST.OLB")
+      (DeviceIndex "0"))
+    (JZ4725
+      (FullPartName "JZ4725.Normal")
+      (LibraryName "C:\CAINPCB\ECB_JZ7425\XBURST.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_16.0\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\cainPCB\SAKC_V2\ecb_jz7425.dsn")
+      (Path "Design Resources" "C:\cainPCB\SAKC_V2\ecb_jz7425.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" "C:\cainPCB\SAKC_V2\ecb_jz7425.dsn"
+         "SCHEMATIC1" "1-CPU"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 7 462 43 453"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 66 1246 66 467")
+        (Scroll "0 160")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\CAINPCB\SAKC_V2\ECB_JZ7425.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "6-POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 88 1268 88 489")
+        (Scroll "49 742")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\CAINPCB\SAKC_V2\ECB_JZ7425.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1-CPU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 154 1334 154 555")
+        (Scroll "0 10")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\CAINPCB\SAKC_V2\ECB_JZ7425.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "4-LCD"))))

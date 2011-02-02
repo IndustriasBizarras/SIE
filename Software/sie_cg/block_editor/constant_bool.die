@@ -1,0 +1,21 @@
+<!--File for SIE Code Generator. Custmos Blocks-->
+<CustomItem BlockName="Constant Bool">
+    <Polygon>
+        <Point x="-50" y="-10"/>
+        <Point x="-50" y="10"/>
+        <Point x="20" y="10"/>
+        <Point x="20" y="-10"/>
+        <Point x="-50" y="-10"/>
+        <Point x="100" y="-10"/>
+        <Point x="100" y="10"/>
+        <Point x="20" y="10"/>
+        <Point x="100" y="10"/>
+        <Point x="100" y="-10"/>
+    </Polygon>
+    <TextItems>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="0" ID="0" text="Const" posOffset-x="-30"/>
+        <TextItem myStyleIO="0" posOffset-y="-0" editableItem="1" ID="1" text="1" posOffset-x="0"/>
+        <TextItem myStyleIO="1" posOffset-y="-0" editableItem="0" ID="3" text="OUT Bool" posOffset-x="100"/>
+    </TextItems><![CDATA[]]><![CDATA[]]><![CDATA[	
+	out_3=value_1;
+]]><![CDATA[]]></CustomItem>

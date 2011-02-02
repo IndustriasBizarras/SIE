@@ -1,0 +1,197 @@
+Release 10.1.03 par K.39 (lin)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+cain-laptop::  Thu Nov 11 14:38:14 2010
+
+par -w project.ncd project_r.ncd 
+
+
+Constraints file: project.pcf.
+PMSPEC -- Overriding Xilinx file </opt/cad/Xilinx/10.1/ISE/spartan3e/data/spartan3e.acd> with local file
+</opt/cad/Xilinx/10.1/ISE/spartan3e/data/spartan3e.acd>
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+/opt/cad/Xilinx/10.1/ISE:/opt/cad/Xilinx/10.1/ISE/.
+   "uart_peripheral" is an NCD, version 3.2, device xc3s500e, package vq100, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. The PAR timing summary will list the performance achieved for each clock. Note: For
+   the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high". For a
+   balance between the fastest runtime and best performance, set the effort level to "med".
+
+Device speed data version:  "PRODUCTION 1.27 2008-01-09".
+
+
+Design Summary Report:
+
+ Number of External IOBs                          20 out of 66     30%
+
+   Number of External Input IOBs                  9
+
+      Number of External Input IBUFs              9
+        Number of LOCed External Input IBUFs      9 out of 9     100%
+
+
+   Number of External Output IOBs                 3
+
+      Number of External Output IOBs              3
+        Number of LOCed External Output IOBs      3 out of 3     100%
+
+
+   Number of External Bidir IOBs                  8
+
+      Number of External Bidir IOBs               8
+        Number of LOCed External Bidir IOBs       8 out of 8     100%
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of Slices                        138 out of 4656    2%
+      Number of SLICEMs                      0 out of 2328    0%
+
+
+
+Overall effort level (-ol):   Standard 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:149c9) REAL time: 9 secs 
+
+Phase 2.7
+Phase 2.7 (Checksum:149c9) REAL time: 9 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:149c9) REAL time: 9 secs 
+
+Phase 4.2
+
+.
+Phase 4.2 (Checksum:159e9) REAL time: 9 secs 
+
+Phase 5.30
+Phase 5.30 (Checksum:159e9) REAL time: 9 secs 
+
+Phase 6.8
+.
+.
+.
+.
+.
+Phase 6.8 (Checksum:d4161) REAL time: 21 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:d4161) REAL time: 21 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:d708d) REAL time: 27 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:d708d) REAL time: 27 secs 
+
+REAL time consumed by placer: 27 secs 
+CPU  time consumed by placer: 23 secs 
+Writing design to file project_r.ncd
+
+
+Total REAL time to Placer completion: 27 secs 
+Total CPU time to Placer completion: 24 secs 
+
+Starting Router
+
+Phase 1: 909 unrouted;       REAL time: 37 secs 
+
+Phase 2: 799 unrouted;       REAL time: 37 secs 
+
+Phase 3: 166 unrouted;       REAL time: 38 secs 
+
+Phase 4: 166 unrouted; (241538)      REAL time: 38 secs 
+
+Phase 5: 167 unrouted; (0)      REAL time: 38 secs 
+
+Phase 6: 0 unrouted; (0)      REAL time: 39 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 39 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 39 secs 
+
+Phase 9: 0 unrouted; (0)      REAL time: 39 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 40 secs 
+
+
+Total REAL time to Router completion: 40 secs 
+Total CPU time to Router completion: 36 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP |  BUFGMUX_X2Y1| No   |  109 |  0.084     |  0.201      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP   |         N/A|    15.993ns|     N/A|           0
+  _BUFGP                                    | HOLD    |     1.022ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 41 secs 
+Total CPU time to PAR completion: 37 secs 
+
+Peak Memory Usage:  126 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file project_r.ncd
+
+
+
+PAR done!
