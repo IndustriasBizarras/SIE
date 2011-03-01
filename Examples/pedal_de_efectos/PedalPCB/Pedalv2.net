@@ -1,0 +1,560 @@
+# EESchema Netlist Version 1.1 created  lun 25 oct 2010 18:13:12 COT
+(
+ ( /4CBF2DBB $noname  P5 CONN_6X2 {Lib=CONN_6X2}
+  (    1 /Pdigiout6 )
+  (    2 /Pdigiout5 )
+  (    3 /Pdigiout7 )
+  (    4 /Pdigiout4 )
+  (    5 /Pdigiout1 )
+  (    6 /Pdigiout3 )
+  (    7 /Pdigiout8 )
+  (    8 /Pdigiout2 )
+  (    9 /Panalout )
+  (   10 /V5 )
+  (   11 +3.3V )
+  (   12 /DGND )
+ )
+ ( /4CB8CEBA $noname  R25 R {Lib=R}
+  (    1 N-000031 )
+  (    2 /AGND )
+ )
+ ( /4CB8CEB7 $noname  R26 R {Lib=R}
+  (    1 N-000035 )
+  (    2 /PWM )
+ )
+ ( /4CB8CE90 $noname  R24 R {Lib=R}
+  (    1 N-000031 )
+  (    2 +3.3V )
+ )
+ ( /4CB8CE75 $noname  R27 R {Lib=R}
+  (    1 /SignOut )
+  (    2 N-000035 )
+ )
+ ( /4CB8CE1F $noname  U2 LM386 {Lib=LM386}
+  (    1 ? )
+  (    2 N-000035 )
+  (    3 N-000031 )
+  (    4 /AGND )
+  (    5 /SignOut )
+  (    6 /V5 )
+  (    8 ? )
+ )
+ ( /4CB8C78A $noname  R23 R {Lib=R}
+  (    1 N-000029 )
+  (    2 /Analin )
+ )
+ ( /4CB8C63B $noname  R20 R {Lib=R}
+  (    1 N-000029 )
+  (    2 /AGND )
+ )
+ ( /4CB8C639 $noname  R22 R {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000028 )
+ )
+ ( /4CB8C60D $noname  R21 R {Lib=R}
+  (    1 N-000028 )
+  (    2 /Signin )
+ )
+ ( /4CB8C553 $noname  U1 LM386 {Lib=LM386}
+  (    1 ? )
+  (    2 N-000029 )
+  (    3 N-000028 )
+  (    4 /AGND )
+  (    5 /Analin )
+  (    6 /V5 )
+  (    8 ? )
+ )
+ ( /4C9BD9F0 $noname  R19 R {Lib=R}
+  (    1 /DB7 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9EE $noname  R18 R {Lib=R}
+  (    1 /DB6 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9EC $noname  R17 R {Lib=R}
+  (    1 /DB5 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9EB $noname  R16 R {Lib=R}
+  (    1 /DB4 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9E8 $noname  R15 R {Lib=R}
+  (    1 /DB3 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9E7 $noname  R14 R {Lib=R}
+  (    1 /DB2 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9E5 $noname  R13 R {Lib=R}
+  (    1 /DB1 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9E3 $noname  R12 R {Lib=R}
+  (    1 /DB0 )
+  (    2 /DGND )
+ )
+ ( /4C9BD9E1 $noname  R11 R {Lib=R}
+  (    1 /En )
+  (    2 /DGND )
+ )
+ ( /4C9BD9DF $noname  R10 R {Lib=R}
+  (    1 /RW )
+  (    2 /DGND )
+ )
+ ( /4C9BD9D7 $noname  R9 R {Lib=R}
+  (    1 /RS )
+  (    2 /DGND )
+ )
+ ( /4C9ACDD3 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4C9ACDD0 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4C9ACDCC $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4C9ACDC6 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4C9A7D61 $noname  USBSIE1 Conn_USB {Lib=Conn_USB}
+  (    1 /V5 )
+  (    2 ? )
+  (    3 ? )
+  (    4 /DGND )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /4C9A7BA5 $noname  SW5 SWITCH_INV {Lib=SWITCH_INV}
+  (    1 /V5 )
+  (    2 /VUSBin )
+  (    3 ? )
+ )
+ ( /4C998F6E $noname  J4 JACK_2P {Lib=JACK_2P}
+  (    1 /SignOut )
+  (    2 /SignOut )
+  (    3 /AGND )
+ )
+ ( /4C998CA5 $noname  J3 JACK_2P {Lib=JACK_2P}
+  (    1 /Signin )
+  (    2 /Signin )
+  (    3 /AGND )
+ )
+ ( /4C99856F $noname  C1 C {Lib=C}
+  (    1 /SignOut )
+  (    2 N-000035 )
+ )
+ ( /4C997D19 $noname  R2 R {Lib=R}
+  (    1 /P1 )
+  (    2 /DGND )
+ )
+ ( /4C997D17 $noname  R3 R {Lib=R}
+  (    1 /P2 )
+  (    2 /DGND )
+ )
+ ( /4C997D14 $noname  R4 R {Lib=R}
+  (    1 /P3 )
+  (    2 /DGND )
+ )
+ ( /4C997D0B $noname  R5 R {Lib=R}
+  (    1 /P4 )
+  (    2 /DGND )
+ )
+ ( /4C997645 $noname  SW4 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 /P4 )
+ )
+ ( /4C997642 $noname  SW2 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 /P2 )
+ )
+ ( /4C99763E $noname  SW3 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 /P3 )
+ )
+ ( /4C997629 $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 +3.3V )
+  (    2 /P1 )
+ )
+ ( /4C99509A $noname  R1 TRIMMERSMD {Lib=TRIMMERSMD}
+  (    1 ? )
+  (    2 /Contr )
+  (    3 /DGND )
+ )
+ ( /4C9944B6 $noname  J2 CONN16 {Lib=CONN16}
+  (    1 /DGND )
+  (    2 /V5 )
+  (    3 /Contr )
+  (    4 /RS )
+  (    5 /RW )
+  (    6 /En )
+  (    7 /DB0 )
+  (    8 /DB1 )
+  (    9 /DB2 )
+  (   10 /DB3 )
+  (   11 /DB4 )
+  (   12 /DB5 )
+  (   13 /DB6 )
+  (   14 /DB7 )
+  (   15 /V5 )
+  (   16 /DGND )
+ )
+ ( /4C98A7FB $noname  J1 HEADER_20X2 {Lib=HEADER_20X2}
+  (    1 /DGND )
+  (    2 /P1 )
+  (    3 /DB7 )
+  (    4 /P2 )
+  (    5 /DB6 )
+  (    6 /P3 )
+  (    7 /DB5 )
+  (    8 /P4 )
+  (    9 /DB4 )
+  (   10 /Pdigiout2 )
+  (   11 /DB3 )
+  (   12 /Pdigiout3 )
+  (   13 /DB2 )
+  (   14 /Pdigiout4 )
+  (   15 /DB1 )
+  (   16 /Pdigiout5 )
+  (   17 /DB0 )
+  (   18 /Pdigiout6 )
+  (   19 /En )
+  (   20 /Pdigiout7 )
+  (   21 /RW )
+  (   22 /Pdigiout1 )
+  (   23 /RS )
+  (   24 /Pdigiout8 )
+  (   25 /PWM )
+  (   26 ? )
+  (   27 +3.3V )
+  (   28 ? )
+  (   29 +3.3V )
+  (   30 /V5 )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 /Panalout )
+  (   36 ? )
+  (   37 /Analin )
+  (   38 ? )
+  (   39 /AGND )
+  (   40 /AGND )
+ )
+ ( /4C982BF9 $noname  USBIN1 Conn_USB {Lib=Conn_USB}
+  (    1 /VUSBin )
+  (    2 ? )
+  (    3 ? )
+  (    4 /DGND )
+  (    5 ? )
+  (    6 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R25
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/SignOut" "SignOut"
+ R27 1
+ U2 5
+ J4 1
+ J4 2
+ C1 1
+Net 2 "/Pdigiout8" "Pdigiout8"
+ P5 7
+ J1 24
+Net 3 "/Pdigiout1" "Pdigiout1"
+ P5 5
+ J1 22
+Net 4 "/Pdigiout7" "Pdigiout7"
+ P5 3
+ J1 20
+Net 5 "+3.3V" "+3.3V"
+ P5 11
+ R24 2
+ R22 1
+ SW4 1
+ SW2 1
+ SW3 1
+ SW1 1
+ J1 29
+ J1 27
+Net 6 "/DB6" "DB6"
+ R18 1
+ J2 13
+ J1 5
+Net 7 "/DB4" "DB4"
+ R16 1
+ J2 11
+ J1 9
+Net 8 "/DB2" "DB2"
+ R14 1
+ J2 9
+ J1 13
+Net 9 "/DB0" "DB0"
+ R12 1
+ J2 7
+ J1 17
+Net 10 "/RW" "RW"
+ R10 1
+ J2 5
+ J1 21
+Net 11 "/P4" "P4"
+ R5 1
+ SW4 2
+ J1 8
+Net 12 "/P2" "P2"
+ R3 1
+ SW2 2
+ J1 4
+Net 13 "/P1" "P1"
+ R2 1
+ SW1 2
+ J1 2
+Net 14 "/Contr" "Contr"
+ R1 2
+ J2 3
+Net 15 "/P3" "P3"
+ R4 1
+ SW3 2
+ J1 6
+Net 16 "/VUSBin" "VUSBin"
+ SW5 2
+ USBIN1 1
+Net 17 "/RS" "RS"
+ R9 1
+ J2 4
+ J1 23
+Net 18 "/En" "En"
+ R11 1
+ J2 6
+ J1 19
+Net 19 "/DB1" "DB1"
+ R13 1
+ J2 8
+ J1 15
+Net 20 "/DB3" "DB3"
+ R15 1
+ J2 10
+ J1 11
+Net 21 "/DB5" "DB5"
+ R17 1
+ J2 12
+ J1 7
+Net 22 "/DB7" "DB7"
+ R19 1
+ J2 14
+ J1 3
+Net 23 "/Signin" "Signin"
+ R21 2
+ J3 1
+ J3 2
+Net 24 "/Pdigiout5" "Pdigiout5"
+ P5 2
+ J1 16
+Net 25 "/Pdigiout4" "Pdigiout4"
+ P5 4
+ J1 14
+Net 26 "/Pdigiout3" "Pdigiout3"
+ P5 6
+ J1 12
+Net 27 "/Pdigiout2" "Pdigiout2"
+ P5 8
+ J1 10
+Net 28 "" ""
+ R22 2
+ R21 1
+ U1 3
+Net 29 "" ""
+ R23 1
+ R20 1
+ U1 2
+Net 30 "/Analin" "Analin"
+ R23 2
+ U1 5
+ J1 37
+Net 31 "" ""
+ R25 1
+ R24 1
+ U2 3
+Net 32 "/PWM" "PWM"
+ R26 2
+ J1 25
+Net 33 "/Pdigiout6" "Pdigiout6"
+ P5 1
+ J1 18
+Net 34 "/Panalout" "Panalout"
+ P5 9
+ J1 35
+Net 35 "" ""
+ R26 1
+ R27 2
+ U2 2
+ C1 2
+Net 36 "/AGND" "AGND"
+ R25 2
+ U2 4
+ R20 2
+ U1 4
+ J4 3
+ J3 3
+ J1 39
+ J1 40
+Net 37 "/DGND" "DGND"
+ P5 12
+ R19 2
+ R18 2
+ R17 2
+ R16 2
+ R15 2
+ R14 2
+ R13 2
+ R12 2
+ R11 2
+ R10 2
+ R9 2
+ USBSIE1 4
+ R2 2
+ R3 2
+ R4 2
+ R5 2
+ R1 3
+ J2 16
+ J2 1
+ J1 1
+ USBIN1 4
+Net 38 "/V5" "V5"
+ P5 10
+ U2 6
+ U1 6
+ USBSIE1 1
+ SW5 1
+ J2 15
+ J2 2
+ J1 30
+}
+#End

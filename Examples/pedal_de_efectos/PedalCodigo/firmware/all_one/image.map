@@ -1,0 +1,134 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+flag                0x4               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bram             0x00000000         0x00004000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                __DYNAMIC = 0x0
+                0x00000000                _BRAM_START = 0x0
+                0x00004000                _BRAM_SIZE = 0x4000
+                0x00004000                _BRAM_END = (_BRAM_START + _BRAM_SIZE)
+
+.text           0x00000000     0x1570
+                0x00000000                _ftext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000      0x208 crt0ram.o
+                0x00000000                _start
+                0x00000140                irq_enable
+                0x0000014c                irq_disable
+                0x00000158                irq_set_mask
+                0x00000160                irq_get_mask
+                0x00000168                jump
+                0x0000016c                halt
+                0x000001f8                get_sp
+                0x00000200                get_gp
+ .text          0x00000208      0x500 main.o
+                0x00000208                gpio_isr
+                0x00000234                main
+ .text          0x00000708      0xe68 all_one.o
+                0x00000708                LCD_none
+                0x00000720                LCD_Instruction
+                0x00000748                LCD_Data
+                0x00000770                LCD_Pedal
+                0x000008d0                LCD_Clear
+                0x000008f8                LCD_Echo
+                0x00000a80                LCD_Flanger
+                0x00000c44                LCD_Clean
+                0x00000d68                LCD_delay
+                0x000010fc                LCD_Stop
+                0x00001114                Eff_Status
+                0x00001138                Eff_Echo_read
+                0x0000115c                Eff_Flang_read_up
+                0x00001180                Eff_Flang_read_low
+                0x000011a4                Eff_Increase_Echo
+                0x000011fc                Eff_Decrease_Echo
+                0x00001254                Eff_Increase_Flang_up
+                0x000012a8                Eff_Decrease_Flang_up
+                0x00001300                Effects_Clean
+                0x0000131c                Effects_Echo
+                0x00001334                Effects_Flanger
+                0x0000134c                Effects_delay1
+                0x00001360                Effects_delay2
+                0x00001374                Flanger_up_limit
+                0x00001388                Flanger_low_limit
+                0x0000139c                uart_init
+                0x000013a0                uart_getchar
+                0x000013c4                uart_putchar
+                0x000013e8                uart_putstr
+                0x0000141c                pwm_enable
+                0x00001434                pwm_freq_div
+                0x00001448                pwm_time_add
+                0x0000145c                pwm_cycle_adder
+                0x00001470                pwm_195khz
+                0x0000149c                pwm_max
+                0x000014c0                ADC_Instruction
+                0x000014e0                set_gainb
+                0x000014f4                set_gainh
+                0x00001508                getecual_gainh
+                0x0000151c                getecual_gainb
+                0x00001530                get_gpioin
+                0x00001544                get_gpioout
+                0x00001558                irq_handler
+                0x00001570                _etext = .
+
+.rodata         0x00001570       0x24
+                0x00001570                . = ALIGN (0x4)
+                0x00001570                _frodata = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00001570       0x24 all_one.o
+ *(.rodata1)
+                0x00001594                _erodata = .
+
+.data           0x00001594       0x1c
+                0x00001594                . = ALIGN (0x4)
+                0x00001594                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00001594        0x0 crt0ram.o
+ .data          0x00001594        0x0 main.o
+ .data          0x00001594       0x1c all_one.o
+                0x00001594                uart0
+                0x00001598                effects0
+                0x0000159c                gpio0
+                0x000015a0                adc0
+                0x000015a4                lcd0
+                0x000015a8                ecual0
+                0x000015ac                pwm0
+ *(.data1)
+                0x000015b0                _gp = ALIGN (0x10)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                0x000015b0                _edata = .
+
+.bss            0x000015b0        0x4
+                0x000015b0                . = ALIGN (0x4)
+                0x000015b0                _fbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000015b0        0x0 crt0ram.o
+ .bss           0x000015b0        0x0 main.o
+ .bss           0x000015b0        0x0 all_one.o
+ *(COMMON)
+ COMMON         0x000015b0        0x4 main.o
+                0x000015b0                flag
+                0x000015b4                _ebss = .
+                0x000015b4                _end = .
+                0x00003ffc                PROVIDE (_fstack, 0x3ffc)
+LOAD crt0ram.o
+LOAD main.o
+LOAD all_one.o
+OUTPUT(image elf32-lm32)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 main.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 all_one.o

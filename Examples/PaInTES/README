@@ -1,0 +1,26 @@
+Nicholas Peralta Leon			nperaltal@unal.edu.co
+Angela Patricia Alzate Giraldo		apalzateg@unal.edu.co
+
+Usando XILINX ISE 10.1 Sintesis
+Usando ICARUS VERILOG + GTKWAVE Simulacion
+Usando KICAD 
+
+Para sintetizar, simular, desarrollar abrir una terminal ubicandose en donde se descargo el codigo fuente y tipear:
+
+make system.ngc 	"Generacion de RTL sintetis" 
+make syn		"Generacion de .bit sintesis + mapeo + ruteo"
+make view		"Simulacion en base al archivo system_tb"
+
+system.v	: Archivo top del proyecto 
+/rtl		: HW - Codigos fuente de perifericos y procesador, su union se realiza en system.v	 
+/firmware	: SW - Codigo  fuente de programacion del procesador en lenguaje c, el makefile dentro de esta carpeta 
+		  realiza procesos de compilacion cruzada, creacion de objetos, enlazado para generar un archivo binario de extension .ram
+		  que puede ser leido para llenar la memoria del procesador desde verilog.
+
+KICAD_design_files/ : Archivos de diseño de la PCB hija, LCD.pro archivo top del proyecto de kicad
+
+
+ 
+
+
+ 

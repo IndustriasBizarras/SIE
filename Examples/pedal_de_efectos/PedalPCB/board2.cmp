@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = lun 29 nov 2010 23:57:49 COT
+
+BeginCmp
+TimeStamp = /4CF44240;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF442E0;
+Reference = J1;
+ValeurCmp = JACK_2P;
+IdModule  = jackconn;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF48341;
+Reference = J2;
+ValeurCmp = JACK_2P;
+IdModule  = jackconn;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF441B0;
+Reference = P1;
+ValeurCmp = CONN_6X2;
+IdModule  = pin_array_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF48328;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4832D;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF4832B;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CF46BA4;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Pot50K;
+EndCmp
+
+EndListe

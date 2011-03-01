@@ -1,0 +1,42 @@
+
+Autor:
+
+	Juan Felipe Pardo 	jfpardoc@unal.edu.co
+	Roberto Jose Valencia	rjvalencias@unal.edu.co
+	Juan Felipe Gutierrez	jufgutierrezgo@unal.edu.co
+
+
+Pedal De Efectos para Bajo
+
+Este proyecto es un  dispositivo que genera efectos en tiempo real a una señal análoga proveniente de un bajo eléctrico (se puede extender a otro instrumento). El proyecto fue implementado en la FPGA de la tarjeta SIE, y programado para ser usado con el procesador LatticeMico32, la comunicación del procesador con los periféricos se hizo utilizando buses Wishbone, se utilizaron todos los perifericos disponibles en la implementación que se usó en el curso. La entrada de audio se hace usando el ADC del SIE, la salida se hace con un módulo PWM.
+
+
+Requisitos
+
+Para compilar y programar el proyecto se requieren las herramientas del toolchain para el LM32, los pines de la FPGA están configurados para la tarjeta SIE, la interfaz del usuario y la inicialización de los periféricos son controlados por software. Los efectos, el ADC, el ecualizador y el PWM son controlados por Hardware y coordinados por software
+
+
+Descripción
+
+Efectos
+Los dos efectos son basados en tiempo, el efecto denominado Echo, reproduce la señal de entrada con un tiempo de demora que se puede modificar en la interfaz de usuario. El efecto Flanger es una variación del Echo, reproduce una señal con una demora que varía periódicamente, el usuario puede cambiar los parámetros de ambos efectos usando la interfaz.
+
+LCD
+
+Dado que el LCD trabaja a una frecuencia baja, se implementó una RAM para guardar los datos que se escriben en el display para evitar que el procesador tenga que esperar a que se escriban los datos. En esta RAM, se programaron los comandos para inicializarlo sin necesidad de esperar instrucciones del procesador, apenas el periférico se activa, el LCD se inicializa solo y escribe las primeras líneas.
+
+ADC
+
+Para la conversion Analogo Digital se usa el conversor TLV1548 con una frecuencia de muestreo de la señal entrante de 4 KHz.  Con el protocolo de comunicación del integrado (SPI) se obtenian 10 bits por cada conversión realizada, que luego eran enviados al periferico encargado del procesamiento de la señal.
+
+Ecualizador
+
+Durante el desarrollo del proyecto, trabajamos en la implementación de un ecualizador que constaba de dos filtros, el diseño y la simulación de este módulo se hicieron satisfactoriamente, pero debido a las restricciones de recursos de la FPGA, no se pudo implementar en la entrega final.
+
+PWM
+
+El módulo PWM es el encargado de generar la señal de audio que se reproduce en el amplificador, funciona con el clock de 50Mhz de la FPGA para facilitar el trabajo del filtro en la salida.
+
+PCB
+
+La tarjeta hija contiene las conexiones del LCD, los botones para la interfaz con el usuario y el conector para la tarjeta que posee los Jack's de audio.

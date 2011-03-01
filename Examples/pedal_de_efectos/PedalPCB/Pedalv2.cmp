@@ -1,0 +1,304 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = lun 25 oct 2010 17:56:07 COT
+
+BeginCmp
+TimeStamp = /4C99856F;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C98A7FB;
+Reference = J1;
+ValeurCmp = HEADER_20X2;
+IdModule  = J19;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9944B6;
+Reference = J2;
+ValeurCmp = CONN16;
+IdModule  = CONN16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C998CA5;
+Reference = J3;
+ValeurCmp = JACK_2P;
+IdModule  = jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C998F6E;
+Reference = J4;
+ValeurCmp = JACK_2P;
+IdModule  = jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9ACDD3;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = J13;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9ACDD0;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = J13;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9ACDCC;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = J13;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9ACDC6;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = J13;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CBF2DBB;
+Reference = P5;
+ValeurCmp = CONN_6X2;
+IdModule  = pin_array_6x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C99509A;
+Reference = R1;
+ValeurCmp = TRIMMERSMD;
+IdModule  = TrimmerSMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997D19;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997D17;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997D14;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997D0B;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9D7;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9DF;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9E1;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9E3;
+Reference = R12;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9E5;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9E7;
+Reference = R14;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9E8;
+Reference = R15;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9EB;
+Reference = R16;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9EC;
+Reference = R17;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9EE;
+Reference = R18;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9BD9F0;
+Reference = R19;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8C63B;
+Reference = R20;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8C60D;
+Reference = R21;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8C639;
+Reference = R22;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8C78A;
+Reference = R23;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8CE90;
+Reference = R24;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8CEBA;
+Reference = R25;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8CEB7;
+Reference = R26;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8CE75;
+Reference = R27;
+ValeurCmp = R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997629;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997642;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C99763E;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C997645;
+Reference = SW4;
+ValeurCmp = SW_PUSH;
+IdModule  = Pulsador;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A7BA5;
+Reference = SW5;
+ValeurCmp = SWITCH_INV;
+IdModule  = SW5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8C553;
+Reference = U1;
+ValeurCmp = LM386;
+IdModule  = LM386;
+EndCmp
+
+BeginCmp
+TimeStamp = /4CB8CE1F;
+Reference = U2;
+ValeurCmp = LM386;
+IdModule  = LM386;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C982BF9;
+Reference = USBIN1;
+ValeurCmp = Conn_USB;
+IdModule  = J8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C9A7D61;
+Reference = USBSIE1;
+ValeurCmp = Conn_USB;
+IdModule  = J8;
+EndCmp
+
+EndListe

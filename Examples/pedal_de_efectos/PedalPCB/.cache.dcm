@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0  lun 29 nov 2010 22:29:54 COT
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_6X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+#End Doc Library
