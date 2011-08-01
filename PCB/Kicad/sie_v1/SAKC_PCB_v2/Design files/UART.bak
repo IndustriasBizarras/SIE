@@ -1,0 +1,451 @@
+EESchema Schematic File Version 2
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./SAKC.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9350 3850 9500 3850
+Wire Wire Line
+	9000 4050 9000 4150
+Wire Wire Line
+	8300 3900 8500 3900
+Wire Wire Line
+	8400 3850 8300 3850
+Connection ~ 7700 3900
+Wire Wire Line
+	7850 3900 7700 3900
+Wire Wire Line
+	7850 3850 7400 3850
+Wire Wire Line
+	7350 1950 7100 1950
+Wire Wire Line
+	8300 1400 8300 1350
+Wire Wire Line
+	8300 1350 8550 1350
+Wire Wire Line
+	8550 1350 8550 1400
+Connection ~ 8300 1950
+Wire Wire Line
+	8300 1900 8300 1950
+Wire Wire Line
+	7950 2050 8300 2050
+Wire Wire Line
+	7950 1950 8750 1950
+Wire Wire Line
+	7350 2050 7100 2050
+Wire Wire Line
+	3000 3300 3000 3000
+Wire Wire Line
+	3000 3000 3500 3000
+Wire Wire Line
+	4600 2850 4800 2850
+Wire Wire Line
+	4450 1200 4200 1200
+Wire Wire Line
+	3900 1700 3800 1700
+Wire Wire Line
+	3800 1700 3800 1200
+Wire Wire Line
+	1400 1700 1400 1200
+Wire Wire Line
+	1900 1650 1900 1700
+Connection ~ 3300 2700
+Wire Wire Line
+	3300 2700 3300 2650
+Wire Wire Line
+	3300 2650 3500 2650
+Wire Wire Line
+	1900 2700 1900 2200
+Wire Wire Line
+	4950 2200 4600 2200
+Wire Wire Line
+	4600 1900 4950 1900
+Wire Wire Line
+	3500 1900 3250 1900
+Wire Wire Line
+	3250 1900 3250 1750
+Wire Wire Line
+	3250 1750 2950 1750
+Wire Wire Line
+	3500 2200 2950 2200
+Wire Wire Line
+	2950 2200 2950 2150
+Wire Wire Line
+	3500 2550 3150 2550
+Wire Wire Line
+	3150 2550 3150 2650
+Wire Wire Line
+	3150 2650 2950 2650
+Wire Wire Line
+	3500 2250 2950 2250
+Wire Wire Line
+	5350 1900 5500 1900
+Wire Wire Line
+	5500 1900 5500 2200
+Wire Wire Line
+	5500 2200 5350 2200
+Wire Wire Line
+	3500 2700 1400 2700
+Wire Wire Line
+	1400 2700 1400 2200
+Connection ~ 1900 2700
+Wire Wire Line
+	3100 2850 3500 2850
+Wire Wire Line
+	1900 1250 1900 1200
+Wire Wire Line
+	4200 1200 4200 1700
+Wire Wire Line
+	3800 1200 3500 1200
+Wire Wire Line
+	4600 2700 4800 2700
+Wire Wire Line
+	4600 3500 4600 3100
+Wire Wire Line
+	3500 3100 3500 3500
+Wire Wire Line
+	3500 3500 4850 3500
+Connection ~ 4600 3500
+Wire Wire Line
+	7350 2000 7100 2000
+Wire Wire Line
+	7350 2100 7100 2100
+Wire Wire Line
+	7950 2000 8750 2000
+Wire Wire Line
+	7950 2100 8100 2100
+Wire Wire Line
+	8550 1900 8550 2000
+Connection ~ 8550 2000
+Wire Wire Line
+	8450 1350 8450 1300
+Connection ~ 8450 1350
+Wire Wire Line
+	7850 4000 7700 4000
+Wire Wire Line
+	7700 4000 7700 3850
+Connection ~ 7700 3850
+Wire Wire Line
+	7850 3950 7700 3950
+Connection ~ 7700 3950
+Wire Wire Line
+	8300 4050 8400 4050
+Wire Wire Line
+	8300 4000 8400 4000
+Wire Wire Line
+	8400 4000 8400 4050
+Wire Wire Line
+	8300 3950 8500 3950
+Wire Wire Line
+	9000 3850 9250 3850
+Wire Wire Line
+	7400 4250 7400 4350
+$Comp
+L GND #PWR?
+U 1 1 4B7C1343
+P 7400 4350
+F 0 "#PWR?" H 7400 4350 30  0001 C C
+F 1 "GND" H 7400 4280 30  0001 C C
+	1    7400 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 3850 2    20   BiDi
+BAT_V
+$Comp
+L HEADER_2 J?
+U 1 1 4B7C12D9
+P 9500 4150
+F 0 "J?" H 9250 4350 60  0000 C C
+F 1 "HEADER_2" H 9500 4150 60  0000 C C
+	1    9500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B7C12A3
+P 9000 4150
+F 0 "#PWR?" H 9000 4150 30  0001 C C
+F 1 "GND" H 9000 4080 30  0001 C C
+	1    9000 4150
+	1    0    0    -1  
+$EndComp
+Text Label 8400 3950 0    20   ~
+DP0
+Text Label 8400 3900 0    20   ~
+DM0
+Text GLabel 8500 3950 2    20   BiDi
+DP0
+Text GLabel 8500 3900 2    20   BiDi
+DM0
+$Comp
+L C C?
+U 1 1 4B7C11BD
+P 7400 4050
+F 0 "C?" H 7450 4150 50  0000 L C
+F 1 "100n" H 7450 3950 50  0000 L C
+	1    7400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4B7C11B6
+P 8700 4050
+F 0 "L?" V 8650 4050 40  0000 C C
+F 1 "HZ0805C202R-00" V 8600 4050 40  0000 C C
+	1    8700 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4B7C11A4
+P 8700 3850
+F 0 "L?" V 8850 3850 40  0000 C C
+F 1 "HZ0805C202R-00" V 8800 3850 40  0000 C C
+	1    8700 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZX62D-B-5P8 J?
+U 1 1 4B7C104C
+P 8000 4200
+F 0 "J?" H 7950 4700 60  0000 C C
+F 1 "ZX62D-B-5P8" H 8000 4200 60  0000 C C
+	1    8000 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 2100 0    20   BiDi
+3.3V
+$Comp
+L GND #PWR?
+U 1 1 4B7C0FD0
+P 7100 2050
+F 0 "#PWR?" H 7100 2050 30  0001 C C
+F 1 "GND" H 7100 1980 30  0001 C C
+	1    7100 2050
+	0    1    1    0   
+$EndComp
+Text Label 7100 2000 0    20   ~
+RX1
+Text Label 7100 1950 0    20   ~
+TX1
+Text GLabel 8450 1300 3    20   BiDi
+3.3V
+Text GLabel 8750 2000 2    20   BiDi
+SDA
+Text GLabel 8750 1950 2    20   BiDi
+SCK
+Text GLabel 8100 2100 2    20   BiDi
+3.3V
+$Comp
+L GND #PWR?
+U 1 1 4B7C0EF5
+P 8300 2050
+F 0 "#PWR?" H 8300 2050 30  0001 C C
+F 1 "GND" H 8300 1980 30  0001 C C
+	1    8300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C0E9D
+P 8550 1650
+F 0 "R?" V 8630 1650 50  0000 C C
+F 1 "4.7K" V 8550 1650 50  0000 C C
+	1    8550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C0E98
+P 8300 1650
+F 0 "R?" V 8380 1650 50  0000 C C
+F 1 "4.7K" V 8300 1650 50  0000 C C
+	1    8300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HEADER_4 J?
+U 1 1 4B7C0DFC
+P 7600 2250
+F 0 "J?" H 7600 2150 60  0000 C C
+F 1 "HEADER_4" H 7600 2250 60  0001 C C
+	1    7600 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L HEADER_4 J?
+U 1 1 4B7C0DF0
+P 7700 2250
+F 0 "J?" H 7700 2150 60  0000 C C
+F 1 "HEADER_4" H 7700 2250 60  0001 C C
+	1    7700 2250
+	1    0    0    -1  
+$EndComp
+Text Label 3100 3000 0    20   ~
+VAL_RS232
+$Comp
+L GND #PWR?
+U 1 1 4B7C0D2F
+P 3000 3300
+F 0 "#PWR?" H 3000 3300 30  0001 C C
+F 1 "GND" H 3000 3230 30  0001 C C
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B7C0D2D
+P 3000 3300
+F 0 "#PWR?" H 3000 3300 30  0001 C C
+F 1 "GND" H 3000 3230 30  0001 C C
+	1    3000 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 3500 2    20   BiDi
+3.3V
+Text Label 4800 2850 2    20   ~
+RX1
+Text Label 4800 2700 2    20   ~
+TX1
+$Comp
+L GND #PWR?
+U 1 1 4B7C0C8F
+P 3500 1200
+F 0 "#PWR?" H 3500 1200 30  0001 C C
+F 1 "GND" H 3500 1130 30  0001 C C
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 1200 2    20   BiDi
+3.3V
+Text GLabel 1900 1200 3    20   BiDi
+3.3V
+Text GLabel 1400 1200 3    20   BiDi
+3.3V
+$Comp
+L LED D?
+U 1 1 4B7C0BE6
+P 1900 1450
+F 0 "D?" H 1900 1550 50  0000 C C
+F 1 "LED" H 1900 1350 50  0000 C C
+	1    1900 1450
+	0    1    1    0   
+$EndComp
+Text GLabel 1400 2700 0    20   BiDi
+TXD
+Text GLabel 3100 2850 0    20   BiDi
+RXD
+NoConn ~ 4600 2650
+NoConn ~ 4600 2800
+NoConn ~ 4600 3000
+NoConn ~ 3500 2800
+$Comp
+L GND #PWR?
+U 1 1 4B7C0AEC
+P 5500 2200
+F 0 "#PWR?" H 5500 2200 30  0001 C C
+F 1 "GND" H 5500 2130 30  0001 C C
+	1    5500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B7C05B4
+P 5150 1900
+F 0 "C?" H 5200 2000 50  0000 L C
+F 1 "100n" H 5200 1800 50  0000 L C
+	1    5150 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C0595
+P 1900 1950
+F 0 "R?" V 1980 1950 50  0000 C C
+F 1 "1k" V 1900 1950 50  0000 C C
+	1    1900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C0594
+P 1900 1950
+F 0 "R?" V 1980 1950 50  0000 C C
+F 1 "R" V 1900 1950 50  0000 C C
+	1    1900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C0530
+P 1400 1950
+F 0 "R?" V 1480 1950 50  0000 C C
+F 1 "100k" V 1400 1950 50  0000 C C
+	1    1400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B7C052D
+P 1400 1950
+F 0 "R?" V 1480 1950 50  0000 C C
+F 1 "R" V 1400 1950 50  0000 C C
+	1    1400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B7C0501
+P 2950 2450
+F 0 "C?" H 3000 2550 50  0000 L C
+F 1 "100n" H 3000 2350 50  0000 L C
+	1    2950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B7C04FB
+P 5150 2200
+F 0 "C?" H 5200 2300 50  0000 L C
+F 1 "100n" H 5200 2100 50  0000 L C
+	1    5150 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4B7C04E2
+P 2950 1950
+F 0 "C?" H 3000 2050 50  0000 L C
+F 1 "100n" H 3000 1850 50  0000 L C
+	1    2950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B7C04D2
+P 4000 1200
+F 0 "C?" H 4050 1300 50  0000 L C
+F 1 "100n" H 4050 1100 50  0000 L C
+	1    4000 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L MAX3223ECAPAA U?
+U 1 1 4B7C043C
+P 4050 3350
+F 0 "U?" H 3650 3450 60  0000 C C
+F 1 "MAX3223ECAPAA" H 4050 3350 60  0000 C C
+	1    4050 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

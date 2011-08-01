@@ -1,0 +1,194 @@
+Control ERC (vie 01 abr 2011 12:20:24 COT)
+
+***** Hoja / (Root)
+ERC: Aviso Etiqueta Local LCD_D17 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D16 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D15 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D14 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D13 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D12 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D11 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D10 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D9 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D8 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D7 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D6 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D5 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D4 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D3 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D2 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D1 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_D0 no conectada a Etiqueta de Hoja (X= 3,970 pulgadas, Y= 3,380 pulgadas
+ERC: Aviso Etiqueta Local LCD_HSYNC no conectada a Etiqueta de Hoja (X= 3,980 pulgadas, Y= 3,470 pulgadas
+ERC: Aviso Etiqueta Local LCD_CLK no conectada a Etiqueta de Hoja (X= 3,980 pulgadas, Y= 3,410 pulgadas
+ERC: Aviso Etiqueta Local LCD_SCL no conectada a Etiqueta de Hoja (X= 3,980 pulgadas, Y= 3,530 pulgadas
+ERC: Aviso Etiqueta Local LCD_SDA no conectada a Etiqueta de Hoja (X= 3,989 pulgadas, Y= 3,560 pulgadas
+ERC: Aviso Etiqueta Local LCD_VSYNC no conectada a Etiqueta de Hoja (X= 3,980 pulgadas, Y= 3,440 pulgadas
+ERC: Aviso Etiqueta Local LCD_DE no conectada a Etiqueta de Hoja (X= 3,980 pulgadas, Y= 3,500 pulgadas
+
+***** Hoja /CONNECTORS/
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 2,150 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 2,100 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 2,100 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 2,000 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 2,000 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,900 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,550 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,600 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,600 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,700 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,700 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,800 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,800 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,700 pulgadas, Y= 1,900 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_D0 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_D0 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_D1 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_D1 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_D2 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_D2 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_D3 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_D3 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Etiqueta Local LCD_D4 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Etiqueta Local LCD_D4 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Etiqueta Local LCD_D5 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Etiqueta Local LCD_D5 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,450 pulgadas
+ERC: Aviso Etiqueta Local LCD_D6 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,450 pulgadas
+ERC: Aviso Etiqueta Local LCD_D6 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,450 pulgadas
+ERC: Aviso Etiqueta Local LCD_D7 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,450 pulgadas
+ERC: Aviso Etiqueta Local LCD_D7 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,350 pulgadas
+ERC: Aviso Etiqueta Local LCD_D8 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,350 pulgadas
+ERC: Aviso Etiqueta Local LCD_D8 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,350 pulgadas
+ERC: Aviso Etiqueta Local LCD_D9 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,350 pulgadas
+ERC: Aviso Etiqueta Local LCD_D9 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,250 pulgadas
+ERC: Aviso Etiqueta Local LCD_D10 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,250 pulgadas
+ERC: Aviso Etiqueta Local LCD_D10 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,250 pulgadas
+ERC: Aviso Etiqueta Local LCD_D11 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,250 pulgadas
+ERC: Aviso Etiqueta Local LCD_D11 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_SCL no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 1,550 pulgadas
+ERC: Aviso Etiqueta Local LCD_RST no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 1,550 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_VSYNC no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Etiqueta Local LCD_DE no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Etiqueta Local LCD_CS no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 1,650 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Etiqueta Local LCD_SDA no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 1,750 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Etiqueta Local LCD_HSYNC no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 1,850 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,850 pulgadas
+ERC: Aviso Etiqueta Local LCD_CLK no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,850 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,150 pulgadas
+ERC: Aviso Etiqueta Local LCD_D12 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,150 pulgadas
+ERC: Aviso Etiqueta Local LCD_D12 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,150 pulgadas
+ERC: Aviso Etiqueta Local LCD_D13 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,150 pulgadas
+ERC: Aviso Etiqueta Local LCD_D13 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Etiqueta Local LCD_D14 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Etiqueta Local LCD_D14 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Etiqueta Local LCD_D15 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 2,050 pulgadas
+ERC: Aviso Etiqueta Local LCD_D15 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 3,450 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Etiqueta Local LCD_D16 no conectada a Etiqueta de Hoja (X= 3,800 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Etiqueta Local LCD_D16 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,650 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Etiqueta Local LCD_D17 no conectada a Etiqueta de Hoja (X= 2,300 pulgadas, Y= 1,950 pulgadas
+ERC: Aviso Etiqueta Local LCD_D17 no conectada a Etiqueta de Hoja (X= 3,650 pulgadas, Y= 4,300 pulgadas
+
+***** Hoja /UART_USB_I2C/
+ERC: Aviso: hay más de un pin conectado aun símbolo de no conexión (X= 3,050 pulgadas, Y= 3,100 pulgadas
+
+***** Hoja /POWER_SUPPLY/
+ERC: Aviso Pin power_in No conectado (X= 7,550 pulgadas, Y= 2,100 pulgadas
+ERC: Aviso Pin power_in No conectado (X= 7,550 pulgadas, Y= 1,300 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,650 pulgadas, Y= 1,000 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,300 pulgadas, Y= 1,200 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,000 pulgadas, Y= 1,200 pulgadas
+ERC: Aviso Pin power_in no Conducido (Net 165) (X= 6,250 pulgadas, Y= 1,200 pulgadas
+ERC: Aviso Pin passive No conectado (X= 2,500 pulgadas, Y= 3,300 pulgadas
+ERC: Aviso Pin power_in no Conducido (Net 50) (X= 6,250 pulgadas, Y= 2,000 pulgadas
+
+***** Hoja /CPU/
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,400 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,550 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,600 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,650 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,700 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,750 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,800 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,850 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,900 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 4,000 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 4,100 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 4,150 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 4,200 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,050 pulgadas, Y= 4,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 2,900 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 2,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,250 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 5,100 pulgadas, Y= 4,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,050 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,150 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,200 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 4,300 pulgadas, Y= 3,300 pulgadas
+
+***** Hoja /MEMORY/
+
+***** Hoja /FPGA/
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,800 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,850 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,900 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 3,050 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 3,100 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 3,150 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 3,200 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 3,250 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,750 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,800 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,850 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,900 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 2,950 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 3,000 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 3,050 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 3,100 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 3,150 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 7,150 pulgadas, Y= 3,200 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,250 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,550 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,600 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,300 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,350 pulgadas
+ERC: Aviso Pin BiDi No conectado (X= 3,500 pulgadas, Y= 2,400 pulgadas
+
+ >> Errores ERC: 177

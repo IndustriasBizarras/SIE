@@ -1,0 +1,136 @@
+EESchema Schematic File Version 2
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./SAKC.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 6 8
+Title ""
+Date "23 feb 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4250 2050 3    20   BiDi
+3.3V
+Text HLabel 4900 1850 3    20   BiDi
+3.3V
+Text HLabel 5600 2100 2    20   BiDi
+ANALOG0
+Text HLabel 5600 2150 2    20   BiDi
+ANALOG1
+Text HLabel 5600 2200 2    20   BiDi
+ANALOG2
+Text HLabel 5600 2250 2    20   BiDi
+ANALOG3
+Text HLabel 5600 2300 2    20   BiDi
+ANALOG4
+Text HLabel 5600 2350 2    20   BiDi
+ANALOG5
+Text HLabel 5600 2400 2    20   BiDi
+ANALOG6
+Text HLabel 5600 2450 2    20   BiDi
+ANALOG7
+Text HLabel 5600 2550 2    20   BiDi
+3.3V
+Text HLabel 5700 2700 2    20   BiDi
+AN_GND
+Text HLabel 4250 2300 0    20   BiDi
+ADC_EOC
+Text HLabel 4250 2350 0    20   BiDi
+ADC_CS
+Text HLabel 4250 2400 0    20   BiDi
+ADC_CSTART
+Text HLabel 4250 2450 0    20   BiDi
+ADC_SCLK
+Text HLabel 4250 2600 0    20   BiDi
+ADC_SDIN
+Text HLabel 4250 2650 0    20   BiDi
+ADC_SDOUT
+Connection ~ 5600 2700
+Wire Wire Line
+	5600 2700 5700 2700
+Wire Wire Line
+	6600 2900 6600 2800
+Wire Wire Line
+	6600 2800 6550 2800
+Connection ~ 5600 2800
+Connection ~ 4250 2100
+Wire Wire Line
+	4250 2050 4250 2150
+Wire Wire Line
+	4400 2300 4250 2300
+Wire Wire Line
+	4400 2400 4250 2400
+Wire Wire Line
+	4400 2600 4250 2600
+Wire Wire Line
+	5600 2550 5600 2600
+Wire Wire Line
+	5600 2600 5400 2600
+Wire Wire Line
+	5400 2400 5600 2400
+Wire Wire Line
+	5400 2300 5600 2300
+Wire Wire Line
+	5400 2200 5600 2200
+Wire Wire Line
+	5400 2100 5600 2100
+Wire Wire Line
+	5400 2150 5600 2150
+Wire Wire Line
+	5400 2250 5600 2250
+Wire Wire Line
+	5400 2350 5600 2350
+Wire Wire Line
+	5400 2450 5600 2450
+Wire Wire Line
+	5400 2650 5600 2650
+Wire Wire Line
+	5600 2650 5600 2950
+Wire Wire Line
+	5600 2950 4900 2950
+Wire Wire Line
+	4400 2650 4250 2650
+Wire Wire Line
+	4400 2450 4250 2450
+Wire Wire Line
+	4400 2350 4250 2350
+Wire Wire Line
+	4250 2150 4400 2150
+Wire Wire Line
+	4250 2100 4400 2100
+Wire Wire Line
+	4900 1900 4900 1850
+Wire Wire Line
+	5950 2800 5600 2800
+$Comp
+L GND #PWR047
+U 1 1 4B7C62CF
+P 6600 2900
+F 0 "#PWR047" H 6600 2900 30  0001 C C
+F 1 "GND" H 6600 2830 30  0001 C C
+	1    6600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L12
+U 1 1 4B7C62AC
+P 6250 2800
+F 0 "L12" V 6200 2800 40  0000 C C
+F 1 "HZ0805C202R-00" V 6350 2800 40  0000 C C
+	1    6250 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TLV1548 U11
+U 1 1 4B7C620D
+P 4700 2900
+F 0 "U11" H 4550 3800 60  0000 C C
+F 1 "TLV1548" H 4700 2900 40  0000 C C
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
