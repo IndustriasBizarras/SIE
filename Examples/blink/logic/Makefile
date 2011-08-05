@@ -1,6 +1,6 @@
 DESIGN          = blink
 PINS            = $(DESIGN).ucf
-DEVICE          = xc3s500e-VQ100-4
+DEVICE          = xc3s100e-VQ100-4
 BGFLAGS         = -g TdoPin:PULLNONE -g DonePin:PULLUP \
                   -g CRC:enable -g StartUpClk:CCLK
 
