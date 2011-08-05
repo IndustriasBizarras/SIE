@@ -1,2 +1,3 @@
+sudo usbboot -f ./usbboot_2gb_nand.cfg  -c "nerase 0 4096 0 0"
 sudo usbboot -f ./usbboot_2gb_nand.cfg -c "boot"
 sudo usbboot -f ./usbboot_2gb_nand.cfg  -c "nprog 0 openwrt-xburst-u-boot.bin 0 0 -n" 
