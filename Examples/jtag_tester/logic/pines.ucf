@@ -1,0 +1,15 @@
+NET pb3             LOC = "P30";
+NET pb2	            LOC = "P13";
+
+#DATA BUS
+NET "sram_data<7>"  LOC = "P4";
+NET "sram_data<6>"  LOC = "P5";
+NET "sram_data<5>"  LOC = "P9";
+NET "sram_data<4>"  LOC = "P10";
+NET "sram_data<3>"  LOC = "P11";
+NET "sram_data<2>"  LOC = "P12";
+NET "sram_data<1>"  LOC = "P15";
+NET "sram_data<0>"  LOC = "P16";
+
+NET "noe"   LOC = "P86";
+NET "ncs"   LOC = "P69";
