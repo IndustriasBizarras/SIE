@@ -1,0 +1,4 @@
+verilog work ../Moto.v
+verilog work ../deb.v
+verilog work ../RPM_Fel.v
+verilog work ../ADC_peripheral.v

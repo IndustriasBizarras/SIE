@@ -1,0 +1,11 @@
+#!/bin/sh /etc/rc.common
+
+START=98
+
+start(){
+/usr/bin/xc3sprog /root/pruebas/Moto.bit
+mknod /dev/rpm c 252 0
+insmod /root/pruebas/simple_keypad.ko
+insmod /root/pruebas/rpm.ko
+/root/pruebas/Moto_V2 -qws &
+}

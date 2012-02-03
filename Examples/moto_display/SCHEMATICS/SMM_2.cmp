@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 13/07/2011 08:13:44 p.m.
+
+BeginCmp
+TimeStamp = /4D8DF2A5;
+Reference = .22uF/25V1;
+ValeurCmp = CP1;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8DF2AA;
+Reference = .47uF/16V1;
+ValeurCmp = CP1;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D682297;
+Reference = C1;
+ValeurCmp = 1n/50;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8FB072;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D682D9E;
+Reference = J1;
+ValeurCmp = HEADER_20X2;
+IdModule  = CON_40Pin_2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E3CC2;
+Reference = JP1;
+ValeurCmp = PINHD-1X10;
+IdModule  = pinhead-1X10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E3D2E;
+Reference = JP2;
+ValeurCmp = PINHD-1X2;
+IdModule  = pinhead-1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E3C65;
+Reference = JP3;
+ValeurCmp = PINHD-1X6;
+IdModule  = pinhead-1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E39AE;
+Reference = JP4;
+ValeurCmp = PINHD-1X12;
+IdModule  = pinhead-1X12;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E4132;
+Reference = JP5;
+ValeurCmp = PINHD-1X2;
+IdModule  = pinhead-1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D683151;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D865658;
+Reference = R22;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D86565E;
+Reference = R23;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8655DC;
+Reference = R29;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8655E0;
+Reference = R34;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8655E3;
+Reference = R35;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8FB067;
+Reference = R36;
+ValeurCmp = 220;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D8E658C;
+Reference = U1;
+ValeurCmp = LM2940;
+IdModule  = TO220_VERT;
+EndCmp
+
+EndListe

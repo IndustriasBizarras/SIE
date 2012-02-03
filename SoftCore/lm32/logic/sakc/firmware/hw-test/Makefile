@@ -21,7 +21,7 @@ main.o: main.c
 soc-hw.o: soc-hw.c
 	$(LM32_CC) $(CFLAGS) -c soc-hw.c
 
-image: crt0ram.o main.o soc-hw.o linker.ld Makefile
+image: crt0ram.o main.o soc-hw.o linker.ld
 	$(LM32_LD) $(LDFLAGS) -Map image.map -N -o image crt0ram.o main.o soc-hw.o
 
 image.lst: image
@@ -34,7 +34,7 @@ image.srec: image image.lst
 	$(LM32_OBJCOPY) $(SEGMENTS) -O srec image image.srec
 
 $(VRAMFILE): image.srec
-	$(SREC2VRAM) image.srec 0x40000000 0x1000 > $(VRAMFILE)
+	$(SREC2VRAM) image.srec 0x00000000 0x1000 > $(VRAMFILE)
 
 clean:
 	rm -f image image.lst image.bin image.srec image.map  *.o *.d

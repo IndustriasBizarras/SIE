@@ -1,6 +1,6 @@
 # ==== Clock inputs (CLK) ====
 NET "clk" LOC = "P38";
-NET "clk" PERIOD = 20 HIGH 50%;
+#NET "clk" PERIOD = 20 HIGH 50%;
 NET  led  LOC = "P44";
 NET  rst  LOC = "P30";
 

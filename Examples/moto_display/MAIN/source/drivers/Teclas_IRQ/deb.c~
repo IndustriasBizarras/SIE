@@ -1,0 +1,141 @@
+/*********************************************************************************************/
+/*                         Driver para el periférico Debouncer                               */
+/*                          UNIVERSIDAD NACIONAL DE COLOMBIA                                 */
+/*********************************************************************************************/
+#include <linux/init.h>
+#include <linux/slab.h> 
+#include <linux/errno.h> 
+#include <linux/types.h> 
+#include <linux/proc_fs.h>
+#include <linux/fcntl.h> 
+#include <asm/system.h> 
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/ioport.h>
+#include <linux/device.h>
+#include <linux/interrupt.h>  
+#include <linux/irq.h>        
+#include <linux/platform_device.h>
+#include <linux/fs.h>
+#include <linux/delay.h>
+#include <asm/delay.h>
+#include <asm/uaccess.h>  
+#include <asm/io.h>
+#include <linux/gpio.h>
+#include <asm/mach-jz4740/gpio.h>
+#include <linux/input.h>
+#include <linux/clk.h>
+#include <linux/mmc/host.h>
+#include <linux/io.h>
+#include <linux/scatterlist.h>
+
+// Pin irq, CS y bus de datos desde la FPGA //
+#define ADDRESS         0x4000                  /*bus de direcciones */
+#define IRQ_PIN         JZ_GPIO_PORTC(15)       /*Pin irq FPGA*/
+#define CS2_PIN         JZ_GPIO_PORTB(26)       /*Pin CS FPGA*/
+#define FPGA_BASE       0x15000000              
+#define BASE            0xB5000000              /*Direccion FPGA*/
+
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("driver for keys and digital inputs");
+
+static unsigned int anterior; // para controlar que no se escriba una tecla mas de una vez respectivamente
+unsigned int irq;
+
+//arreglo que posee el keycode de las teclas posibles
+static unsigned int teclas_key[] = {
+	KEY_1, KEY_2, KEY_3, KEY_4, KEY_5, KEY_6,
+	KEY_ENTER, KEY_UP, KEY_LEFT, KEY_DOWN, KEY_RIGHT
+};
+
+
+//funcion del codificador normal
+static unsigned int keydecode(unsigned char valor){
+	unsigned int salida;//variable la cual tiene el valor del keycode para ser usada en las demas funciones
+	//codificador para cuando se oprime una tecla normalmente
+	switch(valor){
+		case 150:salida=KEY_1;break;
+		case 200:salida=KEY_2;break;
+		case 170:salida=KEY_3;break;
+		case 244:salida=KEY_4;break;
+		case 22:salida=KEY_5;break;
+		case 72:salida=KEY_6;break;
+		case 86:salida=KEY_ENTER;break;
+		case 202:salida=KEY_UP;break;
+		case 84:salida=KEY_LEFT;break;
+		case 182:salida=KEY_DOWN;break;
+		case 232:salida=KEY_RIGHT;break;
+		default: salida=0;break;
+		
+	  	}
+return salida;
+} 
+
+
+static struct input_dev *deb;//estructura que define el dispositivo de entrada
+
+static irqreturn_t irq_handler(int irq, void *dev_id){  //funcion que atiende las interrupciones y define las acciones a tomar
+
+	if(inb(FPGA_BASE)==anterior){	//condicional para deshabilitar la multiple lectura de una tecla    
+		return IRQ_HANDLED;
+	  }
+
+	else { 
+		input_report_key(deb,keydecode(inb(FPGA_BASE + 0x1000)),1);//funcion que detecta la tecla y la pone en 1 o 0 logico
+		input_report_key(deb,keydecode(inb(FPGA_BASE + 0x1000)),0);
+		input_sync(deb); //sincronizar el buffer tty con la ultima tecla oprimida
+		anterior=inb(FPGA_BASE); //asignacion a la variable global de la ultima tecla oprimida
+		return IRQ_HANDLED; //retorno de interrupcion controlada
+	  }
+
+	  return IRQ_HANDLED;
+}
+
+static int __init teclas_init(void)//funcion de inicializacion del teclado
+{
+	int i, error,res;
+
+	deb = input_allocate_device(); // ubica memoria para el dispositivo de entrada
+	if (!deb)
+		return -ENOMEM;
+
+ 	deb->name = "debouncer"; //asignacion de datos del teclado
+	deb->phys = "deb/input0"; //direccion fisica
+	deb->id.bustype = BUS_HOST;//tipo de bus
+	deb->id.vendor = 0x0010;
+	deb->id.product = 0x0001;
+	deb->id.version = 0x001;
+
+	deb->evbit[0] = BIT_MASK(EV_KEY) | BIT_MASK(EV_REP);
+	deb->keycode = teclas_key;//asignacion del arreglo del keycode
+	deb->keycodesize = sizeof(unsigned char);
+	deb->keycodemax = ARRAY_SIZE(teclas_key);
+
+	for (i = 0; i <= 60; i++) { //funcion que ubica las 48 teclas (keycode) en memoria
+		set_bit(teclas_key[i], deb->keybit);
+	}
+
+	error = input_register_device(deb);//indica al sistema el nuevo dispositivo de entrada
+	if (error) {
+		input_free_device(deb);
+		return error;
+	}
+
+        irq = gpio_to_irq(IRQ_PIN);//asigna el numero del irq al pin fisico del procesador
+  
+        res = request_irq(irq, irq_handler, IRQF_DISABLED | IRQF_TRIGGER_RISING, "deb", NULL); // asignar el valor del irq y la funcion que lo utiliza
+	return 0;
+}
+
+static void __exit teclas_exit(void)
+{
+	input_unregister_device(deb);//libera los recursos utilizados por el dispositivo
+	free_irq(irq, NULL);
+}
+
+module_init(teclas_init);
+module_exit(teclas_exit);
+
+
+

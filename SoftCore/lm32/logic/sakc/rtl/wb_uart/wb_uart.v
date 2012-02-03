@@ -64,7 +64,7 @@ uart #(
 wire [7:0] ucr = { 3'b0, tx_busy, 2'b0, rx_error, rx_avail };
 
 wire wb_rd = wb_stb_i & wb_cyc_i & ~wb_we_i;
-wire wb_wr = wb_stb_i & wb_cyc_i &  wb_we_i & wb_sel_i[0];
+wire wb_wr = wb_stb_i & wb_cyc_i &  wb_we_i;
 
 reg  ack;
 

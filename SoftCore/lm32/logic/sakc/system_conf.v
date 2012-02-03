@@ -20,22 +20,22 @@
 // Instruction Cache 
 //    [0x00000000,0x80000000)  cachable
 //    [0x80000000,0xffffffff]  non-cachabel
-`define CFG_ICACHE_ENABLED
-`define CFG_ICACHE_ASSOCIATIVITY   1
-`define CFG_ICACHE_SETS            512
-`define CFG_ICACHE_BYTES_PER_LINE  16
-`define CFG_ICACHE_BASE_ADDRESS    32'h0
-`define CFG_ICACHE_LIMIT           32'h7fffffff
+//`define CFG_ICACHE_ENABLED
+//`define CFG_ICACHE_ASSOCIATIVITY   1
+//`define CFG_ICACHE_SETS            512
+//`define CFG_ICACHE_BYTES_PER_LINE  16
+//`define CFG_ICACHE_BASE_ADDRESS    32'h0
+//`define CFG_ICACHE_LIMIT           32'h7fffffff
 
 // Data Cache 
 //    [0x00000000,0x80000000)  cachable
 //    [0x80000000,0xffffffff]  non-cachabel
 // `define CFG_DCACHE_ENABLED
-`define CFG_DCACHE_ASSOCIATIVITY   1
-`define CFG_DCACHE_SETS            512
-`define CFG_DCACHE_BYTES_PER_LINE  16
-`define CFG_DCACHE_BASE_ADDRESS    32'h0
-`define CFG_DCACHE_LIMIT           32'h7fffffff
+//`define CFG_DCACHE_ASSOCIATIVITY   1
+//`define CFG_DCACHE_SETS            512
+//`define CFG_DCACHE_BYTES_PER_LINE  16
+//`define CFG_DCACHE_BASE_ADDRESS    32'h0
+//`define CFG_DCACHE_LIMIT           32'h7fffffff
 
 // `define CFG_DEBUG_ENABLED
 // `define CFG_ROM_DEBUG_ENABLED

@@ -52,8 +52,8 @@ initial begin
 
 	$dumpfile("system_tb.vcd");
 	//$monitor("%b,%b,%b,%b",clk,rst,uart_txd,uart_rxd);
-	//$dumpvars(-1, dut);
-	$dumpvars(-1,clk,rst,uart_txd);
+	$dumpvars(-1, dut);
+	//$dumpvars(-1,clk,rst,uart_txd);
 	// reset
 	#0  rst <= 0;
 	#80 rst <= 1;

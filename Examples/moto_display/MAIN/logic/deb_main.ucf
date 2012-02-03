@@ -1,0 +1,56 @@
+# mmc ucf
+NET clk        LOC = "P38";
+NET reset      LOC = "P30";
+NET led_sie    LOC = "P44";
+NET irq        LOC = "P71";
+#NET PB_1       LOC = "P13";
+
+#CONTROL BUS
+#NET "nwe"   LOC = "P88";
+NET "noe"   LOC = "P86";
+NET "ncs"   LOC = "P69";
+
+NET "PB_1" LOC = "P48";
+NET "PB_2" LOC = "P41";
+NET "PB_3" LOC = "P36";
+NET "PB_4" LOC = "P34";
+NET "PB_5" LOC = "P32";
+#NET "IND1" LOC = "P61";
+#NET "IND2" LOC = "P60";
+#NET "IND3" LOC = "P58";
+#NET "IND4" LOC = "P57";
+#NET "IND5" LOC = "P54";
+#NET "IND6" LOC = "P32";
+#NET "IND1" LOC = "P53";
+#NET "IND2" LOC = "P48";
+#NET "IND3" LOC = "P41";
+#NET "IND4" LOC = "P34";
+#NET "IND5" LOC = "P36";
+#NET "IND6" LOC = "P32";
+
+
+
+#DATA_BUS
+NET "sram_data<0>" LOC= "P16";
+NET "sram_data<1>" LOC= "P15";
+NET "sram_data<2>" LOC= "P12";
+NET "sram_data<3>" LOC= "P11";
+#NET "sram_data<4>"  LOC = "P10";
+#NET "sram_data<5>"  LOC = "P9";
+#NET "sram_data<6>"  LOC = "P5";
+#NET "sram_data<7>"  LOC = "P4";
+
+#ADDRESS BUS
+NET "addr<12>" LOC = "P90";
+NET "addr<11>" LOC = "P91";
+NET "addr<10>" LOC = "P85";
+NET "addr<9>" LOC = "P92";
+NET "addr<8>" LOC = "P94";
+NET "addr<7>" LOC = "P95";
+NET "addr<6>" LOC = "P98";
+NET "addr<5>" LOC = "P3";
+NET "addr<4>" LOC = "P2";
+NET "addr<3>" LOC = "P78";
+NET "addr<2>" LOC = "P79";
+NET "addr<1>" LOC = "P83";
+NET "addr<0>" LOC = "P84";

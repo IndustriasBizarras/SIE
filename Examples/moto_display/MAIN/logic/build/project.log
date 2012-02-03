@@ -1,0 +1,716 @@
+Release 12.4 - xst M.81d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "project.src"
+Input Format                       : mixed
+
+---- Target Parameters
+Target Device                      : xc3s500e-VQ100-4
+Output File Name                   : "project.ngc"
+Output Format                      : NGC
+
+---- Source Options
+Top Module Name                    : Moto
+
+---- General Options
+Optimization Goal                  : Area
+Optimization Effort                : 1
+RTL Output                         : yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../Moto.v" in library work
+Compiling verilog file "../deb.v" in library work
+Module <Moto> compiled
+Compiling verilog file "../RPM_Fel.v" in library work
+Module <deb> compiled
+Compiling verilog file "../ADC_peripheral.v" in library work
+Module <RPM> compiled
+Module <ADC_peripheral> compiled
+No errors in compilation
+Analysis of file <"project.src"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Moto> in library <work> with parameters.
+	B = "00000000000000000000000000000111"
+
+Analyzing hierarchy for module <ADC_peripheral> in library <work>.
+
+Analyzing hierarchy for module <deb> in library <work> with parameters.
+	NBITS = "00000000000000000000000000010100"
+	NDELAY = "00000000000010011110101100010000"
+
+Analyzing hierarchy for module <RPM> in library <work> with parameters.
+	B = "00000000000000000000000000001100"
+	C = "00000010111110101111000010000000"
+	T = "00000000000000000000000000011001"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Moto>.
+	B = 32'sb00000000000000000000000000000111
+Module <Moto> is correct for synthesis.
+ 
+Analyzing module <ADC_peripheral> in library <work>.
+Module <ADC_peripheral> is correct for synthesis.
+ 
+    Set user-defined property "INITP_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INITP_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_00 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_01 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_02 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_03 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_04 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_05 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_06 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_07 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_08 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_09 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_10 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_12 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_14 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_16 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_18 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_1F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_20 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_21 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_22 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_23 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_24 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_25 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_26 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_27 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_28 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_29 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_2F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_30 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_31 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_32 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_33 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_34 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_35 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_36 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_37 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_38 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_39 =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3A =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3B =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3C =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3D =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3E =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_3F =  0000000000000000000000000000000000000000000000000000000000000000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_A =  000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "INIT_B =  000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "SIM_COLLISION_CHECK =  ALL" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "SRVAL_A =  000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "SRVAL_B =  000" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "WRITE_MODE_A =  WRITE_FIRST" for instance <ba0> in unit <ADC_peripheral>.
+    Set user-defined property "WRITE_MODE_B =  WRITE_FIRST" for instance <ba0> in unit <ADC_peripheral>.
+Analyzing module <deb> in library <work>.
+	NBITS = 32'sb00000000000000000000000000010100
+	NDELAY = 32'sb00000000000010011110101100010000
+Module <deb> is correct for synthesis.
+ 
+Analyzing module <RPM> in library <work>.
+	B = 32'sb00000000000000000000000000001100
+	C = 32'sb00000010111110101111000010000000
+	T = 32'sb00000000000000000000000000011001
+Module <RPM> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <deb>.
+    Related source file is "../deb.v".
+WARNING:Xst:647 - Input <nCS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <aux_reg>.
+    Found 20-bit up counter for signal <count1>.
+    Found 1-bit xor2 for signal <count1$xor0000> created at line 55.
+    Found 20-bit up counter for signal <count2>.
+    Found 1-bit xor2 for signal <count2$xor0000> created at line 77.
+    Found 20-bit up counter for signal <count3>.
+    Found 1-bit xor2 for signal <count3$xor0000> created at line 97.
+    Found 20-bit up counter for signal <count4>.
+    Found 1-bit xor2 for signal <count4$xor0000> created at line 119.
+    Found 20-bit up counter for signal <count5>.
+    Found 1-bit xor2 for signal <count5$xor0000> created at line 140.
+    Found 1-bit register for signal <in_1>.
+    Found 1-bit register for signal <in_2>.
+    Found 1-bit register for signal <in_3>.
+    Found 1-bit register for signal <in_4>.
+    Found 1-bit register for signal <in_5>.
+    Found 1-bit register for signal <in_d1>.
+    Found 1-bit register for signal <in_d2>.
+    Found 1-bit register for signal <in_d3>.
+    Found 1-bit register for signal <in_d4>.
+    Found 1-bit register for signal <in_d5>.
+    Found 1-bit register for signal <xnew1>.
+    Found 1-bit register for signal <xnew2>.
+    Found 1-bit register for signal <xnew3>.
+    Found 1-bit register for signal <xnew4>.
+    Found 1-bit register for signal <xnew5>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  23 D-type flip-flop(s).
+Unit <deb> synthesized.
+
+
+Synthesizing Unit <RPM>.
+    Related source file is "../RPM_Fel.v".
+WARNING:Xst:646 - Signal <temp<12:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pulse_in_rsync<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit register for signal <data_RPM>.
+    Found 13-bit up counter for signal <counter>.
+    Found 3-bit register for signal <pulse_in_rsync>.
+    Found 13-bit register for signal <temp>.
+    Found 1-bit register for signal <timer>.
+    Found 26-bit up counter for signal <timer_reg>.
+    Found 26-bit comparator lessequal for signal <timer_reg$cmp_le0000> created at line 42.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <RPM> synthesized.
+
+
+Synthesizing Unit <ADC_peripheral>.
+    Related source file is "../ADC_peripheral.v".
+    Register <clkdiv_en> equivalent to <busy> has been removed
+    Found finite state machine <FSM_0> for signal <w_st1>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <w_st0>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <w_st2>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 7                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Power Up State     | 000                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <ADC_CS>.
+    Found 8-bit register for signal <rdBus>.
+    Found 1-bit register for signal <ADC_SCLK_buffer>.
+    Found 6-bit comparator greatequal for signal <ADC_SCLK_buffer$cmp_ge0000> created at line 119.
+    Found 6-bit comparator lessequal for signal <ADC_SCLK_buffer$cmp_le0000> created at line 119.
+    Found 1-bit register for signal <ADC_SDIN_buffer>.
+    Found 11-bit register for signal <addr2>.
+    Found 1-bit register for signal <busy>.
+    Found 8-bit up counter for signal <clkcount>.
+    Found 8-bit comparator less for signal <clkcount$cmp_lt0000> created at line 115.
+    Found 8-bit register for signal <CLKDIV>.
+    Found 4-bit register for signal <CMD_ADC>.
+    Found 4-bit adder for signal <CMD_ADCt>.
+    Found 3-bit up counter for signal <CMD_OFFSET>.
+    Found 1-bit register for signal <CMD_START>.
+    Found 2-bit register for signal <CMD_SW>.
+    Found 1-bit register for signal <CMD_TYP>.
+    Found 1-bit register for signal <fullB>.
+    Found 4-bit register for signal <in_buffer>.
+    Found 1-bit register for signal <initB>.
+    Found 1-bit register for signal <load_in>.
+    Found 1-bit register for signal <loadB>.
+    Found 10-bit register for signal <out_buffer>.
+    Found 6-bit comparator less for signal <out_buffer_9$cmp_lt0000> created at line 129.
+    Found 1-bit register for signal <pulse>.
+    Found 6-bit register for signal <pulsecount>.
+    Found 6-bit adder for signal <pulsecount$addsub0000> created at line 103.
+    Found 6-bit comparator lessequal for signal <pulsecount$cmp_le0000> created at line 104.
+    Found 1-bit register for signal <rstStart>.
+    Found 10-bit register for signal <SIZEB>.
+    Found 10-bit register for signal <SIZEB1>.
+    Found 10-bit register for signal <SIZEB2>.
+    Found 10-bit subtractor for signal <SIZEB2$addsub0000> created at line 264.
+    Found 1-bit register for signal <SPI_wr>.
+    Found 10-bit subtractor for signal <subSIZEB>.
+    Found 6-bit comparator greater for signal <w_st1$cmp_gt0000> created at line 104.
+    Found 10-bit comparator greater for signal <w_st2$cmp_gt0000> created at line 242.
+    Found 1-bit register for signal <we1>.
+    Found 1-bit register for signal <we2>.
+    Found 8-bit register for signal <wrBus2>.
+    Summary:
+	inferred   3 Finite State Machine(s).
+	inferred   2 Counter(s).
+	inferred 106 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <ADC_peripheral> synthesized.
+
+
+Synthesizing Unit <Moto>.
+    Related source file is "../Moto.v".
+WARNING:Xst:653 - Signal <rdBus3> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+WARNING:Xst:646 - Signal <csN<3:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <counter> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit tristate buffer for signal <sram_data>.
+    Found 13-bit register for signal <buffer_addr>.
+    Found 8-bit register for signal <buffer_data>.
+    Found 1-bit register for signal <sncs>.
+    Found 1-bit register for signal <snwe>.
+    Found 1-bit register for signal <w_st>.
+    Found 1-bit register for signal <we>.
+    Found 8-bit register for signal <wrBus>.
+    Summary:
+	inferred  33 D-type flip-flop(s).
+	inferred   8 Tristate(s).
+Unit <Moto> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit subtractor                                     : 2
+ 4-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 9
+ 13-bit up counter                                     : 1
+ 20-bit up counter                                     : 5
+ 26-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 72
+ 1-bit register                                        : 55
+ 10-bit register                                       : 2
+ 11-bit register                                       : 1
+ 13-bit register                                       : 2
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 2
+ 6-bit register                                        : 1
+ 8-bit register                                        : 7
+# Comparators                                          : 8
+ 10-bit comparator greater                             : 1
+ 26-bit comparator lessequal                           : 1
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator greater                              : 1
+ 6-bit comparator less                                 : 1
+ 6-bit comparator lessequal                            : 2
+ 8-bit comparator less                                 : 1
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <P1/w_st2/FSM> on signal <w_st2[1:6]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000001
+ 001   | 000010
+ 010   | 000100
+ 011   | 001000
+ 100   | 010000
+ 101   | 100000
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <P1/w_st0/FSM> on signal <w_st0[1:3]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 011
+ 011   | 010
+ 100   | 110
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <P1/w_st1/FSM> on signal <w_st1[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 0
+ 001   | 1
+-------------------
+WARNING:Xst:2677 - Node <pulse_in_rsync_2> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2677 - Node <temp_8> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2677 - Node <temp_9> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2677 - Node <temp_10> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2677 - Node <temp_11> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2677 - Node <temp_12> of sequential type is unconnected in block <RPM>.
+WARNING:Xst:2404 -  FFs/Latches <temp<12:8>> (without init value) have a constant value of 0 in block <RPM>.
+WARNING:Xst:2677 - Node <pulse_in_rsync_2> of sequential type is unconnected in block <RPM>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# Adders/Subtractors                                   : 4
+ 10-bit subtractor                                     : 2
+ 4-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 9
+ 13-bit up counter                                     : 1
+ 20-bit up counter                                     : 5
+ 26-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 181
+ Flip-Flops                                            : 181
+# Comparators                                          : 8
+ 10-bit comparator greater                             : 1
+ 26-bit comparator lessequal                           : 1
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator greater                              : 1
+ 6-bit comparator less                                 : 1
+ 6-bit comparator lessequal                            : 2
+ 8-bit comparator less                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Moto> ...
+
+Optimizing unit <deb> ...
+
+Optimizing unit <RPM> ...
+
+Optimizing unit <ADC_peripheral> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+FlipFlop P1/ADC_CS has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop P1/ADC_SCLK_buffer has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 343
+ Flip-Flops                                            : 343
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : project.ngr
+Top Level Output File Name         : project.ngc
+Output Format                      : NGC
+Optimization Goal                  : Area
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 45
+
+Cell Usage :
+# BELS                             : 805
+#      GND                         : 1
+#      INV                         : 41
+#      LUT1                        : 118
+#      LUT2                        : 60
+#      LUT3                        : 53
+#      LUT4                        : 146
+#      MUXCY                       : 200
+#      MUXF5                       : 18
+#      VCC                         : 1
+#      XORCY                       : 167
+# FlipFlops/Latches                : 343
+#      FD                          : 1
+#      FD_1                        : 23
+#      FDC                         : 27
+#      FDE                         : 54
+#      FDE_1                       : 10
+#      FDR                         : 35
+#      FDRE                        : 154
+#      FDRE_1                      : 17
+#      FDRS                        : 14
+#      FDRSE                       : 5
+#      FDS                         : 3
+# RAMS                             : 1
+#      RAMB16_S9_S9                : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 44
+#      IBUF                        : 30
+#      IOBUF                       : 8
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500evq100-4 
+
+ Number of Slices:                      237  out of   4656     5%  
+ Number of Slice Flip Flops:            317  out of   9312     3%  
+ Number of 4 input LUTs:                418  out of   9312     4%  
+ Number of IOs:                          45
+ Number of bonded IOBs:                  45  out of     66    68%  
+    IOB Flip Flops:                      26
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 344   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RPM/reset_inv(reset_inv1_INV_0:O)  | NONE(RPM/timer)        | 27    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.160ns (Maximum Frequency: 82.237MHz)
+   Minimum input arrival time before clock: 5.987ns
+   Maximum output required time after clock: 7.448ns
+   Maximum combinational path delay: 6.573ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 12.160ns (frequency: 82.237MHz)
+  Total number of paths / destination ports: 12746 / 716
+-------------------------------------------------------------------------
+Delay:               6.080ns (Levels of Logic = 10)
+  Source:            P1/CLKDIV_0 (FF)
+  Destination:       P1/clkcount_7 (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk rising
+
+  Data Path: P1/CLKDIV_0 to P1/clkcount_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE_1:C->Q            2   0.591   0.526  P1/CLKDIV_0 (P1/CLKDIV_0)
+     LUT2:I1->O            1   0.704   0.000  P1/Mcompar_clkcount_cmp_lt0000_lut<0> (P1/Mcompar_clkcount_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<0> (P1/Mcompar_clkcount_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<1> (P1/Mcompar_clkcount_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<2> (P1/Mcompar_clkcount_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<3> (P1/Mcompar_clkcount_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<4> (P1/Mcompar_clkcount_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<5> (P1/Mcompar_clkcount_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  P1/Mcompar_clkcount_cmp_lt0000_cy<6> (P1/Mcompar_clkcount_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           3   0.459   0.610  P1/Mcompar_clkcount_cmp_lt0000_cy<7> (P1/Mcompar_clkcount_cmp_lt0000_cy<7>)
+     LUT2:I1->O            8   0.704   0.757  P1/clkcount_and00001 (P1/clkcount_and0000)
+     FDRE:R                    0.911          P1/clkcount_0
+    ----------------------------------------
+    Total                      6.080ns (4.187ns logic, 1.893ns route)
+                                       (68.9% logic, 31.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 420 / 310
+-------------------------------------------------------------------------
+Offset:              5.987ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       P1/CLKDIV_7 (FF)
+  Destination Clock: clk falling
+
+  Data Path: reset to P1/CLKDIV_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            38   1.218   1.343  reset_IBUF (P1/reset_inv)
+     LUT4:I1->O            3   0.704   0.706  P1/we1_or00001 (P1/we1_or0000)
+     LUT4:I0->O            8   0.704   0.757  P1/CLKDIV_not00011 (P1/CLKDIV_not0001)
+     FDE_1:CE                  0.555          P1/CLKDIV_0
+    ----------------------------------------
+    Total                      5.987ns (3.181ns logic, 2.806ns route)
+                                       (53.1% logic, 46.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 95 / 13
+-------------------------------------------------------------------------
+Offset:              7.448ns (Levels of Logic = 4)
+  Source:            deb/in_4 (FF)
+  Destination:       irq_pin (PAD)
+  Source Clock:      clk rising
+
+  Data Path: deb/in_4 to irq_pin
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              7   0.591   0.883  deb/in_4 (deb/in_4)
+     LUT4:I0->O            1   0.704   0.000  deb/aux_reg_not0001111 (deb/aux_reg_not0001111)
+     MUXF5:I0->O           2   0.321   0.526  deb/aux_reg_not000111_f5 (deb/aux_reg_not000111)
+     LUT3:I1->O            2   0.704   0.447  deb/irq_pin1 (irq_pin_OBUF)
+     OBUF:I->O                 3.272          irq_pin_OBUF (irq_pin)
+    ----------------------------------------
+    Total                      7.448ns (5.592ns logic, 1.856ns route)
+                                       (75.1% logic, 24.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 8
+-------------------------------------------------------------------------
+Delay:               6.573ns (Levels of Logic = 3)
+  Source:            ncs (PAD)
+  Destination:       sram_data<7> (PAD)
+
+  Data Path: ncs to sram_data<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  ncs_IBUF (ncs_IBUF)
+     LUT2:I0->O            8   0.704   0.757  T1 (T)
+     IOBUF:T->IO               3.272          sram_data_7_IOBUF (sram_data<7>)
+    ----------------------------------------
+    Total                      6.573ns (5.194ns logic, 1.379ns route)
+                                       (79.0% logic, 21.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 8.67 secs
+ 
+--> 
+
+
+Total memory usage is 148204 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

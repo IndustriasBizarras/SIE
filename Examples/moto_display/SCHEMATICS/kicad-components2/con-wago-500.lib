@@ -1,0 +1,313 @@
+EESchema-LIBRARY Version 2.3  12/12/2011-22:40:21
+# Converted with eagle2kicad.ulp Version 0.9
+# Device count = 11
+#
+# Dev Name: W237-4
+# Package Name: W237-4
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 4
+#
+DEF W237-4 X 0 40 Y Y 4 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-4" 0 0 50 H V R T
+F2 "con-wago-500-W237-4" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+# Gate Name: -4
+# Symbol Name: KL+V
+C 50 0 50 4 1 0 N
+X KL 4 200 0 100 L 40 40 4 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-6
+# Package Name: W237-6
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 6
+#
+DEF W237-6 X 0 40 Y Y 6 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-6" 0 0 50 H V R T
+F2 "con-wago-500-W237-6" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+# Gate Name: -4
+# Symbol Name: KL
+C 50 0 50 4 1 0 N
+X KL 4 200 0 100 L 40 40 4 1 P 
+# Gate Name: -5
+# Symbol Name: KL
+C 50 0 50 5 1 0 N
+X KL 5 200 0 100 L 40 40 5 1 P 
+# Gate Name: -6
+# Symbol Name: KL+V
+C 50 0 50 6 1 0 N
+X KL 6 200 0 100 L 40 40 6 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-102
+# Package Name: W237-102
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 2
+#
+DEF W237-102 X 0 40 Y Y 2 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-102" 0 0 50 H V R T
+F2 "con-wago-500-W237-102" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL+V
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-103
+# Package Name: W237-103
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 3
+#
+DEF W237-103 X 0 40 Y Y 3 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-103" 0 0 50 H V R T
+F2 "con-wago-500-W237-103" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL+V
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-112
+# Package Name: W237-112
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 1
+#
+DEF W237-112 X 0 40 Y Y 1 L N
+# Gate Name: -1
+# Symbol Name: KL+V
+F0 "X" 0 35 50 H V R T
+F1 "W237-112" -100 -145 50 H V R T
+F2 "con-wago-500-W237-112" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-113
+# Package Name: W237-113
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 2
+#
+DEF W237-113 X 0 40 Y Y 2 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-113" 0 0 50 H V R T
+F2 "con-wago-500-W237-113" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL+V
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-136
+# Package Name: W237-136
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 6
+#
+DEF W237-136 X 0 40 Y Y 6 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-136" 0 0 50 H V R T
+F2 "con-wago-500-W237-136" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+# Gate Name: -4
+# Symbol Name: KL
+C 50 0 50 4 1 0 N
+X KL 4 200 0 100 L 40 40 4 1 P 
+# Gate Name: -5
+# Symbol Name: KL
+C 50 0 50 5 1 0 N
+X KL 5 200 0 100 L 40 40 5 1 P 
+# Gate Name: -6
+# Symbol Name: KL+V
+C 50 0 50 6 1 0 N
+X KL 6 200 0 100 L 40 40 6 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W237-146
+# Package Name: W237-146
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 3
+#
+DEF W237-146 X 0 40 Y Y 3 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W237-146" 0 0 50 H V R T
+F2 "con-wago-500-W237-146" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W239-103
+# Package Name: W239-103
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 3
+#
+DEF W239-103 X 0 40 Y Y 3 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W239-103" 0 0 50 H V R T
+F2 "con-wago-500-W239-103" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL+V
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W239-104
+# Package Name: W239-104
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 4
+#
+DEF W239-104 X 0 40 Y Y 4 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W239-104" 0 0 50 H V R T
+F2 "con-wago-500-W239-104" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+# Gate Name: -3
+# Symbol Name: KL
+C 50 0 50 3 1 0 N
+X KL 3 200 0 100 L 40 40 3 1 P 
+# Gate Name: -4
+# Symbol Name: KL+V
+C 50 0 50 4 1 0 N
+X KL 4 200 0 100 L 40 40 4 1 P 
+ENDDRAW
+ENDDEF
+
+#
+# Dev Name: W239-302
+# Package Name: W239-302
+# Dev Tech: ''
+# Dev Prefix: X
+# Gate count = 2
+#
+DEF W239-302 X 0 40 Y Y 2 L N
+# Gate Name: -1
+# Symbol Name: KL
+F0 "X" 0 35 50 H V R T
+F1 "W239-302" 0 0 50 H V R T
+F2 "con-wago-500-W239-302" 0 150 50 H I C C
+DRAW
+C 50 0 50 1 1 0 N
+X KL 1 200 0 100 L 40 40 1 1 P 
+# Gate Name: -2
+# Symbol Name: KL+V
+C 50 0 50 2 1 0 N
+X KL 2 200 0 100 L 40 40 2 1 P 
+ENDDRAW
+ENDDEF
+
+#End Library

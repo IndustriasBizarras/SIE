@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/imagenes">
+        <file>carbon.png</file>
+        <file>left_off.png</file>
+        <file>left_on.png</file>
+        <file>right_off.png</file>
+        <file>right_on.png</file>
+    </qresource>
+</RCC>

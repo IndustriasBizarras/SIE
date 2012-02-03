@@ -1,0 +1,137 @@
+/*********************************************************************************************/
+/*                         Driver para el periférico Debouncer                               */
+/*                          UNIVERSIDAD NACIONAL DE COLOMBIA                                 */
+/*********************************************************************************************/
+#include <linux/init.h>
+#include <linux/slab.h> 
+#include <linux/errno.h> 
+#include <linux/types.h> 
+#include <linux/proc_fs.h>
+#include <linux/fcntl.h> 
+#include <asm/system.h> 
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/ioport.h>
+#include <linux/device.h>
+#include <linux/interrupt.h>  
+#include <linux/irq.h>        
+#include <linux/platform_device.h>
+#include <linux/fs.h>
+#include <linux/delay.h>
+#include <asm/delay.h>
+#include <asm/uaccess.h>  
+#include <asm/io.h>
+#include <linux/gpio.h>
+#include <asm/mach-jz4740/gpio.h>
+#include <linux/input.h>
+#include <linux/clk.h>
+#include <linux/mmc/host.h>
+#include <linux/io.h>
+#include <linux/scatterlist.h>
+
+// Pin irq, CS y bus de datos desde la FPGA //
+#define ADDRESS         0x4000                  /*bus de direcciones */
+#define IRQ_PIN         JZ_GPIO_PORTC(15)       /*Pin irq FPGA*/
+#define CS2_PIN         JZ_GPIO_PORTB(26)       /*Pin CS FPGA*/
+#define FPGA_BASE       0x15000000              
+#define BASE            0xB5000000              /*Direccion FPGA*/
+#define BUF_LEN         80
+#define SUCCESS         0
+
+
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("driver for keys and digital inputs");
+
+const char this_driver_name[] = "deb";
+static int is_device_open = 0; 
+static int deb_major; 
+static void __iomem *ioaddress;
+static unsigned char  entrada = 0;
+static int deb_open(struct inode *, struct file *);
+static int deb_release(struct inode *, struct file *);
+static ssize_t deb_read(struct file *, char *, size_t, loff_t *);
+static DECLARE_WAIT_QUEUE_HEAD(wq);
+
+//irq handler
+//función que toma las interrupciones y define las acciones a seguir
+static irqreturn_t irq_handler(struct file *filp, size_t count, loff_t *f_pos, int irq, void *dev_id )
+{
+	  entrada=inb(BASE + 0x1000); //La direccion del modulo periférico es 0xB5001000 (BASE + 0x1000)
+          wake_up_interruptible(&wq); 
+          return IRQ_HANDLED;
+}
+
+//open device 
+static int deb_open(struct inode *inode, struct file *filp) {
+
+if (is_device_open)
+    return -EBUSY;
+ 
+  is_device_open = 1;
+  try_module_get(THIS_MODULE);
+  return SUCCESS;
+}
+
+//release device
+static int deb_release(struct inode *inode, struct file *filp) {
+
+ is_device_open = 0;  
+  module_put(THIS_MODULE);
+  return 0;
+}
+
+//struct for control from console
+struct file_operations fops = { 
+  read: deb_read,
+  open: deb_open,
+  release: deb_release
+};
+
+
+//init driver
+static int __init deb_init(void)
+{
+  int res, irq, error;
+  printk(KERN_INFO "deb module is Up.\n");
+  jz_gpio_set_function(CS2_PIN, JZ_GPIO_FUNC1);    
+  
+  deb_major = register_chrdev(0, "deb", &fops); //Aquí se registra el modulo en el kernel        
+ 
+  if (deb_major < 0) {
+      printk(KERN_ALERT "Registering device failed with %d\n", deb_major);
+    return deb_major;
+  } 
+  
+  printk(KERN_ALERT  "I was assigned major number %d. To talk to\n", deb_major);
+  printk(KERN_ALERT  "the driver, create a dev file with\n");
+  printk(KERN_ALERT  "'mknod /dev/%s c %d 0'.\n", "deb", deb_major);
+  printk("startup\n");
+ 
+  ioaddress = __ioremap(FPGA_BASE, ADDRESS,_CACHE_UNCACHED); //mapeo de la memoria para la dirreccion de la FPGA
+  irq = gpio_to_irq(IRQ_PIN); //pin irq
+  res = request_irq(irq, irq_handler, IRQF_DISABLED | IRQF_TRIGGER_RISING, "deb", NULL);
+        
+  return SUCCESS;
+}
+
+//close driver
+static void __exit deb_exit(void) {
+  
+  iounmap(ioaddress);
+  unregister_chrdev(deb_major, "deb");
+  printk("<1>Removing deb module\n");
+  
+  }
+  
+static ssize_t deb_read(struct file *filp, char *buffer, size_t count, loff_t *offset)
+{ 
+
+  wait_event_interruptible(wq, entrada!=0);
+  return copy_to_user(buffer, &entrada, sizeof(entrada)) ? -EFAULT : 0; //envia al espacio de usuario la tecla presionada
+}
+
+module_init(deb_init);
+module_exit(deb_exit);
+  
+
+

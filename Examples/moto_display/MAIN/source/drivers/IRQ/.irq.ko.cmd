@@ -1,0 +1,1 @@
+cmd_/home/felipe/Dropbox/Project/driver/2/irq.ko := mipsel-openwrt-linux-ld -r  -m elf32ltsmip -T /home/felipe/openwrt/trunk/build_dir/linux-xburst_qi_lb60/linux-2.6.37.6/scripts/module-common.lds --build-id   -o /home/felipe/Dropbox/Project/driver/2/irq.ko /home/felipe/Dropbox/Project/driver/2/irq.o /home/felipe/Dropbox/Project/driver/2/irq.mod.o

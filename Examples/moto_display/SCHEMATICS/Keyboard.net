@@ -1,0 +1,47 @@
+# EESchema Netlist Version 1.1 created  Sat 23 Apr 2011 02:11:42 PM COT
+(
+ ( /4DB3212D SIL-9 P1 CONN_9
+  ( 1 /MFB )
+  ( 2 /VOL_UP )
+  ( 3 /VOL_DW )
+  ( 4 /UP )
+  ( 5 /DOWN )
+  ( 6 /LEFT )
+  ( 7 /RIGHT )
+  ( 8 /ENTER )
+  ( 9 /GND )
+ )
+ ( /4DB32150 SW_PUSH_SMALL SW1 MFB
+  ( 1 /MFB )
+  ( 2 /GND )
+ )
+ ( /4DB321BA SW_PUSH_SMALL SW2 ENTER
+  ( 1 /ENTER )
+  ( 2 /GND )
+ )
+ ( /4DB3215E SW_PUSH_SMALL SW3 VOL_UP
+  ( 1 /VOL_UP )
+  ( 2 /GND )
+ )
+ ( /4DB32162 SW_PUSH_SMALL SW4 VOL_DW
+  ( 1 /VOL_DW )
+  ( 2 /GND )
+ )
+ ( /4DB3216D SW_PUSH_SMALL SW5 LEFT
+  ( 1 /LEFT )
+  ( 2 /GND )
+ )
+ ( /4DB32166 SW_PUSH_SMALL SW6 UP
+  ( 1 /UP )
+  ( 2 /GND )
+ )
+ ( /4DB32169 SW_PUSH_SMALL SW7 DOWN
+  ( 1 /DOWN )
+  ( 2 /GND )
+ )
+ ( /4DB32171 SW_PUSH_SMALL SW8 RIGHT
+  ( 1 /RIGHT )
+  ( 2 /GND )
+ )
+)
+*

@@ -1,0 +1,132 @@
+
+/*Driver para el circuito mmc*/
+#include <linux/init.h>
+#include <linux/slab.h> /* kmalloc() */
+#include <linux/errno.h> /* error codes */
+#include <linux/types.h> /* size_t */
+#include <linux/proc_fs.h>
+#include <linux/fcntl.h> /* O_ACCMODE */
+#include <asm/system.h> /* cli(), *_flags */
+#include <linux/module.h>       /* Needed by all modules */
+#include <linux/kernel.h>       /* Needed for KERN_INFO */
+#include <linux/ioport.h>
+#include <linux/device.h>
+#include <linux/interrupt.h>  /* We want an interrupt */
+#include <linux/irq.h>        /* We want an interrupt */
+#include <linux/platform_device.h>
+#include <linux/fs.h>
+#include <linux/delay.h>
+#include <asm/delay.h>
+#include <asm/uaccess.h>  
+#include <asm/io.h>
+#include <linux/gpio.h>
+#include <asm/mach-jz4740/gpio.h>
+#include <linux/input.h>
+
+// pin irq, CS y bus de datos desde la FPGA //
+#define ADDRESS         0x4000 /*bus de direcciones */
+#define IRQ_PIN         JZ_GPIO_PORTC(15) /*Pin irq FPGA*/
+#define CS2_PIN         JZ_GPIO_PORTB(26) /*Pin CS FPGA*/
+#define FPGA_BASE       0x15000000  /*Direccion FPGA*/
+#define BASE            0xB5000000 /*Bus de datos*/
+#define BUF_LEN         80
+#define SUCCESS         0
+
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cesar Pantoja <capantojar@hotmail.com>");
+MODULE_DESCRIPTION("teclas");
+
+const char this_driver_name[] = "teclas";
+static int is_device_open = 0; /* Is device open?  Used to prevent multiple access to device */
+static int teclas_major; 
+static void __iomem *ioaddress;
+
+static int teclas_open(struct inode *, struct file *);
+static int teclas_release(struct inode *, struct file *);
+
+
+static struct input_dev *signal; //struct to define signal of keys and digital inputs
+
+//irq handler
+static irqreturn_t irq_handler(struct file *filp, size_t count, loff_t *f_pos, int irq, void *dev_id )//función que toma las interrupciones y define las acciones a seguir
+{
+         unsigned char entrada=0;
+         entrada=inb(BASE);
+	 printk("Tecla o señal activada\n"); 
+        	
+	if (entrada==1) {
+	  
+	    wake_up_interruptible(&wq);
+	}
+		  
+          
+        input_sync(signal);
+	return IRQ_HANDLED;
+}
+
+//open device 
+static int teclas_open(struct inode *inode, struct file *filp) {
+
+if (is_device_open)
+    return -EBUSY;
+ 
+  is_device_open = 1;
+  try_module_get(THIS_MODULE);
+  return SUCCESS;
+}
+
+//release device
+static int teclas_release(struct inode *inode, struct file *filp) {
+
+ is_device_open = 0;  
+  module_put(THIS_MODULE);
+  return 0;
+}
+
+//struct for control from console
+struct file_operations fops = { 
+  open: teclas_open,
+  release: teclas_release
+};
+
+
+//init driver
+static int __init teclas_init(void)
+{
+  int res, irq;
+  printk(KERN_INFO "teclas module is Up.\n");
+  jz_gpio_set_function(CS2_PIN, JZ_GPIO_FUNC1);       
+  teclas_major = register_chrdev(0, "teclas", &fops);         
+ 
+  if (teclas_major < 0) {
+      printk(KERN_ALERT "Registering device failed with %d\n", teclas_major);
+    return teclas_major;
+  } 
+ 
+  printk(KERN_ALERT  "I was assigned major number %d. To talk to\n", teclas_major);
+  printk(KERN_ALERT  "the driver, create a dev file with\n");
+  printk(KERN_ALERT  "'mknod /dev/%s c %d 0'.\n", "teclas", teclas_major);
+  printk("startup\n");
+ 
+  ioaddress = __ioremap(FPGA_BASE, ADDRESS,_CACHE_UNCACHED);
+  irq = gpio_to_irq(IRQ_PIN);
+  res = request_irq(irq, irq_handler, IRQF_DISABLED | IRQF_TRIGGER_RISING, "teclas", NULL);
+   
+  return SUCCESS;
+}
+
+//close driver
+static void __exit teclas_exit(void) {
+  
+  iounmap(ioaddress);
+  unregister_chrdev(teclas_major, "teclas");
+  printk("<1>Removing teclas module\n");
+  
+  }
+
+module_init(teclas_init);
+module_exit(teclas_exit);
+
+
+

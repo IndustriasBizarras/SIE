@@ -1,0 +1,234 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 20/07/2011 21:40:05
+
+BeginCmp
+TimeStamp = /4E1CEAA6;
+Reference = D1;
+ValeurCmp = ZENER;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDA1;
+Reference = D2;
+ValeurCmp = ZENER;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDB1;
+Reference = D3;
+ValeurCmp = ZENER;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD5;
+Reference = D4;
+ValeurCmp = ZENER;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDF0;
+Reference = D5;
+ValeurCmp = ZENER;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1E2900;
+Reference = JP1;
+ValeurCmp = PINHD-1X12;
+IdModule  = pinhead-1X12;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDA3;
+Reference = OK1;
+ValeurCmp = ILD621;
+IdModule  = optocoupler-SOIC08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD7;
+Reference = OK2;
+ValeurCmp = ILD621;
+IdModule  = optocoupler-SOIC08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEEEE;
+Reference = OK3;
+ValeurCmp = ILD621;
+IdModule  = optocoupler-SOIC08;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CE5F5;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDA2;
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDB0;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD6;
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDEF;
+Reference = R5;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CE5C5;
+Reference = R6;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDA4;
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDAE;
+Reference = R8;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD8;
+Reference = R9;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDED;
+Reference = R10;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CED7A;
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CED9F;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDB3;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD3;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDF2;
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEEEF;
+Reference = R16;
+ValeurCmp = 3k3;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEEEA;
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CF495;
+Reference = R18;
+ValeurCmp = 68;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CF3AF;
+Reference = R19;
+ValeurCmp = 68k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CF3BB;
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDA0;
+Reference = X1;
+ValeurCmp = AK500/2;
+IdModule  = con-ptr500-AK500/2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEDD4;
+Reference = X2;
+ValeurCmp = AK500/2;
+IdModule  = con-ptr500-AK500/2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CEEEB;
+Reference = X3;
+ValeurCmp = AK500/2;
+IdModule  = con-ptr500-AK500/2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E1CF380;
+Reference = X4;
+ValeurCmp = AK500/2;
+IdModule  = con-ptr500-AK500/2;
+EndCmp
+
+EndListe

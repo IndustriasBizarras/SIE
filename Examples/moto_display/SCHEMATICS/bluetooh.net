@@ -1,0 +1,329 @@
+# EESchema Netlist Version 1.1 created  18/07/2011 08:18:28 p.m.
+(
+ ( /4DE2B9AD SM0805 C2 4u7
+  ( 1 /1V8 )
+  ( 2 /GND )
+ )
+ ( /4D795632 SM0805 C5 4u7
+  ( 1 /3V3 )
+  ( 2 /GND )
+ )
+ ( /4D827216 SM0805 C6 1uF
+  ( 1 N-000013 )
+  ( 2 N-000060 )
+ )
+ ( /4D827209 SM0805 C7 15pF
+  ( 1 /AGND )
+  ( 2 N-000013 )
+ )
+ ( /4D827212 SM0805 C8 1uF
+  ( 1 /AGND )
+  ( 2 N-000044 )
+ )
+ ( /4D82732D SM0805 C9 1uF
+  ( 1 N-000041 )
+  ( 2 N-000062 )
+ )
+ ( /4D827329 SM0805 C10 15pF
+  ( 1 /AGND )
+  ( 2 N-000041 )
+ )
+ ( /4D82731F SM0805 C11 1uF
+  ( 1 /AGND )
+  ( 2 N-000059 )
+ )
+ ( /4D7933AA LED-0805 D6 LED
+  ( 1 /3V3 )
+  ( 2 N-000049 )
+ )
+ ( /4D793399 LED-0805 D7 LED
+  ( 1 /3V3 )
+  ( 2 N-000048 )
+ )
+ ( /4D826D19 SIL-2 JP1 UART
+  ( 1 N-000016 )
+  ( 2 N-000056 )
+ )
+ ( /4D8274BA SIL-2 JP2 Music_in
+  ( 1 N-000025 )
+  ( 2 N-000042 )
+ )
+ ( /4E24DB02 pinhead-1X02 JP3 PINHD-1X2
+  ( 1 N-000044 )
+  ( 2 N-000060 )
+ )
+ ( /4E24DB10 pinhead-1X02 JP4 PINHD-1X2
+  ( 1 N-000059 )
+  ( 2 N-000062 )
+ )
+ ( /4D79555E SM0805 L2 INDUCTOR
+  ( 1 N-000052 )
+  ( 2 /1V8 )
+ )
+ ( /4D826FB7 SM0805 L3 15nH
+  ( 1 N-000013 )
+  ( 2 N-000017 )
+ )
+ ( /4D827330 SM0805 L4 15nH
+  ( 1 N-000043 )
+  ( 2 N-000041 )
+ )
+ ( /4E1A15DF SIL-6 P1 CONN_6
+  ( 1 /3V3 )
+  ( 2 /MFB )
+  ( 3 /VOL_DW )
+  ( 4 /VOL_UP )
+  ( 5 /GND )
+  ( 6 /AGND )
+ )
+ ( /4DE2C8CA SM1206 R21 10k
+  ( 1 N-000057 )
+  ( 2 /MFB )
+ )
+ ( /4D865568 SM1206 R24 10k
+  ( 1 /VOL_DW )
+  ( 2 N-000045 )
+ )
+ ( /4D865562 SM1206 R25 10k
+  ( 1 /VOL_UP )
+  ( 2 N-000036 )
+ )
+ ( /4D7955A7 SM1206 R26 10k
+  ( 1 N-000015 )
+  ( 2 N-000014 )
+ )
+ ( /4D793383 SM1206 R27 1k
+  ( 1 N-000049 )
+  ( 2 N-000054 )
+ )
+ ( /4D793389 SM1206 R28 1k
+  ( 1 N-000048 )
+  ( 2 N-000047 )
+ )
+ ( /4D8271D6 SM1206 R30 1.5k
+  ( 1 /AGND )
+  ( 2 N-000013 )
+ )
+ ( /4D827317 SM1206 R31 1.5k
+  ( 1 /AGND )
+  ( 2 N-000041 )
+ )
+ ( /4D8271D3 SM1206 R32 7.5k
+  ( 1 N-000025 )
+  ( 2 N-000017 )
+ )
+ ( /4D82731A SM1206 R33 7.5K
+  ( 1 N-000042 )
+  ( 2 N-000043 )
+ )
+ ( /4DE2C84F SM1206 R37 10k
+  ( 1 /3V3 )
+  ( 2 N-000046 )
+ )
+ ( /4D793478 SW_PUSH_SMALL SW1 RESET
+  ( 1 N-000050 )
+  ( 2 /GND )
+ )
+ ( /4E1A1FC6 SW_PUSH_SMALL SW2 BTB
+  ( 1 /3V3 )
+  ( 2 N-000014 )
+ )
+ ( /4D792CF0 kcwirefree-KC5290 U3 KC5290AA
+  ( 1 N-000064 )
+  ( 2 /GND )
+  ( 3 /GND )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 N-000057 )
+  ( 7 N-000016 )
+  ( 8 N-000056 )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 /3V3 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 N-000046 )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 N-000036 )
+  ( 22 N-000045 )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 N-000015 )
+  ( 32 /GND )
+  ( 33 /1V8 )
+  ( 34 N-000052 )
+  ( 35 /3V3 )
+  ( 36 ? )
+  ( 37 /GND )
+  ( 38 N-000050 )
+  ( 39 N-000047 )
+  ( 40 N-000054 )
+  ( 41 ? )
+  ( 42 N-000062 )
+  ( 43 N-000059 )
+  ( 44 N-000044 )
+  ( 45 N-000060 )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 ? )
+  ( 53 ? )
+  ( 54 ? )
+  ( 55 ? )
+  ( 56 /GND )
+ )
+ ( /4D827973 SM1812L U4 ANT
+  ( 1 N-000064 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

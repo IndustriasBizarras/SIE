@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Moto</class>
+ <widget class="QMainWindow" name="Moto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Moto</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>321</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="ManoMeter" name="manometer">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>201</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Shows the pressure</string>
+      </property>
+      <property name="whatsThis">
+       <string>The bar meter widget displays the pressure attached to it</string>
+      </property>
+      <property name="maximum">
+       <double>160.000000000000000</double>
+      </property>
+      <property name="nominal">
+       <double>30.000000000000000</double>
+      </property>
+      <property name="critical">
+       <double>110.000000000000000</double>
+      </property>
+      <property name="suffix">
+       <string> [Km/h]</string>
+      </property>
+     </widget>
+     <widget class="ManoMeter" name="manometer_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>120</y>
+        <width>131</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>BlankCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Shows the pressure</string>
+      </property>
+      <property name="whatsThis">
+       <string>The bar meter widget displays the pressure attached to it</string>
+      </property>
+      <property name="maximum">
+       <double>80.000000000000000</double>
+      </property>
+      <property name="value">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="nominal">
+       <double>20.000000000000000</double>
+      </property>
+      <property name="critical">
+       <double>70.000000000000000</double>
+      </property>
+      <property name="suffix">
+       <string> [RPMx10]</string>
+      </property>
+      <property name="valueFont">
+       <font>
+        <pointsize>22</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QFrame" name="Fondo">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>321</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>BlankCursor</cursorShape>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>60</y>
+        <width>97</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>151</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>40</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>HOLA</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ManoMeter</class>
+   <extends>QWidget</extends>
+   <header>analogwidgets/manometer.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

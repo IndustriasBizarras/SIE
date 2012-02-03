@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPCB (2011-02-22 BZR 2835)-testing date = Sat 23 Apr 2011 02:11:42 PM COT
+
+BeginCmp
+TimeStamp = /4DB3212D;
+Reference = P1;
+ValeurCmp = CONN_9;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB32150;
+Reference = SW1;
+ValeurCmp = MFB;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB321BA;
+Reference = SW2;
+ValeurCmp = ENTER;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB3215E;
+Reference = SW3;
+ValeurCmp = VOL_UP;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB32162;
+Reference = SW4;
+ValeurCmp = VOL_DW;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB3216D;
+Reference = SW5;
+ValeurCmp = LEFT;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB32166;
+Reference = SW6;
+ValeurCmp = UP;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB32169;
+Reference = SW7;
+ValeurCmp = DOWN;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DB32171;
+Reference = SW8;
+ValeurCmp = RIGHT;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+EndListe

@@ -1,0 +1,8 @@
+
+En la FPGA hay 3 módulos organizados así:
+ADDRESS          Periférico
+  0xB5000000       ADC
+  0xB5001000       Tecla y entradas digitales
+  0xB5001800       RPM
+
+El módulo que maneja las teclas de navegación y las entradas digitales producirá un irq cada vez que se active una tecla o señal proveniente de las luces de la moto, en cambio los modulos para el ADC y las RPM no producen irq y pueden ser consultados por la aplicación cada vez que se requiera desde el espacio de usuario.

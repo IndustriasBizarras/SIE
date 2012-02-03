@@ -1,0 +1,135 @@
+/***************************************************************/
+/*              Driver para el modulo RPM                      */
+/*                                                             */
+/*          Universidad Nacional de Colombia                   */
+/*                                                             */
+/*          Autores: Cesar Augusto Pantoja                     */
+/*                   Felipe Andres Navarro                     */
+/*                                                             */
+/*          Proyecto: Dispositivo de informacion               */
+/*                    para vehiculos automotores               */
+/*                                                             */
+/***************************************************************/
+#include <linux/init.h>
+#include <linux/slab.h> 
+#include <linux/errno.h> 
+#include <linux/types.h> 
+#include <linux/proc_fs.h>
+#include <linux/fcntl.h> 
+#include <asm/system.h> 
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/ioport.h>
+#include <linux/device.h>
+#include <linux/interrupt.h>
+#include <linux/irq.h>      
+#include <linux/platform_device.h>
+#include <linux/fs.h>
+#include <linux/delay.h>
+#include <asm/delay.h>
+#include <asm/uaccess.h>  
+#include <asm/io.h>
+#include <linux/gpio.h>
+#include <asm/mach-jz4740/gpio.h>
+#include <linux/input.h>
+#include <linux/clk.h>
+#include <linux/mmc/host.h>
+#include <linux/io.h>
+#include <linux/scatterlist.h>
+
+// pin irq, CS y bus de datos desde la FPGA //
+#define ADDRESS         0x4000              /*bus de direcciones */
+#define FPGA_BASE       0x15000000         
+#define CS2_PIN         JZ_GPIO_PORTB(26)   /*Pin CS FPGA*/
+#define BASE            0xB5000000          /*Direccion BASE de la FPGA*/
+#define BUF_LEN         80
+#define SUCCESS         0
+#define RPM_OFFSET      0x1800             /*Direccion de OFFSET del modulo en la FPGA*/
+
+MODULE_AUTHOR("Cesar Pantoja, Felipe Navarro");
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("driver for RPM module");
+
+//definicion de variables y objetos
+const char this_driver_name[] = "rpm";
+static int is_device_open = 0; 
+static int rpm_major; 
+static void __iomem *ioaddress;
+static int rpm_open(struct inode *, struct file *);
+static int rpm_release(struct inode *, struct file *);
+static ssize_t rpm_read(struct file *, char *, size_t, loff_t *);
+
+
+//abre el modulo sólo si no se encuentra ocupado
+static int rpm_open(struct inode *inode, struct file *filp) {
+
+if (is_device_open)
+    return -EBUSY;
+ 
+  is_device_open = 1;
+  try_module_get(THIS_MODULE);
+  return SUCCESS;
+}
+
+//cierra el modulo
+static int rpm_release(struct inode *inode, struct file *filp) {
+
+ is_device_open = 0;  
+  module_put(THIS_MODULE);
+  return 0;
+}
+
+//struct for control from console
+struct file_operations fops = { 
+  read: rpm_read,
+  open: rpm_open,
+  release: rpm_release
+};
+
+
+//Funcion que inicializa el driver y lo registra ante el kernel
+static int __init rpm_init(void)
+{
+  
+  printk(KERN_INFO "rpm module is Up.\n");
+  jz_gpio_set_function(CS2_PIN, JZ_GPIO_FUNC1); //Activa el pin de chip select de la FPGA 
+  
+  rpm_major = register_chrdev(0, "rpm", &fops);  //registra el modulo periferico en el kernel ubicando un major number disponible       
+ 
+  if (rpm_major < 0) {
+      printk(KERN_ALERT "Registering device failed with %d\n", rpm_major); 
+    return rpm_major;
+  } 
+  
+  printk(KERN_ALERT  "I was assigned major number %d. To talk to\n", rpm_major);
+  printk(KERN_ALERT  "the driver, create a dev file with\n");
+  printk(KERN_ALERT  "'mknod /dev/%s c %d 0'.\n", "rpm", rpm_major);
+  printk("startup\n");
+ 
+  ioaddress = __ioremap(FPGA_BASE, ADDRESS,_CACHE_UNCACHED); //Mapeo de memoria para los datos de la FPGA
+        
+  return SUCCESS;
+}
+
+//cierra el driver liberando recursos de memoria utilizados asi como el major number
+static void __exit rpm_exit(void) {
+  
+  iounmap(ioaddress);
+  unregister_chrdev(rpm_major, "rpm");
+  printk("<1>Removing rpm module\n");
+  
+  }
+  
+//funcion que direcciona el periferico de RPM, lee el bus de datos del mismo y el dato obtenido lo envia al espacio de usuario  
+static ssize_t rpm_read(struct file *filp, char *buffer, size_t count, loff_t *offset)
+{ 
+
+  static int RPM;
+  RPM = inb(BASE + RPM_OFFSET);//La direccion del modulo es 0xB5001800
+  return copy_to_user(buffer, &RPM, sizeof(RPM)) ? -EFAULT : 0; //Envía al espacio de usuario el dato RPM
+}
+
+module_init(rpm_init);
+module_exit(rpm_exit);
+  
+

@@ -4,12 +4,12 @@ ENTRY(_start)
 __DYNAMIC = 0;
 
 
-_RAM_START = 0x40000000;
+_RAM_START = 0x00000000;
 _RAM_SIZE  = 0x1000;
 _RAM_END   = _RAM_START + _RAM_SIZE;
 
 MEMORY {
-  ram    : ORIGIN = 0x40000000, LENGTH = 0x1000          /*  4k */
+  ram    : ORIGIN = 0x00000000, LENGTH = 0x1000          /*  4k */
 }
 
 SECTIONS

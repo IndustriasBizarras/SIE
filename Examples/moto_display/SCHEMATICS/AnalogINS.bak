@@ -1,0 +1,743 @@
+EESchema Schematic File Version 2  date 13/07/2011 19:03:05
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:optocoupler
+LIBS:con-ptr500
+LIBS:pinhead
+EELAYER 25  0
+EELAYER END
+$Descr A3 16535 11700
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "13 jul 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6540 3440 5880 3440
+Wire Wire Line
+	6540 3340 5880 3340
+Connection ~ 4890 3860
+Wire Wire Line
+	4890 3860 4880 3860
+Wire Wire Line
+	6540 3140 5880 3140
+Wire Wire Line
+	6540 2940 5880 2940
+Wire Wire Line
+	6540 2740 5880 2740
+Wire Wire Line
+	6540 2540 5880 2540
+Wire Wire Line
+	6540 2340 5880 2340
+Wire Wire Line
+	2650 8440 2480 8440
+Wire Wire Line
+	2190 6700 2460 6700
+Wire Wire Line
+	3220 6780 3220 6700
+Wire Wire Line
+	3220 6700 2960 6700
+Wire Wire Line
+	4530 3350 4270 3350
+Wire Wire Line
+	4270 3350 4270 3100
+Wire Wire Line
+	4530 2370 4260 2370
+Wire Wire Line
+	4260 2370 4260 2140
+Wire Wire Line
+	4530 5220 4280 5220
+Wire Wire Line
+	4280 5220 4280 5000
+Wire Wire Line
+	4530 4660 4320 4660
+Connection ~ 4320 4800
+Wire Wire Line
+	4320 4660 4320 4800
+Wire Wire Line
+	4530 2760 4320 2760
+Connection ~ 4320 2900
+Wire Wire Line
+	4320 2760 4320 2900
+Wire Wire Line
+	4530 1010 4310 1010
+Connection ~ 4310 1120
+Wire Wire Line
+	4310 1010 4310 1120
+Wire Wire Line
+	4880 1120 4860 1120
+Wire Wire Line
+	3480 5750 3580 5750
+Wire Wire Line
+	2190 5750 2980 5750
+Wire Wire Line
+	4280 5750 4390 5750
+Wire Wire Line
+	4280 4800 4390 4800
+Wire Wire Line
+	2190 4800 2340 4800
+Wire Wire Line
+	2980 4800 2840 4800
+Wire Wire Line
+	3480 4800 3580 4800
+Wire Wire Line
+	2910 4880 2910 4800
+Connection ~ 2910 4800
+Wire Wire Line
+	2910 5280 2910 5460
+Wire Wire Line
+	2910 5460 3550 5460
+Wire Wire Line
+	3550 5460 3550 5000
+Wire Wire Line
+	3550 5000 3580 5000
+Wire Wire Line
+	3570 4060 3540 4060
+Wire Wire Line
+	3540 4060 3540 4520
+Wire Wire Line
+	3540 4520 2900 4520
+Wire Wire Line
+	2900 4520 2900 4340
+Connection ~ 2900 3860
+Wire Wire Line
+	2900 3940 2900 3860
+Wire Wire Line
+	3470 3860 3570 3860
+Wire Wire Line
+	2970 3860 2830 3860
+Wire Wire Line
+	2180 3860 2330 3860
+Wire Wire Line
+	4270 3860 4380 3860
+Wire Wire Line
+	4270 2900 4380 2900
+Wire Wire Line
+	2180 2900 2330 2900
+Wire Wire Line
+	2970 2900 2830 2900
+Wire Wire Line
+	3470 2900 3570 2900
+Wire Wire Line
+	2900 2980 2900 2900
+Connection ~ 2900 2900
+Wire Wire Line
+	2900 3380 2900 3560
+Wire Wire Line
+	2900 3560 3540 3560
+Wire Wire Line
+	3540 3560 3540 3100
+Wire Wire Line
+	3540 3100 3570 3100
+Wire Wire Line
+	3560 2140 3530 2140
+Wire Wire Line
+	3530 2140 3530 2600
+Wire Wire Line
+	3530 2600 2890 2600
+Wire Wire Line
+	2890 2600 2890 2420
+Connection ~ 2890 1940
+Wire Wire Line
+	2890 2020 2890 1940
+Wire Wire Line
+	3460 1940 3560 1940
+Wire Wire Line
+	2960 1940 2820 1940
+Wire Wire Line
+	2170 1940 2320 1940
+Wire Wire Line
+	4260 1940 4370 1940
+Wire Wire Line
+	4250 1120 4360 1120
+Wire Wire Line
+	2160 1120 2310 1120
+Wire Wire Line
+	2950 1120 2810 1120
+Wire Wire Line
+	3450 1120 3550 1120
+Wire Wire Line
+	2880 1200 2880 1120
+Connection ~ 2880 1120
+Wire Wire Line
+	2880 1600 2880 1780
+Wire Wire Line
+	2880 1780 3520 1780
+Wire Wire Line
+	3520 1780 3520 1320
+Wire Wire Line
+	3520 1320 3550 1320
+Wire Wire Line
+	3580 5950 3580 6250
+Wire Wire Line
+	3580 6250 2980 6250
+Wire Wire Line
+	4890 5750 4890 2900
+Wire Wire Line
+	4890 2900 4880 2900
+Wire Wire Line
+	4880 2900 4880 960 
+Wire Wire Line
+	4880 960  5030 960 
+Connection ~ 4880 1120
+Wire Wire Line
+	4320 1940 4320 1810
+Connection ~ 4320 1940
+Wire Wire Line
+	4320 1810 4530 1810
+Wire Wire Line
+	4320 3860 4320 3700
+Connection ~ 4320 3860
+Wire Wire Line
+	4320 3700 4530 3700
+Wire Wire Line
+	4320 5750 4320 5600
+Connection ~ 4320 5750
+Wire Wire Line
+	4320 5600 4530 5600
+Wire Wire Line
+	4280 5950 4280 6210
+Wire Wire Line
+	4280 6210 4530 6210
+Wire Wire Line
+	4250 1320 4250 1590
+Wire Wire Line
+	4250 1590 4530 1590
+Wire Wire Line
+	4270 4060 4270 4270
+Wire Wire Line
+	4270 4270 4530 4270
+Wire Wire Line
+	4530 4270 4530 4260
+Wire Wire Line
+	3220 7280 3220 7380
+Wire Wire Line
+	3220 7380 3370 7380
+Wire Wire Line
+	2650 7940 2190 7940
+Wire Wire Line
+	2580 7940 2580 7770
+Connection ~ 2580 7940
+Wire Wire Line
+	2580 7770 2380 7770
+Wire Wire Line
+	6540 2440 5880 2440
+Wire Wire Line
+	6540 2640 5880 2640
+Wire Wire Line
+	6540 2840 5880 2840
+Wire Wire Line
+	6540 3040 5880 3040
+Wire Wire Line
+	6540 3240 5880 3240
+Wire Wire Line
+	4890 4800 4890 4760
+Connection ~ 4890 4760
+Connection ~ 4890 4800
+Wire Wire Line
+	4870 1940 4870 1870
+Wire Wire Line
+	4870 1870 4880 1870
+Connection ~ 4880 1870
+Text Label 5880 3440 0    60   ~ 0
+AGND
+Text Label 5880 3340 0    60   ~ 0
+GND
+$Comp
+L PINHD-1X12 JP1
+U 1 1 4E1E2900
+P 6640 2840
+F 0 "JP1" H 6390 3465 50  0000 L BNN
+F 1 "PINHD-1X12" H 6390 2040 50  0000 L BNN
+F 2 "pinhead-1X12" H 6640 2990 50  0001 C CNN
+	1    6640 2840
+	1    0    0    -1  
+$EndComp
+Text Label 5880 3240 0    60   ~ 0
+AN1
+Text Label 5880 3140 0    60   ~ 0
+AN0
+Text Label 5880 3040 0    60   ~ 0
+3V3
+Text Label 5880 2940 0    60   ~ 0
+5V
+Text Label 5880 2840 0    60   ~ 0
+IN6
+Text Label 5880 2740 0    60   ~ 0
+IN5
+Text Label 5880 2640 0    60   ~ 0
+IN4
+Text Label 5880 2540 0    60   ~ 0
+IN3
+Text Label 5880 2440 0    60   ~ 0
+IN2
+Text Label 5880 2340 0    60   ~ 0
+IN1
+Text Label 2380 7770 0    60   ~ 0
+AN1
+Text Label 2480 8440 0    60   ~ 0
+5V
+$Comp
+L R R18
+U 1 1 4E1CF495
+P 2650 8190
+F 0 "R18" V 2730 8190 50  0000 C CNN
+F 1 "68" V 2650 8190 50  0000 C CNN
+	1    2650 8190
+	1    0    0    -1  
+$EndComp
+Text Label 3220 6700 0    60   ~ 0
+AN0
+Text Label 3370 7380 0    60   ~ 0
+AGND
+$Comp
+L R R20
+U 1 1 4E1CF3BB
+P 3220 7030
+F 0 "R20" V 3300 7030 50  0000 C CNN
+F 1 "10k" V 3220 7030 50  0000 C CNN
+	1    3220 7030
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 4E1CF3AF
+P 2710 6700
+F 0 "R19" V 2790 6700 50  0000 C CNN
+F 1 "68k" V 2710 6700 50  0000 C CNN
+	1    2710 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L AK500/2 X4
+U 2 1 4E1CF380
+P 1990 7940
+F 0 "X4" H 1940 7975 50  0000 R TNN
+F 1 "AK500/2" H 1990 7940 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1990 8090 50  0001 C CNN
+	2    1990 7940
+	1    0    0    -1  
+$EndComp
+$Comp
+L AK500/2 X4
+U 1 1 4E1CF369
+P 1990 6700
+F 0 "X4" H 1940 6735 50  0000 R TNN
+F 1 "AK500/2" H 1990 6700 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1990 6850 50  0001 C CNN
+	1    1990 6700
+	1    0    0    -1  
+$EndComp
+Text Label 4530 6210 0    60   ~ 0
+GND
+Text Label 4530 5220 0    60   ~ 0
+GND
+Text Label 4530 4260 0    60   ~ 0
+GND
+Text Label 4530 3350 0    60   ~ 0
+GND
+Text Label 4530 2370 0    60   ~ 0
+GND
+Text Label 4530 1590 0    60   ~ 0
+GND
+Text Label 4530 5600 0    60   ~ 0
+IN6
+Text Label 4530 4660 0    60   ~ 0
+IN5
+Text Label 4530 3700 0    60   ~ 0
+IN4
+Text Label 4530 2760 0    60   ~ 0
+IN3
+Text Label 4530 1810 0    60   ~ 0
+IN2
+Text Label 4530 1010 0    60   ~ 0
+IN1
+Text Label 5030 960  0    60   ~ 0
+3V3
+Text Label 2980 6250 0    60   ~ 0
+AGND
+Text Label 3130 5460 0    60   ~ 0
+AGND
+Text Label 3140 4520 0    60   ~ 0
+AGND
+Text Label 3150 3560 0    60   ~ 0
+AGND
+Text Label 3110 2600 0    60   ~ 0
+AGND
+Text Label 2880 1710 0    60   ~ 0
+AGND
+$Comp
+L R R16
+U 1 1 4E1CEEEF
+P 3230 5750
+F 0 "R16" V 3310 5750 50  0000 C CNN
+F 1 "3k3" V 3230 5750 50  0000 C CNN
+	1    3230 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK?
+U 2 1 4E1CEEEE
+P 3980 5850
+AR Path="/4E1CE5E8" Ref="OK?"  Part="1" 
+AR Path="/4E1CEDEE" Ref="OK?"  Part="1" 
+AR Path="/4E1CEEEE" Ref="OK3"  Part="2" 
+F 0 "OK3" H 3705 6075 50  0000 L BNN
+F 1 "ILD621" H 3705 5550 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3980 6000 50  0001 C CNN
+	2    3980 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L AK500/2 X?
+U 2 1 4E1CEEEB
+P 1990 5750
+AR Path="/4E1CED0D" Ref="X?"  Part="1" 
+AR Path="/4E1CEDF1" Ref="X?"  Part="1" 
+AR Path="/4E1CEEEB" Ref="X3"  Part="2" 
+F 0 "X3" H 1940 5785 50  0000 R TNN
+F 1 "AK500/2" H 1990 5750 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1990 5900 50  0001 C CNN
+	2    1990 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 4E1CEEEA
+P 4640 5750
+F 0 "R17" V 4720 5750 50  0000 C CNN
+F 1 "1k" V 4640 5750 50  0000 C CNN
+	1    4640 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 4E1CEDF2
+P 4640 4800
+F 0 "R15" V 4720 4800 50  0000 C CNN
+F 1 "1k" V 4640 4800 50  0000 C CNN
+	1    4640 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L AK500/2 X?
+U 1 1 4E1CEDF1
+P 1990 4800
+AR Path="/4E1CED0D" Ref="X?"  Part="1" 
+AR Path="/4E1CEDF1" Ref="X3"  Part="1" 
+F 0 "X3" H 1940 4835 50  0000 R TNN
+F 1 "AK500/2" H 1990 4800 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1990 4950 50  0001 C CNN
+	1    1990 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D5
+U 1 1 4E1CEDF0
+P 2910 5080
+F 0 "D5" H 2910 5180 50  0000 C CNN
+F 1 "ZENER" H 2910 4980 40  0000 C CNN
+	1    2910 5080
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 4E1CEDEF
+P 2590 4800
+F 0 "R5" V 2670 4800 50  0000 C CNN
+F 1 "470" V 2590 4800 50  0000 C CNN
+	1    2590 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK?
+U 1 1 4E1CEDEE
+P 3980 4900
+AR Path="/4E1CE5E8" Ref="OK?"  Part="1" 
+AR Path="/4E1CEDEE" Ref="OK3"  Part="1" 
+F 0 "OK3" H 3705 5125 50  0000 L BNN
+F 1 "ILD621" H 3705 4600 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3980 5050 50  0001 C CNN
+	1    3980 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 4E1CEDED
+P 3230 4800
+F 0 "R10" V 3310 4800 50  0000 C CNN
+F 1 "470" V 3230 4800 50  0000 C CNN
+	1    3230 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 4E1CEDD8
+P 3220 3860
+F 0 "R9" V 3300 3860 50  0000 C CNN
+F 1 "470" V 3220 3860 50  0000 C CNN
+	1    3220 3860
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK?
+U 2 1 4E1CEDD7
+P 3970 3960
+AR Path="/4E1CE5E8" Ref="OK?"  Part="1" 
+AR Path="/4E1CEDD7" Ref="OK2"  Part="2" 
+F 0 "OK2" H 3695 4185 50  0000 L BNN
+F 1 "ILD621" H 3695 3660 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3970 4110 50  0001 C CNN
+	2    3970 3960
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 4E1CEDD6
+P 2580 3860
+F 0 "R4" V 2660 3860 50  0000 C CNN
+F 1 "470" V 2580 3860 50  0000 C CNN
+	1    2580 3860
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENER D4
+U 1 1 4E1CEDD5
+P 2900 4140
+F 0 "D4" H 2900 4240 50  0000 C CNN
+F 1 "ZENER" H 2900 4040 40  0000 C CNN
+	1    2900 4140
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AK500/2 X?
+U 2 1 4E1CEDD4
+P 1980 3860
+AR Path="/4E1CED0D" Ref="X?"  Part="1" 
+AR Path="/4E1CEDD4" Ref="X2"  Part="2" 
+F 0 "X2" H 1930 3895 50  0000 R TNN
+F 1 "AK500/2" H 1980 3860 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1980 4010 50  0001 C CNN
+	2    1980 3860
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 4E1CEDD3
+P 4630 3860
+F 0 "R14" V 4710 3860 50  0000 C CNN
+F 1 "1k" V 4630 3860 50  0000 C CNN
+	1    4630 3860
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 4E1CEDB3
+P 4630 2900
+F 0 "R13" V 4710 2900 50  0000 C CNN
+F 1 "1k" V 4630 2900 50  0000 C CNN
+	1    4630 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L AK500/2 X?
+U 1 1 4E1CEDB2
+P 1980 2900
+AR Path="/4E1CED0D" Ref="X?"  Part="1" 
+AR Path="/4E1CEDB2" Ref="X2"  Part="1" 
+F 0 "X2" H 1930 2935 50  0000 R TNN
+F 1 "AK500/2" H 1980 2900 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1980 3050 50  0001 C CNN
+	1    1980 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D3
+U 1 1 4E1CEDB1
+P 2900 3180
+F 0 "D3" H 2900 3280 50  0000 C CNN
+F 1 "ZENER" H 2900 3080 40  0000 C CNN
+	1    2900 3180
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 4E1CEDB0
+P 2580 2900
+F 0 "R3" V 2660 2900 50  0000 C CNN
+F 1 "470" V 2580 2900 50  0000 C CNN
+	1    2580 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK?
+U 1 1 4E1CEDAF
+P 3970 3000
+AR Path="/4E1CE5E8" Ref="OK?"  Part="1" 
+AR Path="/4E1CEDAF" Ref="OK2"  Part="1" 
+F 0 "OK2" H 3695 3225 50  0000 L BNN
+F 1 "ILD621" H 3695 2700 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3970 3150 50  0001 C CNN
+	1    3970 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 4E1CEDAE
+P 3220 2900
+F 0 "R8" V 3300 2900 50  0000 C CNN
+F 1 "470" V 3220 2900 50  0000 C CNN
+	1    3220 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 4E1CEDA4
+P 3210 1940
+F 0 "R7" V 3290 1940 50  0000 C CNN
+F 1 "470" V 3210 1940 50  0000 C CNN
+	1    3210 1940
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK?
+U 2 1 4E1CEDA3
+P 3960 2040
+AR Path="/4E1CE5E8" Ref="OK?"  Part="1" 
+AR Path="/4E1CEDA3" Ref="OK1"  Part="2" 
+F 0 "OK1" H 3685 2265 50  0000 L BNN
+F 1 "ILD621" H 3685 1740 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3960 2190 50  0001 C CNN
+	2    3960 2040
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4E1CEDA2
+P 2570 1940
+F 0 "R2" V 2650 1940 50  0000 C CNN
+F 1 "470" V 2570 1940 50  0000 C CNN
+	1    2570 1940
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENER D2
+U 1 1 4E1CEDA1
+P 2890 2220
+F 0 "D2" H 2890 2320 50  0000 C CNN
+F 1 "ZENER" H 2890 2120 40  0000 C CNN
+	1    2890 2220
+	0    -1   -1   0   
+$EndComp
+$Comp
+L AK500/2 X?
+U 2 1 4E1CEDA0
+P 1970 1940
+AR Path="/4E1CED0D" Ref="X?"  Part="1" 
+AR Path="/4E1CEDA0" Ref="X1"  Part="2" 
+F 0 "X1" H 1920 1975 50  0000 R TNN
+F 1 "AK500/2" H 1970 1940 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1970 2090 50  0001 C CNN
+	2    1970 1940
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R12
+U 1 1 4E1CED9F
+P 4620 1940
+F 0 "R12" V 4700 1940 50  0000 C CNN
+F 1 "1k" V 4620 1940 50  0000 C CNN
+	1    4620 1940
+	0    1    1    0   
+$EndComp
+$Comp
+L R R11
+U 1 1 4E1CED7A
+P 4610 1120
+F 0 "R11" V 4690 1120 50  0000 C CNN
+F 1 "1k" V 4610 1120 50  0000 C CNN
+	1    4610 1120
+	0    1    1    0   
+$EndComp
+$Comp
+L AK500/2 X1
+U 1 1 4E1CED0D
+P 1960 1120
+F 0 "X1" H 1910 1155 50  0000 R TNN
+F 1 "AK500/2" H 1960 1120 50  0000 R TNN
+F 2 "con-ptr500-AK500/2" H 1960 1270 50  0001 C CNN
+	1    1960 1120
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 4E1CEAA6
+P 2880 1400
+F 0 "D1" H 2880 1500 50  0000 C CNN
+F 1 "ZENER" H 2880 1300 40  0000 C CNN
+	1    2880 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4E1CE5F5
+P 2560 1120
+F 0 "R1" V 2640 1120 50  0000 C CNN
+F 1 "470" V 2560 1120 50  0000 C CNN
+	1    2560 1120
+	0    1    1    0   
+$EndComp
+$Comp
+L ILD621 OK1
+U 1 1 4E1CE5E8
+P 3950 1220
+F 0 "OK1" H 3675 1445 50  0000 L BNN
+F 1 "ILD621" H 3675 920 50  0000 L BNN
+F 2 "optocoupler-DIL08" H 3950 1370 50  0001 C CNN
+	1    3950 1220
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 4E1CE5C5
+P 3200 1120
+F 0 "R6" V 3280 1120 50  0000 C CNN
+F 1 "470" V 3200 1120 50  0000 C CNN
+	1    3200 1120
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

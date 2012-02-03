@@ -1,0 +1,204 @@
+# EESchema Netlist Version 1.1 created  13/07/2011 08:13:44 p.m.
+(
+ ( /4D8DF2A5 C2V10 .22uF/25V1 CP1
+  ( 1 N-000041 )
+  ( 2 /AGND )
+ )
+ ( /4D8DF2AA C2V10 .47uF/16V1 CP1
+  ( 1 /5V )
+  ( 2 /AGND )
+ )
+ ( /4D682297 SM0805 C1 1n/50
+  ( 1 /3V3 )
+  ( 2 /GND )
+ )
+ ( /4D8FB072 LED-0805 D8 LED
+  ( 1 N-000029 )
+  ( 2 /AGND )
+ )
+ ( /4D682D9E CON_40Pin_2mm J1 HEADER_20X2
+  ( 1 /GND )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 /IN1 )
+  ( 11 /IN2 )
+  ( 12 /IN3 )
+  ( 13 /IN4 )
+  ( 14 /IN5 )
+  ( 15 /IN6 )
+  ( 16 ? )
+  ( 17 /UP )
+  ( 18 ? )
+  ( 19 /DOWN )
+  ( 20 ? )
+  ( 21 /LEFT )
+  ( 22 ? )
+  ( 23 /RIGHT )
+  ( 24 ? )
+  ( 25 /ENTER )
+  ( 26 /GND )
+  ( 27 /3V3 )
+  ( 28 /GND )
+  ( 29 /3V3 )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 /AN0 )
+  ( 38 /AN1 )
+  ( 39 /AGND )
+  ( 40 /AGND )
+ )
+ ( /4E1E3CC2 pinhead-1X10 JP1 PINHD-1X10
+  ( 1 /MFB )
+  ( 2 /VOL_UP )
+  ( 3 /VOL_DW )
+  ( 4 /UP )
+  ( 5 /DOWN )
+  ( 6 /LEFT )
+  ( 7 /RIGHT )
+  ( 8 /ENTER )
+  ( 9 /GND )
+  ( 10 /3V3 )
+ )
+ ( /4E1E3D2E pinhead-1X02 JP2 PINHD-1X2
+  ( 1 /AGND )
+  ( 2 /5V )
+ )
+ ( /4E1E3C65 pinhead-1X06 JP3 PINHD-1X6
+  ( 1 /3V3 )
+  ( 2 /MFB )
+  ( 3 /VOL_DW )
+  ( 4 /VOL_UP )
+  ( 5 /GND )
+  ( 6 /AGND )
+ )
+ ( /4E1E39AE pinhead-1X12 JP4 PINHD-1X12
+  ( 1 /IN1 )
+  ( 2 /IN2 )
+  ( 3 /IN3 )
+  ( 4 /IN4 )
+  ( 5 /IN5 )
+  ( 6 /IN6 )
+  ( 7 /5V )
+  ( 8 /3V3 )
+  ( 9 /AN0 )
+  ( 10 /AN1 )
+  ( 11 /GND )
+  ( 12 /AGND )
+ )
+ ( /4E1E4132 pinhead-1X02 JP5 PINHD-1X2
+  ( 1 /AGND )
+  ( 2 N-000041 )
+ )
+ ( /4D683151 SM0805 L1 INDUCTOR
+  ( 1 /GND )
+  ( 2 /AGND )
+ )
+ ( /4D865658 SM1206 R22 1k
+  ( 1 /3V3 )
+  ( 2 /DOWN )
+ )
+ ( /4D86565E SM1206 R23 1k
+  ( 1 /3V3 )
+  ( 2 /UP )
+ )
+ ( /4D8655DC SM1206 R29 1k
+  ( 1 /3V3 )
+  ( 2 /ENTER )
+ )
+ ( /4D8655E0 SM1206 R34 1k
+  ( 1 /3V3 )
+  ( 2 /RIGHT )
+ )
+ ( /4D8655E3 SM1206 R35 1k
+  ( 1 /3V3 )
+  ( 2 /LEFT )
+ )
+ ( /4D8FB067 SM1206 R36 220
+  ( 1 /5V )
+  ( 2 N-000029 )
+ )
+ ( /4D8E658C TO220_VERT U1 LM2940
+  ( 1 /5V )
+  ( 2 /AGND )
+  ( 3 N-000041 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component .22uF/25V1
+ CP*
+ SM*
+$endlist
+$component .47uF/16V1
+ CP*
+ SM*
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
