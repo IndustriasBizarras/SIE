@@ -16,11 +16,11 @@ XILINXCADROOT   = /opt/cad/Xilinx/verilog/src
 SRC             = sram_bus.v 
 
 SIM_SRC = $(DESIGN)_TB.v          \
-#	sim/unisims/BUFG.v        \
-#	sim/unisims/DCM.v         \
-#	sim/unisims/FDDRRSE.v     \
+	sim/unisims/BUFG.v        \
+	sim/unisims/DCM.v         \
+	sim/unisims/FDDRRSE.v     \
+	sim/unisims/RAMB16_S2_S36.v
 #        glbl.v
-#	sim/unisims/RAMB16_S2_S9.v
 
 
 all:            bits

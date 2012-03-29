@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date vie 29 abr 2011 07:47:44 COT
+EESchema Schematic File Version 2  date Fri 02 Mar 2012 11:49:12 AM COT
 LIBS:power
 LIBS:header_40
 LIBS:device
@@ -34,7 +34,6 @@ LIBS:tm2301n
 LIBS:tl780-05ckttr
 LIBS:J30
 LIBS:nand
-LIBS:header_20x2
 LIBS:L7
 LIBS:SAKC-cache
 EELAYER 25  0
@@ -43,7 +42,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 7
 Title ""
-Date "29 apr 2011"
+Date "2 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""

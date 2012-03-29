@@ -1,0 +1,14 @@
+Package: mtd
+Version: 16
+Depends: 
+Provides: 
+Source: package/mtd
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: xburst
+Installed-Size: 8140
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.

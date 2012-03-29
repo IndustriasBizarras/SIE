@@ -1,0 +1,2 @@
+/etc/modules.d/55-sound-soc-core
+/lib/modules/2.6.37.6/snd-soc-core.ko

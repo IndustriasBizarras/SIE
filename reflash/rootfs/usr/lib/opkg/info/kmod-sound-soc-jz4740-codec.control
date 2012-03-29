@@ -1,0 +1,13 @@
+Package: kmod-sound-soc-jz4740-codec
+Version: 2.6.37.6-1
+Depends: kernel (=2.6.37.6-1), kmod-sound-soc-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: xburst
+Installed-Size: 3140
+Description:  JZ4740 SoC internal codec support

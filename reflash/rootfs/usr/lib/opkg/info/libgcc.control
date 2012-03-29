@@ -1,0 +1,13 @@
+Package: libgcc
+Version: linaro-78
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: xburst
+Installed-Size: 29620
+Description:  GCC support library

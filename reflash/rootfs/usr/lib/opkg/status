@@ -1,0 +1,159 @@
+Package: libc
+Version: 0.9.32-78
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: xburst
+Installed-Time: 1312486235
+
+Package: opkg
+Version: 618-1
+Provides:
+Status: install user installed
+Architecture: xburst
+Conffiles:
+ /etc/opkg.conf 61d368a03fa4824781217f2c2d3639d0
+Installed-Time: 1312486234
+
+Package: busybox
+Version: 1.18.5-1
+Provides:
+Status: install user installed
+Essential: yes
+Architecture: xburst
+Installed-Time: 1312486232
+
+Package: base-files
+Version: 78-r27890
+Provides:
+Status: install user installed
+Architecture: xburst
+Conffiles:
+ /etc/hosts 0eea71665fb6890c06421fd13aa3f849
+ /etc/inittab 5ca40a89d593ca53600c737380fb2070
+ /etc/group 4a116d818b2f49e14939d581ec786de1
+ /etc/passwd ffd38041cea27367902c3427c8a31558
+ /etc/profile f6394146d2f7dd077ea65916f2854948
+ /etc/shells 725ba6f40dff0612f61ecd3f171bb3e1
+ /etc/sysctl.conf 4855b7d3a65ef7f815a1906cf5952ccc
+ /etc/rc.local 6f8bfdaf36d3ec4aa9be6e96fa61d32b
+ /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
+ /etc/config/system af3e5971ea15d6825b1bda1dbe1edfa3
+ /etc/config/network f043dff5c68c7df2a37896af90b70536
+ /etc/config/fstab 379958481ae6f6fe1ddd3484f73cc650
+ /etc/config/timeserver be9153b779b88bd2351e553301699cd6
+Installed-Time: 1312486235
+
+Package: kmod-sound-soc-core
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1), kmod-sound-core
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486234
+
+Package: libuci
+Version: 2011-07-18.3-1
+Provides:
+Status: install user installed
+Architecture: xburst
+Installed-Time: 1312486235
+
+Package: uci
+Version: 2011-07-18.3-1
+Depends: libuci
+Provides:
+Status: install user installed
+Architecture: xburst
+Installed-Time: 1312486235
+
+Package: dropbear
+Version: 0.53.1-4
+Provides:
+Status: install user installed
+Architecture: xburst
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/dropbear/dropbear_dss_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/config/dropbear 4ff9c827d4f95ca5082a5520c03e1419
+Installed-Time: 1312486232
+
+Package: mtd
+Version: 16
+Provides:
+Status: install user installed
+Architecture: xburst
+Installed-Time: 1312486234
+
+Package: libstdcpp
+Version: linaro-78
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: xburst
+Installed-Time: 1312486235
+
+Package: libgcc
+Version: linaro-78
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: xburst
+Installed-Time: 1312486235
+
+Package: kmod-sound-core
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1), kmod-input-core
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486233
+
+Package: kmod-sound-soc-jz4740
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1), kmod-sound-soc-core
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486234
+
+Package: hotplug2
+Version: 1.0-beta-4
+Provides:
+Status: install user installed
+Architecture: xburst
+Conffiles:
+ /etc/hotplug2.rules bde3ae419819f16afdbc66dcf0e3a305
+Installed-Time: 1312486232
+
+Package: kmod-ipt-core
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1)
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486233
+
+Package: kmod-sound-soc-qilb60
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1), kmod-sound-soc-jz4740, kmod-sound-soc-jz4740-codec
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486234
+
+Package: kernel
+Version: 2.6.37.6-1
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486233
+
+Package: kmod-sound-soc-jz4740-codec
+Version: 2.6.37.6-1
+Depends: kernel (= 2.6.37.6-1), kmod-sound-soc-core
+Provides:
+Status: install hold installed
+Architecture: xburst
+Installed-Time: 1312486234
+

@@ -1,0 +1,13 @@
+Package: libstdcpp
+Version: linaro-78
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: xburst
+Installed-Size: 232672
+Description:  GNU Standard C++ Library v3

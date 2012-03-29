@@ -1,0 +1,4 @@
+#!/bin/sh
+/usr/bin/jtag /root/scripts/jtag/load_ADC_test
+/usr/bin/sgen -f 1000 &
+/root/binaries/ADC -qws -nomouse &

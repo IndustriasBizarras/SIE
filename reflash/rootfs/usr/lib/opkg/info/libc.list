@@ -1,0 +1,12 @@
+/lib/libm.so.0
+/lib/libutil.so.0
+/lib/ld-uClibc.so.0
+/lib/libutil-0.9.32.1-git.so
+/lib/libdl.so.0
+/lib/ld-uClibc-0.9.32.1-git.so
+/lib/libm-0.9.32.1-git.so
+/lib/libuClibc-0.9.32.1-git.so
+/lib/libc.so.0
+/lib/libcrypt.so.0
+/lib/libcrypt-0.9.32.1-git.so
+/lib/libdl-0.9.32.1-git.so

@@ -1,0 +1,3 @@
+/lib/modules/2.6.37.6/snd-soc-jz4740-i2s.ko
+/etc/modules.d/60-sound-soc-jz4740
+/lib/modules/2.6.37.6/snd-soc-jz4740.ko
