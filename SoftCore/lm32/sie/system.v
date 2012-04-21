@@ -7,8 +7,8 @@
 module system
 #(
 //	parameter   bootram_file     = "../firmware/cain_loader/image.ram",
-//	parameter   bootram_file     = "../firmware/data_type/image.ram",
-	parameter   bootram_file     = "../firmware/boot0-serial/image.ram",
+	parameter   bootram_file     = "../firmware/arch_examples/image.ram",
+//	parameter   bootram_file     = "../firmware/boot0-serial/image.ram",
 	parameter   clk_freq         = 50000000,
 	parameter   uart_baud_rate   = 57600
 ) (
@@ -131,8 +131,8 @@ conbus #(
 	.s_addr_w(2),
 	.s0_addr(2'b00),	// bram     0x00000000 
 	.s1_addr(2'b01),	// uart     0x20000000 
-	.s2_addr(2'b10),	// timer    0x40000000 
-	.s3_addr(2'b11)	        // ??????   0x60000000 
+	.s2_addr(2'b11),	// timer    0x40000000 
+	.s3_addr(2'b10)	        // gpio     0x60000000 
 ) conbus0(
 	.sys_clk( clk ),
 	.sys_rst( ~rst ),
@@ -214,8 +214,14 @@ conbus #(
 	.s2_stb_o(  timer0_stb   ),
 	.s2_ack_i(  timer0_ack   ),
 	// Slave3
-	.s3_dat_i(  gnd32  ),
-	.s3_ack_i(  gnd    )
+	.s3_dat_i(  gpio0_dat_r ),
+	.s3_dat_o(  gpio0_dat_w ),
+	.s3_adr_o(  gpio0_adr   ),
+	.s3_sel_o(  gpio0_sel   ),
+	.s3_we_o(   gpio0_we    ),
+	.s3_cyc_o(  gpio0_cyc   ),
+	.s3_stb_o(  gpio0_stb   ),
+	.s3_ack_i(  gpio0_ack   )
 );
 
 
@@ -325,14 +331,13 @@ wb_timer #(
 //---------------------------------------------------------------------------
 // General Purpose IO
 //---------------------------------------------------------------------------
-/*
-wire [31:0] gpio0_in;
-wire [31:0] gpio0_out;
-wire [31:0] gpio0_oe;
+
+wire [7:0] gpio0_io;
+wire        gpio0_irq;
 
 wb_gpio gpio0 (
 	.clk(      clk          ),
-	.reset(    rst          ),
+	.rst(    ~rst          ),
 	//
 	.wb_adr_i( gpio0_adr    ),
 	.wb_dat_i( gpio0_dat_w  ),
@@ -340,15 +345,11 @@ wb_gpio gpio0 (
 	.wb_stb_i( gpio0_stb    ),
 	.wb_cyc_i( gpio0_cyc    ),
 	.wb_we_i(  gpio0_we     ),
-	.wb_sel_i( gpio0_sel    ),
 	.wb_ack_o( gpio0_ack    ), 
-	.intr(     gpio0_intr   ),
 	// GPIO
-	.gpio_in(  gpio0_in     ),
-	.gpio_out( gpio0_out    ),
-	.gpio_oe(  gpio0_oe     )
+	.gpio_io(gpio0_io)
 );
-*/
+
 //----------------------------------------------------------------------------
 // Mux UART wires according to sw[0]
 //----------------------------------------------------------------------------

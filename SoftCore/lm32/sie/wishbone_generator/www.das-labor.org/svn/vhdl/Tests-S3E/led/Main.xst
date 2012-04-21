@@ -1,8 +1,0 @@
-run
--ifn files.prj
--top Main
--ifmt MIXED
--opt_mode AREA
--opt_level 2
--ofn Main.ngc
--p  xc3s500e-fg320-4

@@ -69,7 +69,7 @@ view: system_tb.view
 
 system_tb.vvp:
 	rm -rf  simulation && mkdir simulation
-	cp system_tb.v system_conf.v simulation && cd simulation && rm -f $@.list
+	cp system_tb.v system_conf.v system_tb.vcd.save.sav simulation && cd simulation && rm -f $@.list
 	for i in $(SRC); do echo $$i >> simulation/$@.list; done
 	for i in $(SIM_SRC); do echo $$i >> simulation/$@.list; done
 	cd simulation && $(IVERILOG) -o $@ $(VINCDIR) -c $@.list -s $(@:.vvp=)
@@ -121,7 +121,7 @@ usage: system-routed.xdl
 # final targets
 
 %.view: %.vcd
-	cd simulation && $(GTKWAVE) $< $<.save
+	cd simulation && $(GTKWAVE) $< $<.save.sav
 
 clean:
 	rm -Rf build $(SYNCLEAN) $(SIMCLEAN) 
