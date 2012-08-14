@@ -36,9 +36,9 @@ module blink_TB;
       forever begin 
         @ (reset_trigger);
         @ (negedge clk);
-        reset = 1;
-        @ (negedge clk);
         reset = 0;
+        @ (negedge clk);
+        reset = 1;
       end
    end
 	 

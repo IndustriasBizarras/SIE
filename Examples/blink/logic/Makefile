@@ -29,7 +29,7 @@ clean:
 	rm -f *.bit
 
 cleanall: clean
-	rm -rf build simulation/work simulation/transcript  simulation/vsim.wlf simulation/blink_TB.vvp simulation/blink_TB.vcd
+	rm -rf build simulation
 
 bits:           $(DESIGN).bit
 
@@ -38,6 +38,7 @@ bits:           $(DESIGN).bit
 #
 build/project.src:
 	@[ -d build ] || mkdir build
+	@[ -d simulation ] || mkdir simulation
 	@rm -f $@
 	for i in $(SRC); do echo verilog work ../$$i >> $@; done
 	for i in $(SRC_HDL); do echo VHDL work ../$$i >> $@; done
@@ -82,7 +83,7 @@ modelsim:
 timesim: build/project_r.v
 	cd simulation; $(SIM_CMD) -do $(DESIGN)_TIMING_TB.do
 
-iversim:
+iversim: build/project.src
 	$(IVERILOG) -o simulation/$(DESIGN)_TB.vvp $(VINCDIR) $(SRC) $(SIM_SRC) -s $(DESIGN)_TB
 	vvp simulation/$(DESIGN)_TB.vvp; mv $(DESIGN)_TB.vcd simulation/
 	gtkwave simulation/$(DESIGN)_TB.vcd&
