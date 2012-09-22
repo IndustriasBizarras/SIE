@@ -1,10 +1,9 @@
-DESIGN          = blink
+DESIGN          = hex2led
 PINS            = $(DESIGN).ucf
 DEVICE          = xc3s500e-VQ100-4
 BGFLAGS         = -g TdoPin:PULLNONE -g DonePin:PULLUP \
                   -g CRC:enable -g StartUpClk:CCLK
 
-XILINXCADROOT   = /opt/cad/Xilinx/10.1/ISE
 SIM_CMD         = vsim 
 SIM_COMP_SCRIPT = simulation/$(DESIGN)_TB.do
 SIMGEN_OPTIONS  = -p $(FPGA_ARCH) -lang $(LANGUAGE)
@@ -15,9 +14,9 @@ SAKC_IP         = 192.168.254.101
 SRC             = $(DESIGN).v 
 
 SIM_SRC = $(DESIGN)_TB.v          \
-	sim/unisims/BUFG.v        \
-	sim/unisims/DCM.v         \
-	sim/unisims/FDDRRSE.v
+#	sim/unisims/BUFG.v        \
+#	sim/unisims/DCM.v         \
+#	sim/unisims/FDDRRSE.v
 
 
  
@@ -78,15 +77,8 @@ $(DESIGN).bit:  build/project_r.ncd build/project_r.twr
 build/project_r.v: build/project_r.ncd
 	cd build &&  ngd2ver project.ngd  -w project.v
 
-postsim: build/project.ngc
-	cd build &&  netgen -sim -ofmt verilog project.ngc
-	cd build && iverilog -Wall \
-	-y $(XILINXCADROOT)/verilog/src/unisims \
-	-y $(XILINXCADROOT)/verilog/src/XilinxCoreLib \
-	project.v ../$(DESIGN)_TB.v -o $(DESIGN).bin
-	cd build && vvp $(DESIGN).bin
-	gtkwave build/$(DESIGN)_TB.vcd&
-
+modelsim: 
+	cd simulation; $(SIM_CMD) -do $(DESIGN)_TB.do
 
 timesim: build/project_r.v
 	cd simulation; $(SIM_CMD) -do $(DESIGN)_TIMING_TB.do

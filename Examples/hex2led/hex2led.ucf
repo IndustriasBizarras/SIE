@@ -1,0 +1,12 @@
+NET "HEX<3>"  LOC = "P78";
+NET "HEX<2>"  LOC = "P79";
+NET "HEX<1>"  LOC = "P83";
+NET "HEX<0>"  LOC = "P84";
+NET "LED<6>"  LOC = "P5";
+NET "LED<5>"  LOC = "P9";
+NET "LED<4>"  LOC = "P10";
+NET "LED<3>"  LOC = "P11";
+NET "LED<2>"  LOC = "P12";
+NET "LED<1>"  LOC = "P15";
+NET "LED<0>"  LOC = "P16";
+

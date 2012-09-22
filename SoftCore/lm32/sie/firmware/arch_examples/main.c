@@ -15,6 +15,7 @@ int main(void)
    Operaciones de acceso a memoria
 */
 
+/*
   data8  = (volatile unsigned char  *)(0x00004000);
   data16 = (volatile unsigned short *)(0x00002000);
   data32 = (volatile unsigned int   *)(0x00003000);
@@ -47,11 +48,12 @@ int main(void)
   result2 = *data32;
   data32 ++;
   result3 = *data32;
+*/
 
 /*
   Operaciones aritméticas
 */
-
+/*
   op1 = 0xAA;
   op2 = 0x55;
 
@@ -65,10 +67,13 @@ int main(void)
   *data32 = result2;
   data32 ++;
   *data32 = result3;
+*/
 /*
   saltos
 */
 
+
+/*
   for(loop = 0; loop == 10; loop++){
   }
 
@@ -82,46 +87,26 @@ int main(void)
   while(loop < 10){
     loop++;
   }
-
+*/
 
 /*
   llamado a funciones
 */
 
   
-  result1 = function(0x30);
+//  result1 = function(0x30);
 
 
 /*
   Comunicación con periféricos
 */
+      data32 = (volatile unsigned int   *)(0x20000000);
+      data32++;
+      *data32 = 0xAA;
       data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
-      data32++;
-      *data32 = 0xFF;
-      data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
       *data32 = 0x55;
-
-      data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
-      data32++;
+      data32 = (volatile unsigned int   *)(0x60000000);
       *data32 = 0xFF;
-      data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
-      *data32 = 0xBB;
-
-
-      data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
-      data32++;
-      *data32 = 0x00;
-      data32 = (volatile unsigned int   *)(0x40000000);
-      data32++;
-      *data32 = 0xBB;
-
-
-
       
   while(1){
 

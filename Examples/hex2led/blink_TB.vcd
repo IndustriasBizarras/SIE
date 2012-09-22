@@ -1,0 +1,21 @@
+$date
+	Thu Sep 13 08:11:09 2012
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module hex2led_TB $end
+$scope module uut $end
+$var wire 4 ! HEX [3:0] $end
+$var reg 7 " LED [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110 "
+b1111 !
+$end

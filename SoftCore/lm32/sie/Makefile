@@ -1,3 +1,5 @@
+XILINXCADROOT   = /opt/cad/Xilinx/10.1/ISE
+
 VINCDIR=                                  \
 	-I../rtl/wb_conbus                 \
 	-I../rtl/lm32                      \
@@ -73,6 +75,15 @@ system_tb.vvp:
 	for i in $(SRC); do echo $$i >> simulation/$@.list; done
 	for i in $(SIM_SRC); do echo $$i >> simulation/$@.list; done
 	cd simulation && $(IVERILOG) -o $@ $(VINCDIR) -c $@.list -s $(@:.vvp=)
+
+postsim: system.ngc
+	cd build &&  netgen -sim -ofmt verilog system.ngc
+	cd build && iverilog -Wall \
+	-y $(XILINXCADROOT)/verilog/src/unisims \
+	-y $(XILINXCADROOT)/verilog/src/XilinxCoreLib \
+	-y ../   \
+	system.v ../system_tb.v -o system.bin
+	cd build &&  vvp system.bin
 
 %.vcd: %.vvp
 	cd simulation && $(VVP) $<

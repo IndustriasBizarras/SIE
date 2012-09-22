@@ -1,12 +1,16 @@
 `timescale 1ns / 1ps
 
-module blink_TB;
+module fsm2_TB;
 
-   reg  clk;
-   reg  reset;
-   wire led;
+  reg  clock;
+  reg  reset;
+  reg  req_0;
+  reg  req_1;
+  wire  gnt_0;
+  wire  gnt_1; 
 
-   blink uut ( .clk(clk), .reset(reset), .led(led));
+
+   fsm2 uut ( .clock(clock), .reset(reset), .req_0(req_0), .req_1(req_1), .gnt_0(gnt_0), .gnt_1(gnt_1));
 
    parameter PERIOD          = 20;
    parameter real DUTY_CYCLE = 0.5;
@@ -19,14 +23,16 @@ module blink_TB;
 
 
    initial begin  // Initialize Inputs
-      clk = 0; reset = 0;
+      clock = 0; reset = 1;
+      req_0 =0; req_1 =1;
    end
 
-   initial  begin  // Process for clk
+   initial  begin  // Process for clock
+     #OFFSET;
      forever
        begin
-         clk = 1'b0;
-         #(PERIOD-(PERIOD*DUTY_CYCLE)) clk = 1'b1;
+         clock = 1'b0;
+         #(PERIOD-(PERIOD*DUTY_CYCLE)) clock = 1'b1;
          #(PERIOD*DUTY_CYCLE);
        end
    end
@@ -34,16 +40,16 @@ module blink_TB;
    initial begin // Reset the system, Start the image capture process
       forever begin 
         @ (reset_trigger);
-        @ (negedge clk);
-        reset = 0;
-        @ (negedge clk);
+        @ (negedge clock);
         reset = 1;
+        @ (negedge clock);
+        reset = 0;
       end
    end
 	 
 
    initial begin: TEST_CASE
-     $dumpfile("blink_TB.vcd");
+     $dumpfile("fsm2_TB.vcd");
      $dumpvars(-1, uut);
 	
      #10 -> reset_trigger;
