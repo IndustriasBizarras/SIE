@@ -32,9 +32,6 @@ void     irq_disable();
 void     irq_set_mask(uint32_t mask);
 uint32_t irq_get_mak();
 
-void     isr_init();
-void     isr_register(int irq, isr_ptr_t isr);
-void     isr_unregister(int irq);
 
 /****************************************************************************
  * General Stuff
@@ -91,7 +88,6 @@ typedef struct {
    volatile uint32_t rxtx;
 } uart_t;
 
-void uart_init();
 void uart_putchar(char c);
 void uart_putstr(char *str);
 char uart_getchar();
