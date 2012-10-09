@@ -24,7 +24,7 @@ module top_multiplier_TB;
 
 
    initial begin  // Initialize Inputs
-      clk = 0; reset = 1; start = 0; in_A = 8'b11010111; in_B = 8'b10010011;
+      clk = 0; reset = 1; start = 0; in_A = 8'h0A; in_B = 8'h20;
    end
 
    initial  begin  // Process for clk
